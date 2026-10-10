@@ -1,0 +1,341 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1234" viewBox="0 0 1600 1234" role="img" aria-labelledby="title desc">
+<title id="title">Per-task review results</title>
+<desc id="desc">Numeric scores are colored. Pending values show their score interval with a P label.</desc>
+<rect x="0" y="0" width="1600" height="1234" rx="0" fill="#FFFFFF" stroke="none"/>
+<rect x="64" y="44" width="8" height="22" rx="0" fill="#405DC6" stroke="none"/>
+<text x="88" y="61.2" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="600" text-anchor="start" fill="#202B40">Baoyan Agent Benchmark</text>
+<text x="1536" y="60.62" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="400" text-anchor="end" fill="#647087">DEV20  /  LOCAL RESULTS</text>
+<text x="64" y="144.12" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="42" font-weight="600" text-anchor="start" fill="#202B40">Where do the scores come from?</text>
+<text x="64" y="196.2" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" text-anchor="start" fill="#647087">All 20 tasks, same order for every configuration. P = pending evidence; two-stage tasks count once.</text>
+<text x="442.8571428571429" y="255.34" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="600" text-anchor="middle" fill="#202B40">GPT-6 Astra</text>
+<text x="608.5714285714287" y="255.34" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="600" text-anchor="middle" fill="#202B40">GPT-6.1 Sol</text>
+<text x="774.2857142857143" y="245.34" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="600" text-anchor="middle" fill="#202B40">DeepSeek</text>
+<text x="774.2857142857143" y="265.34" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="600" text-anchor="middle" fill="#202B40">V4.1 Flash</text>
+<text x="940.0" y="253.62" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" text-anchor="middle" fill="#202B40">Gemini 3.1 Pro</text>
+<text x="1105.7142857142858" y="251.9" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="15" font-weight="600" text-anchor="middle" fill="#202B40">Gemini 3.8 Flash</text>
+<text x="1271.4285714285716" y="255.34" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="600" text-anchor="middle" fill="#202B40">Qwen 3.8 Max</text>
+<text x="1437.142857142857" y="255.34" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="600" text-anchor="middle" fill="#202B40">Kimi K3</text>
+<text x="64" y="302.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#202B40">BY-B-APPLY</text>
+<text x="205" y="300.04" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#647087">REC</text>
+<rect x="363.0" y="279" width="159.71428571428572" height="38" rx="3" fill="#759ab6" stroke="none"/>
+<text x="442.8571428571429" y="303.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">68.7</text>
+<rect x="528.7142857142858" y="279" width="159.71428571428572" height="38" rx="3" fill="#668faf" stroke="none"/>
+<text x="608.5714285714287" y="303.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">76.7</text>
+<rect x="694.4285714285714" y="279" width="159.71428571428572" height="38" rx="3" fill="#678faf" stroke="none"/>
+<text x="774.2857142857143" y="303.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">76.3</text>
+<rect x="860.1428571428571" y="279" width="159.71428571428572" height="38" rx="3" fill="#799cb8" stroke="none"/>
+<text x="940.0" y="303.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">66.7</text>
+<rect x="1025.857142857143" y="279" width="159.71428571428572" height="38" rx="3" fill="#7096b4" stroke="none"/>
+<text x="1105.7142857142858" y="303.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">71.6</text>
+<rect x="1191.5714285714287" y="279" width="159.71428571428572" height="38" rx="3" fill="#88a7c0" stroke="none"/>
+<text x="1271.4285714285716" y="303.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">58.7</text>
+<rect x="1357.2857142857142" y="279" width="159.71428571428572" height="38" rx="3" fill="#82a3bd" stroke="none"/>
+<text x="1437.142857142857" y="303.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">62.0</text>
+<text x="64" y="346.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#202B40">BY-H-APPLY</text>
+<text x="205" y="344.04" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#647087">REC</text>
+<rect x="363.0" y="323" width="159.71428571428572" height="38" rx="3" fill="#a6bcce" stroke="none"/>
+<text x="442.8571428571429" y="347.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">43.1</text>
+<rect x="528.7142857142858" y="323" width="159.71428571428572" height="38" rx="3" fill="#a7becf" stroke="none"/>
+<text x="608.5714285714287" y="347.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">42.2</text>
+<rect x="694.4285714285714" y="323" width="159.71428571428572" height="38" rx="3" fill="#aac0d1" stroke="none"/>
+<text x="774.2857142857143" y="347.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">40.6</text>
+<rect x="860.1428571428571" y="323" width="159.71428571428572" height="38" rx="3" fill="#bdcdda" stroke="none"/>
+<text x="940.0" y="347.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">30.6</text>
+<rect x="1025.857142857143" y="323" width="159.71428571428572" height="38" rx="3" fill="#b6c9d7" stroke="none"/>
+<text x="1105.7142857142858" y="347.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">34.2</text>
+<rect x="1191.5714285714287" y="323" width="159.71428571428572" height="38" rx="3" fill="#a5bcce" stroke="none"/>
+<text x="1271.4285714285716" y="347.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">43.5</text>
+<rect x="1357.2857142857142" y="323" width="159.71428571428572" height="38" rx="3" fill="#a4bbcd" stroke="none"/>
+<text x="1437.142857142857" y="347.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">44.2</text>
+<text x="64" y="390.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#202B40">N04-03</text>
+<text x="205" y="388.04" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#647087">REC</text>
+<rect x="363.0" y="367" width="159.71428571428572" height="38" rx="3" fill="#b0c4d3" stroke="none"/>
+<text x="442.8571428571429" y="391.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">37.8</text>
+<rect x="528.7142857142858" y="367" width="159.71428571428572" height="38" rx="3" fill="#b0c4d3" stroke="none"/>
+<text x="608.5714285714287" y="391.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">37.8</text>
+<rect x="694.4285714285714" y="367" width="159.71428571428572" height="38" rx="3" fill="#c0d0dc" stroke="none"/>
+<text x="774.2857142857143" y="391.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">29.0</text>
+<rect x="860.1428571428571" y="367" width="159.71428571428572" height="38" rx="3" fill="#bbccd9" stroke="none"/>
+<text x="940.0" y="391.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">31.5</text>
+<rect x="1025.857142857143" y="367" width="159.71428571428572" height="38" rx="3" fill="#afc3d3" stroke="none"/>
+<text x="1105.7142857142858" y="391.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">38.3</text>
+<rect x="1191.5714285714287" y="367" width="159.71428571428572" height="38" rx="3" fill="#b3c6d5" stroke="none"/>
+<text x="1271.4285714285716" y="391.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">36.2</text>
+<rect x="1357.2857142857142" y="367" width="159.71428571428572" height="38" rx="3" fill="#9cb6ca" stroke="none"/>
+<text x="1437.142857142857" y="391.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">48.0</text>
+<text x="64" y="434.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#202B40">N06-03</text>
+<text x="205" y="432.04" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#647087">REC</text>
+<rect x="363.0" y="411" width="159.71428571428572" height="38" rx="3" fill="#a6bdcf" stroke="none"/>
+<text x="442.8571428571429" y="435.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">42.7</text>
+<rect x="528.7142857142858" y="411" width="159.71428571428572" height="38" rx="3" fill="#b9cbd8" stroke="none"/>
+<text x="608.5714285714287" y="435.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">32.6</text>
+<rect x="694.4285714285714" y="411" width="159.71428571428572" height="38" rx="3" fill="#FCF2E9" stroke="none"/>
+<text x="774.2857142857143" y="435.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#B96532">P  38.2–42.6</text>
+<rect x="860.1428571428571" y="411" width="159.71428571428572" height="38" rx="3" fill="#FCF2E9" stroke="none"/>
+<text x="940.0" y="435.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#B96532">P  30.3–34.7</text>
+<rect x="1025.857142857143" y="411" width="159.71428571428572" height="38" rx="3" fill="#FCF2E9" stroke="none"/>
+<text x="1105.7142857142858" y="435.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#B96532">P  40.7–45.1</text>
+<rect x="1191.5714285714287" y="411" width="159.71428571428572" height="38" rx="3" fill="#9eb7cb" stroke="none"/>
+<text x="1271.4285714285716" y="435.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">46.9</text>
+<rect x="1357.2857142857142" y="411" width="159.71428571428572" height="38" rx="3" fill="#aabfd1" stroke="none"/>
+<text x="1437.142857142857" y="435.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">40.8</text>
+<text x="64" y="478.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#202B40">N11-03</text>
+<text x="205" y="476.04" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#647087">REC</text>
+<rect x="363.0" y="455" width="159.71428571428572" height="38" rx="3" fill="#8caac2" stroke="none"/>
+<text x="442.8571428571429" y="479.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">56.7</text>
+<rect x="528.7142857142858" y="455" width="159.71428571428572" height="38" rx="3" fill="#85a5be" stroke="none"/>
+<text x="608.5714285714287" y="479.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">60.3</text>
+<rect x="694.4285714285714" y="455" width="159.71428571428572" height="38" rx="3" fill="#7499b6" stroke="none"/>
+<text x="774.2857142857143" y="479.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">69.2</text>
+<rect x="860.1428571428571" y="455" width="159.71428571428572" height="38" rx="3" fill="#85a5be" stroke="none"/>
+<text x="940.0" y="479.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">60.2</text>
+<rect x="1025.857142857143" y="455" width="159.71428571428572" height="38" rx="3" fill="#6991b0" stroke="none"/>
+<text x="1105.7142857142858" y="479.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">75.0</text>
+<rect x="1191.5714285714287" y="455" width="159.71428571428572" height="38" rx="3" fill="#618bad" stroke="none"/>
+<text x="1271.4285714285716" y="479.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">79.2</text>
+<rect x="1357.2857142857142" y="455" width="159.71428571428572" height="38" rx="3" fill="#9ab4c9" stroke="none"/>
+<text x="1437.142857142857" y="479.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">49.2</text>
+<text x="64" y="522.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#202B40">N14-03</text>
+<text x="205" y="520.04" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#647087">REC</text>
+<rect x="363.0" y="499" width="159.71428571428572" height="38" rx="3" fill="#a9bfd0" stroke="none"/>
+<text x="442.8571428571429" y="523.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">41.1</text>
+<rect x="528.7142857142858" y="499" width="159.71428571428572" height="38" rx="3" fill="#acc1d2" stroke="none"/>
+<text x="608.5714285714287" y="523.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">39.4</text>
+<rect x="694.4285714285714" y="499" width="159.71428571428572" height="38" rx="3" fill="#afc3d3" stroke="none"/>
+<text x="774.2857142857143" y="523.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">38.2</text>
+<rect x="860.1428571428571" y="499" width="159.71428571428572" height="38" rx="3" fill="#FCF2E9" stroke="none"/>
+<text x="940.0" y="523.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#B96532">P  19.1–32.3</text>
+<rect x="1025.857142857143" y="499" width="159.71428571428572" height="38" rx="3" fill="#FCF2E9" stroke="none"/>
+<text x="1105.7142857142858" y="523.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#B96532">P  33.5–37.6</text>
+<rect x="1191.5714285714287" y="499" width="159.71428571428572" height="38" rx="3" fill="#c9d6e0" stroke="none"/>
+<text x="1271.4285714285716" y="523.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">24.4</text>
+<rect x="1357.2857142857142" y="499" width="159.71428571428572" height="38" rx="3" fill="#bfcfdb" stroke="none"/>
+<text x="1437.142857142857" y="523.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">29.4</text>
+<text x="64" y="566.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#202B40">BY-A-OFFER</text>
+<text x="205" y="564.04" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#647087">PLAN</text>
+<rect x="363.0" y="543" width="159.71428571428572" height="38" rx="3" fill="#3a6f99" stroke="none"/>
+<text x="442.8571428571429" y="567.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">100.0</text>
+<rect x="528.7142857142858" y="543" width="159.71428571428572" height="38" rx="3" fill="#3a6f99" stroke="none"/>
+<text x="608.5714285714287" y="567.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">100.0</text>
+<rect x="694.4285714285714" y="543" width="159.71428571428572" height="38" rx="3" fill="#43769e" stroke="none"/>
+<text x="774.2857142857143" y="567.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">95.0</text>
+<rect x="860.1428571428571" y="543" width="159.71428571428572" height="38" rx="3" fill="#6e94b3" stroke="none"/>
+<text x="940.0" y="567.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">72.5</text>
+<rect x="1025.857142857143" y="543" width="159.71428571428572" height="38" rx="3" fill="#5280a5" stroke="none"/>
+<text x="1105.7142857142858" y="567.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">87.5</text>
+<rect x="1191.5714285714287" y="543" width="159.71428571428572" height="38" rx="3" fill="#43769e" stroke="none"/>
+<text x="1271.4285714285716" y="567.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">95.0</text>
+<rect x="1357.2857142857142" y="543" width="159.71428571428572" height="38" rx="3" fill="#5683a7" stroke="none"/>
+<text x="1437.142857142857" y="567.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">85.0</text>
+<text x="64" y="610.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#202B40">TRY-C-03</text>
+<text x="205" y="608.04" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#647087">PLAN</text>
+<rect x="363.0" y="587" width="159.71428571428572" height="38" rx="3" fill="#608aac" stroke="none"/>
+<text x="442.8571428571429" y="611.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">80.0</text>
+<rect x="528.7142857142858" y="587" width="159.71428571428572" height="38" rx="3" fill="#4d7da2" stroke="none"/>
+<text x="608.5714285714287" y="611.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">90.0</text>
+<rect x="694.4285714285714" y="587" width="159.71428571428572" height="38" rx="3" fill="#6e94b3" stroke="none"/>
+<text x="774.2857142857143" y="611.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">72.5</text>
+<rect x="860.1428571428571" y="587" width="159.71428571428572" height="38" rx="3" fill="#8facc3" stroke="none"/>
+<text x="940.0" y="611.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">55.0</text>
+<rect x="1025.857142857143" y="587" width="159.71428571428572" height="38" rx="3" fill="#7c9fba" stroke="none"/>
+<text x="1105.7142857142858" y="611.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">65.0</text>
+<rect x="1191.5714285714287" y="587" width="159.71428571428572" height="38" rx="3" fill="#5683a7" stroke="none"/>
+<text x="1271.4285714285716" y="611.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">85.0</text>
+<rect x="1357.2857142857142" y="587" width="159.71428571428572" height="38" rx="3" fill="#7398b5" stroke="none"/>
+<text x="1437.142857142857" y="611.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">70.0</text>
+<text x="64" y="654.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#202B40">BY-E-REPLAN</text>
+<text x="205" y="652.04" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#647087">PLAN</text>
+<rect x="363.0" y="631" width="159.71428571428572" height="38" rx="3" fill="#4879a0" stroke="none"/>
+<text x="442.8571428571429" y="655.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">92.5</text>
+<rect x="528.7142857142858" y="631" width="159.71428571428572" height="38" rx="3" fill="#3a6f99" stroke="none"/>
+<text x="608.5714285714287" y="655.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">100.0</text>
+<rect x="694.4285714285714" y="631" width="159.71428571428572" height="38" rx="3" fill="#FCF2E9" stroke="none"/>
+<text x="774.2857142857143" y="655.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#B96532">P  72.5–82.5</text>
+<rect x="860.1428571428571" y="631" width="159.71428571428572" height="38" rx="3" fill="#658eae" stroke="none"/>
+<text x="940.0" y="655.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">77.5</text>
+<rect x="1025.857142857143" y="631" width="159.71428571428572" height="38" rx="3" fill="#FCF2E9" stroke="none"/>
+<text x="1105.7142857142858" y="655.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#B96532">P  52.5–77.5</text>
+<rect x="1191.5714285714287" y="631" width="159.71428571428572" height="38" rx="3" fill="#7398b5" stroke="none"/>
+<text x="1271.4285714285716" y="655.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">70.0</text>
+<rect x="1357.2857142857142" y="631" width="159.71428571428572" height="38" rx="3" fill="#608aac" stroke="none"/>
+<text x="1437.142857142857" y="655.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">80.0</text>
+<text x="64" y="698.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#202B40">TRY-F-02</text>
+<text x="205" y="696.04" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#647087">PLAN</text>
+<rect x="363.0" y="675" width="159.71428571428572" height="38" rx="3" fill="#3a6f99" stroke="none"/>
+<text x="442.8571428571429" y="699.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">100.0</text>
+<rect x="528.7142857142858" y="675" width="159.71428571428572" height="38" rx="3" fill="#4879a0" stroke="none"/>
+<text x="608.5714285714287" y="699.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">92.5</text>
+<rect x="694.4285714285714" y="675" width="159.71428571428572" height="38" rx="3" fill="#779bb8" stroke="none"/>
+<text x="774.2857142857143" y="699.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">67.5</text>
+<rect x="860.1428571428571" y="675" width="159.71428571428572" height="38" rx="3" fill="#9db6ca" stroke="none"/>
+<text x="940.0" y="699.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">47.5</text>
+<rect x="1025.857142857143" y="675" width="159.71428571428572" height="38" rx="3" fill="#8facc3" stroke="none"/>
+<text x="1105.7142857142858" y="699.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">55.0</text>
+<rect x="1191.5714285714287" y="675" width="159.71428571428572" height="38" rx="3" fill="#8aa9c1" stroke="none"/>
+<text x="1271.4285714285716" y="699.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">57.5</text>
+<rect x="1357.2857142857142" y="675" width="159.71428571428572" height="38" rx="3" fill="#98b3c8" stroke="none"/>
+<text x="1437.142857142857" y="699.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">50.0</text>
+<text x="64" y="742.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#202B40">N02-01</text>
+<text x="205" y="740.04" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#647087">PLAN</text>
+<rect x="363.0" y="719" width="159.71428571428572" height="38" rx="3" fill="#3a6f99" stroke="none"/>
+<text x="442.8571428571429" y="743.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">100.0</text>
+<rect x="528.7142857142858" y="719" width="159.71428571428572" height="38" rx="3" fill="#43769e" stroke="none"/>
+<text x="608.5714285714287" y="743.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">95.0</text>
+<rect x="694.4285714285714" y="719" width="159.71428571428572" height="38" rx="3" fill="#5b87a9" stroke="none"/>
+<text x="774.2857142857143" y="743.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">82.5</text>
+<rect x="860.1428571428571" y="719" width="159.71428571428572" height="38" rx="3" fill="#7398b5" stroke="none"/>
+<text x="940.0" y="743.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">70.0</text>
+<rect x="1025.857142857143" y="719" width="159.71428571428572" height="38" rx="3" fill="#5b87a9" stroke="none"/>
+<text x="1105.7142857142858" y="743.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">82.5</text>
+<rect x="1191.5714285714287" y="719" width="159.71428571428572" height="38" rx="3" fill="#4879a0" stroke="none"/>
+<text x="1271.4285714285716" y="743.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">92.5</text>
+<rect x="1357.2857142857142" y="719" width="159.71428571428572" height="38" rx="3" fill="#7398b5" stroke="none"/>
+<text x="1437.142857142857" y="743.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">70.0</text>
+<text x="64" y="786.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#202B40">N03-02</text>
+<text x="205" y="784.04" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#647087">PLAN</text>
+<rect x="363.0" y="763" width="159.71428571428572" height="38" rx="3" fill="#3a6f99" stroke="none"/>
+<text x="442.8571428571429" y="787.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">100.0</text>
+<rect x="528.7142857142858" y="763" width="159.71428571428572" height="38" rx="3" fill="#3a6f99" stroke="none"/>
+<text x="608.5714285714287" y="787.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">100.0</text>
+<rect x="694.4285714285714" y="763" width="159.71428571428572" height="38" rx="3" fill="#81a2bc" stroke="none"/>
+<text x="774.2857142857143" y="787.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">62.5</text>
+<rect x="860.1428571428571" y="763" width="159.71428571428572" height="38" rx="3" fill="#94b0c6" stroke="none"/>
+<text x="940.0" y="787.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">52.5</text>
+<rect x="1025.857142857143" y="763" width="159.71428571428572" height="38" rx="3" fill="#a2bacd" stroke="none"/>
+<text x="1105.7142857142858" y="787.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">45.0</text>
+<rect x="1191.5714285714287" y="763" width="159.71428571428572" height="38" rx="3" fill="#7398b5" stroke="none"/>
+<text x="1271.4285714285716" y="787.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">70.0</text>
+<rect x="1357.2857142857142" y="763" width="159.71428571428572" height="38" rx="3" fill="#81a2bc" stroke="none"/>
+<text x="1437.142857142857" y="787.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">62.5</text>
+<text x="64" y="830.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#202B40">N07-01</text>
+<text x="205" y="828.04" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#647087">PLAN</text>
+<rect x="363.0" y="807" width="159.71428571428572" height="38" rx="3" fill="#43769e" stroke="none"/>
+<text x="442.8571428571429" y="831.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">95.0</text>
+<rect x="528.7142857142858" y="807" width="159.71428571428572" height="38" rx="3" fill="#5280a5" stroke="none"/>
+<text x="608.5714285714287" y="831.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">87.5</text>
+<rect x="694.4285714285714" y="807" width="159.71428571428572" height="38" rx="3" fill="#779bb8" stroke="none"/>
+<text x="774.2857142857143" y="831.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">67.5</text>
+<rect x="860.1428571428571" y="807" width="159.71428571428572" height="38" rx="3" fill="#8facc3" stroke="none"/>
+<text x="940.0" y="831.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">55.0</text>
+<rect x="1025.857142857143" y="807" width="159.71428571428572" height="38" rx="3" fill="#b4c7d6" stroke="none"/>
+<text x="1105.7142857142858" y="831.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">35.5</text>
+<rect x="1191.5714285714287" y="807" width="159.71428571428572" height="38" rx="3" fill="#779bb8" stroke="none"/>
+<text x="1271.4285714285716" y="831.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">67.5</text>
+<rect x="1357.2857142857142" y="807" width="159.71428571428572" height="38" rx="3" fill="#769bb7" stroke="none"/>
+<text x="1437.142857142857" y="831.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">68.0</text>
+<text x="64" y="874.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#202B40">N10-01</text>
+<text x="205" y="872.04" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#647087">PLAN</text>
+<rect x="363.0" y="851" width="159.71428571428572" height="38" rx="3" fill="#42749d" stroke="none"/>
+<text x="442.8571428571429" y="875.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">96.0</text>
+<rect x="528.7142857142858" y="851" width="159.71428571428572" height="38" rx="3" fill="#4b7ba1" stroke="none"/>
+<text x="608.5714285714287" y="875.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">91.0</text>
+<rect x="694.4285714285714" y="851" width="159.71428571428572" height="38" rx="3" fill="#6d94b2" stroke="none"/>
+<text x="774.2857142857143" y="875.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">73.0</text>
+<rect x="860.1428571428571" y="851" width="159.71428571428572" height="38" rx="3" fill="#769ab7" stroke="none"/>
+<text x="940.0" y="875.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">68.5</text>
+<rect x="1025.857142857143" y="851" width="159.71428571428572" height="38" rx="3" fill="#FCF2E9" stroke="none"/>
+<text x="1105.7142857142858" y="875.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#B96532">P  48.0–81.0</text>
+<rect x="1191.5714285714287" y="851" width="159.71428571428572" height="38" rx="3" fill="#7498b6" stroke="none"/>
+<text x="1271.4285714285716" y="875.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">69.5</text>
+<rect x="1357.2857142857142" y="851" width="159.71428571428572" height="38" rx="3" fill="#89a8c0" stroke="none"/>
+<text x="1437.142857142857" y="875.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">58.0</text>
+<text x="64" y="918.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#202B40">N13-02</text>
+<text x="205" y="916.04" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#647087">PLAN</text>
+<rect x="363.0" y="895" width="159.71428571428572" height="38" rx="3" fill="#3a6f99" stroke="none"/>
+<text x="442.8571428571429" y="919.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">100.0</text>
+<rect x="528.7142857142858" y="895" width="159.71428571428572" height="38" rx="3" fill="#3f729b" stroke="none"/>
+<text x="608.5714285714287" y="919.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">97.5</text>
+<rect x="694.4285714285714" y="895" width="159.71428571428572" height="38" rx="3" fill="#4879a0" stroke="none"/>
+<text x="774.2857142857143" y="919.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">92.5</text>
+<rect x="860.1428571428571" y="895" width="159.71428571428572" height="38" rx="3" fill="#98b3c8" stroke="none"/>
+<text x="940.0" y="919.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">50.0</text>
+<rect x="1025.857142857143" y="895" width="159.71428571428572" height="38" rx="3" fill="#658eae" stroke="none"/>
+<text x="1105.7142857142858" y="919.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">77.5</text>
+<rect x="1191.5714285714287" y="895" width="159.71428571428572" height="38" rx="3" fill="#7c9fba" stroke="none"/>
+<text x="1271.4285714285716" y="919.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">65.0</text>
+<rect x="1357.2857142857142" y="895" width="159.71428571428572" height="38" rx="3" fill="#779bb8" stroke="none"/>
+<text x="1437.142857142857" y="919.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">67.5</text>
+<text x="64" y="962.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#202B40">N15-01</text>
+<text x="205" y="960.04" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#647087">PLAN</text>
+<rect x="363.0" y="939" width="159.71428571428572" height="38" rx="3" fill="#5481a6" stroke="none"/>
+<text x="442.8571428571429" y="963.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">86.5</text>
+<rect x="528.7142857142858" y="939" width="159.71428571428572" height="38" rx="3" fill="#5481a6" stroke="none"/>
+<text x="608.5714285714287" y="963.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">86.5</text>
+<rect x="694.4285714285714" y="939" width="159.71428571428572" height="38" rx="3" fill="#5c87aa" stroke="none"/>
+<text x="774.2857142857143" y="963.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">82.0</text>
+<rect x="860.1428571428571" y="939" width="159.71428571428572" height="38" rx="3" fill="#98b3c8" stroke="none"/>
+<text x="940.0" y="963.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">50.0</text>
+<rect x="1025.857142857143" y="939" width="159.71428571428572" height="38" rx="3" fill="#8dabc2" stroke="none"/>
+<text x="1105.7142857142858" y="963.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">56.0</text>
+<rect x="1191.5714285714287" y="939" width="159.71428571428572" height="38" rx="3" fill="#658eae" stroke="none"/>
+<text x="1271.4285714285716" y="963.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">77.5</text>
+<rect x="1357.2857142857142" y="939" width="159.71428571428572" height="38" rx="3" fill="#779bb8" stroke="none"/>
+<text x="1437.142857142857" y="963.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">67.5</text>
+<text x="64" y="1006.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#202B40">O04-04</text>
+<text x="205" y="1004.04" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#647087">STAGED</text>
+<rect x="363.0" y="983" width="159.71428571428572" height="38" rx="3" fill="#3a6f99" stroke="none"/>
+<text x="442.8571428571429" y="1007.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">100.0</text>
+<rect x="528.7142857142858" y="983" width="159.71428571428572" height="38" rx="3" fill="#3a6f99" stroke="none"/>
+<text x="608.5714285714287" y="1007.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">100.0</text>
+<rect x="694.4285714285714" y="983" width="159.71428571428572" height="38" rx="3" fill="#6991b0" stroke="none"/>
+<text x="774.2857142857143" y="1007.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">75.0</text>
+<rect x="860.1428571428571" y="983" width="159.71428571428572" height="38" rx="3" fill="#5280a5" stroke="none"/>
+<text x="940.0" y="1007.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">87.5</text>
+<rect x="1025.857142857143" y="983" width="159.71428571428572" height="38" rx="3" fill="#5280a5" stroke="none"/>
+<text x="1105.7142857142858" y="1007.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">87.5</text>
+<rect x="1191.5714285714287" y="983" width="159.71428571428572" height="38" rx="3" fill="#6991b0" stroke="none"/>
+<text x="1271.4285714285716" y="1007.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">75.0</text>
+<rect x="1357.2857142857142" y="983" width="159.71428571428572" height="38" rx="3" fill="#5280a5" stroke="none"/>
+<text x="1437.142857142857" y="1007.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">87.5</text>
+<text x="64" y="1050.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#202B40">N01-02</text>
+<text x="205" y="1048.04" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#647087">STAGED</text>
+<rect x="363.0" y="1027" width="159.71428571428572" height="38" rx="3" fill="#4d7da2" stroke="none"/>
+<text x="442.8571428571429" y="1051.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">90.0</text>
+<rect x="528.7142857142858" y="1027" width="159.71428571428572" height="38" rx="3" fill="#3a6f99" stroke="none"/>
+<text x="608.5714285714287" y="1051.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">100.0</text>
+<rect x="694.4285714285714" y="1027" width="159.71428571428572" height="38" rx="3" fill="#5683a7" stroke="none"/>
+<text x="774.2857142857143" y="1051.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">85.0</text>
+<rect x="860.1428571428571" y="1027" width="159.71428571428572" height="38" rx="3" fill="#608aac" stroke="none"/>
+<text x="940.0" y="1051.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">80.0</text>
+<rect x="1025.857142857143" y="1027" width="159.71428571428572" height="38" rx="3" fill="#608aac" stroke="none"/>
+<text x="1105.7142857142858" y="1051.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">80.0</text>
+<rect x="1191.5714285714287" y="1027" width="159.71428571428572" height="38" rx="3" fill="#6991b0" stroke="none"/>
+<text x="1271.4285714285716" y="1051.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">75.0</text>
+<rect x="1357.2857142857142" y="1027" width="159.71428571428572" height="38" rx="3" fill="#608aac" stroke="none"/>
+<text x="1437.142857142857" y="1051.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">80.0</text>
+<text x="64" y="1094.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#202B40">N08-02</text>
+<text x="205" y="1092.04" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#647087">STAGED</text>
+<rect x="363.0" y="1071" width="159.71428571428572" height="38" rx="3" fill="#42749d" stroke="none"/>
+<text x="442.8571428571429" y="1095.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">96.0</text>
+<rect x="528.7142857142858" y="1071" width="159.71428571428572" height="38" rx="3" fill="#507fa4" stroke="none"/>
+<text x="608.5714285714287" y="1095.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">88.5</text>
+<rect x="694.4285714285714" y="1071" width="159.71428571428572" height="38" rx="3" fill="#6e94b3" stroke="none"/>
+<text x="774.2857142857143" y="1095.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">72.5</text>
+<rect x="860.1428571428571" y="1071" width="159.71428571428572" height="38" rx="3" fill="#7d9fba" stroke="none"/>
+<text x="940.0" y="1095.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">64.5</text>
+<rect x="1025.857142857143" y="1071" width="159.71428571428572" height="38" rx="3" fill="#93afc5" stroke="none"/>
+<text x="1105.7142857142858" y="1095.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">53.0</text>
+<rect x="1191.5714285714287" y="1071" width="159.71428571428572" height="38" rx="3" fill="#95b0c6" stroke="none"/>
+<text x="1271.4285714285716" y="1095.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">52.0</text>
+<rect x="1357.2857142857142" y="1071" width="159.71428571428572" height="38" rx="3" fill="#779bb8" stroke="none"/>
+<text x="1437.142857142857" y="1095.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">67.5</text>
+<text x="64" y="1138.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#202B40">N16-02</text>
+<text x="205" y="1136.04" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#647087">STAGED</text>
+<rect x="363.0" y="1115" width="159.71428571428572" height="38" rx="3" fill="#4b7ba1" stroke="none"/>
+<text x="442.8571428571429" y="1139.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">91.0</text>
+<rect x="528.7142857142858" y="1115" width="159.71428571428572" height="38" rx="3" fill="#4b7ba1" stroke="none"/>
+<text x="608.5714285714287" y="1139.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">91.0</text>
+<rect x="694.4285714285714" y="1115" width="159.71428571428572" height="38" rx="3" fill="#5683a7" stroke="none"/>
+<text x="774.2857142857143" y="1139.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">85.0</text>
+<rect x="860.1428571428571" y="1115" width="159.71428571428572" height="38" rx="3" fill="#9cb6ca" stroke="none"/>
+<text x="940.0" y="1139.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">48.0</text>
+<rect x="1025.857142857143" y="1115" width="159.71428571428572" height="38" rx="3" fill="#86a5bf" stroke="none"/>
+<text x="1105.7142857142858" y="1139.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">60.0</text>
+<rect x="1191.5714285714287" y="1115" width="159.71428571428572" height="38" rx="3" fill="#628cad" stroke="none"/>
+<text x="1271.4285714285716" y="1139.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="white">79.0</text>
+<rect x="1357.2857142857142" y="1115" width="159.71428571428572" height="38" rx="3" fill="#8facc3" stroke="none"/>
+<text x="1437.142857142857" y="1139.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#202B40">55.0</text>
+<line x1="64" y1="1172" x2="1536" y2="1172" stroke="#DEE4ED" stroke-width="1"/>
+<text x="64" y="1207.76" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#647087">Each cell shows one task score. P = pending. — = not reviewed.</text>
+<text x="1536" y="1207.76" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" text-anchor="end" fill="#647087">1.0.1  ·  public-dev-20-v1</text>
+</svg>

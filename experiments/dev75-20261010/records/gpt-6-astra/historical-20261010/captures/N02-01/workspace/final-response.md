@@ -1,0 +1,1 @@
+完整中文答卷已写入 [answer.md](/private/var/folders/7q/lh8gcfwj1bq91rl4hqmj18dw0000gn/T/baoyan-candidate-fmd_wnkx/workspace/answer.md)，包含背景信息填写模板及后续择校匹配思路，未自行评分。

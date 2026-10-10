@@ -1,0 +1,12 @@
+[
+  {
+    "bytes": 19788,
+    "export_sha256": "7e112ab3049c1f827318f3b4620221f0616c7a004c3d4ad67c4e51cec97502f9",
+    "path": "answer.md",
+    "source_pattern_counts": {
+      "email": 2
+    },
+    "source_sha256": "8d244075c9eb489fda30085375e9a4af6f58bdf7fa6e3a297f385b6162f6c655",
+    "transformed": true
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "exporter_sha256": "f15f78dc8dfdf5c7f9cbff3e3cb55d8f525fc45e4fe0b20adc152cb950044d88",
+  "builder_sha256": "aa4fe19ddcc0521692e077fb0c6f4acdd1d59844ffa1c7a432323582a9883578",
+  "files": {
+    "README.md": "eadf2a87dc92a396f286c654439a3ed4944bdeb9e4f9d181e09ab5eb5ad67e4c",
+    "README.zh-CN.md": "f13bed38060da4c36d8ee9c43e32f35c5ecfb2146638495db47373b51f99a7b2",
+    "added-configuration-review.json": "b20f359a3dc9597a4daf98ad84e79c9625c3e6e6c02d41eed7afcaf4204834ec",
+    "claude-evaluation.zh-CN.md": "d42a8bf9a67a028f1ea8a5878213c2794d451012d5c632b04f6529ed86ba87ca",
+    "execution-progress.json": "df9b064f00a22d406f051cbeb60b1ca33ea3d2b12c46bdd422e5167d3654dbb5",
+    "pending-review.md": "2301a3f2497ab653562c4a8cf23e90b5c771b869c7ceb126b649ad16ec695a8c",
+    "results.json": "bf4b21837a8d25f1b44648242733624c4fadf81328db9e093712e19ca0da2d3e",
+    "score-bounds.svg": "2820cfaa914eb10f6c824762616a3c9c94a347e6ee3581b30a9ea3e45b1154a1",
+    "scores.csv": "6afa81782266bc3b22b21d0ee7ea7b51be7d9972bb82392c0e46943abe6b5199",
+    "task-scores.svg": "3e1eb1bb440a8882c27b8880116c77d75fe7e3f1482cec327b8e2f42fdf0120d",
+    "verification.json": "aa2c171e0ab94ac366199fe78a50a21892a019a18953cddf74e9dfb38af76493"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "adapter": "deepseek-v4-1-flash",
+  "adapter_version": "e0734ad087c4fded97b9fea3fc95386885949f73d8ac1ec4a85b7cb0322b64bc",
+  "answer_capture": {
+    "answer_sha256": "9173aee406ad9a3cfbfbab4278d6c20cfbb721b2cfcfb92aabee3e831599a5ab",
+    "final_response_sha256": "0f0398448dc15952a36e7eb014112d73fc17b6379cf747bfd45afbfb2b185aaf",
+    "source": "workspace_file"
+  },
+  "auth_mode": "api",
+  "cli": "dsh",
+  "cli_version": "0.2.0-rc.2",
+  "elapsed_seconds": 277.182,
+  "execution_config": {
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "auth": "api",
+    "base_url": "https://api.deepseek.com/anthropic",
+    "binary": "/Users/REDACTED/Desktop/benchmark/runs/tools/deepseek-cli-0.2.0-rc.2/node_modules/.bin/dsh",
+    "cli": "dsh",
+    "cli_version": "0.2.0-rc.2",
+    "id": "deepseek-v4-1-flash",
+    "model": "deepseek-flash",
+    "reasoning_effort": "high"
+  },
+  "execution_mode": "native_cli",
+  "exit_code": 0,
+  "experiment_sha256": "dcd1ec7d69fc4dabc7848984484e23ab95ca50564ce6b13153a96322095ab911",
+  "finished_at": "2026-10-09T17:36:21.198322+00:00",
+  "host_configuration_verified": false,
+  "isolation_evidence_source": "local_boundary_probes",
+  "isolation_verified": true,
+  "model": "deepseek-flash",
+  "model_identity_status": "not_reported",
+  "model_observation": {
+    "other_reported_models": [],
+    "primary_reported_models": [],
+    "provenance": "cli_reported_not_authenticated",
+    "reported_models": [],
+    "requested": "deepseek-flash",
+    "status": "not_reported"
+  },
+  "official": false,
+  "protocol_sha256": "94858a4f4686b5d20ef5e7306d9c42971fc1496c5c0af35cd5f7c91cbb6a7a89",
+  "reported_models": [],
+  "rubric_sha256": "8b7ed5cd99c6214d073a3844c0422e0715ab9c99be66f159d2f3c50ef21f072d",
+  "started_at": "2026-10-09T17:31:43.983622+00:00",
+  "status": "completed",
+  "task_id": "N16-01",
+  "task_sha256": "b3082bd3d4fdfe9138af1b73fe1e6546ff07bf2163b2b54b3eb372793513c57c",
+  "timeout_seconds": 1200,
+  "timing_provenance": "runner_monotonic_clock",
+  "trajectory_status": "recorded_unverified",
+  "usage": {
+    "cost_usd": null,
+    "input_tokens": 97973,
+    "output_tokens": 39799
+  },
+  "usage_status": "cli_reported_unverified"
+}

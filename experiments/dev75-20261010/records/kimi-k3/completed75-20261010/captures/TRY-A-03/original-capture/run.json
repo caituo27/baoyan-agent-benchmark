@@ -1,0 +1,56 @@
+{
+  "adapter": "kimi-k3",
+  "adapter_version": "a09810395107475f6230714eb3cb8741a162da7e9806a35345598783cc45785e",
+  "answer_capture": {
+    "answer_sha256": "8354c2bf37f5e0235bef55ed0b2b3de4440e351abf016ecc8dec8fcad4845b66",
+    "final_response_sha256": "6887d0493342318d2fdb87012733d816349951d437bcd148573ba064cb03c2d5",
+    "source": "workspace_file"
+  },
+  "auth_mode": "subscription",
+  "cli": "kimi",
+  "cli_version": "2.1.1",
+  "elapsed_seconds": 136.38,
+  "execution_config": {
+    "auth": "subscription",
+    "binary": "kimi",
+    "cli": "kimi",
+    "cli_version": "2.1.1",
+    "id": "kimi-k3",
+    "model": "k3",
+    "reasoning_effort": "native_default"
+  },
+  "execution_mode": "native_cli",
+  "exit_code": 0,
+  "experiment_sha256": "3f709fb372f1d03821b15083bae2c744d877c873d3d48261d73cbbb95661f7c2",
+  "finished_at": "2026-10-09T16:50:12.541918+00:00",
+  "host_configuration_verified": false,
+  "isolation_evidence_source": "local_boundary_probes",
+  "isolation_verified": true,
+  "model": "k3",
+  "model_identity_status": "not_reported",
+  "model_observation": {
+    "other_reported_models": [],
+    "primary_reported_models": [],
+    "provenance": "cli_reported_not_authenticated",
+    "reported_models": [],
+    "requested": "k3",
+    "status": "not_reported"
+  },
+  "official": false,
+  "protocol_sha256": "94858a4f4686b5d20ef5e7306d9c42971fc1496c5c0af35cd5f7c91cbb6a7a89",
+  "reported_models": [],
+  "rubric_sha256": "64de2d754f415d0c4bf9dd4183d53e74d5cf11733d6096c049cb5b2aa8327ab1",
+  "started_at": "2026-10-09T16:47:56.159823+00:00",
+  "status": "completed",
+  "task_id": "TRY-A-03",
+  "task_sha256": "471e0b50b1cc370a20b7bf74d2c4e28606283d744e354faeba0b11c02b62dd25",
+  "timeout_seconds": 1200,
+  "timing_provenance": "runner_monotonic_clock",
+  "trajectory_status": "recorded_unverified",
+  "usage": {
+    "cost_usd": null,
+    "input_tokens": null,
+    "output_tokens": null
+  },
+  "usage_status": "cli_reported_unverified"
+}

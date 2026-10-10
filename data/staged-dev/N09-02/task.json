@@ -1,0 +1,33 @@
+{
+  "as_of": "2026年推免申请季",
+  "case_group_id": "student-N09",
+  "case_id": "N09",
+  "constraints": [
+    "仅依据当前阶段提供的信息作答；不查询学生身份或其真实最终去向。"
+  ],
+  "deliverables": [],
+  "persona": {},
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending"
+  },
+  "stages": [
+    {
+      "instruction": "我在哈工大（威海）读机器人工程，排名3/130，六级546。简历里有好几个机器人项目，但有些是自己负责的，有些只是参与了其中一部分。我怕申请时讲不清楚自己的贡献，应该怎么取舍和呈现？",
+      "stage_id": "S0",
+      "visible_at": "2026年推免申请季"
+    },
+    {
+      "instruction": "再说一下项目进度：我在老师的大项目里负责过一个小装置；另一个无人机、机械臂相关项目目前只是了解阶段，还没有正式展开。简历里的这些内容应该怎样区分？",
+      "stage_id": "S1",
+      "visible_at": "2026年推免申请季"
+    }
+  ],
+  "task_id": "N09-02",
+  "task_version": "1.0.1",
+  "time_context": {
+    "application_year": "2026",
+    "assessment_period": "2026年推免申请季",
+    "time_precision": "year_only_scenario"
+  }
+}

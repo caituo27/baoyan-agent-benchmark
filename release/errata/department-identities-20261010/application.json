@@ -1,0 +1,18 @@
+{
+  "status": "applied_locally",
+  "applied_at": "2026-10-10T00:26:40+08:00",
+  "report": "experiments/subset20-results-departments-corrected-20261010",
+  "report_results_sha256": "57fcb3bccf09752979e5a7c8e78942a085e03ed7f7cc9dbbdcc662ec70333f45",
+  "local_review_directory": "reviews/subset20-departments-adjudication-20261010",
+  "configurations_rechecked": 7,
+  "task_answers_recomputed": 14,
+  "original_scores_replayed": 140,
+  "inherited_scores_replayed": 7,
+  "numeric_answers": 136,
+  "pending_answers": 4,
+  "pending_nodes": 6,
+  "resolved_pending_nodes": 5,
+  "candidate_reruns": 0,
+  "new_independent_model_reviews": 0,
+  "publication_status": "local_only_not_pushed_or_uploaded"
+}

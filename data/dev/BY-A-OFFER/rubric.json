@@ -1,0 +1,97 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "BY-A-OFFER",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "按给定接收记录分析中科大材料训练与关键未知条件，不升级为正式录取。",
+      "grading": "three_level",
+      "half_credit": "候选及记录状态正确，但研究训练或关键条件分析不足。",
+      "id": "BY-A-OFFER-R10-01",
+      "label": "中科大材料候选",
+      "points": 10
+    },
+    {
+      "full_credit": "联系已有材料研究比较西工大材料候选，指出导师或培养条件未知。",
+      "grading": "three_level",
+      "half_credit": "已有研究衔接分析，但导师、培养条件或取舍依据不足。",
+      "id": "BY-A-OFFER-R10-02",
+      "label": "西工大材料候选",
+      "points": 10
+    },
+    {
+      "full_credit": "保留苏大电化学、半导体口头候选，核实际接收效力与条件，不升级或无理由排除。",
+      "grading": "three_level",
+      "half_credit": "口头候选状态正确且有分析，但接收条件或研究适配不足。",
+      "id": "BY-A-OFFER-R10-03",
+      "label": "苏大口头候选",
+      "points": 10
+    },
+    {
+      "full_credit": "用石墨烯、双极板和电化学经历比较方向训练衔接，不把经历当确定偏好。",
+      "grading": "three_level",
+      "half_credit": "已有具体经历与候选的联系，但跨候选差异或偏好边界不足。",
+      "id": "BY-A-OFFER-R10-04",
+      "label": "材料和电化学研究匹配",
+      "points": 15
+    },
+    {
+      "full_credit": "确认会改变选择的本人目标与导师训练条件，并给当前可用的条件方案。",
+      "grading": "three_level",
+      "half_credit": "已提出关键目标或导师条件，但两者衔接或当前选择方案不足。",
+      "id": "BY-A-OFFER-R10-05",
+      "label": "本人目标与导师训练",
+      "points": 20
+    },
+    {
+      "full_credit": "分别核接收效力、生效条件和回复期限，缺日期时说明核验，不编期限。 时点要求：以本题接收记录的当前状态、效力和确认期限作选择；没有精确日期时核实期限，不编造届别或自动顺延。",
+      "grading": "three_level",
+      "half_credit": "已有具体效力或期限核验，但另一部分不完整。 时点边界：已有本项实质正确内容，但影响判断的阶段、届别或更新安排不足，可半分；核心结论依赖错误时点为0。仅缺不影响选择的日期措辞不扣分。",
+      "id": "BY-A-OFFER-R10-06",
+      "label": "接收效力与时间（时点适配）",
+      "points": 10
+    },
+    {
+      "full_credit": "给有依据的条件优先关系，说明具体何种变化会转向另一候选。",
+      "grading": "three_level",
+      "half_credit": "已有优先关系或具体反转条件，但另一部分或理由不足。",
+      "id": "BY-A-OFFER-R10-07",
+      "label": "条件选择与反转",
+      "points": 15
+    },
+    {
+      "full_credit": "按决策影响安排近期核验和沟通顺序，保护已有选择。",
+      "grading": "three_level",
+      "half_credit": "已有具体下一步，但顺序或保护已有选择的办法不足。",
+      "id": "BY-A-OFFER-R10-08",
+      "label": "近期行动顺序",
+      "points": 5
+    },
+    {
+      "full_credit": "按本题本科基准及例外核对：有实际推荐时，5－min(5，降级院校数)；同校多个项目只计一次。报告列对象、原因和扣分。",
+      "grading": "school_tier",
+      "half_credit": "本项按扣分公式，不使用半分档。",
+      "id": "BY-A-OFFER-R10-09",
+      "label": "院校层次匹配（降级扣分）",
+      "points": 5
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": false
+}

@@ -1,0 +1,55 @@
+{
+  "adapter": "gpt-6-1-sol",
+  "adapter_version": "7d1b7ac437084c4b54e54a08ecc5128f432f36f3657b624d394ba4d5df944323",
+  "answer_capture": {
+    "answer_sha256": "60244c9b6c25e010ed713de89a8f426f74d877154b4df8277ebfc94f69a00b56",
+    "final_response_sha256": "e35cd2d0daaa275c3494670292424d1921a8fa78686981f16550a5dbfe0aa67e",
+    "source": "workspace_file"
+  },
+  "auth_mode": "subscription",
+  "cli": "codex",
+  "cli_version": "codex-cli 0.162.0",
+  "elapsed_seconds": 909.953,
+  "execution_config": {
+    "auth": "subscription",
+    "binary": "codex",
+    "cli": "codex",
+    "cli_version": "codex-cli 0.162.0",
+    "id": "gpt-6-1-sol",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "high",
+    "web_search": "live"
+  },
+  "execution_mode": "native_cli",
+  "exit_code": 0,
+  "experiment_sha256": "858dfb5976495b65bf4a1339d5e01e131ef0b6de9133175f52561958ffe1f27f",
+  "finished_at": "2026-10-09T10:55:10.393162+00:00",
+  "host_configuration_verified": false,
+  "isolation_evidence_source": "local_boundary_probes",
+  "isolation_verified": true,
+  "model": "gpt-6.1-sol",
+  "model_identity_status": "not_reported",
+  "model_observation": {
+    "provenance": "cli_reported_not_authenticated",
+    "reported_models": [],
+    "requested": "gpt-6.1-sol",
+    "status": "not_reported"
+  },
+  "official": false,
+  "protocol_sha256": "94858a4f4686b5d20ef5e7306d9c42971fc1496c5c0af35cd5f7c91cbb6a7a89",
+  "reported_models": [],
+  "rubric_sha256": "b04f6038c84cbc754f453aeb7d1a8b89cdbaaedb7534a3ed0c0ca9ae5cbe3f9f",
+  "started_at": "2026-10-09T10:40:00.416664+00:00",
+  "status": "completed",
+  "task_id": "N14-03",
+  "task_sha256": "cefba07ace443aa213a789fbd0b68eff92a25ad0363b571188b0b046e2d1ad8a",
+  "timeout_seconds": 1200,
+  "timing_provenance": "runner_monotonic_clock",
+  "trajectory_status": "recorded_unverified",
+  "usage": {
+    "cost_usd": null,
+    "input_tokens": 6144963,
+    "output_tokens": 18890
+  },
+  "usage_status": "cli_reported_unverified"
+}

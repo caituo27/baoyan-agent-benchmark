@@ -1,0 +1,116 @@
+[
+  {
+    "bytes": 441,
+    "export_sha256": "915d53f064a8fb0ef28bf39e92c50c32b42a1ce00e433c10ca2591bb449448aa",
+    "path": "run.json",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "17dd3aa07f728e5d55721a15595bcde10eaa7582d39d40232355c4ebe66cdd8a",
+    "transformed": true
+  },
+  {
+    "bytes": 12357,
+    "export_sha256": "d4718403d210236fa884167f7154c4748a1e5ab0bfd200979a487d1e2716c1f9",
+    "path": "stages/S0/answer.md",
+    "source_pattern_counts": {},
+    "source_sha256": "d4718403d210236fa884167f7154c4748a1e5ab0bfd200979a487d1e2716c1f9",
+    "transformed": false
+  },
+  {
+    "bytes": 257559,
+    "export_sha256": "aba0df6a779136439acf899807007281c871f092f4c41305dc49494144c2952f",
+    "path": "stages/S0/events.jsonl",
+    "source_pattern_counts": {
+      "email": 5
+    },
+    "source_sha256": "fffd9db93eef74e55c4cbb85f1e104a68e13bb9656af214a91b79cb5a2af00d4",
+    "transformed": true
+  },
+  {
+    "bytes": 2152,
+    "export_sha256": "7849473878f3895f0ca168c810468870361db97ab546dad72e625a0243607aad",
+    "path": "stages/S0/execution.json",
+    "source_pattern_counts": {},
+    "source_sha256": "7849473878f3895f0ca168c810468870361db97ab546dad72e625a0243607aad",
+    "transformed": false
+  },
+  {
+    "bytes": 12357,
+    "export_sha256": "d4718403d210236fa884167f7154c4748a1e5ab0bfd200979a487d1e2716c1f9",
+    "path": "stages/S0/final-response.md",
+    "source_pattern_counts": {},
+    "source_sha256": "d4718403d210236fa884167f7154c4748a1e5ab0bfd200979a487d1e2716c1f9",
+    "transformed": false
+  },
+  {
+    "bytes": 0,
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "stages/S0/stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformed": false
+  },
+  {
+    "bytes": 265009,
+    "export_sha256": "f4c6d6f3aa731a5f4660a524796b86326b31997b9ae8f044a28c2af341d6cd92",
+    "path": "stages/S0/trace.jsonl",
+    "source_pattern_counts": {
+      "email": 5
+    },
+    "source_sha256": "18e8a57cfcbf66d13567d9ef506a3d77e0ce4fe74796c48ee4cebfff46c15505",
+    "transformed": true
+  },
+  {
+    "bytes": 8100,
+    "export_sha256": "63e8235937ce077914019f2235a917c535aa6bf05ad845e6df405a272c4e19a8",
+    "path": "stages/S1/answer.md",
+    "source_pattern_counts": {},
+    "source_sha256": "63e8235937ce077914019f2235a917c535aa6bf05ad845e6df405a272c4e19a8",
+    "transformed": false
+  },
+  {
+    "bytes": 74386,
+    "export_sha256": "e3cb293c10bc03b8bc748f18c72b883d4b13f321532ccf8779df6f126ac35081",
+    "path": "stages/S1/events.jsonl",
+    "source_pattern_counts": {
+      "email": 2
+    },
+    "source_sha256": "e7c2f9b1c2bf2ad7afd8343038787bdde8077b2571e1d354a585c4c9a5c0603e",
+    "transformed": true
+  },
+  {
+    "bytes": 2213,
+    "export_sha256": "68f210c61348143a82938614bf100e97064275b79830bfab654b394bd93f5a68",
+    "path": "stages/S1/execution.json",
+    "source_pattern_counts": {},
+    "source_sha256": "68f210c61348143a82938614bf100e97064275b79830bfab654b394bd93f5a68",
+    "transformed": false
+  },
+  {
+    "bytes": 8100,
+    "export_sha256": "63e8235937ce077914019f2235a917c535aa6bf05ad845e6df405a272c4e19a8",
+    "path": "stages/S1/final-response.md",
+    "source_pattern_counts": {},
+    "source_sha256": "63e8235937ce077914019f2235a917c535aa6bf05ad845e6df405a272c4e19a8",
+    "transformed": false
+  },
+  {
+    "bytes": 0,
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "stages/S1/stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformed": false
+  },
+  {
+    "bytes": 75859,
+    "export_sha256": "eb4c9529904565dd982ff2df0c116b727cfd615050c315a57931ec9968ad40c6",
+    "path": "stages/S1/trace.jsonl",
+    "source_pattern_counts": {
+      "email": 2
+    },
+    "source_sha256": "f88687c8756a5548b638386f1455edd74916049df69f8ae23d0413d6ff24d687",
+    "transformed": true
+  }
+]

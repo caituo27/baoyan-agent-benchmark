@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-N06",
+  "context": {
+    "observation": {
+      "评测时间": "2026年推免申请季"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "hard",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "N06-03",
+  "prompt": "我在北京师范大学珠海校区读汉语言文学，排名30/95，雅思6.5，也考虑语言学和国际中文教育。你能帮我列16个具体的学校、院系和专业（项目）组合，并解释为什么推荐吗？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "5cc8341ac17aa3857fc500989a834b813524e19f0671f6853826a5741dcdebbb",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "recommendation",
+  "task_version": "1.0.1"
+}

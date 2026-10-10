@@ -1,0 +1,71 @@
+{
+  "id": "njust-qualification-20261010",
+  "date": "2026-10-10T01:13:33+08:00",
+  "kind": "scoped_owner_requested_evidence_adjudication",
+  "base_report": "experiments/subset20-results-nine-complete-20261010",
+  "base_results_sha256": "bf4b21837a8d25f1b44648242733624c4fadf81328db9e093712e19ca0da2d3e",
+  "authorization": "用户指出普遍排名放宽属于错误，并要求重新修改。",
+  "agent": "antigravity-gemini-3-8-flash-high",
+  "task_id": "N10-01",
+  "packet": "0f65020377cec663c3c2d48492b7efd9",
+  "node": "N10-01-T1",
+  "prior_judgment_path": "reviews/subset20-evidence-adjudication-20261010/N10-01/0f65020377cec663c3c2d48492b7efd9",
+  "prior_judgment_sha256": "042e854b9db01dbba64a2c65e7b6433507cb7f7243e27c26ba32f5ac6023c4c8",
+  "task_sha256": "3105900ad4b507a9efd0741b3e8d8d3a8b80dd7d27075f3708ffe935ff576d43",
+  "rubric_sha256": "2256aaf90f22d59c058bd3445482802eee81065c254d2caed47bf533cc5a4fc7",
+  "answer_sha256": "b315aa22303dd397ee5865a9038411c1897ca1bbe95c08900900f2fbbc067f2e",
+  "judgment_sha256": "d5b4f4d914a5349899a5806ae544621834272844c9e71194e17fefdd5b2664d5",
+  "score_sha256": "6c4dbb7133384859d2c656c18d444a0d92bda88792f3d49574d970856e3aa606",
+  "evidence": [
+    {
+      "source": "https://yz.chsi.com.cn/tm/tjbf/detail?schCode=10288&zsgsId=3545934479",
+      "applicable_cycle": "2027推免推荐办法；2026-09-14",
+      "scope": "普通课程成绩前40%，学业权重至少85%；特殊学术专长前50%另有成果及答辩要求。存在工程硕博改革、国防科工补偿、研支团，但未建立答卷全部专项名称等价关系或通用30%～50%放宽。"
+    }
+  ],
+  "new_error": {
+    "id": "E6",
+    "answer_quote": "除了常规的普通学术/专业推免指标外，南理工拥有众多特殊的专项推免通道，对排名要求通常放宽至前 30%～50%：",
+    "reason": "将具有限定对象、成果审核及单独实施条件的特殊推荐计划，概括为排名通常放宽至前30%～50%的政策性兜底通道，错误地泛化适用范围。2027校规普通推荐前40%；特殊学术专长前50%另须特定成果与审核答辩，其他专项单独组织。不是因未附来源扣分，也不声称全部计划不存在；只计入T1。",
+    "evidence": [
+      {
+        "source": "https://yz.chsi.com.cn/tm/tjbf/detail?schCode=10288&zsgsId=3545934479",
+        "applicable_cycle": "2027推免推荐办法；2026-09-14",
+        "scope": "普通课程成绩前40%，学业权重至少85%；特殊学术专长前50%另有成果及答辩要求。存在工程硕博改革、国防科工补偿、研支团，但未建立答卷全部专项名称等价关系或通用30%～50%放宽。"
+      }
+    ]
+  },
+  "node_judgment": {
+    "answer_quote": "* **明确折算权重**：南理工推免综合成绩通常由**“智育学业成绩（约占 80%~85%） + 综合发展性素质测评加分（约占 15%~20%）”**构成。",
+    "error_ids": [
+      "E4",
+      "E6"
+    ],
+    "grade": 0.5,
+    "id": "N10-01-T1",
+    "reason": "正确把校内资格列为首务，并安排核对院系细则、综合分、成果位次及截止时间，已有实质正确内容，保留半分。将特殊通道概括为排名通常放宽至前30%～50%的兜底路径，是适用条件的错误泛化（E6）；另有不符合当届校规的权重概括（E4）及无依据名额/分差判断，不能满分。特殊学术专长前50%另需特定成果及审核答辩，其他计划单独组织；个别名称未确认不改变已有正确内容与明确错误并存的半分结论，因此解除pending。错误只在T1计分，不追加处罚其他节点。"
+  },
+  "candidate_applicability_correction": "Only invalid as the asserted broad eligibility/backup route; no claim that all underlying schemes are nonexistent.",
+  "before": {
+    "score": null,
+    "score_interval": [
+      52.0,
+      77.0
+    ],
+    "pending_nodes": [
+      "N10-01-T1"
+    ]
+  },
+  "after": {
+    "score": 64.5,
+    "score_interval": [
+      64.5,
+      64.5
+    ],
+    "pending_nodes": []
+  },
+  "candidate_reruns": 0,
+  "new_independent_model_reviews": 0,
+  "unchanged_answer_rows": 179,
+  "local_review_directory": "reviews/subset20-nine-qualification-20261010"
+}

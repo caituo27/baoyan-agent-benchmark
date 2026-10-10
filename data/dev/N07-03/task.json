@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-N07",
+  "context": {
+    "observation": {
+      "评测时间": "2026年推免申请季"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "hard",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "N07-03",
+  "prompt": "我是曲阜师范大学航空服务艺术与管理专业的，排名2/201，六级407。做过航空服务、跨文化沟通相关研究和竞赛，想转申教育类推免项目。能给我15个具体学校、学院和专业方向的候选组合吗？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "8c50ca43d22939954cb09a4dd64e5c67f35e1ea38cd10b10f21a85da312d3511",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "recommendation",
+  "task_version": "1.0.1"
+}

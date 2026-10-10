@@ -1,0 +1,116 @@
+[
+  {
+    "bytes": 430,
+    "export_sha256": "fe0fa798eb0a9987dbdea875393e568942b4a50741850b6604a50f5e46308860",
+    "path": "run.json",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "8d2aa00295cf3b3d3c6f2a7ae4568aad32b91a1c863dd7adc0f218dbe2e05f38",
+    "transformed": true
+  },
+  {
+    "bytes": 2414,
+    "export_sha256": "9a8c19bb962ca88be58d1b9603732c4e449b72fd69411cad794ae59e05bce0e8",
+    "path": "stages/S0/answer.md",
+    "source_pattern_counts": {},
+    "source_sha256": "9a8c19bb962ca88be58d1b9603732c4e449b72fd69411cad794ae59e05bce0e8",
+    "transformed": false
+  },
+  {
+    "bytes": 3446,
+    "export_sha256": "87ee3968a505ed6b7948f535c7184021f14d80806ad3af98c0d0f11cbe03564d",
+    "path": "stages/S0/events.jsonl",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "0264c0241c98b2996f097aa6984e716ee37bfd2b65b245547fc0560e3821a442",
+    "transformed": true
+  },
+  {
+    "bytes": 2208,
+    "export_sha256": "886d8615b6997a33341ee7c3c50ec983673d3ab4a85fc7cf677f61a2a325d98a",
+    "path": "stages/S0/execution.json",
+    "source_pattern_counts": {},
+    "source_sha256": "886d8615b6997a33341ee7c3c50ec983673d3ab4a85fc7cf677f61a2a325d98a",
+    "transformed": false
+  },
+  {
+    "bytes": 2414,
+    "export_sha256": "9a8c19bb962ca88be58d1b9603732c4e449b72fd69411cad794ae59e05bce0e8",
+    "path": "stages/S0/final-response.md",
+    "source_pattern_counts": {},
+    "source_sha256": "9a8c19bb962ca88be58d1b9603732c4e449b72fd69411cad794ae59e05bce0e8",
+    "transformed": false
+  },
+  {
+    "bytes": 0,
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "stages/S0/stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformed": false
+  },
+  {
+    "bytes": 3828,
+    "export_sha256": "3ebd7b12f8c5fe4a57461792a416aef791fda0750488152a4f203572b60a3cf6",
+    "path": "stages/S0/trace.jsonl",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "3cd275439485d17dad96e7dfe7f19ce4c0342af274246cc612550c106e02a2c1",
+    "transformed": true
+  },
+  {
+    "bytes": 2332,
+    "export_sha256": "1c8561d48f00b985e8ee98ac2f829afdea9409ffb70ebcb35edefe1fb4e47dc6",
+    "path": "stages/S1/answer.md",
+    "source_pattern_counts": {},
+    "source_sha256": "1c8561d48f00b985e8ee98ac2f829afdea9409ffb70ebcb35edefe1fb4e47dc6",
+    "transformed": false
+  },
+  {
+    "bytes": 3124,
+    "export_sha256": "0d29f716844f5b4166ec0b95c1dd7654f66326de5818d8e7c791f4d8991deed0",
+    "path": "stages/S1/events.jsonl",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "7412a265a9d8981cb69bc63b833da1c13cea06698aa1750a6cb7accbc8e2217a",
+    "transformed": true
+  },
+  {
+    "bytes": 2270,
+    "export_sha256": "837069747987cfb2b0e92007c149fd75c30146bf2b7c18ffae68309fb9c5b235",
+    "path": "stages/S1/execution.json",
+    "source_pattern_counts": {},
+    "source_sha256": "837069747987cfb2b0e92007c149fd75c30146bf2b7c18ffae68309fb9c5b235",
+    "transformed": false
+  },
+  {
+    "bytes": 2332,
+    "export_sha256": "1c8561d48f00b985e8ee98ac2f829afdea9409ffb70ebcb35edefe1fb4e47dc6",
+    "path": "stages/S1/final-response.md",
+    "source_pattern_counts": {},
+    "source_sha256": "1c8561d48f00b985e8ee98ac2f829afdea9409ffb70ebcb35edefe1fb4e47dc6",
+    "transformed": false
+  },
+  {
+    "bytes": 0,
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "stages/S1/stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformed": false
+  },
+  {
+    "bytes": 3442,
+    "export_sha256": "027c7da4717662e09881e1ab0f0b3a82f3c927f07409a4a3b0f3d58034260338",
+    "path": "stages/S1/trace.jsonl",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "b41d14342e4aab5825f3b8c748a168df5b843a2f860f2ae78893fbeeb05f2ea6",
+    "transformed": true
+  }
+]

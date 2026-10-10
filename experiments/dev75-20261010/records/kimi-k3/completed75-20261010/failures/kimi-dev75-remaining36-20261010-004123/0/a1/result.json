@@ -1,0 +1,16 @@
+{
+  "answer_files": [],
+  "batch": "/Users/REDACTED/Desktop/benchmark-open-source/runs/kimi-dev75-remaining36-20261010-004123/attempts/0/a1/capture",
+  "category": "account_blocked",
+  "completed": 0,
+  "executed": true,
+  "exit_code": 1,
+  "finished_at": "2026-10-09T16:41:42.007234+00:00",
+  "official": false,
+  "planned": 1,
+  "status": "failed",
+  "statuses": {
+    "failed": 1
+  },
+  "stopped": "kimi-k3/TRY-D-02/r1"
+}

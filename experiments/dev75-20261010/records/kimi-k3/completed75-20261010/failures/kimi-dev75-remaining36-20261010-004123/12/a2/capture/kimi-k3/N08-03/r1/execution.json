@@ -1,0 +1,66 @@
+{
+  "answer_capture": {
+    "answer_sha256": null,
+    "final_response_sha256": null,
+    "source": null
+  },
+  "auth_mode": "subscription",
+  "auth_provenance": "selected_local_credential_not_account_or_entitlement_verification",
+  "cli": "kimi",
+  "cli_version": "2.1.1",
+  "continuation_input": null,
+  "credentials_included": false,
+  "extra_mcp_servers": [],
+  "extra_skills": [],
+  "isolation": {
+    "allowed_hosts": [
+      "api.kimi.ai",
+      "api.kimi.com",
+      "auth.kimi.ai",
+      "auth.kimi.com"
+    ],
+    "backend": "macos-seatbelt-provider-proxy-v1",
+    "boundary_probe": {
+      "exit_code": 0,
+      "proxy_denial_observed": true
+    },
+    "checks": [
+      "candidate_read",
+      "candidate_write",
+      "outside_read_denied",
+      "outside_write_denied",
+      "input_write_denied",
+      "symlink_escape_denied",
+      "descendant_read_denied",
+      "local_service_denied",
+      "unlisted_proxy_host_denied"
+    ],
+    "cleanup": "complete",
+    "credential_state": "per_attempt",
+    "fake_ip_policy": "exact_provider_names_via_configured_proxy_only",
+    "file_watch": true,
+    "loopback_listener": false,
+    "network": "public_https_no_private_addresses",
+    "profile_sha256": "1c7843f2c4750beee163f95d942d9e2436f1662eb2f269d3845dfb7b41084e69",
+    "pty": "disabled",
+    "public_web_dns_resolver": "https://1.1.1.1/dns-query",
+    "public_web_fake_ip_policy": "cloudflare_doh_public_ip_pinning",
+    "scope": "local_boundary_probes",
+    "status": "passed",
+    "system_trust": false,
+    "system_user_lookup": false,
+    "tls_ca_sha256": "9dae8d76e55cb08991f2b672d58999ea15560d910759c16b544f843bdffbb994",
+    "upstream_proxy": null
+  },
+  "known_tool_limitations": [],
+  "native_event_count": 1,
+  "official": false,
+  "personal_state": "fresh_per_attempt",
+  "phase": "client_execution",
+  "requested_model": "k3",
+  "schema": "native-execution.1",
+  "source_rules_enforced": false,
+  "status": "failed",
+  "tools": "native_tools_inside_outer_sandbox",
+  "web_mode": "historical_source_rules_in_prompt"
+}

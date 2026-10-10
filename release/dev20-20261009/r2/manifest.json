@@ -1,0 +1,54 @@
+{
+  "assets": [
+    {
+      "bytes": 33517209,
+      "file": "dev20-20261009-r2-seven-results-and-records.zip",
+      "files": 5510,
+      "sha256": "1e6f2c3ac67c428a4073930aa85775432603b47bb9e9abe00cf89dc36bcf6219"
+    }
+  ],
+  "configurations": [
+    "antigravity-gemini-3-1-pro-high",
+    "antigravity-gemini-3-8-flash-high",
+    "deepseek-v4-1-flash",
+    "gpt-6-1-sol",
+    "gpt-6-astra",
+    "kimi-k3",
+    "qwen3-8-max-0902"
+  ],
+  "experiment_id": "dev20-20261009",
+  "experiment_records": "experiments/subset20-20261009-r2",
+  "generator_sha256": "75307306f2c3ff549c8586c2cb1ccc9969e0452ed98e0a3f53c0815c77574ea6",
+  "local_artifact_directory": "dist/releases/dev20-20261009/r2",
+  "official": false,
+  "previous_revision_sha256": "700c5d1161d839f6dc5d157377250f479c3dccbc81f15912ce4b45246effd86e",
+  "privacy_scan": "no_pattern_findings",
+  "qwen_review_answer_hash_matches": 20,
+  "release_id": "dev20-20261009-r2",
+  "result_snapshot": "experiments/subset20-results-seven-complete-20261010",
+  "revision": "r2",
+  "schema": "experiment-release.1",
+  "scope": {
+    "agent_count": 7,
+    "completed": 140,
+    "expected_results": 140,
+    "official": false,
+    "pending": 11,
+    "previous_revision": "r1",
+    "qwen_execution": "qwen-execution.json",
+    "release_id": "dev20-20261009-r2",
+    "reproduction_note": "Frozen original engine and supplemental scripts/configuration are included. Supplemental scripts retain historical paths; no fresh seven-agent replay or checkpoint export is claimed.",
+    "result_snapshot": "../subset20-results-seven-complete-20261010",
+    "reviewed": 140,
+    "schema": "subset-experiment-snapshot.2",
+    "scored": 129,
+    "stage_count_per_agent": 24,
+    "task_count_per_agent": 20,
+    "uploaded": false
+  },
+  "score_metadata_records_refreshed": 140,
+  "six_agent_evidence_files_preserved": 1870,
+  "status": "local_draft_pending_artifact_review",
+  "title": "首批20题：七配置完整结果与运行记录（含千问）",
+  "uploaded": false
+}

@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-N15",
+  "context": {
+    "observation": {
+      "评测时间": "2026年推免申请季"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "easy",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "N15-01",
+  "prompt": "我在重庆大学读法学，排名5/150，六级571。主持过法学大创，参与过跨学科研究，但目前没有正式发表的论文。想争取好一些的法学院，接下来这段时间的准备重点是什么？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "9bd0c64eb7f08b76d230818fc25c891606226ac931f1d116e36b42771baba241",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.1"
+}

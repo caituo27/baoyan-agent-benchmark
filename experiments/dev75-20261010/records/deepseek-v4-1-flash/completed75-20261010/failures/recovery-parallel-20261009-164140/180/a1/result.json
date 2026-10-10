@@ -1,0 +1,16 @@
+{
+  "answer_files": [],
+  "batch": "/Users/REDACTED/Desktop/benchmark-open-source/runs/recovery-parallel-20261009-164140/attempts/180/a1/capture",
+  "category": "account_blocked",
+  "completed": 0,
+  "executed": true,
+  "exit_code": 1,
+  "finished_at": "2026-10-09T09:05:45.526788+00:00",
+  "official": false,
+  "planned": 1,
+  "status": "failed",
+  "statuses": {
+    "failed": 1
+  },
+  "stopped": "deepseek-v4-1-flash/BY-F-APPLY/r1"
+}

@@ -1,0 +1,287 @@
+{
+  "id": "department-identities-20261010",
+  "status": "owner_approved",
+  "recorded_date": "2026-10-10",
+  "authorization": "用户在两项院系调查后明确同意，并要求分数重新更正。",
+  "scope": "统一复核七配置的N06-14和N14-L1-06，保留此前SYSU勘误和全部其他判断；仅在新快照中重算。",
+  "base_report": "experiments/subset20-results-sysu-corrected-20261010",
+  "base_results_sha256": "ca59ab6ff357b8a3d396aeced8d2d40e6f1665ad81e476bc7792428fdf441331",
+  "base_verification_sha256": "3324d7a403efa0eae23164272cc75b6180a5105dca4df6bd3b456f1d7f8b334d",
+  "candidate_input_changed": false,
+  "candidate_reruns": 0,
+  "publication_status": "local_only_not_pushed_or_uploaded",
+  "tasks": {
+    "N06-03": {
+      "reference_id": "N06-14",
+      "school": "厦门大学",
+      "project": "中国语言文学系｜语言学及应用语言学（050102，学术学位）",
+      "guidance": "本项明确指中国语言文学系050102语言学及应用语言学学术硕士；文学院为原参考不准确称谓。其他中文系专业须核验实质相近关系后适用同院系60%规则；国际中文教育学院/海外教育学院为不同单位，不能直接完整或同院系匹配。保留原分母、权重、一对一分配及候选有效性规则。",
+      "sources": [
+        {
+          "source": "https://chinese.xmu.edu.cn/jggk.htm",
+          "applicable_cycle": "截至2026-05-31的机构简介；2026申请季",
+          "scope": "2022年11月中文系提升为学校直属系；中文系中国语言文学一级学科包括语言学、文字学和文学等二级学科。"
+        },
+        {
+          "source": "https://chinese.xmu.edu.cn/info/1731/45092.htm",
+          "applicable_cycle": "2026年申请、2027年入学推免",
+          "scope": "中国语言文学系明确列050102、050103、050105、050108等硕士/直博申请专业及各自研究范围。"
+        },
+        {
+          "source": "https://oec.xmu.edu.cn/info/1003/1001.htm",
+          "applicable_cycle": "既有培养与机构身份；原评审用于2026申请季关系核验",
+          "scope": "国际中文教育学院/海外教育学院为另一单位，具有语言学与国际中文教育培养；不据此证明实时招生名额。"
+        }
+      ],
+      "previous_reference": {
+        "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+        "id": "N06-14",
+        "project": "文学院｜语言学及应用语言学",
+        "school": "厦门大学"
+      },
+      "base_fingerprints": {
+        "task": "ab10eaecee3b619cd247cbf6fb4d59bdce9c2cf3ef782b043427a192430bc935",
+        "rubric": "5cc8341ac17aa3857fc500989a834b813524e19f0671f6853826a5741dcdebbb"
+      },
+      "corrected_fingerprints": {
+        "task": "72f8e9f368461102cafda660caf7043718ecad6421b38b853f534bd8c0ed462f",
+        "rubric": "ded8a428e2023a6b17c57b1c8419fc084122c977b38d6bec1f6c38a264953c63"
+      },
+      "candidate_input_sha256": "025a3433dc9653ee5f59663ae4e8938da81de6ccb082ca212d7eac6b97598d70",
+      "reference_denominator": 16,
+      "coverage_points": 70,
+      "adjudications": {
+        "gpt-6-astra": {
+          "packet": "62110730f80a91d31bb968da2a8b9114",
+          "base_judgment_sha256": "2157b92155a8fc330ebfb17f50794256ae47d1cdfd17bbd9df3217870195b37a",
+          "base_score_sha256": "854a9601bb826df1144fb6daae602b50f9991838f23f9d56654bc2766a13f73e",
+          "before_status": "miss",
+          "status": "miss",
+          "matches": [],
+          "reason": "已按修订参考复核全卷提取的候选与原文；没有该校有效直接推荐或具体条件方案可形成匹配。仅排除或仅提名不计分；不把参考名称问题作为答卷错误。"
+        },
+        "gpt-6-1-sol": {
+          "packet": "08d74d18cbc0e342ab6eed7b13db445b",
+          "base_judgment_sha256": "328a2209641f37137f36bfb627fce0a4c5f8fe415b2d3559e267d1c6b0f108d2",
+          "base_score_sha256": "e64f03f02637791ae85769798608f3548541671192869796aec1d595d54e4b94",
+          "before_status": "miss",
+          "status": "miss",
+          "matches": [],
+          "reason": "已按修订参考复核全卷提取的候选与原文；没有该校有效直接推荐或具体条件方案可形成匹配。仅排除或仅提名不计分；不把参考名称问题作为答卷错误。"
+        },
+        "deepseek-v4-1-flash": {
+          "packet": "f61dd883fa64dcf302685f4341e7dc7f",
+          "base_judgment_sha256": "59cb1953341681f89ef2a9e82fc5d34479ee91fd5fe6fd207a200f1148e22567",
+          "base_score_sha256": "55922ebf4b0adeee7d9d35a6ec1d39935773c29fa4684109d032b9fb1b3b485e",
+          "before_status": "pending",
+          "status": "hit",
+          "matches": [
+            {
+              "answer_item_id": "C12a",
+              "match_level": "exact",
+              "reason": "按已批准勘误，参考主体为直属中国语言文学系；答卷明确推荐该系050102语言学及应用语言学学硕，当届官方推免目录确认同一项目，完整匹配。原候选申请条件核验继承。"
+            },
+            {
+              "answer_item_id": "C12b",
+              "match_level": "same_department",
+              "reason": "同属中国语言文学系的中国语言文学一级学科学术培养，候选文字学或文学方向与语言学项目共享汉语言文学、语言/文本分析的学科训练，适配中文本科背景且官方当届目录确认可申请学硕路径。专业研究重点不同，按同院系相近专业60%计分，不视作050102专业等价；同系多方向只匹配本参考项一次。"
+            }
+          ],
+          "reason": "按已批准勘误，参考主体为直属中国语言文学系；答卷明确推荐该系050102语言学及应用语言学学硕，当届官方推免目录确认同一项目，完整匹配。原候选申请条件核验继承。 同属中国语言文学系的中国语言文学一级学科学术培养，候选文字学或文学方向与语言学项目共享汉语言文学、语言/文本分析的学科训练，适配中文本科背景且官方当届目录确认可申请学硕路径。专业研究重点不同，按同院系相近专业60%计分，不视作050102专业等价；同系多方向只匹配本参考项一次。"
+        },
+        "antigravity-gemini-3-1-pro-high": {
+          "packet": "a602595d291c2e42e93ffcc74a19fa70",
+          "base_judgment_sha256": "dda2c0c836f91cfca4f6e1e81683b53852097db4a10327adc3c11036912cc95e",
+          "base_score_sha256": "8b41f265cf27c1a8ffbddef3c9e20b967b082af0fd6d400da17d7b0e9b91a648",
+          "before_status": "pending",
+          "status": "hit",
+          "matches": [
+            {
+              "answer_item_id": "A03",
+              "match_level": "exact",
+              "reason": "按已批准勘误，参考主体为直属中国语言文学系；答卷明确推荐该系050102语言学及应用语言学学硕，当届官方推免目录确认同一项目，完整匹配。原候选申请条件核验继承。"
+            }
+          ],
+          "reason": "按已批准勘误，参考主体为直属中国语言文学系；答卷明确推荐该系050102语言学及应用语言学学硕，当届官方推免目录确认同一项目，完整匹配。原候选申请条件核验继承。"
+        },
+        "antigravity-gemini-3-8-flash-high": {
+          "packet": "b67098a4868cfcbb65cd027835c03322",
+          "base_judgment_sha256": "6946fc1ce47c31daf08654a3aeaebb9c65ad67708347782eb5cc518136453497",
+          "base_score_sha256": "6010108d56be0b4d596f029f67c972724594ef68dd24e3637871d713b9d280d2",
+          "before_status": "pending",
+          "status": "hit",
+          "matches": [
+            {
+              "answer_item_id": "A10",
+              "match_level": "same_department",
+              "reason": "同属中国语言文学系的中国语言文学一级学科学术培养，候选文字学或文学方向与语言学项目共享汉语言文学、语言/文本分析的学科训练，适配中文本科背景且官方当届目录确认可申请学硕路径。专业研究重点不同，按同院系相近专业60%计分，不视作050102专业等价；同系多方向只匹配本参考项一次。"
+            }
+          ],
+          "reason": "同属中国语言文学系的中国语言文学一级学科学术培养，候选文字学或文学方向与语言学项目共享汉语言文学、语言/文本分析的学科训练，适配中文本科背景且官方当届目录确认可申请学硕路径。专业研究重点不同，按同院系相近专业60%计分，不视作050102专业等价；同系多方向只匹配本参考项一次。"
+        },
+        "qwen3-8-max-0902": {
+          "packet": "18ebe6ab6eea520b9828da44f14c36bb",
+          "base_judgment_sha256": "f0ad0b002ceac05d3d06a5d7e28781c20c9b40aa47ff6eeec8f08a4666696f7a",
+          "base_score_sha256": "fd25376e0abd89e5cad2a9335b2f229eda8845c0242f0a776fd0d90cd22c79d3",
+          "before_status": "miss",
+          "status": "miss",
+          "matches": [],
+          "reason": "已按修订参考复核全卷提取的候选与原文；没有该校有效直接推荐或具体条件方案可形成匹配。仅排除或仅提名不计分；不把参考名称问题作为答卷错误。"
+        },
+        "kimi-k3": {
+          "packet": "2b4c8e2dba2c5708f1fb216cffce0709",
+          "base_judgment_sha256": "fb11cbe34fe47026fd455245747be38e9ed983d93e38e0bbd515ec0c95b4647d",
+          "base_score_sha256": "dc6e5e7341465bf55dc0285109559515a84906474d711c0959e96dc7be688c2b",
+          "before_status": "hit",
+          "status": "hit",
+          "matches": [
+            {
+              "answer_item_id": "A11",
+              "match_level": "related_department",
+              "reason": "候选为国际中文教育学院/海外教育学院国际中文教育专硕，与直属中文系为不同招生单位。官方中文系050102研究范围包含国际中文教育、教材语言及世界汉语教育史，与候选中文教学培养有明确交叉且符合学生意向。继承原候选有效性，保留跨院系相关30%。"
+            }
+          ],
+          "reason": "候选为国际中文教育学院/海外教育学院国际中文教育专硕，与直属中文系为不同招生单位。官方中文系050102研究范围包含国际中文教育、教材语言及世界汉语教育史，与候选中文教学培养有明确交叉且符合学生意向。继承原候选有效性，保留跨院系相关30%。"
+        }
+      }
+    },
+    "N14-03": {
+      "reference_id": "N14-L1-06",
+      "school": "北京理工大学",
+      "project": "经济学院｜应用经济学（020200，学术学位）",
+      "guidance": "保留应用经济学专业目标，按2026申请季经济学院020200学硕确认招生主体；不扩张为管理学院相关专业。管理学院会计/工商管理学与本项为不同院系项目，具体财务、投资及公司金融研究关系核实成立时适用跨院系30%规则，不再仅凭旧院系名称给同院系60%。保留原分母、权重、一对一分配及候选有效性规则。",
+      "sources": [
+        {
+          "source": "https://soe.bit.edu.cn/xygk/lsyg/index.htm",
+          "applicable_cycle": "2024年沿革及2026年申请季",
+          "scope": "经济学院2024年成立，承接经济学学科。"
+        },
+        {
+          "source": "https://som.bit.edu.cn/gbxygk/yjsm/index.htm",
+          "applicable_cycle": "2024年更名及2026年申请季",
+          "scope": "管理与经济学院2024年更名为管理学院；不能据旧称认为两个现行学院相同。"
+        },
+        {
+          "source": "https://soe.bit.edu.cn/rcpy/xsybs/tzgg1/2a124e6c2c6940df82094a574c40dd62.htm",
+          "applicable_cycle": "2026-09-03发布，2027年入学推免",
+          "scope": "经济学院独立招收020200应用经济学学术硕士。"
+        },
+        {
+          "source": "https://som.bit.edu.cn/gbxwzx/tzgg/a199a3ca0f8144b3b72e029c9e8d9804.htm",
+          "applicable_cycle": "2026-09-07发布，2027年入学推免",
+          "scope": "管理学院招收120200工商管理学学术硕士，目录不含020200应用经济学。"
+        },
+        {
+          "source": "https://som.bit.edu.cn/gbszdw/gbjxzy/gbskjx/b126509.htm",
+          "applicable_cycle": "2026年会计系教师及研究领域介绍",
+          "scope": "会计学学术研究涉及会计信息治理、投资决策及公司金融；原评审已核实学术会计培养路径。"
+        },
+        {
+          "source": "https://soe.bit.edu.cn/szdw/zrjs/dc44b0c205a94efbb5776d1a2c3b162f.htm",
+          "applicable_cycle": "2026年经济学院师资研究方向；非名额证明",
+          "scope": "经济学院金融与财政系硕士生导师研究实证资产定价、公司金融，与会计信息及投资研究有具体交叉。"
+        }
+      ],
+      "previous_reference": {
+        "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+        "id": "N14-L1-06",
+        "project": "管理学院｜应用经济学",
+        "school": "北京理工大学"
+      },
+      "base_fingerprints": {
+        "task": "cefba07ace443aa213a789fbd0b68eff92a25ad0363b571188b0b046e2d1ad8a",
+        "rubric": "b04f6038c84cbc754f453aeb7d1a8b89cdbaaedb7534a3ed0c0ca9ae5cbe3f9f"
+      },
+      "corrected_fingerprints": {
+        "task": "94645fd45b6b70ee61892050341f27e54d59b9ad135a03bb5787c9804c041ce7",
+        "rubric": "cb47e32e90fe56118318d4a8b308601d634fc3527dd2b16c2452cb2f0263213c"
+      },
+      "candidate_input_sha256": "0d413225a43bab4284110fc5ff1de9f4dde43c6f0b7088878391ff03ccf77022",
+      "reference_denominator": 17,
+      "coverage_points": 70,
+      "adjudications": {
+        "gpt-6-astra": {
+          "packet": "c6287d3213683e96c481ce53bfca01a8",
+          "base_judgment_sha256": "c0f1f4768fbd3b60b9dfe30a52f9d1c1872edc6a7b834d6321726ad16cd1d221",
+          "base_score_sha256": "23767a3426f932df00a45fe20af55636a7a3971e38b93797186603081ab99afb",
+          "before_status": "miss",
+          "status": "miss",
+          "matches": [],
+          "reason": "已按修订参考复核全卷提取的候选与原文；没有该校有效直接推荐或具体条件方案可形成匹配。仅排除或仅提名不计分；不把参考名称问题作为答卷错误。"
+        },
+        "gpt-6-1-sol": {
+          "packet": "05c79e3668e92f7c76906c2c62be0c16",
+          "base_judgment_sha256": "88c0340aedc673aea92792b467a4f3548c18057686ceeb5eaaec36ad3fc8e5af",
+          "base_score_sha256": "dfec4d6ae973dbf9d5a6af4c69b311d6d41157a8de936d1d2dc0cf23cb9b8b75",
+          "before_status": "miss",
+          "status": "miss",
+          "matches": [],
+          "reason": "已按修订参考复核全卷提取的候选与原文；没有该校有效直接推荐或具体条件方案可形成匹配。仅排除或仅提名不计分；不把参考名称问题作为答卷错误。"
+        },
+        "deepseek-v4-1-flash": {
+          "packet": "25e1e2cea7a3aba2ae8344f4b3409f77",
+          "base_judgment_sha256": "38ce6cbf4ba772ecb4eb1af2ee1c4436f8314620b91e4da8ef3d3fbface35db9",
+          "base_score_sha256": "3115e0e97b01fd2f8b0037fcca16ff14a49fd1cb34fd590b9c977a9b88c10084",
+          "before_status": "hit",
+          "status": "hit",
+          "matches": [
+            {
+              "answer_item_id": "bit-master",
+              "match_level": "related_department",
+              "reason": "参考按当届招生归经济学院020200应用经济学；答卷会计学/工商管理学会计方向归管理学院，为不同招生单位。管理学院会计信息治理、投资决策研究与经济学院金融方向的公司金融、实证资产定价有具体交叉，符合会计本科学生相关经管学硕意向。原评审已核实其学术硕士申请路径有效，统一按跨院系相关30%计分，不再按旧院系名称给60%；不将MPAcc提名或无效推免路径计入。"
+            }
+          ],
+          "reason": "参考按当届招生归经济学院020200应用经济学；答卷会计学/工商管理学会计方向归管理学院，为不同招生单位。管理学院会计信息治理、投资决策研究与经济学院金融方向的公司金融、实证资产定价有具体交叉，符合会计本科学生相关经管学硕意向。原评审已核实其学术硕士申请路径有效，统一按跨院系相关30%计分，不再按旧院系名称给60%；不将MPAcc提名或无效推免路径计入。"
+        },
+        "antigravity-gemini-3-1-pro-high": {
+          "packet": "2ab9c25b656767c4527c85f9b875aeda",
+          "base_judgment_sha256": "fdbc6a0aaf16c47a85dc6490dbed33b3ac4c1dc1268a9d8dcba81e688c4c0673",
+          "base_score_sha256": "c5d0100d23b2003d84b69bc77e7a158854fb3ff6a2519da337edf0ee38643a46",
+          "before_status": "pending",
+          "status": "hit",
+          "matches": [
+            {
+              "answer_item_id": "A07a",
+              "match_level": "related_department",
+              "reason": "参考按当届招生归经济学院020200应用经济学；答卷会计学/工商管理学会计方向归管理学院，为不同招生单位。管理学院会计信息治理、投资决策研究与经济学院金融方向的公司金融、实证资产定价有具体交叉，符合会计本科学生相关经管学硕意向。原评审已核实其学术硕士申请路径有效，统一按跨院系相关30%计分，不再按旧院系名称给60%；不将MPAcc提名或无效推免路径计入。"
+            }
+          ],
+          "reason": "参考按当届招生归经济学院020200应用经济学；答卷会计学/工商管理学会计方向归管理学院，为不同招生单位。管理学院会计信息治理、投资决策研究与经济学院金融方向的公司金融、实证资产定价有具体交叉，符合会计本科学生相关经管学硕意向。原评审已核实其学术硕士申请路径有效，统一按跨院系相关30%计分，不再按旧院系名称给60%；不将MPAcc提名或无效推免路径计入。"
+        },
+        "antigravity-gemini-3-8-flash-high": {
+          "packet": "415f4ae0e4e0824dc49f675933008112",
+          "base_judgment_sha256": "2102a229aa132ee98da1b37370d9e2f08233a09a4f466f286336e7d69b9f3e0e",
+          "base_score_sha256": "b6042ee912f394397e83b03d5d1d86d1153a14de4e0e0a3ae1139b233f48bac3",
+          "before_status": "pending",
+          "status": "hit",
+          "matches": [
+            {
+              "answer_item_id": "A09_main",
+              "match_level": "related_department",
+              "reason": "参考按当届招生归经济学院020200应用经济学；答卷会计学/工商管理学会计方向归管理学院，为不同招生单位。管理学院会计信息治理、投资决策研究与经济学院金融方向的公司金融、实证资产定价有具体交叉，符合会计本科学生相关经管学硕意向。原评审已核实其学术硕士申请路径有效，统一按跨院系相关30%计分，不再按旧院系名称给60%；不将MPAcc提名或无效推免路径计入。"
+            }
+          ],
+          "reason": "参考按当届招生归经济学院020200应用经济学；答卷会计学/工商管理学会计方向归管理学院，为不同招生单位。管理学院会计信息治理、投资决策研究与经济学院金融方向的公司金融、实证资产定价有具体交叉，符合会计本科学生相关经管学硕意向。原评审已核实其学术硕士申请路径有效，统一按跨院系相关30%计分，不再按旧院系名称给60%；不将MPAcc提名或无效推免路径计入。"
+        },
+        "qwen3-8-max-0902": {
+          "packet": "d5540e93329a7a655064e6a0e85feede",
+          "base_judgment_sha256": "ca311dc35590081df3bf42d80d64ee61713bf5c2e0eca6f77a21d15f1f7ca765",
+          "base_score_sha256": "b0d00e6092a08ab744a9456d98a4d015d05a8e87d5b8d2adaf13d673d8c43c23",
+          "before_status": "miss",
+          "status": "miss",
+          "matches": [],
+          "reason": "已按修订参考复核全卷提取的候选与原文；没有该校有效直接推荐或具体条件方案可形成匹配。仅排除或仅提名不计分；不把参考名称问题作为答卷错误。"
+        },
+        "kimi-k3": {
+          "packet": "91ce6e3e3b89b6d277009278ca27458c",
+          "base_judgment_sha256": "9b8da3210a7ae85f003dea95ec853ca984adb88b5e561e0ded4b9607053c462b",
+          "base_score_sha256": "5f3936057de51e8450aad9f485ebb46c7d501825aa4002640bf9a77c5ba296d3",
+          "before_status": "miss",
+          "status": "miss",
+          "matches": [],
+          "reason": "已按修订参考复核全卷提取的候选与原文；没有该校有效直接推荐或具体条件方案可形成匹配。仅排除或仅提名不计分；不把参考名称问题作为答卷错误。"
+        }
+      }
+    }
+  }
+}

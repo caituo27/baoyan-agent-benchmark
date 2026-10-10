@@ -1,0 +1,730 @@
+{
+  "id": "N06-10-sysu-20261010",
+  "date": "2026-10-10T00:19:38+08:00",
+  "kind": "scoped_owner_approved_adjudication",
+  "base_report": "experiments/subset20-results-seven-complete-20261010",
+  "base_results_sha256": "6bddcbe6738ab87f1403b08ab650e82256c597257cc148bcd1636f11b3a78cda",
+  "decision_sha256": "b97553f1263afdffc36528b4b490f143aa7df61f809e1060dd8603cbc0f5a8ed",
+  "scoring_revision": "1.0.1+N06-10-sysu-20261010",
+  "candidate_reruns": 0,
+  "new_independent_model_reviews": 0,
+  "configurations_rechecked": 7,
+  "local_review_directory": "reviews/subset20-sysu-adjudication-20261010",
+  "changes": [
+    {
+      "agent": "gpt-6-astra",
+      "name": "GPT-6 Astra",
+      "packet": "62110730f80a91d31bb968da2a8b9114",
+      "original_judgment_sha256": "1e910f61834dece50c36b02e7ad0c5858438fe3089cf33f895180a0e4b504d27",
+      "original_evidence_sha256": "7ccf21c9e7d0213e6221f4e2317f80417b4d948c4f86a56202b1483992361a82",
+      "original_reviewer": "codex-native-gpt-6.1-sol-high-preview-v1",
+      "original_judge_version": "evidence-review-v1",
+      "before": {
+        "score": null,
+        "score_interval": [
+          40.06,
+          44.44
+        ],
+        "coverage": {
+          "answer_quote": "**中山大学—中国语言文学系—国际中文教育（专硕，不分方向）**",
+          "error_ids": [],
+          "id": "N06-10",
+          "matched_answer_item_id": null,
+          "matches": [],
+          "reason": "gold_issue：冻结参考写“中山大学—文学院—中国语言文学”；官方人文学部资料区分中国语言文学系与中国语言文学系（珠海），文学院为历史叙述。答卷中国语言文学系国际中文教育硕士有当届官方续招依据，但未能唯一裁决参考文学院对应招生主体，因而无法确定应为同院系相近或跨院系相关匹配。仅N06-10保留待核，详见evidence.json.gold_issues；不是缺项，也不把参考身份歧义处罚给答卷。",
+          "status": "pending"
+        }
+      },
+      "after": {
+        "score": 42.69,
+        "score_interval": [
+          42.69,
+          42.69
+        ],
+        "coverage": {
+          "id": "N06-10",
+          "status": "hit",
+          "matches": [
+            {
+              "answer_item_id": "A03",
+              "match_level": "same_department",
+              "answer_quote": "**中山大学—中国语言文学系—国际中文教育（专硕，不分方向）**",
+              "reason": "此候选为广州中国语言文学系国际中文教育专硕；同系中文学术培养与国际中文教育培养关系成立，且原评审已确认具体项目和条件路径有效。按同院系相近专业60%匹配，不等同中国语言文学学硕。",
+              "relation_evidence": [
+                {
+                  "source": "release/errata/N06-10-sysu-20261010/decision.json",
+                  "applicable_cycle": "2026年推免申请季；2026-10-10负责人批准勘误",
+                  "scope": "两个招生单位是本参考项的备选；参考项总计一次。"
+                },
+                {
+                  "source": "https://www.sysu.edu.cn/xq/xsyg/xkda2.htm",
+                  "applicable_cycle": "2026年申请季院系与学科身份；非实时名额证明",
+                  "scope": "两个中文系均有中国语言文学学科；本次不重新审计全部招生事实。"
+                },
+                {
+                  "source": "https://chinese.sysu.edu.cn/node/71",
+                  "applicable_cycle": "2026年申请季招生单位和专业关系",
+                  "scope": "广州中文系的中国语言文学学位培养及国际中文教育硕士点。"
+                },
+                {
+                  "source": "reviews/subset20-preview-20261009-194705/executions/62110730f80a91d31bb968da2a8b9114/evidence.json",
+                  "applicable_cycle": "原评审适用的2026年推免申请季",
+                  "scope": "继承原候选有效性及申请条件核验；本次仅重判参考匹配关系。"
+                }
+              ]
+            }
+          ],
+          "matched_answer_item_id": null,
+          "error_ids": [],
+          "answer_quote": "**中山大学—中国语言文学系—国际中文教育（专硕，不分方向）**",
+          "reason": "统一勘误复核：此候选为广州中国语言文学系国际中文教育专硕；同系中文学术培养与国际中文教育培养关系成立，且原评审已确认具体项目和条件路径有效。按同院系相近专业60%匹配，不等同中国语言文学学硕。同一候选重复提及去重，本项按最佳关系最多计一次。"
+        },
+        "allocated_node": {
+          "id": "N06-10",
+          "kind": "coverage",
+          "status": "hit",
+          "points": 2.63,
+          "weight": {
+            "numerator": 35,
+            "denominator": 8
+          },
+          "match_level": "same_department",
+          "match_coefficient": 0.6,
+          "matched_answer_item_id": "A03",
+          "reviewed_status": "hit"
+        }
+      },
+      "judgment_sha256": "c617b8a2a276b4df81c27050fcde00e7b6029898753d161a6e0b3460bac1adf7",
+      "score_sha256": "933645d42e9308d80cffe74eebe413e25dd586ad246d3b747cbd596e1c585cdf"
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "name": "GPT-6.1 Sol",
+      "packet": "08d74d18cbc0e342ab6eed7b13db445b",
+      "original_judgment_sha256": "cb37dddf6f03c809c8b27cdffc9695596c60cbed3cad7f7fe6535f68325adaf8",
+      "original_evidence_sha256": "0da195e154cf6ba3ccc3213dc34262ebf298ba1a1ba2d19badc09d83644249ad",
+      "original_reviewer": "codex-native-gpt-6.1-sol-high-preview-v1",
+      "original_judge_version": "evidence-review-v1",
+      "before": {
+        "score": null,
+        "score_interval": [
+          28.19,
+          32.56
+        ],
+        "coverage": {
+          "answer_quote": "**中山大学—中国语言文学系（珠海）** | **中国语言文学，050100，06中国现当代文学方向，学术硕士**",
+          "error_ids": [],
+          "id": "N06-10",
+          "matched_answer_item_id": null,
+          "matches": [],
+          "reason": "仅有中山大学珠海中文系050100现当代文学候选。官方2027通知证明该项目有效，官方院系资料又将广州中文系、珠海中文系列为不同主体，文学院只见历史叙述。冻结参考写文学院，尚无官方依据确定它指向哪个现行招生主体；因身份争议不能直接同名exact，也不能擅将参考改写为广州后给跨院系关系。单列gold_issue（evidence.json），待统一确认参考身份后判定；不是答卷项目错误，也不是因缺年度网页而pending。",
+          "status": "pending"
+        }
+      },
+      "after": {
+        "score": 32.56,
+        "score_interval": [
+          32.56,
+          32.56
+        ],
+        "coverage": {
+          "id": "N06-10",
+          "status": "hit",
+          "matches": [
+            {
+              "answer_item_id": "A03",
+              "match_level": "exact",
+              "answer_quote": "**中山大学—中国语言文学系（珠海）** | **中国语言文学，050100，06中国现当代文学方向，学术硕士**",
+              "reason": "负责人已确认广州、珠海中文系为同一参考项的备选单位。此候选明确给出其中一个中文系的中国语言文学学硕或所属方向，继承原评审已核实的有效性和条件路径，按完整匹配计分。",
+              "relation_evidence": [
+                {
+                  "source": "release/errata/N06-10-sysu-20261010/decision.json",
+                  "applicable_cycle": "2026年推免申请季；2026-10-10负责人批准勘误",
+                  "scope": "两个招生单位是本参考项的备选；参考项总计一次。"
+                },
+                {
+                  "source": "https://www.sysu.edu.cn/xq/xsyg/xkda2.htm",
+                  "applicable_cycle": "2026年申请季院系与学科身份；非实时名额证明",
+                  "scope": "两个中文系均有中国语言文学学科；本次不重新审计全部招生事实。"
+                },
+                {
+                  "source": "https://chinese.sysu.edu.cn/node/71",
+                  "applicable_cycle": "2026年申请季招生单位和专业关系",
+                  "scope": "广州中文系的中国语言文学学位培养及国际中文教育硕士点。"
+                },
+                {
+                  "source": "reviews/subset20-preview-20261009-194705/executions/08d74d18cbc0e342ab6eed7b13db445b/evidence.json",
+                  "applicable_cycle": "原评审适用的2026年推免申请季",
+                  "scope": "继承原候选有效性及申请条件核验；本次仅重判参考匹配关系。"
+                }
+              ]
+            }
+          ],
+          "matched_answer_item_id": null,
+          "error_ids": [],
+          "answer_quote": "**中山大学—中国语言文学系（珠海）** | **中国语言文学，050100，06中国现当代文学方向，学术硕士**",
+          "reason": "统一勘误复核：负责人已确认广州、珠海中文系为同一参考项的备选单位。此候选明确给出其中一个中文系的中国语言文学学硕或所属方向，继承原评审已核实的有效性和条件路径，按完整匹配计分。同一候选重复提及去重，本项按最佳关系最多计一次。"
+        },
+        "allocated_node": {
+          "id": "N06-10",
+          "kind": "coverage",
+          "status": "hit",
+          "points": 4.38,
+          "weight": {
+            "numerator": 35,
+            "denominator": 8
+          },
+          "match_level": "exact",
+          "match_coefficient": 1.0,
+          "matched_answer_item_id": "A03",
+          "reviewed_status": "hit"
+        }
+      },
+      "judgment_sha256": "5f989e0562bae6f2f4d9f6e869f9a44ad1e3653b6ffbc71b0019850aac7acb45",
+      "score_sha256": "24b691df5ff7becff30abf062cd9e723688e46afc82b0c27ece794969fe6a8e6"
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "name": "DeepSeek V4.1 Flash",
+      "packet": "f61dd883fa64dcf302685f4341e7dc7f",
+      "original_judgment_sha256": "2dbdd9e34ed6ee26b7f65e0dd69918414c8c6c221b0389ee9390f26262e2df34",
+      "original_evidence_sha256": "9e288371ab8da8122417d6979873fb0ba4261319175c0688a92b3cbc6c8fd1c7",
+      "original_reviewer": "codex-native-gpt-6.1-sol-high-preview-v1",
+      "original_judge_version": "evidence-review-v1",
+      "before": {
+        "score": null,
+        "score_interval": [
+          33.81,
+          42.56
+        ],
+        "coverage": {
+          "answer_quote": "**#8 中山大学 中国语言文学系（珠海）—— 0501 中国语言文学（语言学及应用语言学、汉语言文字学等）**",
+          "error_ids": [],
+          "id": "N06-10",
+          "matched_answer_item_id": null,
+          "matches": [],
+          "reason": "gold_issue：冻结参考写中山大学文学院中国语言文学。官方SYSU-units列中国语言文学系及中国语言文学系（珠海）两个独立招生单位，SYSU-ZH确认答卷珠海050100项目存在；不能凭文学院这一不规范称谓判断参考意指哪个单位，从而决定C08应exact还是跨院系相关，C02应同院系相近还是跨院系相关。待统一澄清参考身份，保持pending；不是答卷项目无效，非年度网页未命中的失分。",
+          "status": "pending",
+          "pending_answer_item_ids": [
+            "C08",
+            "C02"
+          ]
+        }
+      },
+      "after": {
+        "score": null,
+        "score_interval": [
+          38.19,
+          42.56
+        ],
+        "coverage": {
+          "id": "N06-10",
+          "status": "hit",
+          "matches": [
+            {
+              "answer_item_id": "C08",
+              "match_level": "exact",
+              "answer_quote": "**#8 中山大学 中国语言文学系（珠海）—— 0501 中国语言文学（语言学及应用语言学、汉语言文字学等）**",
+              "reason": "负责人已确认广州、珠海中文系为同一参考项的备选单位。此候选明确给出其中一个中文系的中国语言文学学硕或所属方向，继承原评审已核实的有效性和条件路径，按完整匹配计分。",
+              "relation_evidence": [
+                {
+                  "source": "release/errata/N06-10-sysu-20261010/decision.json",
+                  "applicable_cycle": "2026年推免申请季；2026-10-10负责人批准勘误",
+                  "scope": "两个招生单位是本参考项的备选；参考项总计一次。"
+                },
+                {
+                  "source": "https://www.sysu.edu.cn/xq/xsyg/xkda2.htm",
+                  "applicable_cycle": "2026年申请季院系与学科身份；非实时名额证明",
+                  "scope": "两个中文系均有中国语言文学学科；本次不重新审计全部招生事实。"
+                },
+                {
+                  "source": "https://chinese.sysu.edu.cn/node/71",
+                  "applicable_cycle": "2026年申请季招生单位和专业关系",
+                  "scope": "广州中文系的中国语言文学学位培养及国际中文教育硕士点。"
+                },
+                {
+                  "source": "reviews/subset20-preview-20261009-194705/executions/f61dd883fa64dcf302685f4341e7dc7f/evidence.json",
+                  "applicable_cycle": "原评审适用的2026年推免申请季",
+                  "scope": "继承原候选有效性及申请条件核验；本次仅重判参考匹配关系。"
+                }
+              ]
+            },
+            {
+              "answer_item_id": "C02",
+              "match_level": "same_department",
+              "answer_quote": "**#2 中山大学 中国语言文学系（广州）—— 045300 国际中文教育**",
+              "reason": "此候选为广州中国语言文学系国际中文教育专硕；同系中文学术培养与国际中文教育培养关系成立，且原评审已确认具体项目和条件路径有效。按同院系相近专业60%匹配，不等同中国语言文学学硕。",
+              "relation_evidence": [
+                {
+                  "source": "release/errata/N06-10-sysu-20261010/decision.json",
+                  "applicable_cycle": "2026年推免申请季；2026-10-10负责人批准勘误",
+                  "scope": "两个招生单位是本参考项的备选；参考项总计一次。"
+                },
+                {
+                  "source": "https://www.sysu.edu.cn/xq/xsyg/xkda2.htm",
+                  "applicable_cycle": "2026年申请季院系与学科身份；非实时名额证明",
+                  "scope": "两个中文系均有中国语言文学学科；本次不重新审计全部招生事实。"
+                },
+                {
+                  "source": "https://chinese.sysu.edu.cn/node/71",
+                  "applicable_cycle": "2026年申请季招生单位和专业关系",
+                  "scope": "广州中文系的中国语言文学学位培养及国际中文教育硕士点。"
+                },
+                {
+                  "source": "reviews/subset20-preview-20261009-194705/executions/f61dd883fa64dcf302685f4341e7dc7f/evidence.json",
+                  "applicable_cycle": "原评审适用的2026年推免申请季",
+                  "scope": "继承原候选有效性及申请条件核验；本次仅重判参考匹配关系。"
+                }
+              ]
+            }
+          ],
+          "matched_answer_item_id": null,
+          "error_ids": [],
+          "answer_quote": "**#8 中山大学 中国语言文学系（珠海）—— 0501 中国语言文学（语言学及应用语言学、汉语言文字学等）**",
+          "reason": "统一勘误复核：负责人已确认广州、珠海中文系为同一参考项的备选单位。此候选明确给出其中一个中文系的中国语言文学学硕或所属方向，继承原评审已核实的有效性和条件路径，按完整匹配计分。 此候选为广州中国语言文学系国际中文教育专硕；同系中文学术培养与国际中文教育培养关系成立，且原评审已确认具体项目和条件路径有效。按同院系相近专业60%匹配，不等同中国语言文学学硕。同一候选重复提及去重，本项按最佳关系最多计一次。"
+        },
+        "allocated_node": {
+          "id": "N06-10",
+          "kind": "coverage",
+          "status": "hit",
+          "points": 4.38,
+          "weight": {
+            "numerator": 35,
+            "denominator": 8
+          },
+          "match_level": "exact",
+          "match_coefficient": 1.0,
+          "matched_answer_item_id": "C08",
+          "reviewed_status": "hit"
+        }
+      },
+      "judgment_sha256": "6919f0b25e1711a06e5a06a88988a321c64b9463699f9abecb2b31341167fb16",
+      "score_sha256": "866fc9da44beeb48dd4d3cbe51c71ee04f7986be42b67ff5d521df2c722ef68c"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "name": "Gemini 3.1 Pro",
+      "packet": "a602595d291c2e42e93ffcc74a19fa70",
+      "original_judgment_sha256": "48040e63f93ac6ae02ea8705dd874bd2754609387624d51d6f971cceefb39a96",
+      "original_evidence_sha256": "416c06d1d85c92f5d48db4dbb6466c225a63ce241c8b748f066f7ad4a91fb7fc",
+      "original_reviewer": "codex-native-gpt-6.1-sol-high-preview-v1",
+      "original_judge_version": "evidence-review-v1",
+      "before": {
+        "score": null,
+        "score_interval": [
+          27.69,
+          36.44
+        ],
+        "coverage": {
+          "answer_quote": "中山大学 - 中国语言文学系 - 国际中文教育（专业学位）",
+          "error_ids": [],
+          "id": "N06-10",
+          "matched_answer_item_id": null,
+          "matches": [],
+          "reason": "答卷的中山大学中国语言文学系国际中文教育专硕由官方2027推免通知确认有效，相关性亦明确；但冻结参考写文学院，中国语言文学系官方现行身份和历史沿革不能直接核准该参考称谓的招生主体。将其自行改成中文系再给same_department或直接当跨院系，都会替冻结参考裁决尚未经统一复核的单位身份。因此单列gold_issue，保留本覆盖项pending；不判答卷候选invalid，不把正确项目按错误参考记miss。",
+          "status": "pending",
+          "pending_answer_item_ids": [
+            "A01"
+          ],
+          "gold_issue": {
+            "type": "reference_department_identity",
+            "reason": "冻结参考的院系称谓与适用周期官方招生单位不一致，须统一复核参考身份；未修改输入、分母或权重。",
+            "relation_evidence": [
+              {
+                "source": "https://chinese.sysu.edu.cn/article/2434",
+                "applicable_cycle": "2026年推免申请季（2027年入学；题面未给具体咨询日期）",
+                "scope": "确认中国语言文学系设国际中文教育推免硕士申请路径。"
+              },
+              {
+                "source": "https://chinese.sysu.edu.cn/node/71",
+                "applicable_cycle": "截至2026申请季的机构身份；非逐年招生审计",
+                "scope": "中文系现有中国语言文学相关学术学位点及国际中文教育硕士点；官方单位名称为中国语言文学系。"
+              }
+            ]
+          }
+        }
+      },
+      "after": {
+        "score": null,
+        "score_interval": [
+          30.31,
+          34.69
+        ],
+        "coverage": {
+          "id": "N06-10",
+          "status": "hit",
+          "matches": [
+            {
+              "answer_item_id": "A01",
+              "match_level": "same_department",
+              "answer_quote": "中山大学 - 中国语言文学系 - 国际中文教育（专业学位）",
+              "reason": "此候选为广州中国语言文学系国际中文教育专硕；同系中文学术培养与国际中文教育培养关系成立，且原评审已确认具体项目和条件路径有效。按同院系相近专业60%匹配，不等同中国语言文学学硕。",
+              "relation_evidence": [
+                {
+                  "source": "release/errata/N06-10-sysu-20261010/decision.json",
+                  "applicable_cycle": "2026年推免申请季；2026-10-10负责人批准勘误",
+                  "scope": "两个招生单位是本参考项的备选；参考项总计一次。"
+                },
+                {
+                  "source": "https://www.sysu.edu.cn/xq/xsyg/xkda2.htm",
+                  "applicable_cycle": "2026年申请季院系与学科身份；非实时名额证明",
+                  "scope": "两个中文系均有中国语言文学学科；本次不重新审计全部招生事实。"
+                },
+                {
+                  "source": "https://chinese.sysu.edu.cn/node/71",
+                  "applicable_cycle": "2026年申请季招生单位和专业关系",
+                  "scope": "广州中文系的中国语言文学学位培养及国际中文教育硕士点。"
+                },
+                {
+                  "source": "reviews/subset20-preview-20261009-194705/executions/a602595d291c2e42e93ffcc74a19fa70/evidence.json",
+                  "applicable_cycle": "原评审适用的2026年推免申请季",
+                  "scope": "继承原候选有效性及申请条件核验；本次仅重判参考匹配关系。"
+                }
+              ]
+            }
+          ],
+          "matched_answer_item_id": null,
+          "error_ids": [],
+          "answer_quote": "中山大学 - 中国语言文学系 - 国际中文教育（专业学位）",
+          "reason": "统一勘误复核：此候选为广州中国语言文学系国际中文教育专硕；同系中文学术培养与国际中文教育培养关系成立，且原评审已确认具体项目和条件路径有效。按同院系相近专业60%匹配，不等同中国语言文学学硕。同一候选重复提及去重，本项按最佳关系最多计一次。"
+        },
+        "allocated_node": {
+          "id": "N06-10",
+          "kind": "coverage",
+          "status": "hit",
+          "points": 2.63,
+          "weight": {
+            "numerator": 35,
+            "denominator": 8
+          },
+          "match_level": "same_department",
+          "match_coefficient": 0.6,
+          "matched_answer_item_id": "A01",
+          "reviewed_status": "hit"
+        }
+      },
+      "judgment_sha256": "6c3856914660988e075c633da117667e256f399fa7d9a6b7964aa27b38b13e23",
+      "score_sha256": "3ed1ddfb6654dfbbea72e9ebc4438c9b9757dc952b6ec84be0d098b7b9795dac"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "name": "Gemini 3.8 Flash",
+      "packet": "b67098a4868cfcbb65cd027835c03322",
+      "original_judgment_sha256": "70b0bcf6c7db12f9d3ccd989d51aeb467ffcfa301feeaabae2b1523900aeac4d",
+      "original_evidence_sha256": "4bbd15f23728eca30b579b1523ae16a0615d918f90c96bbd386993014dab2880",
+      "original_reviewer": "codex-native-gpt-6.1-sol-high-preview-v1",
+      "original_judge_version": "evidence-review-v1",
+      "before": {
+        "score": null,
+        "score_interval": [
+          40.69,
+          45.06
+        ],
+        "coverage": {
+          "answer_quote": "#### 8. 中山大学 | 中国语言文学系（珠海）/ 中国语言文学系（广州） | 语言学及应用语言学 / 汉语言文字学（学术硕士，050102/050103）",
+          "error_ids": [],
+          "id": "N06-10",
+          "matched_answer_item_id": null,
+          "matches": [],
+          "reason": "中大确有相关中文系方向建议，但答卷把广州、珠海两独立院系和语应/文字学放在同一栏，矩阵及执行未补成独立院系专业申报方案；按模板不能拆出任一对象作命中，也不能只凭中文系与参考文学院名称相似判等价。此为答卷路径未明确的确定缺项，不因检索不全断言项目不存在，不挂pending。",
+          "status": "miss"
+        }
+      },
+      "after": {
+        "score": null,
+        "score_interval": [
+          40.69,
+          45.06
+        ],
+        "coverage": {
+          "id": "N06-10",
+          "status": "miss",
+          "matches": [],
+          "matched_answer_item_id": null,
+          "error_ids": [],
+          "answer_quote": "#### 8. 中山大学 | 中国语言文学系（珠海）/ 中国语言文学系（广州） | 语言学及应用语言学 / 汉语言文字学（学术硕士，050102/050103）",
+          "reason": "复核后保留缺项：勘误允许广州或珠海中文系的明确学硕项目命中一次，但未取消原有具体申请路径要求。该答卷把两个独立院系和多个方向合并在一栏，全文未明确院系与专业的对应申报路径；不能替答卷拆出未明确的候选。因此N06-10仍为miss；原因是路径不明确，已不再依据旧称“文学院”判断。"
+        },
+        "allocated_node": {
+          "id": "N06-10",
+          "kind": "coverage",
+          "status": "miss",
+          "points": 0,
+          "weight": {
+            "numerator": 35,
+            "denominator": 8
+          },
+          "match_level": null,
+          "match_coefficient": 0,
+          "matched_answer_item_id": null,
+          "reviewed_status": "miss"
+        }
+      },
+      "judgment_sha256": "be44c4066d30d2e519d14afcc00fcffaa9242a3570f06339bfb65870de148764",
+      "score_sha256": "4e52ff394f2d22bed4046f26d06c466c01e192b10364f162023ccd2aca3b857f"
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "name": "Qwen 3.8 Max",
+      "packet": "18ebe6ab6eea520b9828da44f14c36bb",
+      "original_judgment_sha256": "d0ef6f5647127378a344604739eb546eb0fc9f17078774983807dd18371b8793",
+      "original_evidence_sha256": "b91e4a2e226881660a6604bd6a7f94e8687933a6c3e3b489145416f419e0926c",
+      "original_reviewer": "codex-native-gpt-6.1-sol-high-preview-v1",
+      "original_judge_version": "evidence-review-v1",
+      "before": {
+        "score": 46.94,
+        "score_interval": [
+          46.94,
+          46.94
+        ],
+        "coverage": {
+          "answer_quote": "3. 中山大学 中国语言文学系 — 国际中文教育（045300）专业学位硕士",
+          "error_ids": [],
+          "id": "N06-10",
+          "matched_answer_item_id": null,
+          "matches": [
+            {
+              "answer_item_id": "A004",
+              "match_level": "exact",
+              "answer_quote": "4. 中山大学 中国语言文学系 — 中国语言文学（050100）学术型，语言学及应用语言学（050102）方向",
+              "reason": "第4条中大中国语言文学系中国语言文学及语言学学术方向，按参考中文学科院系概括对应同一广州中文招生主体；非另一个珠海中文系，完整匹配。",
+              "relation_evidence": [
+                {
+                  "source": "rubric.json reference_candidates；task.json；scoring.md",
+                  "applicable_cycle": "2026年推免申请季／2027级入学；题面未给具体咨询日",
+                  "scope": "冻结参考支持其中明确列出的学校、招生主体与项目身份，学生汉语言文学背景与语言学、国际中文教育意向来自题面；不证明全年余额或后续录取。"
+                },
+                {
+                  "source": "https://chinese.sysu.edu.cn/node/71",
+                  "applicable_cycle": "2026年推免申请季／2027级入学；题面未给具体咨询日",
+                  "scope": "官方系况介绍确认中国语言文学系的历史、语言学与中文学科身份；冻结参考“文学院”按中大中文学科招生主体的概括称谓对应此系，不能混同另设的中国语言文学系（珠海）。不创造另一个“文学院”招生单位。"
+                },
+                {
+                  "source": "https://www.sysu.edu.cn/yxsz/yx.htm",
+                  "applicable_cycle": "2026年推免申请季／2027级入学；题面未给具体咨询日",
+                  "scope": "官方院系列表区分中国语言文学系与中国语言文学系（珠海）；答卷所用chinese.sysu.edu.cn为前者。"
+                },
+                {
+                  "source": "https://chinese.sysu.edu.cn/node",
+                  "applicable_cycle": "2025年及以前公开的学科身份资料；用于2026申请季身份核对",
+                  "scope": "官方中文系页面说明一级学科博士授权及硕士学位点，包含语言学及应用语言学、国际中文教育等；只支持同一中文系内学术汉语研究与中文教学专业的相近关系。"
+                }
+              ]
+            },
+            {
+              "answer_item_id": "A003",
+              "match_level": "same_department",
+              "answer_quote": "3. 中山大学 中国语言文学系 — 国际中文教育（045300）专业学位硕士",
+              "reason": "第3条是同广州中文系国际中文教育专硕，与同系语言学／中国语言文学研究相近；学位不同不能exact，官方学位点及招生栏目支持真实中文教育路径。",
+              "relation_evidence": [
+                {
+                  "source": "rubric.json reference_candidates；task.json；scoring.md",
+                  "applicable_cycle": "2026年推免申请季／2027级入学；题面未给具体咨询日",
+                  "scope": "冻结参考支持其中明确列出的学校、招生主体与项目身份，学生汉语言文学背景与语言学、国际中文教育意向来自题面；不证明全年余额或后续录取。"
+                },
+                {
+                  "source": "https://chinese.sysu.edu.cn/node/71",
+                  "applicable_cycle": "2026年推免申请季／2027级入学；题面未给具体咨询日",
+                  "scope": "官方系况介绍确认中国语言文学系的历史、语言学与中文学科身份；冻结参考“文学院”按中大中文学科招生主体的概括称谓对应此系，不能混同另设的中国语言文学系（珠海）。不创造另一个“文学院”招生单位。"
+                },
+                {
+                  "source": "https://chinese.sysu.edu.cn/node",
+                  "applicable_cycle": "2025年及以前公开的学科身份资料；用于2026申请季身份核对",
+                  "scope": "官方中文系页面说明一级学科博士授权及硕士学位点，包含语言学及应用语言学、国际中文教育等；只支持同一中文系内学术汉语研究与中文教学专业的相近关系。"
+                },
+                {
+                  "source": "https://chinese.sysu.edu.cn/cat/132",
+                  "applicable_cycle": "2026年推免申请季／2027级入学；题面未给具体咨询日",
+                  "scope": "官方栏目列出2026-09-24的2027级国际中文教育继续接收通知；说明本周期确有继续接收安排，不证明10月任意日期均有余额。详情页403，未声称已核实详情。"
+                }
+              ]
+            }
+          ],
+          "reason": "第3条是同广州中文系国际中文教育专硕，与同系语言学／中国语言文学研究相近；学位不同不能exact，官方学位点及招生栏目支持真实中文教育路径。",
+          "status": "hit"
+        }
+      },
+      "after": {
+        "score": 46.94,
+        "score_interval": [
+          46.94,
+          46.94
+        ],
+        "coverage": {
+          "id": "N06-10",
+          "status": "hit",
+          "matches": [
+            {
+              "answer_item_id": "A004",
+              "match_level": "exact",
+              "answer_quote": "4. 中山大学 中国语言文学系 — 中国语言文学（050100）学术型，语言学及应用语言学（050102）方向",
+              "reason": "负责人已确认广州、珠海中文系为同一参考项的备选单位。此候选明确给出其中一个中文系的中国语言文学学硕或所属方向，继承原评审已核实的有效性和条件路径，按完整匹配计分。",
+              "relation_evidence": [
+                {
+                  "source": "release/errata/N06-10-sysu-20261010/decision.json",
+                  "applicable_cycle": "2026年推免申请季；2026-10-10负责人批准勘误",
+                  "scope": "两个招生单位是本参考项的备选；参考项总计一次。"
+                },
+                {
+                  "source": "https://www.sysu.edu.cn/xq/xsyg/xkda2.htm",
+                  "applicable_cycle": "2026年申请季院系与学科身份；非实时名额证明",
+                  "scope": "两个中文系均有中国语言文学学科；本次不重新审计全部招生事实。"
+                },
+                {
+                  "source": "https://chinese.sysu.edu.cn/node/71",
+                  "applicable_cycle": "2026年申请季招生单位和专业关系",
+                  "scope": "广州中文系的中国语言文学学位培养及国际中文教育硕士点。"
+                },
+                {
+                  "source": "reviews/subset20-preview-20261009-194705/executions/18ebe6ab6eea520b9828da44f14c36bb/evidence.json",
+                  "applicable_cycle": "原评审适用的2026年推免申请季",
+                  "scope": "继承原候选有效性及申请条件核验；本次仅重判参考匹配关系。"
+                }
+              ]
+            },
+            {
+              "answer_item_id": "A003",
+              "match_level": "same_department",
+              "answer_quote": "3. 中山大学 中国语言文学系 — 国际中文教育（045300）专业学位硕士",
+              "reason": "此候选为广州中国语言文学系国际中文教育专硕；同系中文学术培养与国际中文教育培养关系成立，且原评审已确认具体项目和条件路径有效。按同院系相近专业60%匹配，不等同中国语言文学学硕。",
+              "relation_evidence": [
+                {
+                  "source": "release/errata/N06-10-sysu-20261010/decision.json",
+                  "applicable_cycle": "2026年推免申请季；2026-10-10负责人批准勘误",
+                  "scope": "两个招生单位是本参考项的备选；参考项总计一次。"
+                },
+                {
+                  "source": "https://www.sysu.edu.cn/xq/xsyg/xkda2.htm",
+                  "applicable_cycle": "2026年申请季院系与学科身份；非实时名额证明",
+                  "scope": "两个中文系均有中国语言文学学科；本次不重新审计全部招生事实。"
+                },
+                {
+                  "source": "https://chinese.sysu.edu.cn/node/71",
+                  "applicable_cycle": "2026年申请季招生单位和专业关系",
+                  "scope": "广州中文系的中国语言文学学位培养及国际中文教育硕士点。"
+                },
+                {
+                  "source": "reviews/subset20-preview-20261009-194705/executions/18ebe6ab6eea520b9828da44f14c36bb/evidence.json",
+                  "applicable_cycle": "原评审适用的2026年推免申请季",
+                  "scope": "继承原候选有效性及申请条件核验；本次仅重判参考匹配关系。"
+                }
+              ]
+            }
+          ],
+          "matched_answer_item_id": null,
+          "error_ids": [],
+          "answer_quote": "3. 中山大学 中国语言文学系 — 国际中文教育（045300）专业学位硕士",
+          "reason": "统一勘误复核：负责人已确认广州、珠海中文系为同一参考项的备选单位。此候选明确给出其中一个中文系的中国语言文学学硕或所属方向，继承原评审已核实的有效性和条件路径，按完整匹配计分。 此候选为广州中国语言文学系国际中文教育专硕；同系中文学术培养与国际中文教育培养关系成立，且原评审已确认具体项目和条件路径有效。按同院系相近专业60%匹配，不等同中国语言文学学硕。同一候选重复提及去重，本项按最佳关系最多计一次。"
+        },
+        "allocated_node": {
+          "id": "N06-10",
+          "kind": "coverage",
+          "status": "hit",
+          "points": 4.38,
+          "weight": {
+            "numerator": 35,
+            "denominator": 8
+          },
+          "match_level": "exact",
+          "match_coefficient": 1.0,
+          "matched_answer_item_id": "A004",
+          "reviewed_status": "hit"
+        }
+      },
+      "judgment_sha256": "adc7fb329453cffb8d9ab417998445c3f2a16333b427760b21f330d90ea38d7a",
+      "score_sha256": "a6ef1411d36f8c0cde43e5e2afced3b8b96e37b78ffc1e6b6a435195a60f8c4f"
+    },
+    {
+      "agent": "kimi-k3",
+      "name": "Kimi K3",
+      "packet": "2b4c8e2dba2c5708f1fb216cffce0709",
+      "original_judgment_sha256": "f5973ecf71da0f1956795bd9e2696059c588aa1fe2c52038b6671c4ad8f72ef9",
+      "original_evidence_sha256": "0c9229ea21ac2a8a94df3567f74b70ab5e1d699a5d29bf48f6322845641985c2",
+      "original_reviewer": "codex-native-gpt-6.1-sol-high-preview-v1",
+      "original_judge_version": "evidence-review-v1",
+      "before": {
+        "score": null,
+        "score_interval": [
+          36.44,
+          40.81
+        ],
+        "coverage": {
+          "answer_quote": "中山大学 中国语言文学系 — 语言学及应用语言学（学硕）",
+          "error_ids": [],
+          "id": "N06-10",
+          "matched_answer_item_id": null,
+          "matches": [],
+          "reason": "gold_issue：参考写中山大学文学院，官方院系列广州中国语言文学系与珠海中国语言文学系，未能证实文学院是答卷招生主体的规范简称或同一单位。答卷项目本身可识别，但参考身份与等价关系不能临时改写；仅此参考项保留pending，不按名称差异判miss。见evidence.json:sysu_units。",
+          "status": "pending",
+          "gold_issue": {
+            "type": "reference_department_identity",
+            "source": "https://www.sysu.edu.cn/yxsz/yx.htm",
+            "applicable_cycle": "2026年申请季院系身份；非年度招生审计",
+            "scope": "冻结参考单位与实际中文系是否为同一招生主体，需统一复核参考；不修改rubric。"
+          }
+        }
+      },
+      "after": {
+        "score": 40.81,
+        "score_interval": [
+          40.81,
+          40.81
+        ],
+        "coverage": {
+          "id": "N06-10",
+          "status": "hit",
+          "matches": [
+            {
+              "answer_item_id": "A09",
+              "match_level": "exact",
+              "answer_quote": "中山大学 中国语言文学系 — 语言学及应用语言学（学硕）",
+              "reason": "负责人已确认广州、珠海中文系为同一参考项的备选单位。此候选明确给出其中一个中文系的中国语言文学学硕或所属方向，继承原评审已核实的有效性和条件路径，按完整匹配计分。",
+              "relation_evidence": [
+                {
+                  "source": "release/errata/N06-10-sysu-20261010/decision.json",
+                  "applicable_cycle": "2026年推免申请季；2026-10-10负责人批准勘误",
+                  "scope": "两个招生单位是本参考项的备选；参考项总计一次。"
+                },
+                {
+                  "source": "https://www.sysu.edu.cn/xq/xsyg/xkda2.htm",
+                  "applicable_cycle": "2026年申请季院系与学科身份；非实时名额证明",
+                  "scope": "两个中文系均有中国语言文学学科；本次不重新审计全部招生事实。"
+                },
+                {
+                  "source": "https://chinese.sysu.edu.cn/node/71",
+                  "applicable_cycle": "2026年申请季招生单位和专业关系",
+                  "scope": "广州中文系的中国语言文学学位培养及国际中文教育硕士点。"
+                },
+                {
+                  "source": "reviews/subset20-preview-20261009-194705/timeout-recovery-01/executions/2b4c8e2dba2c5708f1fb216cffce0709/evidence.json",
+                  "applicable_cycle": "原评审适用的2026年推免申请季",
+                  "scope": "继承原候选有效性及申请条件核验；本次仅重判参考匹配关系。"
+                }
+              ]
+            }
+          ],
+          "matched_answer_item_id": null,
+          "error_ids": [],
+          "answer_quote": "中山大学 中国语言文学系 — 语言学及应用语言学（学硕）",
+          "reason": "统一勘误复核：负责人已确认广州、珠海中文系为同一参考项的备选单位。此候选明确给出其中一个中文系的中国语言文学学硕或所属方向，继承原评审已核实的有效性和条件路径，按完整匹配计分。同一候选重复提及去重，本项按最佳关系最多计一次。"
+        },
+        "allocated_node": {
+          "id": "N06-10",
+          "kind": "coverage",
+          "status": "hit",
+          "points": 4.38,
+          "weight": {
+            "numerator": 35,
+            "denominator": 8
+          },
+          "match_level": "exact",
+          "match_coefficient": 1.0,
+          "matched_answer_item_id": "A09",
+          "reviewed_status": "hit"
+        }
+      },
+      "judgment_sha256": "b5b1acd2af456dab123dfbc2b0c9f6a6a96571c6287eb102bd1abea82fa8848a",
+      "score_sha256": "b4af37f081615682c5d0aaf4757197c52283649db3890879a72345673f92cb12"
+    }
+  ]
+}

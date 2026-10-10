@@ -1,0 +1,2193 @@
+{
+  "agent": "kimi-k3",
+  "completed": 75,
+  "configuration": {
+    "auth": "subscription",
+    "binary": "kimi",
+    "cli": "kimi",
+    "cli_version": "2.1.1",
+    "id": "kimi-k3",
+    "model": "k3",
+    "reasoning_effort": "native_default"
+  },
+  "expected_full_scope": 75,
+  "official": false,
+  "provenance_counts": {
+    "completed_native_capture": 55,
+    "lossless_acknowledged_tool_write_extraction": 20
+  },
+  "records": [
+    {
+      "capture_path": "captures/N08-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N08-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/0/a1/capture/kimi-k3/N08-03/r1/workspace/answer.md": "8377ee0edc256cbc7e90355772e36160f4ad4e12a7d7b2589c46aec28b6636db"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-auth-recovery-20261010-105740",
+        "capture": "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/0/a1/capture/kimi-k3/N08-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/0/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N08-03"
+    },
+    {
+      "capture_path": "captures/N09-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N09-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/1/a1/capture/kimi-k3/N09-03/r1/workspace/answer.md": "532685b98a2671320fca85652f91373cc83bf7470aac8a168e57ec204f89e877"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-auth-recovery-20261010-105740",
+        "capture": "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/1/a1/capture/kimi-k3/N09-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/1/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N09-03"
+    },
+    {
+      "capture_path": "captures/N10-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N10-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/2/a1/capture/kimi-k3/N10-02/r1/workspace/answer.md": "11e29b71ca4d58b6899e534252e7af9c61d112faeb9a4c9c7113545bdaef6c71"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-auth-recovery-20261010-105740",
+        "capture": "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/2/a1/capture/kimi-k3/N10-02/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/2/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N10-02"
+    },
+    {
+      "capture_path": "captures/N10-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N10-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/3/a1/capture/kimi-k3/N10-03/r1/workspace/answer.md": "e804ee110028cdea01400a6bd503678abf9817b6709c0225c918b1d7ac4e344c"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-auth-recovery-20261010-105740",
+        "capture": "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/3/a1/capture/kimi-k3/N10-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/3/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N10-03"
+    },
+    {
+      "capture_path": "captures/N12-01",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N12-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/4/a1/capture/kimi-k3/N12-01/r1/workspace/answer.md": "bfdfcebf46ce35f6a9b862517d7acaf737d4d851a38207f94c3cbd1eec0c555c"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-auth-recovery-20261010-105740",
+        "capture": "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/4/a1/capture/kimi-k3/N12-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/4/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N12-01"
+    },
+    {
+      "capture_path": "captures/N12-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N12-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/5/a1/capture/kimi-k3/N12-03/r1/workspace/answer.md": "7b83a3772ef53f9c5957923171d68835312bf27a62f9604c55a04b77d392f430"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-auth-recovery-20261010-105740",
+        "capture": "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/5/a1/capture/kimi-k3/N12-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/5/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N12-03"
+    },
+    {
+      "capture_path": "captures/N13-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N13-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/6/a1/capture/kimi-k3/N13-03/r1/workspace/answer.md": "114de2aed0ceb3b12317cbe9f299bb709ab690a705a4f77b69ea2ec00c6b7220"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-auth-recovery-20261010-105740",
+        "capture": "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/6/a1/capture/kimi-k3/N13-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/6/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N13-03"
+    },
+    {
+      "capture_path": "captures/N14-01",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N14-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/7/a1/capture/kimi-k3/N14-01/r1/workspace/answer.md": "35a1723885d19d0abc17e2e5a6d22d215e465f01db5f99bb4ec4302b450a1499"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-auth-recovery-20261010-105740",
+        "capture": "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/7/a1/capture/kimi-k3/N14-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/7/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N14-01"
+    },
+    {
+      "capture_path": "captures/N14-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N14-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/8/a1/capture/kimi-k3/N14-02/r1/workspace/answer.md": "b48aeebe1ffa5e85a5f9b6290399b14dd87f1c06979d179ac547c63f1f3d4f07"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-auth-recovery-20261010-105740",
+        "capture": "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/8/a1/capture/kimi-k3/N14-02/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/8/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N14-02"
+    },
+    {
+      "capture_path": "captures/N15-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N15-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/9/a1/capture/kimi-k3/N15-03/r1/workspace/answer.md": "d4eac78f5eacf78199237c02f93fa9edf859a55286b5f540e441bb490a8ae1ac"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-auth-recovery-20261010-105740",
+        "capture": "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/9/a1/capture/kimi-k3/N15-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/9/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N15-03"
+    },
+    {
+      "capture_path": "captures/N16-01",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N16-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/10/a1/capture/kimi-k3/N16-01/r1/workspace/answer.md": "985ea28c517c9eaa0142984b07b0cfd67846294455157ee9f83fab1e4e0758e1"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-auth-recovery-20261010-105740",
+        "capture": "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/10/a1/capture/kimi-k3/N16-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/10/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N16-01"
+    },
+    {
+      "capture_path": "captures/N16-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N16-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/11/a1/capture/kimi-k3/N16-03/r1/workspace/answer.md": "b5ec1f99e0c8a5e1e7ca8024eb786f5b9c105b5384585e0fbe0d33a30faf646f"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-auth-recovery-20261010-105740",
+        "capture": "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/11/a1/capture/kimi-k3/N16-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/11/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N16-03"
+    },
+    {
+      "capture_path": "captures/O08-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/O08-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/12/a1/capture/kimi-k3/O08-02/r1/workspace/answer.md": "5e490507b8b496af82982aa21de30604a4ed88d5dac9aba0e3c9bd9093242cd5"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-auth-recovery-20261010-105740",
+        "capture": "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/12/a1/capture/kimi-k3/O08-02/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/12/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "O08-02"
+    },
+    {
+      "capture_path": "captures/N04-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N04-02/selected-answer/S0/answer.md",
+        "captures/N04-02/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/13/a1/capture/stages/S0/answer.md": "507cdb1559e1d18fc90222d3ff760cdab4efc999d43a407b634304fa2ae1f2a2",
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/13/a1/capture/stages/S1/answer.md": "cc9a3c1f7782d7dc574ab37795b0baf6a6dbd63ecf32aff5e991e322a2ffe654"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-auth-recovery-20261010-105740",
+        "capture": "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/13/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/13/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N04-02"
+    },
+    {
+      "capture_path": "captures/N05-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N05-02/selected-answer/S0/answer.md",
+        "captures/N05-02/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/14/a1/capture/stages/S0/answer.md": "09154fdf44ea2082c150f4872a032f51d62edd56e663c56b6300f6d0ba0777c7",
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/14/a1/capture/stages/S1/answer.md": "da4670be6bb8be3da93d5b802065874ede7b7bf6288e68bf8caa21c63e839e51"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-auth-recovery-20261010-105740",
+        "capture": "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/14/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/14/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N05-02"
+    },
+    {
+      "capture_path": "captures/N07-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N07-02/selected-answer/S0/answer.md",
+        "captures/N07-02/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/15/a1/capture/stages/S0/answer.md": "60af60124b4b08ec2a67155e3b2ae19888ff73f184a32abd332d4c653f88836b",
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/15/a1/capture/stages/S1/answer.md": "301d1519453c654e59a92ae65caf00e1aec55fe437f3ac5217187fd03c909550"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-auth-recovery-20261010-105740",
+        "capture": "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/15/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/15/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N07-02"
+    },
+    {
+      "capture_path": "captures/N09-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N09-02/selected-answer/S0/answer.md",
+        "captures/N09-02/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/16/a1/capture/stages/S0/answer.md": "3577a96c75f3e89b0a85c7f3122cde4afbbc76ef0f6c309c317e5541c46409a1",
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/16/a1/capture/stages/S1/answer.md": "1cccd281b86206d420a5588e628537bcb2ace574276be32d8f0a06a891bb682a"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-auth-recovery-20261010-105740",
+        "capture": "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/16/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/16/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N09-02"
+    },
+    {
+      "capture_path": "captures/N11-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N11-02/selected-answer/S0/answer.md",
+        "captures/N11-02/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/17/a1/capture/stages/S0/answer.md": "53d54059aa304b69073cff22e0babb37175a2194e888347f0f663e4bf2eda474",
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/17/a1/capture/stages/S1/answer.md": "2044ac5dd4bcc2316007d132243f24fc7ce3147acc95e52f17f6c67c5f2168b4"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-auth-recovery-20261010-105740",
+        "capture": "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/17/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/17/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N11-02"
+    },
+    {
+      "capture_path": "captures/N12-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N12-02/selected-answer/S0/answer.md",
+        "captures/N12-02/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/18/a1/capture/stages/S0/answer.md": "abd3f6a1290ec8faddc53d158a9f064ae81ceb794e13a36c797c75ed5bd3a6dc",
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/18/a1/capture/stages/S1/answer.md": "84346f8ccbeff015d58cee0345bb7833e3bfb4b008ac319c78523fa0f2cd5b41"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-auth-recovery-20261010-105740",
+        "capture": "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/18/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/18/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N12-02"
+    },
+    {
+      "capture_path": "captures/N15-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N15-02/selected-answer/S0/answer.md",
+        "captures/N15-02/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/19/a1/capture/stages/S0/answer.md": "e80450063d8caed1329d82a60d833d4fbc1b28fc09b0fef8950ab48a2eec6b8a",
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/19/a1/capture/stages/S1/answer.md": "a8d00d4282a90cb45b0d545769bb400fbbe3990ccb2a1f16ff0a83bfc1026d7f"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-auth-recovery-20261010-105740",
+        "capture": "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/19/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/19/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N15-02"
+    },
+    {
+      "capture_path": "captures/O01-04",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/O01-04/selected-answer/S0/answer.md",
+        "captures/O01-04/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/20/a1/capture/stages/S0/answer.md": "efcf70c617c5ecb513cf20c9f04e5913bc0651c773edb2d9ddf1d59d5ff26b52",
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/20/a1/capture/stages/S1/answer.md": "7000a6b6dae9f60ce5f1e983cc7128e76d656c9914cf8a86defe7d49f63d7793"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-auth-recovery-20261010-105740",
+        "capture": "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/20/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/20/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "O01-04"
+    },
+    {
+      "capture_path": "captures/O03-04",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/O03-04/selected-answer/S0/answer.md",
+        "captures/O03-04/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/21/a1/capture/stages/S0/answer.md": "039a11f37be51c97a626345e660bb0e34113eb89b3c327bb206cb514e8291808",
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/21/a1/capture/stages/S1/answer.md": "9f5385ae736650ff579a7c0b3e33b02d1f607ad31f90a33c3af15e04b63623c5"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-auth-recovery-20261010-105740",
+        "capture": "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/21/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/21/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "O03-04"
+    },
+    {
+      "capture_path": "captures/O06-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/O06-02/selected-answer/S0/answer.md",
+        "captures/O06-02/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/22/a1/capture/stages/S0/answer.md": "31f1bb02fde6cf4b98dd4f684e31d9bba71cd46026d831004c1997888918802a",
+          "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/22/a1/capture/stages/S1/answer.md": "cfe595c02e6ebf4b531ab09b9bd188c0cf92de38fde0d3dfb6d3b40fd50beded"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-auth-recovery-20261010-105740",
+        "capture": "runs/kimi-dev75-auth-recovery-20261010-105740/attempts/22/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/22/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "O06-02"
+    },
+    {
+      "capture_path": "captures/TRY-D-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/TRY-D-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-remaining36-20261010-004123/attempts/0/a2/capture/kimi-k3/TRY-D-02/r1/workspace/answer.md": "d570a83136810ed52688d0da2a2fdc7d801090085080d1d344d4169dba38724e"
+        },
+        "attempts": [
+          {
+            "category": "account_blocked",
+            "number": 1
+          },
+          {
+            "category": "completed",
+            "number": 2
+          }
+        ],
+        "campaign": "kimi-dev75-remaining36-20261010-004123",
+        "capture": "runs/kimi-dev75-remaining36-20261010-004123/attempts/0/a2/capture/kimi-k3/TRY-D-02/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 2,
+          "path": "attempts/0/a2"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-D-02"
+    },
+    {
+      "capture_path": "captures/TRY-A-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/TRY-A-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-remaining36-20261010-004123/attempts/1/a1/capture/kimi-k3/TRY-A-03/r1/workspace/answer.md": "8354c2bf37f5e0235bef55ed0b2b3de4440e351abf016ecc8dec8fcad4845b66"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-remaining36-20261010-004123",
+        "capture": "runs/kimi-dev75-remaining36-20261010-004123/attempts/1/a1/capture/kimi-k3/TRY-A-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/1/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-A-03"
+    },
+    {
+      "capture_path": "captures/BY-G-APPLY",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/BY-G-APPLY/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-remaining36-20261010-004123/attempts/2/a1/capture/kimi-k3/BY-G-APPLY/r1/workspace/answer.md": "abe2a8355f556f64d86f06b1ded1efb7aad882dd9721670a52bb0f82212d0aae"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-remaining36-20261010-004123",
+        "capture": "runs/kimi-dev75-remaining36-20261010-004123/attempts/2/a1/capture/kimi-k3/BY-G-APPLY/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/2/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-G-APPLY"
+    },
+    {
+      "capture_path": "captures/N01-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N01-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-remaining36-20261010-004123/attempts/3/a1/capture/kimi-k3/N01-03/r1/workspace/answer.md": "de078833ffac6bac89c26401bfcb1bbdb35a91e12d9651735c1637d905b55ea3"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-remaining36-20261010-004123",
+        "capture": "runs/kimi-dev75-remaining36-20261010-004123/attempts/3/a1/capture/kimi-k3/N01-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/3/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N01-03"
+    },
+    {
+      "capture_path": "captures/N03-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N03-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-remaining36-20261010-004123/attempts/4/a1/capture/kimi-k3/N03-03/r1/workspace/answer.md": "6b857cf6b67e0a8b68440627fac43ce27670dbcee894781fabde91f513b421e4"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-remaining36-20261010-004123",
+        "capture": "runs/kimi-dev75-remaining36-20261010-004123/attempts/4/a1/capture/kimi-k3/N03-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/4/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N03-03"
+    },
+    {
+      "capture_path": "captures/N04-01",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N04-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-remaining36-20261010-004123/attempts/5/a1/capture/kimi-k3/N04-01/r1/workspace/answer.md": "632583094fb0ef6bca07bb8f647d91f06a0ec969e7e3786b60d0976a21cb5d0e"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-remaining36-20261010-004123",
+        "capture": "runs/kimi-dev75-remaining36-20261010-004123/attempts/5/a1/capture/kimi-k3/N04-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/5/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N04-01"
+    },
+    {
+      "capture_path": "captures/N05-01",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N05-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-remaining36-20261010-004123/attempts/6/a1/capture/kimi-k3/N05-01/r1/workspace/answer.md": "51ed3a4bdb23aae0bc30ac8ec5a0266b28c975908410e1a5952076bcd700435a"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-remaining36-20261010-004123",
+        "capture": "runs/kimi-dev75-remaining36-20261010-004123/attempts/6/a1/capture/kimi-k3/N05-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/6/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N05-01"
+    },
+    {
+      "capture_path": "captures/N05-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N05-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-remaining36-20261010-004123/attempts/7/a1/capture/kimi-k3/N05-03/r1/workspace/answer.md": "e86a73fa9547879b58d10181caf7adb3d0b123e73b583657b7997c72bbe091c9"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-remaining36-20261010-004123",
+        "capture": "runs/kimi-dev75-remaining36-20261010-004123/attempts/7/a1/capture/kimi-k3/N05-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/7/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N05-03"
+    },
+    {
+      "capture_path": "captures/N06-01",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N06-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-remaining36-20261010-004123/attempts/8/a1/capture/kimi-k3/N06-01/r1/workspace/answer.md": "080ebfa4a78c7f9854d8919192d0fefbab0295c3268b2069c0cf923ccb7d0a7c"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-remaining36-20261010-004123",
+        "capture": "runs/kimi-dev75-remaining36-20261010-004123/attempts/8/a1/capture/kimi-k3/N06-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/8/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N06-01"
+    },
+    {
+      "capture_path": "captures/N06-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N06-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-remaining36-20261010-004123/attempts/9/a1/capture/kimi-k3/N06-02/r1/workspace/answer.md": "145a2fbb33110aea50c470256b0c78f6934763e8364b143ba678c95434667236"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-remaining36-20261010-004123",
+        "capture": "runs/kimi-dev75-remaining36-20261010-004123/attempts/9/a1/capture/kimi-k3/N06-02/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/9/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N06-02"
+    },
+    {
+      "capture_path": "captures/N07-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N07-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-remaining36-20261010-004123/attempts/10/a1/capture/kimi-k3/N07-03/r1/workspace/answer.md": "74aa97973e37396ef7b4220c2420c053d76b33b6de505a870059392692ff5bfc"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-remaining36-20261010-004123",
+        "capture": "runs/kimi-dev75-remaining36-20261010-004123/attempts/10/a1/capture/kimi-k3/N07-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/10/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N07-03"
+    },
+    {
+      "capture_path": "captures/N08-01",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N08-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-remaining36-20261010-004123/attempts/11/a1/capture/kimi-k3/N08-01/r1/workspace/answer.md": "ab5cb0680d26a45f868c2594c3d2a90a5e3ec75336d15b6122c5cedbaebab725"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-remaining36-20261010-004123",
+        "capture": "runs/kimi-dev75-remaining36-20261010-004123/attempts/11/a1/capture/kimi-k3/N08-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/11/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N08-01"
+    },
+    {
+      "capture_path": "captures/N09-01",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N09-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/kimi-dev75-remaining36-20261010-004123/attempts/13/a1/capture/kimi-k3/N09-01/r1/workspace/answer.md": "b0ffce36fa3d0bedb0b9d43b367d276bbd350677cebfd8177a3117b54aae5f05"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "kimi-dev75-remaining36-20261010-004123",
+        "capture": "runs/kimi-dev75-remaining36-20261010-004123/attempts/13/a1/capture/kimi-k3/N09-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/13/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N09-01"
+    },
+    {
+      "capture_path": "captures/TRY-B-02",
+      "provenance": "lossless_acknowledged_tool_write_extraction",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/TRY-B-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/recovery-parallel-20261009-164140/recovered/336/answer.md": "643c6b7c4f467e3ecd2506351f8fbd77be5c6af26813009eb7dc40e267642f11"
+        },
+        "attempts": [],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/kimi-official-20261009/answers/single/kimi-k3/TRY-B-02/r1",
+        "provenance": "lossless_acknowledged_tool_write_extraction",
+        "selected": {
+          "answer": "runs/recovery-parallel-20261009-164140/recovered/336/answer.md",
+          "prior": "runs/kimi-official-20261009/answers/single/kimi-k3/TRY-B-02/r1",
+          "provenance": "lossless_acknowledged_tool_write_extraction"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-B-02"
+    },
+    {
+      "capture_path": "captures/BY-C-WINTER",
+      "provenance": "lossless_acknowledged_tool_write_extraction",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/BY-C-WINTER/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/recovery-parallel-20261009-164140/recovered/338/answer.md": "6a8ea28e1130d931a2d94d35290c6b64f344b78b50f320d1c19eec6f8ccb2843"
+        },
+        "attempts": [],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/kimi-official-20261009/answers/single/kimi-k3/BY-C-WINTER/r1",
+        "provenance": "lossless_acknowledged_tool_write_extraction",
+        "selected": {
+          "answer": "runs/recovery-parallel-20261009-164140/recovered/338/answer.md",
+          "prior": "runs/kimi-official-20261009/answers/single/kimi-k3/BY-C-WINTER/r1",
+          "provenance": "lossless_acknowledged_tool_write_extraction"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-C-WINTER"
+    },
+    {
+      "capture_path": "captures/BY-D-APPLY",
+      "provenance": "lossless_acknowledged_tool_write_extraction",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/BY-D-APPLY/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/recovery-parallel-20261009-164140/recovered/341/answer.md": "e03c729d4084fb09070a5a2ac76b349eb4e180c981a90ba9feb4e2131aa1493a"
+        },
+        "attempts": [],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/kimi-official-20261009/answers/single/kimi-k3/BY-D-APPLY/r1",
+        "provenance": "lossless_acknowledged_tool_write_extraction",
+        "selected": {
+          "answer": "runs/recovery-parallel-20261009-164140/recovered/341/answer.md",
+          "prior": "runs/kimi-official-20261009/answers/single/kimi-k3/BY-D-APPLY/r1",
+          "provenance": "lossless_acknowledged_tool_write_extraction"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-D-APPLY"
+    },
+    {
+      "capture_path": "captures/BY-E-APPLY",
+      "provenance": "lossless_acknowledged_tool_write_extraction",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/BY-E-APPLY/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/recovery-parallel-20261009-164140/recovered/343/answer.md": "3af21b7852d33501dbcca40aeca1eda9669f8ce1aa50b77cdbed1642057af888"
+        },
+        "attempts": [],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/kimi-official-20261009/answers/single/kimi-k3/BY-E-APPLY/r1",
+        "provenance": "lossless_acknowledged_tool_write_extraction",
+        "selected": {
+          "answer": "runs/recovery-parallel-20261009-164140/recovered/343/answer.md",
+          "prior": "runs/kimi-official-20261009/answers/single/kimi-k3/BY-E-APPLY/r1",
+          "provenance": "lossless_acknowledged_tool_write_extraction"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-E-APPLY"
+    },
+    {
+      "capture_path": "captures/TRY-E-03",
+      "provenance": "lossless_acknowledged_tool_write_extraction",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/TRY-E-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/recovery-parallel-20261009-164140/recovered/345/answer.md": "561da2231c772acd299e6c276e58594ab2ea2251747e3fda4d48a163339888ed"
+        },
+        "attempts": [],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/kimi-official-20261009/answers/single/kimi-k3/TRY-E-03/r1",
+        "provenance": "lossless_acknowledged_tool_write_extraction",
+        "selected": {
+          "answer": "runs/recovery-parallel-20261009-164140/recovered/345/answer.md",
+          "prior": "runs/kimi-official-20261009/answers/single/kimi-k3/TRY-E-03/r1",
+          "provenance": "lossless_acknowledged_tool_write_extraction"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-E-03"
+    },
+    {
+      "capture_path": "captures/BY-F-APPLY",
+      "provenance": "lossless_acknowledged_tool_write_extraction",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/BY-F-APPLY/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/recovery-parallel-20261009-164140/recovered/346/answer.md": "be5ed3fc6fb98f9ee4d8a108ec9656096fe9d7a1d1eacd93106a7eefd005e41d"
+        },
+        "attempts": [],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/kimi-official-20261009/answers/single/kimi-k3/BY-F-APPLY/r1",
+        "provenance": "lossless_acknowledged_tool_write_extraction",
+        "selected": {
+          "answer": "runs/recovery-parallel-20261009-164140/recovered/346/answer.md",
+          "prior": "runs/kimi-official-20261009/answers/single/kimi-k3/BY-F-APPLY/r1",
+          "provenance": "lossless_acknowledged_tool_write_extraction"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-F-APPLY"
+    },
+    {
+      "capture_path": "captures/TRY-G-01",
+      "provenance": "lossless_acknowledged_tool_write_extraction",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/TRY-G-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/recovery-parallel-20261009-164140/recovered/348/answer.md": "5c3833a9ebd56d95ef983cee76a58774f9e5d9d4704f0f5fb8a80ebf067df189"
+        },
+        "attempts": [],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/kimi-official-20261009/answers/single/kimi-k3/TRY-G-01/r1",
+        "provenance": "lossless_acknowledged_tool_write_extraction",
+        "selected": {
+          "answer": "runs/recovery-parallel-20261009-164140/recovered/348/answer.md",
+          "prior": "runs/kimi-official-20261009/answers/single/kimi-k3/TRY-G-01/r1",
+          "provenance": "lossless_acknowledged_tool_write_extraction"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-G-01"
+    },
+    {
+      "capture_path": "captures/TRY-G-02",
+      "provenance": "lossless_acknowledged_tool_write_extraction",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/TRY-G-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/recovery-parallel-20261009-164140/recovered/349/answer.md": "3e93d22be0aab75e1337d26a418b15d0ce6a650abdb9c538a06f8153f8979a8f"
+        },
+        "attempts": [],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/kimi-official-20261009/answers/single/kimi-k3/TRY-G-02/r1",
+        "provenance": "lossless_acknowledged_tool_write_extraction",
+        "selected": {
+          "answer": "runs/recovery-parallel-20261009-164140/recovered/349/answer.md",
+          "prior": "runs/kimi-official-20261009/answers/single/kimi-k3/TRY-G-02/r1",
+          "provenance": "lossless_acknowledged_tool_write_extraction"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-G-02"
+    },
+    {
+      "capture_path": "captures/TRY-H-02",
+      "provenance": "lossless_acknowledged_tool_write_extraction",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/TRY-H-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/recovery-parallel-20261009-164140/recovered/351/answer.md": "6f66e227aff427e22dfa6757a3d36f71c81e5591d84e2bc6e57776bf5fa370b0"
+        },
+        "attempts": [],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/kimi-official-20261009/answers/single/kimi-k3/TRY-H-02/r1",
+        "provenance": "lossless_acknowledged_tool_write_extraction",
+        "selected": {
+          "answer": "runs/recovery-parallel-20261009-164140/recovered/351/answer.md",
+          "prior": "runs/kimi-official-20261009/answers/single/kimi-k3/TRY-H-02/r1",
+          "provenance": "lossless_acknowledged_tool_write_extraction"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-H-02"
+    },
+    {
+      "capture_path": "captures/N01-01",
+      "provenance": "lossless_acknowledged_tool_write_extraction",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N01-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/recovery-parallel-20261009-164140/recovered/358/answer.md": "0cf11913b7faba419f308b855db525b63c26b50fa7d8e64b5285d1b484bc5f4f"
+        },
+        "attempts": [],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/kimi-official-20261009/answers/single/kimi-k3/N01-01/r1",
+        "provenance": "lossless_acknowledged_tool_write_extraction",
+        "selected": {
+          "answer": "runs/recovery-parallel-20261009-164140/recovered/358/answer.md",
+          "prior": "runs/kimi-official-20261009/answers/single/kimi-k3/N01-01/r1",
+          "provenance": "lossless_acknowledged_tool_write_extraction"
+        }
+      },
+      "status": "completed",
+      "task_id": "N01-01"
+    },
+    {
+      "capture_path": "captures/N02-02",
+      "provenance": "lossless_acknowledged_tool_write_extraction",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N02-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/recovery-parallel-20261009-164140/recovered/361/answer.md": "90df5474a438633f6751e70cb6bba723806ffe54f6c7faf7bf97362917457283"
+        },
+        "attempts": [],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/kimi-official-20261009/answers/single/kimi-k3/N02-02/r1",
+        "provenance": "lossless_acknowledged_tool_write_extraction",
+        "selected": {
+          "answer": "runs/recovery-parallel-20261009-164140/recovered/361/answer.md",
+          "prior": "runs/kimi-official-20261009/answers/single/kimi-k3/N02-02/r1",
+          "provenance": "lossless_acknowledged_tool_write_extraction"
+        }
+      },
+      "status": "completed",
+      "task_id": "N02-02"
+    },
+    {
+      "capture_path": "captures/N02-03",
+      "provenance": "lossless_acknowledged_tool_write_extraction",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N02-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/recovery-parallel-20261009-164140/recovered/362/answer.md": "a8a27ef85f7051ea00507110ce763b7274865a802bbadea3c99297908aeec711"
+        },
+        "attempts": [],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/kimi-official-20261009/answers/single/kimi-k3/N02-03/r1",
+        "provenance": "lossless_acknowledged_tool_write_extraction",
+        "selected": {
+          "answer": "runs/recovery-parallel-20261009-164140/recovered/362/answer.md",
+          "prior": "runs/kimi-official-20261009/answers/single/kimi-k3/N02-03/r1",
+          "provenance": "lossless_acknowledged_tool_write_extraction"
+        }
+      },
+      "status": "completed",
+      "task_id": "N02-03"
+    },
+    {
+      "capture_path": "captures/N03-01",
+      "provenance": "lossless_acknowledged_tool_write_extraction",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N03-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/recovery-parallel-20261009-164140/recovered/363/answer.md": "42f2f3aaad6f3ba23f604d0f0ede0372eaf2db41f6e1acecf1a66e8abaedd053"
+        },
+        "attempts": [],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/kimi-official-20261009/answers/single/kimi-k3/N03-01/r1",
+        "provenance": "lossless_acknowledged_tool_write_extraction",
+        "selected": {
+          "answer": "runs/recovery-parallel-20261009-164140/recovered/363/answer.md",
+          "prior": "runs/kimi-official-20261009/answers/single/kimi-k3/N03-01/r1",
+          "provenance": "lossless_acknowledged_tool_write_extraction"
+        }
+      },
+      "status": "completed",
+      "task_id": "N03-01"
+    },
+    {
+      "capture_path": "captures/BY-B-APPLY",
+      "provenance": "lossless_acknowledged_tool_write_extraction",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/BY-B-APPLY/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-kimi-resume-20261009-193820/recovered/0/answer.md": "436c2260fd4883d7f54fc42f597b87b74e002ffc53b00a238ca40789125b53fd"
+        },
+        "attempts": [],
+        "campaign": "subset20-kimi-resume-20261009-193820",
+        "capture": "runs/kimi-official-20261009/answers/single/kimi-k3/BY-B-APPLY/r1",
+        "provenance": "lossless_acknowledged_tool_write_extraction",
+        "selected": {
+          "answer": "runs/subset20-kimi-resume-20261009-193820/recovered/0/answer.md",
+          "prior": "runs/kimi-official-20261009/answers/single/kimi-k3/BY-B-APPLY/r1",
+          "provenance": "lossless_acknowledged_tool_write_extraction"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-B-APPLY"
+    },
+    {
+      "capture_path": "captures/BY-H-APPLY",
+      "provenance": "lossless_acknowledged_tool_write_extraction",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/BY-H-APPLY/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-kimi-resume-20261009-193820/recovered/1/answer.md": "63462e42b660534f9e957029fbf6976fb721fe63e3c36f0026c6a490e1bc355a"
+        },
+        "attempts": [],
+        "campaign": "subset20-kimi-resume-20261009-193820",
+        "capture": "runs/kimi-official-20261009/answers/single/kimi-k3/BY-H-APPLY/r1",
+        "provenance": "lossless_acknowledged_tool_write_extraction",
+        "selected": {
+          "answer": "runs/subset20-kimi-resume-20261009-193820/recovered/1/answer.md",
+          "prior": "runs/kimi-official-20261009/answers/single/kimi-k3/BY-H-APPLY/r1",
+          "provenance": "lossless_acknowledged_tool_write_extraction"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-H-APPLY"
+    },
+    {
+      "capture_path": "captures/N04-03",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N04-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-kimi-resume-20261009-193820/attempts/2/a2/capture/kimi-k3/N04-03/r1/workspace/answer.md": "62f0724bd048fab7b7b79e2f0eb0cbbdb1d852d25818051d3e95e9d52097b08d"
+        },
+        "attempts": [
+          {
+            "category": "failed",
+            "number": 1
+          },
+          {
+            "category": "completed",
+            "number": 2
+          }
+        ],
+        "campaign": "subset20-kimi-resume-20261009-193820",
+        "capture": "runs/subset20-kimi-resume-20261009-193820/attempts/2/a2/capture/kimi-k3/N04-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 2,
+          "path": "attempts/2/a2"
+        }
+      },
+      "status": "completed",
+      "task_id": "N04-03"
+    },
+    {
+      "capture_path": "captures/N06-03",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N06-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-kimi-resume-20261009-193820/attempts/3/a2/capture/kimi-k3/N06-03/r1/workspace/answer.md": "60698546bd0b67238d85b9f5e3e2ae73a96c12ae5f4f734006b163dd2a838542"
+        },
+        "attempts": [
+          {
+            "category": "failed",
+            "number": 1
+          },
+          {
+            "category": "completed",
+            "number": 2
+          }
+        ],
+        "campaign": "subset20-kimi-resume-20261009-193820",
+        "capture": "runs/subset20-kimi-resume-20261009-193820/attempts/3/a2/capture/kimi-k3/N06-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 2,
+          "path": "attempts/3/a2"
+        }
+      },
+      "status": "completed",
+      "task_id": "N06-03"
+    },
+    {
+      "capture_path": "captures/N11-03",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N11-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-kimi-resume-20261009-193820/attempts/4/a2/capture/kimi-k3/N11-03/r1/workspace/answer.md": "8706c88431c5a286a3685274d8ff6aab0c6b57df4bcc132d1ae7fcbc9191f01e"
+        },
+        "attempts": [
+          {
+            "category": "failed",
+            "number": 1
+          },
+          {
+            "category": "completed",
+            "number": 2
+          }
+        ],
+        "campaign": "subset20-kimi-resume-20261009-193820",
+        "capture": "runs/subset20-kimi-resume-20261009-193820/attempts/4/a2/capture/kimi-k3/N11-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 2,
+          "path": "attempts/4/a2"
+        }
+      },
+      "status": "completed",
+      "task_id": "N11-03"
+    },
+    {
+      "capture_path": "captures/N14-03",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N14-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-kimi-resume-20261009-193820/attempts/5/a2/capture/kimi-k3/N14-03/r1/workspace/answer.md": "2a5312b9984ebdaa499695ee77ad502332dc5adeba65b594c772555798f24bba"
+        },
+        "attempts": [
+          {
+            "category": "interrupted",
+            "number": 1
+          },
+          {
+            "category": "completed",
+            "number": 2
+          }
+        ],
+        "campaign": "subset20-kimi-resume-20261009-193820",
+        "capture": "runs/subset20-kimi-resume-20261009-193820/attempts/5/a2/capture/kimi-k3/N14-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 2,
+          "path": "attempts/5/a2"
+        }
+      },
+      "status": "completed",
+      "task_id": "N14-03"
+    },
+    {
+      "capture_path": "captures/BY-A-OFFER",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/BY-A-OFFER/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-kimi-resume-20261009-193820/attempts/6/a2/capture/kimi-k3/BY-A-OFFER/r1/workspace/answer.md": "723f071746048230c27c6836bb1ef5f179ad7e542505af6ee63f71aaff0c55cc"
+        },
+        "attempts": [
+          {
+            "category": "failed",
+            "number": 1
+          },
+          {
+            "category": "completed",
+            "number": 2
+          }
+        ],
+        "campaign": "subset20-kimi-resume-20261009-193820",
+        "capture": "runs/subset20-kimi-resume-20261009-193820/attempts/6/a2/capture/kimi-k3/BY-A-OFFER/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 2,
+          "path": "attempts/6/a2"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-A-OFFER"
+    },
+    {
+      "capture_path": "captures/TRY-C-03",
+      "provenance": "lossless_acknowledged_tool_write_extraction",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/TRY-C-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-kimi-resume-20261009-193820/recovered/7/answer.md": "b32af1a56d51aea3143ad99942d0eda891046bbebeddf8aa96db692eae5072b0"
+        },
+        "attempts": [],
+        "campaign": "subset20-kimi-resume-20261009-193820",
+        "capture": "runs/kimi-official-20261009/answers/single/kimi-k3/TRY-C-03/r1",
+        "provenance": "lossless_acknowledged_tool_write_extraction",
+        "selected": {
+          "answer": "runs/subset20-kimi-resume-20261009-193820/recovered/7/answer.md",
+          "prior": "runs/kimi-official-20261009/answers/single/kimi-k3/TRY-C-03/r1",
+          "provenance": "lossless_acknowledged_tool_write_extraction"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-C-03"
+    },
+    {
+      "capture_path": "captures/BY-E-REPLAN",
+      "provenance": "lossless_acknowledged_tool_write_extraction",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/BY-E-REPLAN/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-kimi-resume-20261009-193820/recovered/8/answer.md": "c62ec128a6c1c980523fc7ebe50ef7a2f609180c4ad15341e63bb968db7eb07c"
+        },
+        "attempts": [],
+        "campaign": "subset20-kimi-resume-20261009-193820",
+        "capture": "runs/kimi-official-20261009/answers/single/kimi-k3/BY-E-REPLAN/r1",
+        "provenance": "lossless_acknowledged_tool_write_extraction",
+        "selected": {
+          "answer": "runs/subset20-kimi-resume-20261009-193820/recovered/8/answer.md",
+          "prior": "runs/kimi-official-20261009/answers/single/kimi-k3/BY-E-REPLAN/r1",
+          "provenance": "lossless_acknowledged_tool_write_extraction"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-E-REPLAN"
+    },
+    {
+      "capture_path": "captures/TRY-F-02",
+      "provenance": "lossless_acknowledged_tool_write_extraction",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/TRY-F-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-kimi-resume-20261009-193820/recovered/9/answer.md": "8274ac3aac04d9d0b15aaee34de8cfe3b666ec9a8f39614c7c2d2919faae5ec8"
+        },
+        "attempts": [],
+        "campaign": "subset20-kimi-resume-20261009-193820",
+        "capture": "runs/kimi-official-20261009/answers/single/kimi-k3/TRY-F-02/r1",
+        "provenance": "lossless_acknowledged_tool_write_extraction",
+        "selected": {
+          "answer": "runs/subset20-kimi-resume-20261009-193820/recovered/9/answer.md",
+          "prior": "runs/kimi-official-20261009/answers/single/kimi-k3/TRY-F-02/r1",
+          "provenance": "lossless_acknowledged_tool_write_extraction"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-F-02"
+    },
+    {
+      "capture_path": "captures/N02-01",
+      "provenance": "lossless_acknowledged_tool_write_extraction",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N02-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-kimi-resume-20261009-193820/recovered/10/answer.md": "bb39363619aba01f9edb5f0c78372eac102a649c12b5553351b70f566b5fa69f"
+        },
+        "attempts": [],
+        "campaign": "subset20-kimi-resume-20261009-193820",
+        "capture": "runs/kimi-official-20261009/answers/single/kimi-k3/N02-01/r1",
+        "provenance": "lossless_acknowledged_tool_write_extraction",
+        "selected": {
+          "answer": "runs/subset20-kimi-resume-20261009-193820/recovered/10/answer.md",
+          "prior": "runs/kimi-official-20261009/answers/single/kimi-k3/N02-01/r1",
+          "provenance": "lossless_acknowledged_tool_write_extraction"
+        }
+      },
+      "status": "completed",
+      "task_id": "N02-01"
+    },
+    {
+      "capture_path": "captures/N03-02",
+      "provenance": "lossless_acknowledged_tool_write_extraction",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N03-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-kimi-resume-20261009-193820/recovered/11/answer.md": "02d7e55ffd42f62de0f8f9e268876e77da5ebea7b09d2a63af707d3e5052ad81"
+        },
+        "attempts": [],
+        "campaign": "subset20-kimi-resume-20261009-193820",
+        "capture": "runs/kimi-official-20261009/answers/single/kimi-k3/N03-02/r1",
+        "provenance": "lossless_acknowledged_tool_write_extraction",
+        "selected": {
+          "answer": "runs/subset20-kimi-resume-20261009-193820/recovered/11/answer.md",
+          "prior": "runs/kimi-official-20261009/answers/single/kimi-k3/N03-02/r1",
+          "provenance": "lossless_acknowledged_tool_write_extraction"
+        }
+      },
+      "status": "completed",
+      "task_id": "N03-02"
+    },
+    {
+      "capture_path": "captures/N07-01",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N07-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-kimi-resume-20261009-193820/attempts/12/a2/capture/kimi-k3/N07-01/r1/workspace/answer.md": "b65b200f41d633d14a43f56acfcb2003d8b9baa96d34cc12f797037346c357c3"
+        },
+        "attempts": [
+          {
+            "category": "failed",
+            "number": 1
+          },
+          {
+            "category": "completed",
+            "number": 2
+          }
+        ],
+        "campaign": "subset20-kimi-resume-20261009-193820",
+        "capture": "runs/subset20-kimi-resume-20261009-193820/attempts/12/a2/capture/kimi-k3/N07-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 2,
+          "path": "attempts/12/a2"
+        }
+      },
+      "status": "completed",
+      "task_id": "N07-01"
+    },
+    {
+      "capture_path": "captures/N10-01",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N10-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-kimi-resume-20261009-193820/attempts/13/a2/capture/kimi-k3/N10-01/r1/workspace/answer.md": "a19c6fbc2d41548581962b70104175cee84f82124e47f8ba7609687bd46d818d"
+        },
+        "attempts": [
+          {
+            "category": "failed",
+            "number": 1
+          },
+          {
+            "category": "completed",
+            "number": 2
+          }
+        ],
+        "campaign": "subset20-kimi-resume-20261009-193820",
+        "capture": "runs/subset20-kimi-resume-20261009-193820/attempts/13/a2/capture/kimi-k3/N10-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 2,
+          "path": "attempts/13/a2"
+        }
+      },
+      "status": "completed",
+      "task_id": "N10-01"
+    },
+    {
+      "capture_path": "captures/N13-02",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N13-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-kimi-resume-20261009-193820/attempts/14/a2/capture/kimi-k3/N13-02/r1/workspace/answer.md": "9191c559c9a17cc8dfb333029919afa7207057ae34b8e0892ad1eb92f81b3e3c"
+        },
+        "attempts": [
+          {
+            "category": "failed",
+            "number": 1
+          },
+          {
+            "category": "completed",
+            "number": 2
+          }
+        ],
+        "campaign": "subset20-kimi-resume-20261009-193820",
+        "capture": "runs/subset20-kimi-resume-20261009-193820/attempts/14/a2/capture/kimi-k3/N13-02/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 2,
+          "path": "attempts/14/a2"
+        }
+      },
+      "status": "completed",
+      "task_id": "N13-02"
+    },
+    {
+      "capture_path": "captures/N15-01",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N15-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-kimi-resume-20261009-193820/attempts/15/a1/capture/kimi-k3/N15-01/r1/workspace/answer.md": "257fac7ed5207956144f02602ca4398b52528ccff9ed3641ec713381ebbe0d51"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "subset20-kimi-resume-20261009-193820",
+        "capture": "runs/subset20-kimi-resume-20261009-193820/attempts/15/a1/capture/kimi-k3/N15-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/15/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N15-01"
+    },
+    {
+      "capture_path": "captures/O04-04",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/O04-04/selected-answer/S0/answer.md",
+        "captures/O04-04/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-kimi-resume-20261009-193820/attempts/16/a1/capture/stages/S0/answer.md": "fd37de0c2097ab48d7dc71bff1e53f5a799ee82ca0783668c3594da2dc40fca4",
+          "runs/subset20-kimi-resume-20261009-193820/attempts/16/a1/capture/stages/S1/answer.md": "4e13f9832abc9b20d1d372b87fbd6aced738f58d1ebaf53b94748509f202e6b5"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "subset20-kimi-resume-20261009-193820",
+        "capture": "runs/subset20-kimi-resume-20261009-193820/attempts/16/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/16/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "O04-04"
+    },
+    {
+      "capture_path": "captures/N01-02",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N01-02/selected-answer/S0/answer.md",
+        "captures/N01-02/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-kimi-resume-20261009-193820/attempts/17/a1/capture/stages/S0/answer.md": "044ea464274af0ed57e4ff776c196a65fa3074703d69aa2a5176266528aecb7f",
+          "runs/subset20-kimi-resume-20261009-193820/attempts/17/a1/capture/stages/S1/answer.md": "f50f9d17a9110654a6098ad6f04de179026591c7e36cf73dfe74d6c174e7c8b1"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "subset20-kimi-resume-20261009-193820",
+        "capture": "runs/subset20-kimi-resume-20261009-193820/attempts/17/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/17/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N01-02"
+    },
+    {
+      "capture_path": "captures/N08-02",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N08-02/selected-answer/S0/answer.md",
+        "captures/N08-02/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-kimi-resume-20261009-193820/attempts/18/a1/capture/stages/S0/answer.md": "d7cf991aae34cf2197ef8260bf72cca5d3d08adeeb6b7393bb7847f879e25ed0",
+          "runs/subset20-kimi-resume-20261009-193820/attempts/18/a1/capture/stages/S1/answer.md": "f1c1c4fadaf8b9a9e5ecc562a151ff34e31104e12f1928a71d4c5a4dc4a91efd"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "subset20-kimi-resume-20261009-193820",
+        "capture": "runs/subset20-kimi-resume-20261009-193820/attempts/18/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/18/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N08-02"
+    },
+    {
+      "capture_path": "captures/N16-02",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N16-02/selected-answer/S0/answer.md",
+        "captures/N16-02/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-kimi-resume-20261009-193820/attempts/19/a1/capture/stages/S0/answer.md": "e01c607dc8a2f95a0e7bf23ce4c8e2f1aacfc1d2112239c5fc6fa6dc5160f733",
+          "runs/subset20-kimi-resume-20261009-193820/attempts/19/a1/capture/stages/S1/answer.md": "5753fa4ce73d4c3212cd6820bee655b37d09a81f1cfc750486873ab5af26871d"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "subset20-kimi-resume-20261009-193820",
+        "capture": "runs/subset20-kimi-resume-20261009-193820/attempts/19/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/19/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N16-02"
+    },
+    {
+      "capture_path": "captures/BY-A-PLAN",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/BY-A-PLAN/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset40-kimi-additional20-20261009-210359/attempts/0/a2/capture/kimi-k3/BY-A-PLAN/r1/workspace/answer.md": "8a2bcf1f94303dbe751e1cbc6f22b1ce1518911c179081d328fa1e03681befed"
+        },
+        "attempts": [
+          {
+            "category": "account_blocked",
+            "number": 1
+          },
+          {
+            "category": "completed",
+            "number": 2
+          }
+        ],
+        "campaign": "subset40-kimi-additional20-20261009-210359",
+        "capture": "runs/subset40-kimi-additional20-20261009-210359/attempts/0/a2/capture/kimi-k3/BY-A-PLAN/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 2,
+          "path": "attempts/0/a2"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-A-PLAN"
+    },
+    {
+      "capture_path": "captures/BY-A-APPLY",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/BY-A-APPLY/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset40-kimi-additional20-20261009-210359/attempts/1/a2/capture/kimi-k3/BY-A-APPLY/r1/workspace/answer.md": "7ed2c1cc2e1ef05ab5f1c7e18f4ec8a3cdbcd3aac529344b5f1b2e6c978b5a7f"
+        },
+        "attempts": [
+          {
+            "category": "account_blocked",
+            "number": 1
+          },
+          {
+            "category": "completed",
+            "number": 2
+          }
+        ],
+        "campaign": "subset40-kimi-additional20-20261009-210359",
+        "capture": "runs/subset40-kimi-additional20-20261009-210359/attempts/1/a2/capture/kimi-k3/BY-A-APPLY/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 2,
+          "path": "attempts/1/a2"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-A-APPLY"
+    },
+    {
+      "capture_path": "captures/TRY-B-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/TRY-B-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset40-kimi-additional20-20261009-210359/attempts/2/a1/capture/kimi-k3/TRY-B-03/r1/workspace/answer.md": "0b4adfdcc464d3a3cfa618655763f0b05e7791ae02746f4a4f04904b0483d7c9"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "subset40-kimi-additional20-20261009-210359",
+        "capture": "runs/subset40-kimi-additional20-20261009-210359/attempts/2/a1/capture/kimi-k3/TRY-B-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/2/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-B-03"
+    },
+    {
+      "capture_path": "captures/BY-C-APPLY",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/BY-C-APPLY/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset40-kimi-additional20-20261009-210359/attempts/3/a1/capture/kimi-k3/BY-C-APPLY/r1/workspace/answer.md": "ca00fd333a18f26224af5e336e21614b6b470ef30f18d662f8bf870f702a25b9"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "subset40-kimi-additional20-20261009-210359",
+        "capture": "runs/subset40-kimi-additional20-20261009-210359/attempts/3/a1/capture/kimi-k3/BY-C-APPLY/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/3/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-C-APPLY"
+    },
+    {
+      "capture_path": "captures/TRY-E-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/TRY-E-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset40-kimi-additional20-20261009-210359/attempts/5/a1/capture/kimi-k3/TRY-E-02/r1/workspace/answer.md": "b34bb26f637f04b65014905bbe19b5d7adfde83c7cbef954d81c78acc94b39a1"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "subset40-kimi-additional20-20261009-210359",
+        "capture": "runs/subset40-kimi-additional20-20261009-210359/attempts/5/a1/capture/kimi-k3/TRY-E-02/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/5/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-E-02"
+    },
+    {
+      "capture_path": "captures/BY-E-PREP",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/BY-E-PREP/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset40-kimi-additional20-20261009-210359/attempts/6/a1/capture/kimi-k3/BY-E-PREP/r1/workspace/answer.md": "6879251d1579897f58ce01588010ebd9b12fb8452365f9227a74c2006b6a8296"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "subset40-kimi-additional20-20261009-210359",
+        "capture": "runs/subset40-kimi-additional20-20261009-210359/attempts/6/a1/capture/kimi-k3/BY-E-PREP/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/6/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-E-PREP"
+    }
+  ],
+  "review_status": "historical_capture_verified",
+  "schema": "community-execution-record.1",
+  "scope_note": "75 tasks collected across historical, resumed and recovered attempts; no new model calls in this export. Initial Dev20 review is retained; incremental55 scoring is pending. Failure artifacts and the referenced campaign ledger are preserved.",
+  "scored": false,
+  "stage_count": 89
+}

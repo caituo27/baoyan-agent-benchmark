@@ -1,0 +1,55 @@
+{
+  "adapter": "gpt-6-astra",
+  "adapter_version": "4b5d79191ed53cc90c3e6bae1c3dcb5416053b75cb0da6532f2f727c8c981176",
+  "answer_capture": {
+    "answer_sha256": "4709acf34c91ed13ad7201339606b69eaf72d19e0b35187f932b4114ef0ec50a",
+    "final_response_sha256": "83909b4614798e53638bbd3f23b5d33646062fdcf0f42b875a49622322b36a97",
+    "source": "workspace_file"
+  },
+  "auth_mode": "subscription",
+  "cli": "codex",
+  "cli_version": "codex-cli 0.162.0",
+  "elapsed_seconds": 249.591,
+  "execution_config": {
+    "auth": "subscription",
+    "binary": "codex",
+    "cli": "codex",
+    "cli_version": "codex-cli 0.162.0",
+    "id": "gpt-6-astra",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "high",
+    "web_search": "live"
+  },
+  "execution_mode": "native_cli",
+  "exit_code": 0,
+  "experiment_sha256": "26b7dd8305912cab8392fb62f39432908cc1c26d10eb15797252a46e8d418d4c",
+  "finished_at": "2026-10-09T14:36:44.926919+00:00",
+  "host_configuration_verified": false,
+  "isolation_evidence_source": "local_boundary_probes",
+  "isolation_verified": true,
+  "model": "gpt-6-astra",
+  "model_identity_status": "not_reported",
+  "model_observation": {
+    "provenance": "cli_reported_not_authenticated",
+    "reported_models": [],
+    "requested": "gpt-6-astra",
+    "status": "not_reported"
+  },
+  "official": false,
+  "protocol_sha256": "94858a4f4686b5d20ef5e7306d9c42971fc1496c5c0af35cd5f7c91cbb6a7a89",
+  "reported_models": [],
+  "rubric_sha256": "fd266c4219f9545f5adef4b68a51686fcab0cc6e604cde14cbcbc86cef26c6ed",
+  "started_at": "2026-10-09T14:32:35.324625+00:00",
+  "status": "completed",
+  "task_id": "N14-02",
+  "task_sha256": "beb874beef76e95b656ca20d7d92be65839fdcbabb25709cd52232c325683b48",
+  "timeout_seconds": 1200,
+  "timing_provenance": "runner_monotonic_clock",
+  "trajectory_status": "recorded_unverified",
+  "usage": {
+    "cost_usd": null,
+    "input_tokens": 520213,
+    "output_tokens": 6716
+  },
+  "usage_status": "cli_reported_unverified"
+}

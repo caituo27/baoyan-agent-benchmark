@@ -1,0 +1,82 @@
+{
+  "fingerprints": {
+    "N01-02": {
+      "rubric": "31c0f6c2a09988eebb75ab1e93bd612fc4cc7e7af6335256c8985a33721e02b3",
+      "task": "791519e60a7e8977ce79bfb07716590b95fd70b28adf52a52f4a00f9ccb46ea2"
+    },
+    "N04-02": {
+      "rubric": "e37fee323bda59d268ba36362da2b6c6c519ff48b5c1c973196ecb8fb2042187",
+      "task": "d3d91ff78fe852d2a8fcac6528755bc3c61648fbea1d32fe0a0a50be87239b6c"
+    },
+    "N05-02": {
+      "rubric": "516032be30b20373af4685a27f02d345bc414794e1fbdf2f955f966580b70c7e",
+      "task": "af3f070ffef35561245ada50c6470765a48f88b55871174286f3a37356b4a566"
+    },
+    "N07-02": {
+      "rubric": "06497bfa08ed29be693188b1cfad8eca556c50338fb2c714f3c13533fe8b50e2",
+      "task": "d7e95f7bb0db68efbe3a40060aa9a0996a9664b3d938d987344bd768cd832b3c"
+    },
+    "N08-02": {
+      "rubric": "bc9ef94ee2495fe661bb5d7e826965189b4701238f40548e45410c6193183aff",
+      "task": "339149d736333ffaeed0f5403cfe8fe6a1b0d411b9fb1225ce2359a4530f188c"
+    },
+    "N09-02": {
+      "rubric": "44c0d4346a2c1dc5ce669a9ad5abf517a722196363d8af28f604ac08e9ba5ea2",
+      "task": "08783887801b17634ecc88bddf78fd45969af2589e41ff7a252d41384bf0dc11"
+    },
+    "N11-02": {
+      "rubric": "c5827528e0b775e734f21cc7eed4ca88103dd721e5bed22b29e747c92ce9287f",
+      "task": "05e2413cfc44976e6b942ade4ee9e7b6539ee68c3de8e606bc7f75c5f8ea5c3c"
+    },
+    "N12-02": {
+      "rubric": "57f7963348523fdb3ef2d8b9af8260044bd92e1992350951b452c3aba76d868a",
+      "task": "b7aa463151b15eb54e5114b323455e8c67d72e66128e1748c12e4a8ec2de68ee"
+    },
+    "N15-02": {
+      "rubric": "12e965f1b3fa0b9041c2926330cfe6dcffab3b1d8432312f0bc086137d6719f1",
+      "task": "b66dccbb54c0b82420a41b950d0e418bc50e1fb4e0a49c0ef26d478dd9584b84"
+    },
+    "N16-02": {
+      "rubric": "d23f1fa825b0230f91229a95b9ce0a6db610fd82bd1f07c0ae2d9b918085d6d6",
+      "task": "35ac220c33b619b92c2e6bc22f53fdd30774fc42883fa384e641e7dc64751dd7"
+    },
+    "O01-04": {
+      "rubric": "6346dea9a9fa7107d7033cc53c17465e41167b93c2df0308e156b543eac49b74",
+      "task": "766957d5741edcbb4bd323d153aefde7371c7a3676a7c50dc2cddbdf74061e15"
+    },
+    "O03-04": {
+      "rubric": "b9f82004f87e16843735fdbaf5eaac074ce4d036e5682362de2a0ef0b067d937",
+      "task": "5501a2524beb09869e412724c4f7cae8f6e87f22d8f2c7de3bb855f3520a42e0"
+    },
+    "O04-04": {
+      "rubric": "6e04ed68ef6165257420e5b4c3281786e250a507aebad56808970beaf60a74e1",
+      "task": "fa2f9f580e058c0dacf7c30fd92ea361e1b24759befb46f82c89d073436b4ff9"
+    },
+    "O06-02": {
+      "rubric": "620f55f7dfe28fc1c419e00976cfc39705aae3f8fa74217edf6c86a24c78bfa1",
+      "task": "79c7a2297d346e8c8c367d9ac450467e721f6c9546a14157570205dcec1d4d6b"
+    }
+  },
+  "historical_source_manifest_sha256": "0e61d0f613c2d597fa7f8937e351b474632939360f54a5982f16de4e46e9c193",
+  "intended_split": "dev",
+  "publication_selection_id": "public-dev-75-v1",
+  "status": "public_dev_separate_track",
+  "tasks": [
+    "N01-02",
+    "N04-02",
+    "N05-02",
+    "N07-02",
+    "N08-02",
+    "N09-02",
+    "N11-02",
+    "N12-02",
+    "N15-02",
+    "N16-02",
+    "O01-04",
+    "O03-04",
+    "O04-04",
+    "O06-02"
+  ],
+  "version": "1.0.1",
+  "visibility": "public"
+}

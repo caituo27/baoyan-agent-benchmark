@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-10-09T17:46:42.715253+00:00",
+  "execution_backend": "native_cli",
+  "execution_contract_sha256": "eca966a3b3f2c2fd592627848da585d25c6b9a06134ad3ac513d979b1dacaf75",
+  "isolation_verified": false,
+  "model": "deepseek-flash",
+  "official": false,
+  "product": "deepseek-v4-1-flash",
+  "schema_version": "longitudinal-pilot.1",
+  "snapshot_sha256": "f17e16b30f7fd7b92ff8604b093143b4aa6cfea4dd01f5629151c3781dafd824"
+}

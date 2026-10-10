@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-N10",
+  "context": {
+    "observation": {
+      "评测时间": "2026年推免申请季"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "easy",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "N10-01",
+  "prompt": "我在南京理工大学读智能制造工程，排名22/83，六级593，做过一些智能制造项目。最近开始准备推免，我有点担心排名不够靠前，也不知道项目经历该怎么用。现在应该先处理什么？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "2256aaf90f22d59c058bd3445482802eee81065c254d2caed47bf533cc5a4fc7",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.1"
+}

@@ -1,0 +1,1003 @@
+{
+  "schema": "first-dev20-result-record-linkage.1",
+  "official": false,
+  "task_count": 20,
+  "stage_count": 24,
+  "configuration_count": 6,
+  "expected_rows": 120,
+  "completed_answers": 120,
+  "reviewed_answers": 120,
+  "scorable_answers": 109,
+  "pending_answers": 11,
+  "excluded_agents": [
+    "qwen3-8-max-0902"
+  ],
+  "result_snapshot": "../subset20-results-six-20261009",
+  "result_json_sha256": "d7b76327e6de3c170c4b1ecfde52be3e6e5d6d5e36a004678151034342bd0e7f",
+  "answers": [
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N10-01",
+      "selected_artifacts": "records/gpt-6-1-sol/N10-01/a1",
+      "original_answer_sha256": [
+        "6b1a7aa2a0d1f04ba915166afddd79b965f2edccb88790d0a81f6b3e4b703401"
+      ]
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N07-01",
+      "selected_artifacts": "records/gpt-6-astra/N07-01/a1",
+      "original_answer_sha256": [
+        "64e5aa56cb2ad44ad55fcd093885b2eb047058182cf356e8ec89d0551a647642"
+      ]
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N04-03",
+      "selected_artifacts": "records/gpt-6-1-sol/N04-03/a1",
+      "original_answer_sha256": [
+        "297abc8ee7fcf1a66ad82630ae3490826e6cecd4106203c15220a829844f2689"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "BY-E-REPLAN",
+      "selected_artifacts": "records/antigravity-gemini-3-1-pro-high/BY-E-REPLAN/a1",
+      "original_answer_sha256": [
+        "c3b948cbc0252799756baf18aa7cd12807e626e52a98ec6af4b27ccb66b9ee23"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N01-02",
+      "selected_artifacts": "records/antigravity-gemini-3-1-pro-high/N01-02/a1",
+      "original_answer_sha256": [
+        "7b3f940a0b5b64bd9b1cbf01afb343fa8c01c5e201d6ee8be5c130366ddbd4dd",
+        "98579c4eaf40afa500e84a9ccb01aad5edfb2752c635dc2dc6ef594aba17783f"
+      ]
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "O04-04",
+      "selected_artifacts": "records/gpt-6-1-sol/O04-04/a1",
+      "original_answer_sha256": [
+        "2fe53740297b86c3c773249270371b42d240fa7d48ae98f7ff05efe5245d4102",
+        "adb71df2dda10e3e41013fcb42436eac6dc9557287f0a9a75085de1314930ebc"
+      ]
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "TRY-F-02",
+      "selected_artifacts": "records/deepseek-v4-1-flash/TRY-F-02/a2",
+      "original_answer_sha256": [
+        "c3341949dd44bb79deb3ac39b46edf60b6d467b863a9c212dd8a31ff1498f541"
+      ]
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "BY-H-APPLY",
+      "selected_artifacts": "records/gpt-6-1-sol/BY-H-APPLY/a1",
+      "original_answer_sha256": [
+        "0f0d6336e12a1f900b181cf9d94c58a24da9de16c6a3b17ff7511ab6eb222e2e"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N14-03",
+      "selected_artifacts": "records/antigravity-gemini-3-1-pro-high/N14-03/a1",
+      "original_answer_sha256": [
+        "038b60f7c4c96dfe1ffd21ad047d413bdb8f987b50e9a3f2d6e8672527fdab31"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N11-03",
+      "selected_artifacts": "records/antigravity-gemini-3-1-pro-high/N11-03/a1",
+      "original_answer_sha256": [
+        "b6f21b0f4c1adeb7ac0da327af2de20309b7734fd1adfe8d7989cde0977223d3"
+      ]
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N11-03",
+      "selected_artifacts": "records/gpt-6-1-sol/N11-03/a1",
+      "original_answer_sha256": [
+        "ab65f095cad38b7fb0eb0915014db453993acbe2485f0ecb4fd71654ef428e9b"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N13-02",
+      "selected_artifacts": "records/antigravity-gemini-3-8-flash-high/N13-02/a1",
+      "original_answer_sha256": [
+        "d5b6a649b5e0226831b6a80a90dd0f27dcd02eaffe9148b64125a6f6ecdbc2b7"
+      ]
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N03-02",
+      "selected_artifacts": "records/gpt-6-astra/N03-02/a1",
+      "original_answer_sha256": [
+        "f154c3ce5e5cf2aa860a84d4f79e98d9ff085603656494efe18f45882f219666"
+      ]
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "TRY-F-02",
+      "selected_artifacts": "records/gpt-6-1-sol/TRY-F-02/a1",
+      "original_answer_sha256": [
+        "86a3f0bc5958925b41607fd6bab3a9876e6f1305bf19ffde14cf067d97cfa9be"
+      ]
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "BY-A-OFFER",
+      "selected_artifacts": "records/gpt-6-astra/BY-A-OFFER/a1",
+      "original_answer_sha256": [
+        "2101590929fdc76dcd4e59deed6a62a2d6b242880d89dcce63b9df1627a26f9f"
+      ]
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N04-03",
+      "selected_artifacts": "records/deepseek-v4-1-flash/N04-03/reused",
+      "original_answer_sha256": [
+        "ce396cd34175e4a78f6d3c38445f5533aab320e86d733d5038f06fbf8b8c2f32"
+      ]
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "O04-04",
+      "selected_artifacts": "records/deepseek-v4-1-flash/O04-04/a1",
+      "original_answer_sha256": [
+        "685b0367aedc56e589172178e6633ba933ef71bbbb94ea431a8ec9b2288e36e4",
+        "81bf2f7eb9385cc933d0d5a7ec2d40bc4df9fb18ce249f63866782c94fa0bfd8"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N01-02",
+      "selected_artifacts": "records/antigravity-gemini-3-8-flash-high/N01-02/a1",
+      "original_answer_sha256": [
+        "7e38f50c1c4d0433ffedf2e0daea0a9ae3b6e1538eb10a49bc823378e4265ab7",
+        "bfc04c0fd0a27dbf581e0ab429f810becc8637433959503c1116b67b5ab874ec"
+      ]
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "BY-A-OFFER",
+      "selected_artifacts": "records/gpt-6-1-sol/BY-A-OFFER/a1",
+      "original_answer_sha256": [
+        "59d1071b02ba0555fbe07aa83081a0bd2af774b66391426f1752830a5e0610d4"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N08-02",
+      "selected_artifacts": "records/antigravity-gemini-3-1-pro-high/N08-02/a1",
+      "original_answer_sha256": [
+        "1c9c341fb6f6ba5116a10389a778685bc034c8e19dcee79cfd424899e5cabe29",
+        "51c57c3ba2c6a60d88057fb238a0effa25336db300f5306db8700d0787abf6c7"
+      ]
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N13-02",
+      "selected_artifacts": "records/gpt-6-1-sol/N13-02/a1",
+      "original_answer_sha256": [
+        "995b7484767eb4b19e72523bb1d2a2a5f5ef09eb986c9042a866f837f2e0e4f2"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "TRY-C-03",
+      "selected_artifacts": "records/antigravity-gemini-3-1-pro-high/TRY-C-03/a1",
+      "original_answer_sha256": [
+        "95062e85b52da689e55439b3aa13b94b055303a4f107ff38b66e120d8d51dee2"
+      ]
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N10-01",
+      "selected_artifacts": "records/gpt-6-astra/N10-01/a1",
+      "original_answer_sha256": [
+        "9dd7da7e894bd8b6550b0fd31a9df1de7662333ecd2547571931ad7cf07191b0"
+      ]
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "BY-E-REPLAN",
+      "selected_artifacts": "records/gpt-6-astra/BY-E-REPLAN/a1",
+      "original_answer_sha256": [
+        "fd99173fcaa03f08a98d75b64b8c83889d36c78fabc7fd6a73574f37f5ee8bbb"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N16-02",
+      "selected_artifacts": "records/antigravity-gemini-3-1-pro-high/N16-02/a1",
+      "original_answer_sha256": [
+        "b653f7357621a276e52ca7ed91cc6d76d76155cad64bfe0b28a55b1d6b4fa293",
+        "ece4eb80ad86a86a9e67f17926336eea680978bc1582be851beb0e4d7c079536"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N06-03",
+      "selected_artifacts": "records/antigravity-gemini-3-8-flash-high/N06-03/a1",
+      "original_answer_sha256": [
+        "a8b25ff0834f26ceb9d6f0bd4d259ca327b05ac4370ea9f1f1579973bdffe359"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N08-02",
+      "selected_artifacts": "records/antigravity-gemini-3-8-flash-high/N08-02/a1",
+      "original_answer_sha256": [
+        "7170af335bd01e788cf6c24b8b8083aa7d854f6ba49a50b5d2b90211c8ffb6ef",
+        "8fb96a52abe4abfeb962720add0a1e21cbd4ca27467edc158d0dfc811083af56"
+      ]
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N10-01",
+      "selected_artifacts": "records/deepseek-v4-1-flash/N10-01/a1",
+      "original_answer_sha256": [
+        "f4032691268b15565693172191847f0de54a4f5f45b20983f6ef81d1e66d8ac6"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N16-02",
+      "selected_artifacts": "records/antigravity-gemini-3-8-flash-high/N16-02/a1",
+      "original_answer_sha256": [
+        "180a00f3f56e32aead1cb54f2f4f60494a7374f41dc28f0ad41e1e3708072cb8",
+        "b288f666a90334ea594401788215ea0ff4302409c873cecc8e4185b61a6b8316"
+      ]
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "O04-04",
+      "selected_artifacts": "records/gpt-6-astra/O04-04/a1",
+      "original_answer_sha256": [
+        "2143661a73b9b5d4605eb4e1b09cbf6b195e12a1e72edd30471e72f22227b40a",
+        "4b3b4d0fa27d06a875fc3dd1e6bebab271379076f52ba0e76e9423cda8af1ce9"
+      ]
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "BY-B-APPLY",
+      "selected_artifacts": "records/gpt-6-1-sol/BY-B-APPLY/reused",
+      "original_answer_sha256": [
+        "e5e7aee112ae8e1fe80c60e9c15f720147a31b86c27994f76b337c6e1e9d6c6c"
+      ]
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N01-02",
+      "selected_artifacts": "records/deepseek-v4-1-flash/N01-02/a1",
+      "original_answer_sha256": [
+        "e51c75f0804a2ebedb6d596bc6025be9e9fb4addc0d3f92824174508f945d31c",
+        "f909566e71c2ac8471868331b387e5095fa9c096999472228fd2485682fbffee"
+      ]
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N16-02",
+      "selected_artifacts": "records/gpt-6-astra/N16-02/a1",
+      "original_answer_sha256": [
+        "abac183192f0563ad7129804bf9ae782cd62f1f188fd79fc59020bebdefb1ebf",
+        "e3597adae4ea93dc987db70285d250eca43406bf2bc3738041383c47e9c39d1a"
+      ]
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N06-03",
+      "selected_artifacts": "records/gpt-6-astra/N06-03/a1",
+      "original_answer_sha256": [
+        "f7a052948c6a66b1c7ea2c98acf4a305f5d2bd610f3afdc1d4217620a53ae9ea"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N10-01",
+      "selected_artifacts": "records/antigravity-gemini-3-1-pro-high/N10-01/a1",
+      "original_answer_sha256": [
+        "28c002a26f7b942ca3eb7405dcd794559ea3dd93e0c2e3eda1e5915f9bdd0880"
+      ]
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N03-02",
+      "selected_artifacts": "records/gpt-6-1-sol/N03-02/a1",
+      "original_answer_sha256": [
+        "bad238277b19132e147188552e8ffe08b3c421d07fb973e9385dc6b8444a725d"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "TRY-F-02",
+      "selected_artifacts": "records/antigravity-gemini-3-8-flash-high/TRY-F-02/reused",
+      "original_answer_sha256": [
+        "103500df37ecd38ebe61ab74e500f3da0d4aab2e76380a0aed194be37e427cae"
+      ]
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "TRY-C-03",
+      "selected_artifacts": "records/gpt-6-1-sol/TRY-C-03/a1",
+      "original_answer_sha256": [
+        "aa0c0617b63a152d849570d2d16d458ff5748103e0090af178f864bf224da877"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N10-01",
+      "selected_artifacts": "records/antigravity-gemini-3-8-flash-high/N10-01/a1",
+      "original_answer_sha256": [
+        "b315aa22303dd397ee5865a9038411c1897ca1bbe95c08900900f2fbbc067f2e"
+      ]
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N04-03",
+      "selected_artifacts": "records/gpt-6-astra/N04-03/a1",
+      "original_answer_sha256": [
+        "9d55e06a3b5b2a17971018e0a56df1cea525898313404539e91c57f23e134036"
+      ]
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N14-03",
+      "selected_artifacts": "records/gpt-6-astra/N14-03/a1",
+      "original_answer_sha256": [
+        "024a94bf91c3b2fbdfe3d81845c2d1fec94a658348c54de20494ad8a6d4293f1"
+      ]
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N02-01",
+      "selected_artifacts": "records/gpt-6-1-sol/N02-01/a1",
+      "original_answer_sha256": [
+        "31268dcecf215eacb846210b9457558dfd371569b9222ca8864f8c58a0b6e93f"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N14-03",
+      "selected_artifacts": "records/antigravity-gemini-3-8-flash-high/N14-03/a1",
+      "original_answer_sha256": [
+        "f1ad7f019f7fb04a087be4a4f0a305f0ff679e7fba4d5971cf07a3e3a0d613d3"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N02-01",
+      "selected_artifacts": "records/antigravity-gemini-3-1-pro-high/N02-01/a1",
+      "original_answer_sha256": [
+        "94f6498561af5a562a935848d57a28ae544d3dc9fe330ee450ee23f23a0f3880"
+      ]
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N15-01",
+      "selected_artifacts": "records/gpt-6-1-sol/N15-01/a1",
+      "original_answer_sha256": [
+        "ebd5c6162effdbe097785be4503bbd4748c4cd9f014f78540ba1bf738cbcdeac"
+      ]
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N11-03",
+      "selected_artifacts": "records/gpt-6-astra/N11-03/a1",
+      "original_answer_sha256": [
+        "4b6d1e54c4927e81cd2fdfb387ff74a6b1d79e15abdf20ed9f6d7d2319b5b308"
+      ]
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "BY-A-OFFER",
+      "selected_artifacts": "records/deepseek-v4-1-flash/BY-A-OFFER/a1",
+      "original_answer_sha256": [
+        "aa5f429a735f49e337761d3baa57546a8f140ebef617afa84119ef443239e70d"
+      ]
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N01-02",
+      "selected_artifacts": "records/gpt-6-astra/N01-02/a1",
+      "original_answer_sha256": [
+        "e09c6772d8c724b7bb8cc18a9317b1def0f6ee8b64235059b98bbbbaf7877e0a",
+        "fdfc96675f78ce31da734ea3bc8bd2521c94231de9b6350c7aa0bc719507630b"
+      ]
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N15-01",
+      "selected_artifacts": "records/deepseek-v4-1-flash/N15-01/a1",
+      "original_answer_sha256": [
+        "0f6f12f526137ca8e37c2ea0387dc7b8563a93a47815b03506713231f2623021"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N03-02",
+      "selected_artifacts": "records/antigravity-gemini-3-1-pro-high/N03-02/a1",
+      "original_answer_sha256": [
+        "65ab69daba313e3a8bde4949a42965effa11349568fb84f53fc38cf188e889dc"
+      ]
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "BY-E-REPLAN",
+      "selected_artifacts": "records/gpt-6-1-sol/BY-E-REPLAN/a1",
+      "original_answer_sha256": [
+        "4f598a7011683cc21a1ab1ec72dca8586581b2d656715a12395539b4848ce889"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "BY-A-OFFER",
+      "selected_artifacts": "records/antigravity-gemini-3-8-flash-high/BY-A-OFFER/a1",
+      "original_answer_sha256": [
+        "8e6078eb25f036078e745e0d61c1d3888d81b038de0251fbf38b210dca65ba7e"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "BY-B-APPLY",
+      "selected_artifacts": "records/antigravity-gemini-3-1-pro-high/BY-B-APPLY/a1",
+      "original_answer_sha256": [
+        "26ee9f86454c563cedebfba4aa7dd427f3ea1979f61f18023fc25437cb9473cc"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "BY-B-APPLY",
+      "selected_artifacts": "records/antigravity-gemini-3-8-flash-high/BY-B-APPLY/reused",
+      "original_answer_sha256": [
+        "daf40a2af3db7ed4fcdc48aa7ffe21b4366136d3d40dd9e84d358f0d128b2be5"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N07-01",
+      "selected_artifacts": "records/antigravity-gemini-3-1-pro-high/N07-01/a1",
+      "original_answer_sha256": [
+        "3a68fafc1eb74fa7e973c7b3863e52b36578a2957f6fc258aa9fbba29fe8f23b"
+      ]
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N08-02",
+      "selected_artifacts": "records/deepseek-v4-1-flash/N08-02/a1",
+      "original_answer_sha256": [
+        "673aca4b6a5258923f991eac006d06e472ca107feda6b65a0000b5dcd7ee8330",
+        "a9b3013a52ca257788c070612027d04abfb99b8f3351d831a9ac55c606378bd7"
+      ]
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N13-02",
+      "selected_artifacts": "records/gpt-6-astra/N13-02/a1",
+      "original_answer_sha256": [
+        "daa9bc33e2250fdf96569c75b91281f9faa1592ffbdfa28d6c31061053071a7f"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N15-01",
+      "selected_artifacts": "records/antigravity-gemini-3-8-flash-high/N15-01/a1",
+      "original_answer_sha256": [
+        "9a126094574b4a88bf5417e255d434d0277064b324f0c1d0eca5b717f951c426"
+      ]
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N08-02",
+      "selected_artifacts": "records/gpt-6-astra/N08-02/a1",
+      "original_answer_sha256": [
+        "703fba3a391d11803ed795f4d568b8789db122c5f3eb4a16785de404227fec9f",
+        "9b87bf3329df9c681b5eeb91363ec62e9c95a64cc0d3f3e8ce25caf6ad53751b"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N07-01",
+      "selected_artifacts": "records/antigravity-gemini-3-8-flash-high/N07-01/a1",
+      "original_answer_sha256": [
+        "9a30fbba73dc6a530dc3f99d4eddb121d93b24e817f3fb860bb861294f51c7bd"
+      ]
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N02-01",
+      "selected_artifacts": "records/gpt-6-astra/N02-01/a1",
+      "original_answer_sha256": [
+        "ee64937aaa6a83aeb41c37361dbfcc97daa4eb7e39ec08935372ad08061deb6d"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "BY-E-REPLAN",
+      "selected_artifacts": "records/antigravity-gemini-3-8-flash-high/BY-E-REPLAN/a1",
+      "original_answer_sha256": [
+        "f83b4bbe48981de6c6f47464820f68f19d3545e79fc793566ebb604e45f93261"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "BY-H-APPLY",
+      "selected_artifacts": "records/antigravity-gemini-3-1-pro-high/BY-H-APPLY/a1",
+      "original_answer_sha256": [
+        "b740e55b4a7eed560418ef3f9c0f71619fc06d8dcb8b48832d6972cb60a83117"
+      ]
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N14-03",
+      "selected_artifacts": "records/deepseek-v4-1-flash/N14-03/a1",
+      "original_answer_sha256": [
+        "19c3e40114249fc4f7d1c820c050dc971363f22ab30a01f2af94f248f1b3f49b"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N06-03",
+      "selected_artifacts": "records/antigravity-gemini-3-1-pro-high/N06-03/a1",
+      "original_answer_sha256": [
+        "35ce1d790cc95a5c37ed4c267094a8e6428dfb484ca56603e230a37059a6cf2c"
+      ]
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N06-03",
+      "selected_artifacts": "records/deepseek-v4-1-flash/N06-03/reused",
+      "original_answer_sha256": [
+        "a0101d3f4d31fab60c0e1cc5a820e1fac128b5f48c97368fe4bc662041fe051f"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N03-02",
+      "selected_artifacts": "records/antigravity-gemini-3-8-flash-high/N03-02/reused",
+      "original_answer_sha256": [
+        "ed7ce45ddf2414d913f9e08c357fe2954c6f2b1fba68fb9bb09ba92677f9a12d"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N04-03",
+      "selected_artifacts": "records/antigravity-gemini-3-8-flash-high/N04-03/reused",
+      "original_answer_sha256": [
+        "19039aa255e5cfeca5453bfb57853fac50ed57fd68d96c2d31ada2dec22a9e12"
+      ]
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N01-02",
+      "selected_artifacts": "records/gpt-6-1-sol/N01-02/a1",
+      "original_answer_sha256": [
+        "1c8561d48f00b985e8ee98ac2f829afdea9409ffb70ebcb35edefe1fb4e47dc6",
+        "9a8c19bb962ca88be58d1b9603732c4e449b72fd69411cad794ae59e05bce0e8"
+      ]
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N14-03",
+      "selected_artifacts": "records/gpt-6-1-sol/N14-03/a1",
+      "original_answer_sha256": [
+        "60244c9b6c25e010ed713de89a8f426f74d877154b4df8277ebfc94f69a00b56"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "TRY-C-03",
+      "selected_artifacts": "records/antigravity-gemini-3-8-flash-high/TRY-C-03/a1",
+      "original_answer_sha256": [
+        "f91004936b0b7f8a6765788627aa7f09d59e4771c7d2f3a08bbb86efcbe7b8f4"
+      ]
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N16-02",
+      "selected_artifacts": "records/gpt-6-1-sol/N16-02/a1",
+      "original_answer_sha256": [
+        "1b9a7460cc6f0ebef5d18cadc7c1a4ce9a40014f17b6a1d92ae775a12a580107",
+        "2cc9d4bd4bada1826d69e17858fe4616a51c1ef0f8cd5a6fdb64d955408c1275"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N04-03",
+      "selected_artifacts": "records/antigravity-gemini-3-1-pro-high/N04-03/a1",
+      "original_answer_sha256": [
+        "f92a94824069640727ab846067be1dee72e5415983bf536e76657feac3005f0b"
+      ]
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "TRY-C-03",
+      "selected_artifacts": "records/gpt-6-astra/TRY-C-03/a1",
+      "original_answer_sha256": [
+        "a86e965d1b3c7a3fff25986f8017268271628cdb8f3e4470bfe0ed59ed26910d"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N13-02",
+      "selected_artifacts": "records/antigravity-gemini-3-1-pro-high/N13-02/a1",
+      "original_answer_sha256": [
+        "1682d738888f84fb6390bb8d195d355fdb64d2dd443fa568a742d9aa245084dd"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "O04-04",
+      "selected_artifacts": "records/antigravity-gemini-3-8-flash-high/O04-04/a1",
+      "original_answer_sha256": [
+        "559a446866bb7020f4a84aa6ba52d0908fb30890634141359edeb3070fa2488a",
+        "c2fdc617b950ebe01e1f375f4d9e3238e525be6c08d3a9522de67d5466dee088"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "TRY-F-02",
+      "selected_artifacts": "records/antigravity-gemini-3-1-pro-high/TRY-F-02/a1",
+      "original_answer_sha256": [
+        "1b4c73a435b6285c050387817ded627f6373d76b87316d39a15956778acf8a56"
+      ]
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N03-02",
+      "selected_artifacts": "records/deepseek-v4-1-flash/N03-02/a1",
+      "original_answer_sha256": [
+        "a41fe6054207a31062e6311adf6ebfb722a664563ac9d8fde751b33ec7673353"
+      ]
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "TRY-F-02",
+      "selected_artifacts": "records/gpt-6-astra/TRY-F-02/a1",
+      "original_answer_sha256": [
+        "bea7a6fe7b31f546cf705260aa4ff8f38cf3a2f5e7da3f6ea5b124774f4415c8"
+      ]
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N07-01",
+      "selected_artifacts": "records/gpt-6-1-sol/N07-01/a1",
+      "original_answer_sha256": [
+        "3a2bad82549def834884580ae04aa00e8793a96b392bd132e70bfe541f8799b5"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N02-01",
+      "selected_artifacts": "records/antigravity-gemini-3-8-flash-high/N02-01/reused",
+      "original_answer_sha256": [
+        "3f581e1ef32988eb422a3d7c9eaeb4cf749318c2196be29e83cbe477bf074160"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "BY-A-OFFER",
+      "selected_artifacts": "records/antigravity-gemini-3-1-pro-high/BY-A-OFFER/a1",
+      "original_answer_sha256": [
+        "d9bf2a6ae3bed8d29501eff6bea4b386573945bb0cf68b8d3f4dc9fe95ee6a3b"
+      ]
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "N15-01",
+      "selected_artifacts": "records/gpt-6-astra/N15-01/a1",
+      "original_answer_sha256": [
+        "6e1b664ac79abef649999c7fbd7296a8bf38e5465dfd8e3982305379d33ba518"
+      ]
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N08-02",
+      "selected_artifacts": "records/gpt-6-1-sol/N08-02/a1",
+      "original_answer_sha256": [
+        "1752548f70fcd0de4ca0eb3f761fbc170772ac0ee0644fe201f7c6b0cf7495e2",
+        "8341cad37f46d6d5706c0a60c0e80d9f24f537d329aa04d9b089d8469abb6a38"
+      ]
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "BY-E-REPLAN",
+      "selected_artifacts": "records/deepseek-v4-1-flash/BY-E-REPLAN/a1",
+      "original_answer_sha256": [
+        "34419c95f157a0587024f3c84bf0ea3631140c6e13bc3dab4f28e29cb9b9c692"
+      ]
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N16-02",
+      "selected_artifacts": "records/deepseek-v4-1-flash/N16-02/a1",
+      "original_answer_sha256": [
+        "53c9e201ced94226e6fae5e43a5252ea825dcbeb3202ce4ef3a8c35fa2f75e1c",
+        "be6b9868e8d11080630b0c1762306755463fe9e29e6b7e524dc54a88c4be5b5d"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "O04-04",
+      "selected_artifacts": "records/antigravity-gemini-3-1-pro-high/O04-04/a1",
+      "original_answer_sha256": [
+        "21ae29bda47a9235ef2b999b91d1e3c1583fa5e46258dc9440bdb1692b157af3",
+        "2d12ea8bc57deee52d027843aeab47519a90f7cfe8e8ae879a02431f5d3c9673"
+      ]
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "task_id": "N06-03",
+      "selected_artifacts": "records/gpt-6-1-sol/N06-03/a1",
+      "original_answer_sha256": [
+        "99b23500a7dfd70241a8e5e643c606e983d2209104ed25977c588ebed7df865d"
+      ]
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N13-02",
+      "selected_artifacts": "records/deepseek-v4-1-flash/N13-02/a1",
+      "original_answer_sha256": [
+        "bf18b8be4dca8795bad88eeb967e5486b085a51d69d49539d25bd3b87fdcaa3b"
+      ]
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "BY-H-APPLY",
+      "selected_artifacts": "records/gpt-6-astra/BY-H-APPLY/a1",
+      "original_answer_sha256": [
+        "17c29fb7f5902f9833816958f3863f8c5d7aee8726f10edb72f2cf1f6b872f8f"
+      ]
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "BY-B-APPLY",
+      "selected_artifacts": "records/deepseek-v4-1-flash/BY-B-APPLY/reused",
+      "original_answer_sha256": [
+        "15e9452c4682dba00346d41f1e5422e5655302028a681b10e74d2a10c7f9afd5"
+      ]
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N02-01",
+      "selected_artifacts": "records/deepseek-v4-1-flash/N02-01/a1",
+      "original_answer_sha256": [
+        "60da96574a3ba101dcdd6176cc5830ab110a2b69e35a2b9702a9b4ada8ab323c"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N15-01",
+      "selected_artifacts": "records/antigravity-gemini-3-1-pro-high/N15-01/a1",
+      "original_answer_sha256": [
+        "0632ab8ff81d1d114c42af1491e0c7bc4c7faab05094ab80f4c56515aaebdd97"
+      ]
+    },
+    {
+      "agent": "gpt-6-astra",
+      "task_id": "BY-B-APPLY",
+      "selected_artifacts": "records/gpt-6-astra/BY-B-APPLY/reused",
+      "original_answer_sha256": [
+        "d8eceba24168434e9dc5e52c16f29d5c78e1b07528df1b0e4a570d16beec8072"
+      ]
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "BY-H-APPLY",
+      "selected_artifacts": "records/deepseek-v4-1-flash/BY-H-APPLY/reused",
+      "original_answer_sha256": [
+        "066f623e60af60c8ced963b9a34b7c16c88d3fc3ea623f8152b20770c3220fee"
+      ]
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N07-01",
+      "selected_artifacts": "records/deepseek-v4-1-flash/N07-01/a1",
+      "original_answer_sha256": [
+        "4198dbbb33b761a9975a9630037ecfd327059d2f233471c20dda0f1f405ec4f0"
+      ]
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "N11-03",
+      "selected_artifacts": "records/deepseek-v4-1-flash/N11-03/a1",
+      "original_answer_sha256": [
+        "3763f1b9d4944ffdfab2f1374740c6cf6ca50b23f36a4520407f3a37a0bab518"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N11-03",
+      "selected_artifacts": "records/antigravity-gemini-3-8-flash-high/N11-03/a1",
+      "original_answer_sha256": [
+        "6e63b26a38539218f4811f1e1b48a4bb7aa948dea409a349a5492ca1447a74a9"
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "BY-H-APPLY",
+      "selected_artifacts": "records/antigravity-gemini-3-8-flash-high/BY-H-APPLY/reused",
+      "original_answer_sha256": [
+        "3bdc98662bdc254095f7a3463af841d387e868075bf0e39ae969c72ceb390b2a"
+      ]
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "TRY-C-03",
+      "selected_artifacts": "records/deepseek-v4-1-flash/TRY-C-03/reused",
+      "original_answer_sha256": [
+        "5f7eba263fe508269ca4a3375d868bffa9aaa152a1df61515615c953cc375a0f"
+      ]
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N03-02",
+      "selected_artifacts": "records/kimi-k3/N03-02/recovered",
+      "original_answer_sha256": [
+        "02d7e55ffd42f62de0f8f9e268876e77da5ebea7b09d2a63af707d3e5052ad81"
+      ]
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "BY-H-APPLY",
+      "selected_artifacts": "records/kimi-k3/BY-H-APPLY/recovered",
+      "original_answer_sha256": [
+        "63462e42b660534f9e957029fbf6976fb721fe63e3c36f0026c6a490e1bc355a"
+      ]
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N02-01",
+      "selected_artifacts": "records/kimi-k3/N02-01/recovered",
+      "original_answer_sha256": [
+        "bb39363619aba01f9edb5f0c78372eac102a649c12b5553351b70f566b5fa69f"
+      ]
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N06-03",
+      "selected_artifacts": "records/kimi-k3/N06-03/a2",
+      "original_answer_sha256": [
+        "60698546bd0b67238d85b9f5e3e2ae73a96c12ae5f4f734006b163dd2a838542"
+      ]
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N11-03",
+      "selected_artifacts": "records/kimi-k3/N11-03/a2",
+      "original_answer_sha256": [
+        "8706c88431c5a286a3685274d8ff6aab0c6b57df4bcc132d1ae7fcbc9191f01e"
+      ]
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "BY-B-APPLY",
+      "selected_artifacts": "records/kimi-k3/BY-B-APPLY/recovered",
+      "original_answer_sha256": [
+        "436c2260fd4883d7f54fc42f597b87b74e002ffc53b00a238ca40789125b53fd"
+      ]
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "TRY-F-02",
+      "selected_artifacts": "records/kimi-k3/TRY-F-02/recovered",
+      "original_answer_sha256": [
+        "8274ac3aac04d9d0b15aaee34de8cfe3b666ec9a8f39614c7c2d2919faae5ec8"
+      ]
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "TRY-C-03",
+      "selected_artifacts": "records/kimi-k3/TRY-C-03/recovered",
+      "original_answer_sha256": [
+        "b32af1a56d51aea3143ad99942d0eda891046bbebeddf8aa96db692eae5072b0"
+      ]
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "BY-E-REPLAN",
+      "selected_artifacts": "records/kimi-k3/BY-E-REPLAN/recovered",
+      "original_answer_sha256": [
+        "c62ec128a6c1c980523fc7ebe50ef7a2f609180c4ad15341e63bb968db7eb07c"
+      ]
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N04-03",
+      "selected_artifacts": "records/kimi-k3/N04-03/a2",
+      "original_answer_sha256": [
+        "62f0724bd048fab7b7b79e2f0eb0cbbdb1d852d25818051d3e95e9d52097b08d"
+      ]
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N14-03",
+      "selected_artifacts": "records/kimi-k3/N14-03/a2",
+      "original_answer_sha256": [
+        "2a5312b9984ebdaa499695ee77ad502332dc5adeba65b594c772555798f24bba"
+      ]
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "BY-A-OFFER",
+      "selected_artifacts": "records/kimi-k3/BY-A-OFFER/a2",
+      "original_answer_sha256": [
+        "723f071746048230c27c6836bb1ef5f179ad7e542505af6ee63f71aaff0c55cc"
+      ]
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N07-01",
+      "selected_artifacts": "records/kimi-k3/N07-01/a2",
+      "original_answer_sha256": [
+        "b65b200f41d633d14a43f56acfcb2003d8b9baa96d34cc12f797037346c357c3"
+      ]
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N10-01",
+      "selected_artifacts": "records/kimi-k3/N10-01/a2",
+      "original_answer_sha256": [
+        "a19c6fbc2d41548581962b70104175cee84f82124e47f8ba7609687bd46d818d"
+      ]
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N13-02",
+      "selected_artifacts": "records/kimi-k3/N13-02/a2",
+      "original_answer_sha256": [
+        "9191c559c9a17cc8dfb333029919afa7207057ae34b8e0892ad1eb92f81b3e3c"
+      ]
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N15-01",
+      "selected_artifacts": "records/kimi-k3/N15-01/a1",
+      "original_answer_sha256": [
+        "257fac7ed5207956144f02602ca4398b52528ccff9ed3641ec713381ebbe0d51"
+      ]
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "O04-04",
+      "selected_artifacts": "records/kimi-k3/O04-04/a1",
+      "original_answer_sha256": [
+        "4e13f9832abc9b20d1d372b87fbd6aced738f58d1ebaf53b94748509f202e6b5",
+        "fd37de0c2097ab48d7dc71bff1e53f5a799ee82ca0783668c3594da2dc40fca4"
+      ]
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N01-02",
+      "selected_artifacts": "records/kimi-k3/N01-02/a1",
+      "original_answer_sha256": [
+        "044ea464274af0ed57e4ff776c196a65fa3074703d69aa2a5176266528aecb7f",
+        "f50f9d17a9110654a6098ad6f04de179026591c7e36cf73dfe74d6c174e7c8b1"
+      ]
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N08-02",
+      "selected_artifacts": "records/kimi-k3/N08-02/a1",
+      "original_answer_sha256": [
+        "d7cf991aae34cf2197ef8260bf72cca5d3d08adeeb6b7393bb7847f879e25ed0",
+        "f1c1c4fadaf8b9a9e5ecc562a151ff34e31104e12f1928a71d4c5a4dc4a91efd"
+      ]
+    },
+    {
+      "agent": "kimi-k3",
+      "task_id": "N16-02",
+      "selected_artifacts": "records/kimi-k3/N16-02/a1",
+      "original_answer_sha256": [
+        "5753fa4ce73d4c3212cd6820bee655b37d09a81f1cfc750486873ab5af26871d",
+        "e01c607dc8a2f95a0e7bf23ce4c8e2f1aacfc1d2112239c5fc6fa6dc5160f733"
+      ]
+    }
+  ]
+}

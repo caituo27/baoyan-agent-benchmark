@@ -1,0 +1,64 @@
+[
+  {
+    "bytes": 0,
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "cli.stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformed": false
+  },
+  {
+    "bytes": 1818,
+    "export_sha256": "cedc998a06bb03a258fd8169d11b9743865dab372dcdba691916d08edbac9c5a",
+    "path": "execution.json",
+    "source_pattern_counts": {},
+    "source_sha256": "cedc998a06bb03a258fd8169d11b9743865dab372dcdba691916d08edbac9c5a",
+    "transformed": false
+  },
+  {
+    "bytes": 1859,
+    "export_sha256": "016fb4f984a17dd40cfac1df1d61aa8ea0d9755170c976daa50589faf57f5a1e",
+    "path": "run.json",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "36840ea1dfd6d66cc3a7e15e00a6f78c58487ff291996089c69ba9a057083d49",
+    "transformed": true
+  },
+  {
+    "bytes": 275463,
+    "export_sha256": "4411e028bf7ebf907d08f6e27054ae022f6c6d2ace5e9655966149aa509b4413",
+    "path": "trace.jsonl",
+    "source_pattern_counts": {
+      "email": 16
+    },
+    "source_sha256": "1693e8d87c39e58858689716e60bcff343270be62012501ac2638d6a16c791a5",
+    "transformed": true
+  },
+  {
+    "bytes": 23536,
+    "export_sha256": "f1fba0959fcaad750c1a6439883311c3eda6c8d844c256b202c883eaf15a1834",
+    "path": "workspace/answer.md",
+    "source_pattern_counts": {},
+    "source_sha256": "f1fba0959fcaad750c1a6439883311c3eda6c8d844c256b202c883eaf15a1834",
+    "transformed": false
+  },
+  {
+    "bytes": 264343,
+    "export_sha256": "7230b7fa95b526ecc56dc5932a45d5a2326e02268e734a37405918dd23040e5e",
+    "path": "workspace/trajectory.jsonl",
+    "source_pattern_counts": {
+      "email": 16
+    },
+    "source_sha256": "4a20b292787906cc5eb85a99ba6be96411ab9b1e6812d4fad8453c31d612bbdf",
+    "transformed": true
+  },
+  {
+    "bytes": 74,
+    "export_sha256": "0283dac4c9ca3f76ae9ef6a0446019cece58330447e164127db62bd3e67f0beb",
+    "path": "workspace/usage.json",
+    "source_pattern_counts": {},
+    "source_sha256": "0283dac4c9ca3f76ae9ef6a0446019cece58330447e164127db62bd3e67f0beb",
+    "transformed": false
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "action": "recover",
+  "answer_sha256": "c62ec128a6c1c980523fc7ebe50ef7a2f609180c4ad15341e63bb968db7eb07c",
+  "extraction": {
+    "call_line": 5,
+    "result_line": 6,
+    "tool_call_id": "tool_NP3KFP8GLTxoCivAA7Aqqk3y",
+    "trajectory_sha256": "79758afeecc5cef13b22f3a462886e15fad10b7a19ec7c476a374d23a9c01a19"
+  },
+  "index": 8,
+  "reason": "完整文件写入参数及成功工具回执仍在原轨迹中；后续未见未验证的文件修改。提取原文并保留回执，不重新调用模型，不包含思考或检索日志。",
+  "recorded_at": "2026-10-09T08:31:49.678970+00:00"
+}

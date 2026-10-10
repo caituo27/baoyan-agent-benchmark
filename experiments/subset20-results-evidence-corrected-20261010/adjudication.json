@@ -1,0 +1,169 @@
+{
+  "id": "pending-evidence-20261010",
+  "date": "2026-10-10T00:53:53+08:00",
+  "kind": "scoped_owner_requested_evidence_adjudication",
+  "base_report": "experiments/subset20-results-departments-corrected-20261010",
+  "base_results_sha256": "57fcb3bccf09752979e5a7c8e78942a085e03ed7f7cc9dbbdcc662ec70333f45",
+  "decision_path": "release/errata/pending-evidence-20261010/decision.json",
+  "decision_sha256": "ea0a5388b1783fa346337ef87b90233e5f759b91898d2fb5c4928271b64ccd84",
+  "candidate_reruns": 0,
+  "new_independent_model_reviews": 0,
+  "configurations_rechecked": 7,
+  "task_answers_recomputed": 4,
+  "original_scores_replayed": 140,
+  "inherited_scores_replayed": 14,
+  "local_review_directory": "reviews/subset20-evidence-adjudication-20261010",
+  "changes": [
+    {
+      "agent": "deepseek-v4-1-flash",
+      "name": "DeepSeek V4.1 Flash",
+      "task_id": "BY-E-REPLAN",
+      "affected_nodes": [
+        "BY-E-REPLAN-R10-05"
+      ],
+      "packet": "5803e86212cea7626bd29ac1e01f7212",
+      "prior_judgment_path": "reviews/subset20-preview-20261009-194705/executions/5803e86212cea7626bd29ac1e01f7212",
+      "prior_judgment_sha256": "708eb5bcf8d3fc0c247d1792c38626119c694f066d60d01768694b8002cc9892",
+      "original_evidence_sha256": "4e9590170e3e008551beb664160fe5c3b90bb44578edf4230acf0acad08719ab",
+      "source_ids": [
+        "NUS",
+        "NUS-current",
+        "HKBU"
+      ],
+      "before": {
+        "score": null,
+        "score_interval": [
+          72.5,
+          82.5
+        ],
+        "pending_nodes": [
+          "BY-E-REPLAN-R10-05"
+        ]
+      },
+      "after": {
+        "score": null,
+        "score_interval": [
+          72.5,
+          82.5
+        ],
+        "pending_nodes": [
+          "BY-E-REPLAN-R10-05"
+        ]
+      },
+      "judgment_sha256": "a52321a4bcc4bcdf7d9cc772f44e0dfe995afca416edf17739ddcc561d167d25",
+      "score_sha256": "ccde7fec1d2008c1898cc9cdd1b10769daf88cae394887fc3956b471b5f8298d"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "name": "Gemini 3.8 Flash",
+      "task_id": "BY-E-REPLAN",
+      "affected_nodes": [
+        "BY-E-REPLAN-R10-02"
+      ],
+      "packet": "7412e94e5f674eec5854383faada97d3",
+      "prior_judgment_path": "reviews/subset20-preview-20261009-194705/executions/7412e94e5f674eec5854383faada97d3",
+      "prior_judgment_sha256": "a32ad1c2eb69d98a09e830c089c15ca77d1b0b6387456403c3b974511f167289",
+      "original_evidence_sha256": "321174e90e47902ca751229eab3044323cfca7d671723f808bac57154cba7780",
+      "source_ids": [
+        "HKUST"
+      ],
+      "before": {
+        "score": null,
+        "score_interval": [
+          52.5,
+          77.5
+        ],
+        "pending_nodes": [
+          "BY-E-REPLAN-R10-02"
+        ]
+      },
+      "after": {
+        "score": 65.0,
+        "score_interval": [
+          65.0,
+          65.0
+        ],
+        "pending_nodes": []
+      },
+      "judgment_sha256": "1b19abe356a97b8f1c4530536408b33358f2aab4dfe161eb21801e64d844f9c3",
+      "score_sha256": "6cebcdb659dca85d169ac73a1fa62dfd89d843e62dce6da0d9d51cb899ab1a9e"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "name": "Gemini 3.1 Pro",
+      "task_id": "N14-03",
+      "affected_nodes": [
+        "N14-L1-02",
+        "execution"
+      ],
+      "packet": "2ab9c25b656767c4527c85f9b875aeda",
+      "prior_judgment_path": "reviews/subset20-departments-adjudication-20261010/N14-03/2ab9c25b656767c4527c85f9b875aeda",
+      "prior_judgment_sha256": "ec8ab10d0266f72a9b5644efd6022c6b5beb3991f2b923da501e623135a2c775",
+      "original_evidence_sha256": "f4df3d72f0aab7763bc9c14a00a0cfaac843f6eab950b8b3b32a4ec0e876c380",
+      "source_ids": [
+        "UIBE"
+      ],
+      "before": {
+        "score": null,
+        "score_interval": [
+          20.29,
+          29.41
+        ],
+        "pending_nodes": [
+          "N14-L1-02",
+          "execution"
+        ]
+      },
+      "after": {
+        "score": 22.79,
+        "score_interval": [
+          22.79,
+          22.79
+        ],
+        "pending_nodes": []
+      },
+      "judgment_sha256": "69b091882980c6647d7afab33e6bf5f2bb5a16a1d0be9f16dbafc9e82ba53bf5",
+      "score_sha256": "345529ec40a5b40f5d346577b1f94537f431bd9ab9f686d95eb3f7deddf94f32"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "name": "Gemini 3.8 Flash",
+      "task_id": "N10-01",
+      "affected_nodes": [
+        "N10-01-T1",
+        "N10-01-T5"
+      ],
+      "packet": "0f65020377cec663c3c2d48492b7efd9",
+      "prior_judgment_path": "reviews/subset20-preview-20261009-194705/executions/0f65020377cec663c3c2d48492b7efd9",
+      "prior_judgment_sha256": "12e3d97f062c57274486b1abd2a5e4ad31ff4f28cdd4df12412bfd20d696ca7c",
+      "original_evidence_sha256": "fe12eb90f430534315f72fd46205ec0d210cda64e122c1304b1b1eee26340ab3",
+      "source_ids": [
+        "NJUST",
+        "USTB"
+      ],
+      "before": {
+        "score": null,
+        "score_interval": [
+          48.0,
+          81.0
+        ],
+        "pending_nodes": [
+          "N10-01-T1",
+          "N10-01-T5"
+        ]
+      },
+      "after": {
+        "score": null,
+        "score_interval": [
+          52.0,
+          77.0
+        ],
+        "pending_nodes": [
+          "N10-01-T1"
+        ]
+      },
+      "judgment_sha256": "77667de4db5e8c18f8a6ab9437345abbe03740654fc6944927bc1d125fb525d6",
+      "score_sha256": "5dd44b9b71c378fbc131827d8a6367c5a7a1258f4abd07a4a68ebe27fc298847"
+    }
+  ]
+}

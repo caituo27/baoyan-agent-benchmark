@@ -1,0 +1,51 @@
+{
+  "code_license": "MIT",
+  "domains": [
+    "baoyan"
+  ],
+  "license_status": "specified",
+  "name": "保研 Agent Benchmark",
+  "primary_reporting_split": "test",
+  "public_data_license": "CC-BY-4.0",
+  "reproduction_version": "1.0.1",
+  "sample_accounting": {
+    "derived_episodes_add_samples": false,
+    "report_tracks_separately": true,
+    "sample_unit": "independently_scored_task_or_episode",
+    "stages_and_repeats_add_samples": false,
+    "statistical_cluster": "case_group_id",
+    "target_policy": "75_public_dev_125_private_test_tasks_not_stage_counts",
+    "difficulty_quotas": "planning_targets_only",
+    "private_independence_status": "current_authored_extension_shares_public_cases_not_independent_holdout"
+  },
+  "schema_version": "1.0",
+  "scope": {
+    "excluded": [
+      "kaoyan",
+      "other_domains"
+    ],
+    "included": [
+      "baoyan"
+    ],
+    "own_agent_role": "baseline_only",
+    "primary_objective": "dataset_discrimination_and_scoring_reliability"
+  },
+  "split_unit": "case_group_id",
+  "status": "release_candidate",
+  "target_total": 200,
+  "targets": {
+    "dev": {
+      "easy": 15,
+      "medium": 38,
+      "hard": 22,
+      "total": 75
+    },
+    "test": {
+      "easy": 25,
+      "medium": 63,
+      "hard": 37,
+      "total": 125
+    }
+  },
+  "version": "1.0.1"
+}

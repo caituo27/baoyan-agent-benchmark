@@ -1,0 +1,33 @@
+{
+  "as_of": "2026年推免申请季",
+  "case_group_id": "student-N05",
+  "case_id": "N05",
+  "constraints": [
+    "仅依据当前阶段提供的信息作答；不查询学生身份或其真实最终去向。"
+  ],
+  "deliverables": [],
+  "persona": {},
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending"
+  },
+  "stages": [
+    {
+      "instruction": "我是中国民航大学交通工程专业的，排名2/163，六级440。这几年参与的项目主要在航空材料方向，但研究生也能考虑交通运输。我不确定该沿本科方向继续，还是转向材料，你能帮我分析一下吗？",
+      "stage_id": "S0",
+      "visible_at": "2026年推免申请季"
+    },
+    {
+      "instruction": "论文的具体情况是：一篇材料化学EI源刊论文已经录用，我是第三作者；另一篇SCI是第五作者，正在重投，还有一篇一作论文在写。两项专利目前都只是受理。结合这些进展，你再帮我看看两个方向怎么选。",
+      "stage_id": "S1",
+      "visible_at": "2026年推免申请季"
+    }
+  ],
+  "task_id": "N05-02",
+  "task_version": "1.0.1",
+  "time_context": {
+    "application_year": "2026",
+    "assessment_period": "2026年推免申请季",
+    "time_precision": "year_only_scenario"
+  }
+}

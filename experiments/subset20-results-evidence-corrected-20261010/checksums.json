@@ -1,0 +1,16 @@
+{
+  "exporter_sha256": "18d9545a15ae785413b17166e3a0fc4fd5fd355af29e705dc021498abf4edc7a",
+  "adjudicator_sha256": "baab3a93bda01a6a5fd83f41246261d02818d22fcecfbfb5079dff50b112bdf7",
+  "files": {
+    "pending-review.md": "ddada31ac59bce56c57f29f4ea3e8a5f617352af9c0ef30074e3a38134720487",
+    "results.json": "b53dda7b3f4cfcb5d5f1c1245f4d1c18f23581b69f6e87e489693f34fdb4c73a",
+    "task-scores.svg": "e30bea3debe7674b8602b9b4b1ec01023db96a5899cb3332b49b829c8dcd0106",
+    "adjudication.json": "133b46fae9f58d87172e052f7a25029de42ae3c4ffe34db25a1d0e161da6cf0b",
+    "README.md": "2b811a5de47d69f1223c96f9ca40618fe04ed2d2e84013d7cfa83b0ce0a9054e",
+    "scores.csv": "a0e7b3cd42f44025e2362ff1b91171f3bc2ff766884586f647d8437096c424d6",
+    "score-bounds.svg": "1ce2277cbbf9644f8740170c63c36b7727d7ecefc5233d79cb56bc84b2d2ff97",
+    "README.zh-CN.md": "7fdb1e80a07010a28ff8d921675aeb62aed8e2cb7b7d3224d21a2d98f0633e16",
+    "execution-progress.json": "df9b064f00a22d406f051cbeb60b1ca33ea3d2b12c46bdd422e5167d3654dbb5",
+    "verification.json": "b03d9a6b524d61919281b0692611efcc6dbdb1cfcf946006a5006e5d78a711cb"
+  }
+}

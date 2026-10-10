@@ -1,0 +1,116 @@
+[
+  {
+    "bytes": 430,
+    "export_sha256": "7a15996a44f9c21910375038fe2efac0e19ee014859dae9505739ea797a71583",
+    "path": "run.json",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "53354d3d5a254a99c15a61d1763446eb7cc31d50dcf187259e858eee1eeedea8",
+    "transformed": true
+  },
+  {
+    "bytes": 3962,
+    "export_sha256": "3c61ce3008c14a47bd0981878c5556d35c31adcc370a2f812444c27155ce2ca0",
+    "path": "stages/S0/answer.md",
+    "source_pattern_counts": {},
+    "source_sha256": "3c61ce3008c14a47bd0981878c5556d35c31adcc370a2f812444c27155ce2ca0",
+    "transformed": false
+  },
+  {
+    "bytes": 4774,
+    "export_sha256": "2ca63ca15d7c6e037a34d5ce5969f349605c2cb079706f10862d72535b3fac17",
+    "path": "stages/S0/events.jsonl",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "c8148553cc4870cd99af00dff8adb1e30087500ccf6aa59ee643f1fd68cf1d66",
+    "transformed": true
+  },
+  {
+    "bytes": 2208,
+    "export_sha256": "3849bf96289309c5a83fad177bf22d84cc886a53c64338a2a21b2b360fa57687",
+    "path": "stages/S0/execution.json",
+    "source_pattern_counts": {},
+    "source_sha256": "3849bf96289309c5a83fad177bf22d84cc886a53c64338a2a21b2b360fa57687",
+    "transformed": false
+  },
+  {
+    "bytes": 3962,
+    "export_sha256": "3c61ce3008c14a47bd0981878c5556d35c31adcc370a2f812444c27155ce2ca0",
+    "path": "stages/S0/final-response.md",
+    "source_pattern_counts": {},
+    "source_sha256": "3c61ce3008c14a47bd0981878c5556d35c31adcc370a2f812444c27155ce2ca0",
+    "transformed": false
+  },
+  {
+    "bytes": 119,
+    "export_sha256": "874499d36896a2db7e161e5c26816dff710989de405683a44571af98de1680cc",
+    "path": "stages/S0/stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "874499d36896a2db7e161e5c26816dff710989de405683a44571af98de1680cc",
+    "transformed": false
+  },
+  {
+    "bytes": 5092,
+    "export_sha256": "8e4da163d1645dafea9fae9a105fe6af4e669d5da4ed1db82ca8d255124d6823",
+    "path": "stages/S0/trace.jsonl",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "b4323b95b482ef288b9564736825171ce337830f455af690293f0cc80078c988",
+    "transformed": true
+  },
+  {
+    "bytes": 3157,
+    "export_sha256": "994edd7d5af386c60a75d8a98a6d8bf776e984249e535e2671eb93e8f0c3de3c",
+    "path": "stages/S1/answer.md",
+    "source_pattern_counts": {},
+    "source_sha256": "994edd7d5af386c60a75d8a98a6d8bf776e984249e535e2671eb93e8f0c3de3c",
+    "transformed": false
+  },
+  {
+    "bytes": 3958,
+    "export_sha256": "5c3de70cd8960ddd571aea79a7796aaf030af3f2e8b452a9dd7263f9f5fd637d",
+    "path": "stages/S1/events.jsonl",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "067cd77bb709611a6f2f37501a02e445c6a639955dc252e591d2345f094fb154",
+    "transformed": true
+  },
+  {
+    "bytes": 2270,
+    "export_sha256": "5d904b906232a6c0687af0a00a7d0ab777b743e5ec931667072681067c9dd42b",
+    "path": "stages/S1/execution.json",
+    "source_pattern_counts": {},
+    "source_sha256": "5d904b906232a6c0687af0a00a7d0ab777b743e5ec931667072681067c9dd42b",
+    "transformed": false
+  },
+  {
+    "bytes": 3157,
+    "export_sha256": "994edd7d5af386c60a75d8a98a6d8bf776e984249e535e2671eb93e8f0c3de3c",
+    "path": "stages/S1/final-response.md",
+    "source_pattern_counts": {},
+    "source_sha256": "994edd7d5af386c60a75d8a98a6d8bf776e984249e535e2671eb93e8f0c3de3c",
+    "transformed": false
+  },
+  {
+    "bytes": 0,
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "stages/S1/stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformed": false
+  },
+  {
+    "bytes": 4276,
+    "export_sha256": "c8b6a1957c3d2e3b6e1de03ca3123aeb35bfb6a363dd80140bc044b4a65b2828",
+    "path": "stages/S1/trace.jsonl",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "70d8b01ffb7157b6311786b430dafe03d7b3dbf13e002f21a6612cd1998a0363",
+    "transformed": true
+  }
+]

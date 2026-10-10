@@ -1,0 +1,16 @@
+{
+  "answer_files": [],
+  "batch": "/Users/REDACTED/Desktop/benchmark-open-source/runs/recovery-parallel-20261009-163101/attempts/168/a1/capture",
+  "category": "interrupted",
+  "completed": 0,
+  "executed": true,
+  "exit_code": 130,
+  "finished_at": "2026-10-09T08:33:23.561445+00:00",
+  "official": false,
+  "planned": 1,
+  "status": "interrupted",
+  "statuses": {
+    "interrupted": 1
+  },
+  "stopped": "deepseek-v4-1-flash/TRY-A-03/r1"
+}

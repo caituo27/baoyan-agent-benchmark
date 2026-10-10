@@ -1,0 +1,17 @@
+{
+  "agent_count": 6,
+  "completed": 120,
+  "excluded": [
+    "Claude Opus 5.5: removed from current cohort by owner; original records retained locally",
+    "qwen3-8-max-0902: excluded from this publication by owner; original records retained locally"
+  ],
+  "expected_results": 120,
+  "history_scope": "See evidence/invocations.jsonl for deduplicated reachable historical calls",
+  "official": false,
+  "publication_status": "local_draft_pending_artifact_review",
+  "schema": "subset-experiment-snapshot.1",
+  "scored": 0,
+  "snapshot_at": "2026-10-09T14:06:51.785850+00:00",
+  "task_count_per_agent": 20,
+  "trajectory_policy": "allowlisted text artifacts, automatic redaction, manual review still required"
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "bytes": 430,
+    "export_sha256": "aed4420f461b39c2a4ab0bc60471e3452cf9d8ec4b5fc615aeebea4da342c5ad",
+    "path": "run.json",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "60d6b94526ba7ba41ff577f5b6de09be6fec1539acd735d77aa8303809d9610d",
+    "transformed": true
+  },
+  {
+    "bytes": 3356,
+    "export_sha256": "abac183192f0563ad7129804bf9ae782cd62f1f188fd79fc59020bebdefb1ebf",
+    "path": "stages/S0/answer.md",
+    "source_pattern_counts": {},
+    "source_sha256": "abac183192f0563ad7129804bf9ae782cd62f1f188fd79fc59020bebdefb1ebf",
+    "transformed": false
+  },
+  {
+    "bytes": 18021,
+    "export_sha256": "64cc1fbcc24880cf3b749fac9542b8d101a231726ca18ddcbf1b1044f9a2916b",
+    "path": "stages/S0/events.jsonl",
+    "source_pattern_counts": {
+      "email": 6,
+      "user_home": 1
+    },
+    "source_sha256": "8373fcead7948bcc64c7fefa6c4da8d39f5259f4c3ac1e4770f92028447db174",
+    "transformed": true
+  },
+  {
+    "bytes": 2209,
+    "export_sha256": "ee6ab4944d77d436db54b063b60e045444b2b4704a83ef3fd4e299935a2cbfe7",
+    "path": "stages/S0/execution.json",
+    "source_pattern_counts": {},
+    "source_sha256": "ee6ab4944d77d436db54b063b60e045444b2b4704a83ef3fd4e299935a2cbfe7",
+    "transformed": false
+  },
+  {
+    "bytes": 3356,
+    "export_sha256": "abac183192f0563ad7129804bf9ae782cd62f1f188fd79fc59020bebdefb1ebf",
+    "path": "stages/S0/final-response.md",
+    "source_pattern_counts": {},
+    "source_sha256": "abac183192f0563ad7129804bf9ae782cd62f1f188fd79fc59020bebdefb1ebf",
+    "transformed": false
+  },
+  {
+    "bytes": 119,
+    "export_sha256": "8d8f52b74b5334a033571c2fccef50859d9ff5e84c062274147795cd9dd4db93",
+    "path": "stages/S0/stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "8d8f52b74b5334a033571c2fccef50859d9ff5e84c062274147795cd9dd4db93",
+    "transformed": false
+  },
+  {
+    "bytes": 18656,
+    "export_sha256": "312e711bb6142e5a1a72307456b834c5fee5f15ce8e29140064e4aa2850c796a",
+    "path": "stages/S0/trace.jsonl",
+    "source_pattern_counts": {
+      "email": 6,
+      "user_home": 1
+    },
+    "source_sha256": "3f9b500cb0af54ec44334bffc71d87cbe3da81615d18a5fd88fc05515b669488",
+    "transformed": true
+  },
+  {
+    "bytes": 3145,
+    "export_sha256": "e3597adae4ea93dc987db70285d250eca43406bf2bc3738041383c47e9c39d1a",
+    "path": "stages/S1/answer.md",
+    "source_pattern_counts": {},
+    "source_sha256": "e3597adae4ea93dc987db70285d250eca43406bf2bc3738041383c47e9c39d1a",
+    "transformed": false
+  },
+  {
+    "bytes": 3962,
+    "export_sha256": "4ec574ede2c81dff7b0352c537389bdb927bd9ccbdcfb1cbe13992c104952a42",
+    "path": "stages/S1/events.jsonl",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "c6ad3ac0e9e6b278f354789db0f82a98f7d4ec62acd13db4ee0bd6696db4ee07",
+    "transformed": true
+  },
+  {
+    "bytes": 2270,
+    "export_sha256": "09fc12236f3a5f25ea5a43bdde985267cefee29a80ed13f0764422e5d1691cbb",
+    "path": "stages/S1/execution.json",
+    "source_pattern_counts": {},
+    "source_sha256": "09fc12236f3a5f25ea5a43bdde985267cefee29a80ed13f0764422e5d1691cbb",
+    "transformed": false
+  },
+  {
+    "bytes": 3145,
+    "export_sha256": "e3597adae4ea93dc987db70285d250eca43406bf2bc3738041383c47e9c39d1a",
+    "path": "stages/S1/final-response.md",
+    "source_pattern_counts": {},
+    "source_sha256": "e3597adae4ea93dc987db70285d250eca43406bf2bc3738041383c47e9c39d1a",
+    "transformed": false
+  },
+  {
+    "bytes": 0,
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "stages/S1/stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformed": false
+  },
+  {
+    "bytes": 4280,
+    "export_sha256": "6ce68dfb209ecf0b513ea33ee25b6c1a9812f99b8a0212d6e0c9b33224f61f37",
+    "path": "stages/S1/trace.jsonl",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "62a7c69aaffc33f48e5d49ff84362871be7bf912c38ffd62e726dc38e8d508ca",
+    "transformed": true
+  }
+]

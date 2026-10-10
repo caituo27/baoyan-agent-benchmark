@@ -1,0 +1,11 @@
+{
+  "files": {
+    "N06-03/rubric.json": "ded8a428e2023a6b17c57b1c8419fc084122c977b38d6bec1f6c38a264953c63",
+    "N06-03/task.json": "72f8e9f368461102cafda660caf7043718ecad6421b38b853f534bd8c0ed462f",
+    "N14-03/rubric.json": "cb47e32e90fe56118318d4a8b308601d634fc3527dd2b16c2452cb2f0263213c",
+    "N14-03/task.json": "94645fd45b6b70ee61892050341f27e54d59b9ad135a03bb5787c9804c041ce7",
+    "README.md": "d56ec1cbb6038cecf54f427f657e613de91bafa65d76ea3ec2b04de4a1cbf4f3",
+    "application.json": "8808e66a105ec778ff1a44455e2cfa3cecc78a54514c3dfd90d02aa913a3ae88",
+    "decision.json": "d5b701adc4e2ef463e0797be4977c453dd524645076f326f2231d1b77665a70c"
+  }
+}

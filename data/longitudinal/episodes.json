@@ -1,0 +1,212 @@
+{
+  "episodes": [
+    {
+      "case_group_id": "student-A",
+      "id": "LONG-A",
+      "stages": [
+        {
+          "collection": "staged-dev",
+          "id": "S0",
+          "rubric_sha256": "6346dea9a9fa7107d7033cc53c17465e41167b93c2df0308e156b543eac49b74",
+          "source_stage": "S0",
+          "task_id": "O01-04",
+          "task_sha256": "766957d5741edcbb4bd323d153aefde7371c7a3676a7c50dc2cddbdf74061e15"
+        },
+        {
+          "collection": "staged-dev",
+          "id": "S1",
+          "rubric_sha256": "6346dea9a9fa7107d7033cc53c17465e41167b93c2df0308e156b543eac49b74",
+          "source_stage": "S1",
+          "task_id": "O01-04",
+          "task_sha256": "766957d5741edcbb4bd323d153aefde7371c7a3676a7c50dc2cddbdf74061e15"
+        },
+        {
+          "collection": "dev",
+          "id": "S2",
+          "rubric_sha256": "5b13022a1cfeb2dd8e0c82095eefd276b58c37acdc5a4059e930bfe2f7849785",
+          "source_stage": null,
+          "task_id": "BY-A-APPLY",
+          "task_sha256": "df6403023f38e09b249c7fc93211bb0102331957240d9c1f28e401b81fbcca89"
+        },
+        {
+          "collection": "dev",
+          "id": "S3",
+          "rubric_sha256": "5e9922a583669608102248de1864ba9948e85a29c3dea8a77cce19c647d172f0",
+          "source_stage": null,
+          "task_id": "BY-A-OFFER",
+          "task_sha256": "cb739fde94314f5b1b33e9232f321f4ff416c7c7651470242ce687dd2b1582af"
+        }
+      ],
+      "title": "材料学生：准备、资格递补、择校与Offer比较"
+    },
+    {
+      "case_group_id": "student-E",
+      "id": "LONG-E",
+      "stages": [
+        {
+          "collection": "dev",
+          "id": "S0",
+          "rubric_sha256": "cd2851d85ab0901e1cd69d73687053481b8dc1ac2f8deea32f368c2091d40cea",
+          "source_stage": null,
+          "task_id": "TRY-E-02",
+          "task_sha256": "6a8ea6c3d7bc3bc5f384f95eb48732e1e8b1f43f558d312049307af8b8e24179"
+        },
+        {
+          "collection": "dev",
+          "id": "S1",
+          "rubric_sha256": "45d6b94c7b1d2446380305325be18d7a4692e2249bbfca016255d17ced9a7931",
+          "source_stage": null,
+          "task_id": "BY-E-PREP",
+          "task_sha256": "c7a3f64aaa48e911d9187495ab64e4fa3201ce6d488ec193ce83f617afb0ffe2"
+        },
+        {
+          "collection": "dev",
+          "id": "S2",
+          "rubric_sha256": "0beba86fa1d47b37e010ac932dec9ea78d402635bbda1eb1264c7026acc22d00",
+          "source_stage": null,
+          "task_id": "BY-E-APPLY",
+          "task_sha256": "a091b49fb207d90d778017bff670df5125d1cf83577fc4d26e4fbf7d082e9801"
+        },
+        {
+          "collection": "dev",
+          "id": "S3",
+          "rubric_sha256": "527dfb6b7fba252361e8dbc25133241ef5d3398e380fd6d6c54f4b70914024dc",
+          "source_stage": null,
+          "task_id": "BY-E-REPLAN",
+          "task_sha256": "b7fcebca28322eb55179fbf69b74b8d9165666225642e5b8f3a1d71fdb5fe55c"
+        }
+      ],
+      "title": "人工智能学生：资格风险、准备、择校与失去资格后转向"
+    },
+    {
+      "case_group_id": "student-D",
+      "id": "LONG-D",
+      "stages": [
+        {
+          "collection": "staged-dev",
+          "id": "S0",
+          "rubric_sha256": "6e04ed68ef6165257420e5b4c3281786e250a507aebad56808970beaf60a74e1",
+          "source_stage": "S0",
+          "task_id": "O04-04",
+          "task_sha256": "fa2f9f580e058c0dacf7c30fd92ea361e1b24759befb46f82c89d073436b4ff9"
+        },
+        {
+          "collection": "staged-dev",
+          "id": "S1",
+          "rubric_sha256": "6e04ed68ef6165257420e5b4c3281786e250a507aebad56808970beaf60a74e1",
+          "source_stage": "S1",
+          "task_id": "O04-04",
+          "task_sha256": "fa2f9f580e058c0dacf7c30fd92ea361e1b24759befb46f82c89d073436b4ff9"
+        },
+        {
+          "collection": "dev",
+          "id": "S2",
+          "rubric_sha256": "1baf2f3cae0374b77d5819ffdeb06619960122572e7b0ce2c3f16cc24f2e78c6",
+          "source_stage": null,
+          "task_id": "BY-D-APPLY",
+          "task_sha256": "387fef8608ae9e86580496cc1081afc4accb8eedf0e011595a09f1b35e2dd4c6"
+        },
+        {
+          "collection": "dev",
+          "id": "S3",
+          "rubric_sha256": "7a9999c70e2fbc8e5a7f503e9e82c4c98808919e5e3d7ec0277cc82d4181f1f1",
+          "source_stage": null,
+          "task_id": "TRY-D-02",
+          "task_sha256": "dd994efba7ef578f25e2682510d30d47f8b11cf809733136b2e41f8e599fdf72"
+        }
+      ],
+      "title": "通信学生：大一规划、大三更新、择校与培养路径比较"
+    },
+    {
+      "case_group_id": "student-C",
+      "id": "LONG-C",
+      "stages": [
+        {
+          "collection": "staged-dev",
+          "id": "S0",
+          "rubric_sha256": "b9f82004f87e16843735fdbaf5eaac074ce4d036e5682362de2a0ef0b067d937",
+          "source_stage": "S0",
+          "task_id": "O03-04",
+          "task_sha256": "5501a2524beb09869e412724c4f7cae8f6e87f22d8f2c7de3bb855f3520a42e0"
+        },
+        {
+          "collection": "staged-dev",
+          "id": "S1",
+          "rubric_sha256": "b9f82004f87e16843735fdbaf5eaac074ce4d036e5682362de2a0ef0b067d937",
+          "source_stage": "S1",
+          "task_id": "O03-04",
+          "task_sha256": "5501a2524beb09869e412724c4f7cae8f6e87f22d8f2c7de3bb855f3520a42e0"
+        },
+        {
+          "collection": "dev",
+          "id": "S2",
+          "rubric_sha256": "cab42f3b1eb6ed71085249b4cf43a846151e93867bfe61b3463c63d63cb04f7a",
+          "source_stage": null,
+          "task_id": "BY-C-APPLY",
+          "task_sha256": "ccecf04257d6d475dcb687a687485837f7607dd64fbcec9db437261de9ccb85a"
+        }
+      ],
+      "title": "化工学生：寒假资源分配、申请期更新与直博择校"
+    }
+  ],
+  "official": false,
+  "schema_version": "longitudinal-pilot.1",
+  "source_update_review": {
+    "decisions": [
+      {
+        "approved": true,
+        "reason": "User-authorized input deduplication: prompt text, context facts, rubric, student and phase boundaries are unchanged; only execution.prompt_version is added. The new renderer retains all facts once and old run snapshots retain legacy rendering.",
+        "source": "dev/BY-A-APPLY"
+      },
+      {
+        "approved": true,
+        "reason": "User-authorized input deduplication: prompt text, context facts, rubric, student and phase boundaries are unchanged; only execution.prompt_version is added. The new renderer retains all facts once and old run snapshots retain legacy rendering.",
+        "source": "dev/BY-A-OFFER"
+      },
+      {
+        "approved": true,
+        "reason": "User-authorized input deduplication: prompt text, context facts, rubric, student and phase boundaries are unchanged; only execution.prompt_version is added. The new renderer retains all facts once and old run snapshots retain legacy rendering.",
+        "source": "dev/BY-C-APPLY"
+      },
+      {
+        "approved": true,
+        "reason": "User-authorized input deduplication: prompt text, context facts, rubric, student and phase boundaries are unchanged; only execution.prompt_version is added. The new renderer retains all facts once and old run snapshots retain legacy rendering.",
+        "source": "dev/BY-D-APPLY"
+      },
+      {
+        "approved": true,
+        "reason": "User-authorized input deduplication: prompt text, context facts, rubric, student and phase boundaries are unchanged; only execution.prompt_version is added. The new renderer retains all facts once and old run snapshots retain legacy rendering.",
+        "source": "dev/BY-E-APPLY"
+      },
+      {
+        "approved": true,
+        "reason": "User-authorized input deduplication: prompt text, context facts, rubric, student and phase boundaries are unchanged; only execution.prompt_version is added. The new renderer retains all facts once and old run snapshots retain legacy rendering.",
+        "source": "dev/BY-E-PREP"
+      },
+      {
+        "approved": true,
+        "reason": "User-authorized input deduplication: prompt text, context facts, rubric, student and phase boundaries are unchanged; only execution.prompt_version is added. The new renderer retains all facts once and old run snapshots retain legacy rendering.",
+        "source": "dev/BY-E-REPLAN"
+      },
+      {
+        "approved": true,
+        "reason": "User-authorized input deduplication: prompt text, context facts, rubric, student and phase boundaries are unchanged; only execution.prompt_version is added. The new renderer retains all facts once and old run snapshots retain legacy rendering.",
+        "source": "dev/TRY-D-02"
+      },
+      {
+        "approved": true,
+        "reason": "User-authorized input deduplication: prompt text, context facts, rubric, student and phase boundaries are unchanged; only execution.prompt_version is added. The new renderer retains all facts once and old run snapshots retain legacy rendering.",
+        "source": "dev/TRY-E-02"
+      }
+    ],
+    "plan_sha256": "5d40c838fbca1fe5a514521256143c193861778c941aeb777020c61c5288830a",
+    "previous_catalog_sha256": "2953ba555e45cdac270fb6437fd9216f3839a6770f42ffa7ab35aeb66eebd157",
+    "reviewed_at": "2026-10-09T04:05:09.180261+00:00",
+    "reviewer": "Codex input-format compatibility check",
+    "scope": "source_compatibility_not_teacher_calibration_or_public_release_approval"
+  },
+  "split": "dev",
+  "status": "public_dev_pending_calibration",
+  "version": "1.0.1-input.2",
+  "visibility": "public"
+}

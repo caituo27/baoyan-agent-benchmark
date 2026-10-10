@@ -1,0 +1,76 @@
+[
+  {
+    "bytes": 0,
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "cli.stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformed": false
+  },
+  {
+    "bytes": 2135,
+    "export_sha256": "35976b53cfcb9e738bf8e18f775490344237ee478dfd235c6d5f45683c2e9240",
+    "path": "execution.json",
+    "source_pattern_counts": {},
+    "source_sha256": "35976b53cfcb9e738bf8e18f775490344237ee478dfd235c6d5f45683c2e9240",
+    "transformed": false
+  },
+  {
+    "bytes": 2102,
+    "export_sha256": "cd9e15e2f52a78b75c8947238caacdcf69d0b97e4a10b73b552f170a59dcdc00",
+    "path": "run.json",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "31b0e36ea0a5ebf7c7fee3ea619e8f7e0ab42ca131f3308ed4339112139dd695",
+    "transformed": true
+  },
+  {
+    "bytes": 415810,
+    "export_sha256": "7e9f67540d20edc8c351aa09cd9df3568eb891a2656738f96ac7229ec1495182",
+    "path": "trace.jsonl",
+    "source_pattern_counts": {
+      "email": 12,
+      "mobile_phone": 3
+    },
+    "source_sha256": "e3760ac9d67dabc5eb6a1369bbd4452d49e531dd352068dfec268e3ba5c17f5a",
+    "transformed": true
+  },
+  {
+    "bytes": 38892,
+    "export_sha256": "2f889335ced6b39c53460321799024e0c9e9ed6d95ab7263ee07380f22df4d16",
+    "path": "workspace/answer.md",
+    "source_pattern_counts": {
+      "email": 1
+    },
+    "source_sha256": "a0101d3f4d31fab60c0e1cc5a820e1fac128b5f48c97368fe4bc662041fe051f",
+    "transformed": true
+  },
+  {
+    "bytes": 3846,
+    "export_sha256": "05c91d047f5587363f43b0d35dc9818473b60578c511b3b7216cb67a3c9603aa",
+    "path": "workspace/final-response.md",
+    "source_pattern_counts": {},
+    "source_sha256": "05c91d047f5587363f43b0d35dc9818473b60578c511b3b7216cb67a3c9603aa",
+    "transformed": false
+  },
+  {
+    "bytes": 398672,
+    "export_sha256": "1243bfbcc1dea67d20865ce8b7d3a5ecbe1d54357bc48aee38c00c3b0dde4a07",
+    "path": "workspace/trajectory.jsonl",
+    "source_pattern_counts": {
+      "email": 12,
+      "mobile_phone": 3
+    },
+    "source_sha256": "857a7d8892e5ad4ed40bb3e8a1e83eb97a7e58aa3b78b36599581648eed3627e",
+    "transformed": true
+  },
+  {
+    "bytes": 75,
+    "export_sha256": "083982b6aee0a2822ea7fce2f24ceb8f27bb2c89d2c9ede5920f058c36fe8b3d",
+    "path": "workspace/usage.json",
+    "source_pattern_counts": {},
+    "source_sha256": "083982b6aee0a2822ea7fce2f24ceb8f27bb2c89d2c9ede5920f058c36fe8b3d",
+    "transformed": false
+  }
+]

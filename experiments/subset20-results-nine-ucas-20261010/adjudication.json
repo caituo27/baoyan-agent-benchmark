@@ -1,0 +1,135 @@
+{
+  "id": "ucas-tier-20261010",
+  "date": "2026-10-10T01:17:52+08:00",
+  "kind": "scoped_owner_approved_tier_adjudication",
+  "authorization": "用户在核对科研院所例外及同题口径后明确批准：可以，更新吧。",
+  "base_report": "experiments/subset20-results-nine-qualification-20261010",
+  "base_results_sha256": "7fd4fbc1956829d28a9c86d6eeeb0883c505745544f4d4dd8f7c8fc97ae01000",
+  "base_verification_sha256": "dbe1013b243bcbb4aae816ec9d8492e60cfe15a621af42d8abd9b4c9560114c4",
+  "agent": "claude-opus-5-5",
+  "task_id": "TRY-F-02",
+  "node": "TRY-F-02-R10-08",
+  "packet": "82cb6491459fbed846e3ba35fcfc74fc",
+  "original_review_source": "subset20-claude-review-20261010-0033",
+  "original_packet_hashes": {
+    "answer.md": "c6d08b8ea5190462f680abcda72718a69dc10c185cef9cdea299ffd7a76e3188",
+    "judgment-template.json": "2c5931e91c777bf35d0ccd096070553bcc4cfec9fd8afc9bf6acd1c5e6e7f85c",
+    "review-settings.json": "55193bd64a6eed86ce32d3ac3e389c7fcd3a932bfe492f90fdd35043c9ef66f2",
+    "rubric.json": "3eb960837f8203d914dd0f9db2353b409e78ce0e28c546b3747ff86b08b4c07a",
+    "scoring.md": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+    "task.json": "ee175e403a4bcb5b0f30ab228b6cbd31d6588715fd24e199bfdc5edbaaae8356"
+  },
+  "prior_judgment_path": "reviews/subset20-claude-review-20261010-0033/executions/82cb6491459fbed846e3ba35fcfc74fc/judgment.json",
+  "prior_judgment_sha256": "0b4ec4f1ddffc2088a23692e3b31b71e6216d370d4a36a4b48cae5299d6eadb5",
+  "prior_score_sha256": "b7dba65af28917599740a8f9fb2f9c4845762cbc9d27408ec803fe422a166f58",
+  "policy": "科研院所、境外和联合培养按实际培养与授位主体判断，不因没有985/211标签自动降级。",
+  "school_judgment": {
+    "school_key": "ucas",
+    "answer_quote": "中科院计算所、中科院软件所（软工方向匹配）",
+    "downgraded": false,
+    "reason": "计算所、软件所属于国科大科教融合科研培养体系。冻结通则明确科研院所不因缺少985/211标签自动降级；原评审只在确认授位主体后重新套用标签排序，未提供实际培养路径降低的独立依据。同题五个其他配置的相同体系推荐均按不降级处理，统一采用此口径；同一主体只核一次。将其称为保底是否过于乐观属于其他适配性判断，不在层次项替代扣分。"
+  },
+  "node_judgment": {
+    "answer_quote": "武大本校直博/学硕、中科院计算所、中科院软件所（软工方向匹配）等",
+    "error_ids": [],
+    "grade": 1,
+    "id": "TRY-F-02-R10-08",
+    "reason": "本科基准为武汉大学985。具名985院校同档，港三按境外主体处理，计算所与软件所按冻结通则的科研院所培养授位规则审阅，不能仅因国科大缺少985/211标签判降级。未发现独立的培养路径降级依据，统一同题其他配置口径，降级院校数为0，本项5/5分。零降级时扣分公式与three_level满档一致；结构性模板冲突仍作为规则问题留档，不再阻塞本答卷。其他节点与错误分配不变。"
+  },
+  "consistency_comparisons": [
+    {
+      "agent": "deepseek-v4-1-flash",
+      "judgment_path": "reviews/subset20-preview-20261009-194705/executions/e5ea7199ac6b84ad11323c6f0a4775d8/judgment.json",
+      "judgment_sha256": "fba1d7d774b0c03173b35eaafacb937386a2756558f2ee19026df93df732d46e",
+      "schools": [
+        {
+          "school_key": "ucas",
+          "answer_quote": "中科院计算所/软件所/自动化所",
+          "downgraded": false,
+          "reason": "计算所、软件所、自动化所为中科院科研培养、国科大授位体系，按通则不因没有985/211标签自动降级；同一授位体系合并，信工所仅提名不另计，扣分0。"
+        }
+      ]
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "judgment_path": "reviews/subset20-preview-20261009-194705/executions/118b0617b5e534f61676b7a2f2a016e0/judgment.json",
+      "judgment_sha256": "bf935fc17f279435857b5a664a42eab282c994dc563affc191fae0664c76d8bb",
+      "schools": [
+        {
+          "school_key": "ICT",
+          "answer_quote": "中国科学院计算技术研究所",
+          "downgraded": false,
+          "reason": "EV06官方FAQ支持国科大科教融合培养，按实际科研培养平台判断，不因无985标签降级；无支持认定低于本题985基准的事实。"
+        }
+      ]
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "judgment_path": "reviews/subset20-preview-20261009-194705/executions/bfadf5b2c1237fecfa47325a4a84d46a/judgment.json",
+      "judgment_sha256": "c827effca5f9928047b17cb99a9faa53a20a0061acc46efcc25fd7828bf2bd32",
+      "schools": [
+        {
+          "school_key": "UCAS",
+          "answer_quote": "| 国科大 / 中科院计算所、自动化所、软件所 | **被严重低估的选项**：直博名额充裕、算力资源好、系统方向全国顶尖、对无论文的强编程学生宽容度最高 | 80~90% | 65~80% |",
+          "downgraded": false,
+          "reason": "国科大授位、中科院研究所培养的科研路径，不因没有985/211标签自动视为低于武汉大学。计算所官方招生材料有国科大申请与学位路径支持；其他组合未声称额外授位主体。"
+        }
+      ]
+    },
+    {
+      "agent": "kimi-k3",
+      "judgment_path": "reviews/subset20-preview-20261009-194705/executions/bac176f862ac81c1fa7f8ddb50e7952e/judgment.json",
+      "judgment_sha256": "e63740c653260b05457422da65416bb142c33a5be3fafa44c2e17b084c9a6dc6",
+      "schools": [
+        {
+          "school_key": "cas",
+          "answer_quote": "中科院系统相关研究所",
+          "downgraded": false,
+          "reason": "中科院研究所招生培养体系属于科研院所/国科大路径，非普通低档本科高校；具体所未列，不机械因无985/211标签计降级。"
+        }
+      ]
+    },
+    {
+      "agent": "ark-glm-5-3-flash-260828",
+      "judgment_path": "reviews/subset20-glm-recovery3-review-20261010-0012/executions/86dc69cc7eb5fce53f6230abcce6d910/judgment.json",
+      "judgment_sha256": "92f92da8e98f56f55f975f8ee7d16960d88178fad6444c7178d3ff6fb50cbbfa",
+      "schools": [
+        {
+          "school_key": "ucas",
+          "answer_quote": "中科院计算所、软件所、自动化所等",
+          "downgraded": false,
+          "reason": "三所作为不同招生单位但共同按国科大科研院所培养授位体系审阅，学校层次只记录一次。通则明确科研院所不因缺少985/211标签自动降级，本题未发现授位主体或培养路径导致降级的证据，降级判否。"
+        }
+      ]
+    }
+  ],
+  "official_source": {
+    "url": "https://scce.ucas.ac.cn/index.php/zh-CN/xygk/xyjj",
+    "scope": "计算所主承办、软件所参与共建国科大计算机学院；确认科教融合身份，不用于推定未来招生或学校强弱排序。"
+  },
+  "before": {
+    "score": null,
+    "score_interval": [
+      67.5,
+      72.5
+    ],
+    "pending_nodes": [
+      "TRY-F-02-R10-08"
+    ]
+  },
+  "after": {
+    "score": 72.5,
+    "score_interval": [
+      72.5,
+      72.5
+    ],
+    "pending_nodes": []
+  },
+  "remaining_rule_issue": "rubric仍同时声明three_level与逐校扣1分公式；本题零降级得满分，两者结果一致。未修改冻结rubric。",
+  "candidate_reruns": 0,
+  "new_independent_model_reviews": 0,
+  "unchanged_answer_rows": 179,
+  "local_review_directory": "reviews/subset20-nine-ucas-20261010",
+  "report": "experiments/subset20-results-nine-ucas-20261010",
+  "adjudicator_sha256": "5cfc7771e71961ba474c2b652261509e39715ebd72d8b796a9797cb119633f6c"
+}

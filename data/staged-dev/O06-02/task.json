@@ -1,0 +1,33 @@
+{
+  "as_of": "申请时间未提供",
+  "case_group_id": "student-F",
+  "case_id": "O06",
+  "constraints": [
+    "仅依据当前阶段提供的信息作答；不查询学生身份或其真实最终去向。"
+  ],
+  "deliverables": [],
+  "persona": {},
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending"
+  },
+  "stages": [
+    {
+      "instruction": "我在武汉大学读软件工程，排名8/175、六级588，ICPC、CCPC拿过一些奖，也做过科研。准备申请清北、华五和港三，时间不太够，又没有正式论文。我该把精力主要放在新比赛、现有科研还是专业面试上？",
+      "stage_id": "S0",
+      "visible_at": "申请时间未提供"
+    },
+    {
+      "instruction": "科研情况我再说具体一点：先后有三段研究，其中一段已经暂停，另两段还在调试方法，目前都没有正式论文。竞赛主要是ICPC、CCPC等。结合这些事实，你觉得刚才的时间分配还合适吗？",
+      "stage_id": "S1",
+      "visible_at": "申请时间未提供"
+    }
+  ],
+  "task_id": "O06-02",
+  "task_version": "1.0.1",
+  "time_context": {
+    "application_year": "未知",
+    "assessment_period": "申请时间未提供",
+    "time_precision": "unknown"
+  }
+}

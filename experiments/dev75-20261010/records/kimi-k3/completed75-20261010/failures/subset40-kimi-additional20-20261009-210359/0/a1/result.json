@@ -1,0 +1,16 @@
+{
+  "answer_files": [],
+  "batch": "/Users/REDACTED/Desktop/benchmark-open-source/runs/subset40-kimi-additional20-20261009-210359/attempts/0/a1/capture",
+  "category": "account_blocked",
+  "completed": 0,
+  "executed": true,
+  "exit_code": 1,
+  "finished_at": "2026-10-09T13:04:14.354908+00:00",
+  "official": false,
+  "planned": 1,
+  "status": "failed",
+  "statuses": {
+    "failed": 1
+  },
+  "stopped": "kimi-k3/BY-A-PLAN/r1"
+}

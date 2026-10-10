@@ -1,0 +1,16 @@
+{
+  "basis": "Project owner explicitly confirmed completed status for the current full dataset in this conversation",
+  "calibration_statistics": "Not supplied; no agreement coefficient or sample size claimed",
+  "historical_pending_fields": "Frozen historical metadata only; this content-bound current status takes precedence for teacher calibration",
+  "model_answer_scoring": "Separate process; this confirmation does not mark model answers scored",
+  "private_manifest_sha256": "2f43e079ced7b4931e41d4ddc747cd9b635e277eadce414b1dae75fb7c926b53",
+  "public_selection_sha256": "bc1a3b67f37e8e33ac5159ecfef8c0320cb3e57f5cb33ff0381f786285385256",
+  "recorded_at": "2026-10-09T12:38:18.903003+00:00",
+  "schema": "teacher-calibration-status.1",
+  "scope": {
+    "private_test": 125,
+    "public_dev": 75,
+    "total": 200
+  },
+  "teacher_calibration": "completed_owner_confirmed"
+}

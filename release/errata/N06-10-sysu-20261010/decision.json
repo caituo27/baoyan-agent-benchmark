@@ -1,0 +1,128 @@
+{
+  "application": "Use the corrected task.json and rubric.json together for a new adjudication; preserve original answers and review snapshots. Review every configuration, including previously numeric judgments. Do not replace old rubric hashes in frozen review packets.",
+  "authorization": "Owner accepted the proposal to treat Guangzhou and Zhuhai Chinese departments as alternative units for this single reference item.",
+  "candidate_input_changed": false,
+  "candidate_input_sha256": "025a3433dc9653ee5f59663ae4e8938da81de6ccb082ca212d7eac6b97598d70",
+  "corrected_fingerprints": {
+    "rubric": "5cc8341ac17aa3857fc500989a834b813524e19f0671f6853826a5741dcdebbb",
+    "task": "ab10eaecee3b619cd247cbf6fb4d59bdce9c2cf3ef782b043427a192430bc935"
+  },
+  "corrected_reference": {
+    "guidance": "广州、珠海两个中文系为本参考项的备选招生单位，不表示两个系属于同一院系；命中任一单位的中国语言文学学术学位项目可形成完整匹配。本项仅计一次，两个单位不拆成两个参考项。国际中文教育等其他专业不自动视为完整匹配，须核实实际招生单位、专业关系与可行路径后按原100%/60%/30%规则判分。学校、院系和专业的有效性仍按题目申请周期核验。",
+    "id": "N06-10",
+    "project": "中国语言文学系（广州）/中国语言文学系（珠海）｜中国语言文学（学术学位）",
+    "school": "中山大学"
+  },
+  "current_seven_configuration_impact": [
+    {
+      "agent": "gpt-6-astra",
+      "packet": "62110730f80a91d31bb968da2a8b9114",
+      "previous_interval": [
+        40.06,
+        44.44
+      ],
+      "previous_pending_nodes": [
+        "N06-10"
+      ],
+      "previous_score": null
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "packet": "08d74d18cbc0e342ab6eed7b13db445b",
+      "previous_interval": [
+        28.19,
+        32.56
+      ],
+      "previous_pending_nodes": [
+        "N06-10"
+      ],
+      "previous_score": null
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "packet": "f61dd883fa64dcf302685f4341e7dc7f",
+      "previous_interval": [
+        33.81,
+        42.56
+      ],
+      "previous_pending_nodes": [
+        "N06-10",
+        "N06-14"
+      ],
+      "previous_score": null
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "packet": "a602595d291c2e42e93ffcc74a19fa70",
+      "previous_interval": [
+        27.69,
+        36.44
+      ],
+      "previous_pending_nodes": [
+        "N06-10",
+        "N06-14"
+      ],
+      "previous_score": null
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "packet": "b67098a4868cfcbb65cd027835c03322",
+      "previous_interval": [
+        40.69,
+        45.06
+      ],
+      "previous_pending_nodes": [
+        "N06-14"
+      ],
+      "previous_score": null
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "packet": "18ebe6ab6eea520b9828da44f14c36bb",
+      "previous_interval": [
+        46.94,
+        46.94
+      ],
+      "previous_pending_nodes": [],
+      "previous_score": 46.94
+    },
+    {
+      "agent": "kimi-k3",
+      "packet": "2b4c8e2dba2c5708f1fb216cffce0709",
+      "previous_interval": [
+        36.44,
+        40.81
+      ],
+      "previous_pending_nodes": [
+        "N06-10"
+      ],
+      "previous_score": null
+    }
+  ],
+  "evidence_scope": "Official sources establish distinct Guangzhou and Zhuhai departments and the shared Chinese language and literature discipline. Acceptance of either unit is an owner-approved benchmark correction, not a university renaming claim.",
+  "id": "N06-10-sysu-20261010",
+  "max_reference_credit": 4.375,
+  "original_fingerprints": {
+    "rubric": "4ef3b790ed24dd44c4df766fd2f353642f8ebab60abe776f06ed270535802326",
+    "task": "aa6e8777087aa70792f8de769578f4119bf4a9826ca2c0cf06c911c1aa050f8a"
+  },
+  "previous_reference": {
+    "guidance": "按参考已有粒度和分层匹配关系判分；斜杠内各方向为同一项备选。学校、招生主体、院系、专业关系及可行申请路径由评审核实，不因只报学校计分。",
+    "id": "N06-10",
+    "project": "文学院｜中国语言文学",
+    "school": "中山大学"
+  },
+  "publication_status": "local_only_not_pushed_or_uploaded",
+  "recorded_date": "2026-10-10",
+  "reference_denominator": 16,
+  "reference_id": "N06-10",
+  "score_status": "not_rejudged",
+  "sources": [
+    "https://chinese.sysu.edu.cn/node/71",
+    "https://chinesezh.sysu.edu.cn/zh-hans/about/introduction",
+    "https://www.sysu.edu.cn/info/5452/36472.htm",
+    "https://www.sysu.edu.cn/xq/xsyg/xkda2.htm"
+  ],
+  "status": "owner_approved",
+  "task_id": "N06-03"
+}

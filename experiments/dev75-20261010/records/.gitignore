@@ -1,0 +1,3 @@
+# Only this directory contains validated, redacted public execution exports.
+!**/runs/
+!**/*.log

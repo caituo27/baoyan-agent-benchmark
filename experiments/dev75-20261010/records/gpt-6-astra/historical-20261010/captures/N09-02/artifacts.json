@@ -1,0 +1,116 @@
+[
+  {
+    "bytes": 430,
+    "export_sha256": "d05eda3fd533a313ccbd22d297cfc32a59852401cb7cf154e8d30b7d840e4321",
+    "path": "run.json",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "21a292516240fb0839eb404f2e6e2929db7e1f1f0fb375b6c5837199dc37b4d3",
+    "transformed": true
+  },
+  {
+    "bytes": 3539,
+    "export_sha256": "08f1d95f09d1653e7b24b6f4c890643fe81dc396a71f282d5a020be071b60535",
+    "path": "stages/S0/answer.md",
+    "source_pattern_counts": {},
+    "source_sha256": "08f1d95f09d1653e7b24b6f4c890643fe81dc396a71f282d5a020be071b60535",
+    "transformed": false
+  },
+  {
+    "bytes": 4367,
+    "export_sha256": "f5fd3697497fccd9e77d4b1c6e24753e50ade5124219268f9580907d5053ffc8",
+    "path": "stages/S0/events.jsonl",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "d8e2182bb3be95908d8f246c14632404e4ab48bf27bdfe58874af41a5534151a",
+    "transformed": true
+  },
+  {
+    "bytes": 2208,
+    "export_sha256": "87478ecd60f88d9a7e9f2042c81599742ec8c4178e2d6da21f95b20b53208cfe",
+    "path": "stages/S0/execution.json",
+    "source_pattern_counts": {},
+    "source_sha256": "87478ecd60f88d9a7e9f2042c81599742ec8c4178e2d6da21f95b20b53208cfe",
+    "transformed": false
+  },
+  {
+    "bytes": 3539,
+    "export_sha256": "08f1d95f09d1653e7b24b6f4c890643fe81dc396a71f282d5a020be071b60535",
+    "path": "stages/S0/final-response.md",
+    "source_pattern_counts": {},
+    "source_sha256": "08f1d95f09d1653e7b24b6f4c890643fe81dc396a71f282d5a020be071b60535",
+    "transformed": false
+  },
+  {
+    "bytes": 0,
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "stages/S0/stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformed": false
+  },
+  {
+    "bytes": 4685,
+    "export_sha256": "b600ccf140b0fa250661d4a2899a4ebff53e8e66fc27c6abedb786cb53590b59",
+    "path": "stages/S0/trace.jsonl",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "a2b5072b482f35d21ea79d93f9cafea89e0ded40fe03f5c4dd559c93e3bc773c",
+    "transformed": true
+  },
+  {
+    "bytes": 1966,
+    "export_sha256": "0e30df6f1c6c9ee881fb5613e54b77308f7be5c7d86d218fa2e95fba4ae1279d",
+    "path": "stages/S1/answer.md",
+    "source_pattern_counts": {},
+    "source_sha256": "0e30df6f1c6c9ee881fb5613e54b77308f7be5c7d86d218fa2e95fba4ae1279d",
+    "transformed": false
+  },
+  {
+    "bytes": 2766,
+    "export_sha256": "6ad2572727faacc2ca9086b5e3fad1407447605aafc88a48ce19faa6e53892cb",
+    "path": "stages/S1/events.jsonl",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "59898716e785dfca0d066c21c4406a591405dad0bec948dfceb00b4a65b97ccf",
+    "transformed": true
+  },
+  {
+    "bytes": 2270,
+    "export_sha256": "7db637d551e7a322aa46126e039d4b197850b79cb8c74babc2f3bbae27d9f8b5",
+    "path": "stages/S1/execution.json",
+    "source_pattern_counts": {},
+    "source_sha256": "7db637d551e7a322aa46126e039d4b197850b79cb8c74babc2f3bbae27d9f8b5",
+    "transformed": false
+  },
+  {
+    "bytes": 1966,
+    "export_sha256": "0e30df6f1c6c9ee881fb5613e54b77308f7be5c7d86d218fa2e95fba4ae1279d",
+    "path": "stages/S1/final-response.md",
+    "source_pattern_counts": {},
+    "source_sha256": "0e30df6f1c6c9ee881fb5613e54b77308f7be5c7d86d218fa2e95fba4ae1279d",
+    "transformed": false
+  },
+  {
+    "bytes": 0,
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "stages/S1/stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformed": false
+  },
+  {
+    "bytes": 3084,
+    "export_sha256": "68c01531a54d417209d514d756a13ea034ac45fba831b9c3e52964739ad53698",
+    "path": "stages/S1/trace.jsonl",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "209ecb9aa25306d25ae0879c7e81f3b177bbe1820c027e554f151cbc2ff92d3b",
+    "transformed": true
+  }
+]

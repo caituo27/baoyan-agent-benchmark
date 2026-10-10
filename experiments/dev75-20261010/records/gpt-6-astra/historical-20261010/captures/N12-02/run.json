@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-10-09T14:28:13.611936+00:00",
+  "execution_backend": "native_cli",
+  "execution_contract_sha256": "8906b2130d32271d7373184492a43151c40efa409c2fab699059f96e04888527",
+  "isolation_verified": false,
+  "model": "gpt-6-astra",
+  "official": false,
+  "product": "gpt-6-astra",
+  "schema_version": "longitudinal-pilot.1",
+  "snapshot_sha256": "3111195019a29a205c3b94ea0b5b2e675bc96070bca8038156e6e4369982caf3"
+}

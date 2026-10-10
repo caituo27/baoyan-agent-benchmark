@@ -1,0 +1,121 @@
+﻿agent,name,task_id,category,review_status,score,score_lower,score_upper,pending_nodes,packet
+gpt-6-astra,GPT-6 Astra,BY-B-APPLY,择校推荐,completed,68.73,68.73,68.73,,25ceb14e593b105725445f8a9174d3b4
+gpt-6-astra,GPT-6 Astra,BY-H-APPLY,择校推荐,completed,43.09,43.09,43.09,,a2d0d5033550cb8f79430f6756d8f28f
+gpt-6-astra,GPT-6 Astra,N04-03,择校推荐,completed,37.77,37.77,37.77,,1207756c29252998e9c14b34e7f2fdcb
+gpt-6-astra,GPT-6 Astra,N06-03,择校推荐,completed,,40.06,44.44,N06-10,62110730f80a91d31bb968da2a8b9114
+gpt-6-astra,GPT-6 Astra,N11-03,择校推荐,completed,56.67,56.67,56.67,,17e72a523c31bae267f7ab348d7c7e25
+gpt-6-astra,GPT-6 Astra,N14-03,择校推荐,completed,41.09,41.09,41.09,,c6287d3213683e96c481ce53bfca01a8
+gpt-6-astra,GPT-6 Astra,BY-A-OFFER,规划与决策,completed,100.0,100.0,100.0,,18c5b1d579c18cc013c7833e166ffcc6
+gpt-6-astra,GPT-6 Astra,TRY-C-03,规划与决策,completed,80.0,80.0,80.0,,df88262b610e125f17871e546f3c13e7
+gpt-6-astra,GPT-6 Astra,BY-E-REPLAN,规划与决策,completed,92.5,92.5,92.5,,58d67aea4538277a2871eb566d99444e
+gpt-6-astra,GPT-6 Astra,TRY-F-02,规划与决策,completed,100.0,100.0,100.0,,f5c8aed56de51da0392d023fd7bd5a15
+gpt-6-astra,GPT-6 Astra,N02-01,规划与决策,completed,100.0,100.0,100.0,,9eb314d559d78f87b7ff85639dcd18c9
+gpt-6-astra,GPT-6 Astra,N03-02,规划与决策,completed,100.0,100.0,100.0,,d6ee63bc37a8c16e4e512f71e73ceef4
+gpt-6-astra,GPT-6 Astra,N07-01,规划与决策,completed,95.0,95.0,95.0,,d7a739ac4477010aa4221a837f83af54
+gpt-6-astra,GPT-6 Astra,N10-01,规划与决策,completed,96.0,96.0,96.0,,9312b9e8fea6f6bd584bf525d8e59a15
+gpt-6-astra,GPT-6 Astra,N13-02,规划与决策,completed,100.0,100.0,100.0,,77a0f6496bc3d87f950c67f442ab64e1
+gpt-6-astra,GPT-6 Astra,N15-01,规划与决策,completed,86.5,86.5,86.5,,3413d762c56dc1674a8ea837ca7fb089
+gpt-6-astra,GPT-6 Astra,O04-04,两阶段任务,completed,100.0,100.0,100.0,,81580b790064588a6c4400e36455fa2b
+gpt-6-astra,GPT-6 Astra,N01-02,两阶段任务,completed,90.0,90.0,90.0,,a250d095c32ef6d299147963bd4258fa
+gpt-6-astra,GPT-6 Astra,N08-02,两阶段任务,completed,96.0,96.0,96.0,,c92b6898ef88c97ba75c34d03a8ef3b2
+gpt-6-astra,GPT-6 Astra,N16-02,两阶段任务,completed,91.0,91.0,91.0,,fc90299ee941d9814515ff162c848536
+gpt-6-1-sol,GPT-6.1 Sol,BY-B-APPLY,择校推荐,completed,76.67,76.67,76.67,,a451edb4a02bfd01ebe8052406df9652
+gpt-6-1-sol,GPT-6.1 Sol,BY-H-APPLY,择校推荐,completed,42.17,42.17,42.17,,d886d9f87469aee5075c783cd799ba4a
+gpt-6-1-sol,GPT-6.1 Sol,N04-03,择校推荐,completed,37.77,37.77,37.77,,fbf2e173d29ac965698f19dd67914205
+gpt-6-1-sol,GPT-6.1 Sol,N06-03,择校推荐,completed,,28.19,32.56,N06-10,08d74d18cbc0e342ab6eed7b13db445b
+gpt-6-1-sol,GPT-6.1 Sol,N11-03,择校推荐,completed,60.33,60.33,60.33,,254fdc1f258c5941e7dc41cc90f73ba2
+gpt-6-1-sol,GPT-6.1 Sol,N14-03,择校推荐,completed,39.44,39.44,39.44,,05c79e3668e92f7c76906c2c62be0c16
+gpt-6-1-sol,GPT-6.1 Sol,BY-A-OFFER,规划与决策,completed,100.0,100.0,100.0,,de7cf3fa464c513d3718979944557120
+gpt-6-1-sol,GPT-6.1 Sol,TRY-C-03,规划与决策,completed,90.0,90.0,90.0,,774d3283a7d2ddccecc8e3c00a75ce50
+gpt-6-1-sol,GPT-6.1 Sol,BY-E-REPLAN,规划与决策,completed,100.0,100.0,100.0,,32496f1d754c486fe0fbe124aef245cf
+gpt-6-1-sol,GPT-6.1 Sol,TRY-F-02,规划与决策,completed,92.5,92.5,92.5,,0dd1eca2f20d68d96c4e5f37e99b2700
+gpt-6-1-sol,GPT-6.1 Sol,N02-01,规划与决策,completed,95.0,95.0,95.0,,934d95e1e3cbd0ad2f3c4b9b0021247f
+gpt-6-1-sol,GPT-6.1 Sol,N03-02,规划与决策,completed,100.0,100.0,100.0,,236bdf6f225f6d9ada73c39aa0feb401
+gpt-6-1-sol,GPT-6.1 Sol,N07-01,规划与决策,completed,87.5,87.5,87.5,,76e16d0c9d58ff6fa923d97a964f8a20
+gpt-6-1-sol,GPT-6.1 Sol,N10-01,规划与决策,completed,91.0,91.0,91.0,,d3060df2f96013d99365ad73471f7ef4
+gpt-6-1-sol,GPT-6.1 Sol,N13-02,规划与决策,completed,97.5,97.5,97.5,,fc2780ea26626c11d394b6e681c3bcb9
+gpt-6-1-sol,GPT-6.1 Sol,N15-01,规划与决策,completed,86.5,86.5,86.5,,563e6085bfb190ed30d5e066c67ef3e0
+gpt-6-1-sol,GPT-6.1 Sol,O04-04,两阶段任务,completed,100.0,100.0,100.0,,9b830d6fde1e60eda7116f6cd7b7d4e1
+gpt-6-1-sol,GPT-6.1 Sol,N01-02,两阶段任务,completed,100.0,100.0,100.0,,ccd9f50b85ea777b32cb78072b3cb0b9
+gpt-6-1-sol,GPT-6.1 Sol,N08-02,两阶段任务,completed,88.5,88.5,88.5,,e6a6af3d2e08b16c1701b18aa1aae19b
+gpt-6-1-sol,GPT-6.1 Sol,N16-02,两阶段任务,completed,91.0,91.0,91.0,,3f4d33c771a797bf3c622373c15d3fda
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,BY-B-APPLY,择校推荐,completed,76.33,76.33,76.33,,e9edd043c7914b027f399a1362711950
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,BY-H-APPLY,择校推荐,completed,40.59,40.59,40.59,,6e879e1c56b8a2004ac5b185af73bda3
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,N04-03,择校推荐,completed,29.0,29.0,29.0,,6c1724ad017da7176000500ae3d9dc2a
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,N06-03,择校推荐,completed,,33.81,42.56,N06-10;N06-14,f61dd883fa64dcf302685f4341e7dc7f
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,N11-03,择校推荐,completed,69.25,69.25,69.25,,2377deef66faa73e543f1232073fdc36
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,N14-03,择校推荐,completed,38.18,38.18,38.18,,25e1e2cea7a3aba2ae8344f4b3409f77
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,BY-A-OFFER,规划与决策,completed,95.0,95.0,95.0,,47348427950eaf39de48acb47d0753cd
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,TRY-C-03,规划与决策,completed,72.5,72.5,72.5,,21c2061596232451d056ba2c2918af62
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,BY-E-REPLAN,规划与决策,completed,,72.5,82.5,BY-E-REPLAN-R10-05,5803e86212cea7626bd29ac1e01f7212
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,TRY-F-02,规划与决策,completed,67.5,67.5,67.5,,e5ea7199ac6b84ad11323c6f0a4775d8
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,N02-01,规划与决策,completed,82.5,82.5,82.5,,5bd2ca7ba3c5c8ca341694b774adbff4
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,N03-02,规划与决策,completed,62.5,62.5,62.5,,8453443a47554842ef1e921bbf8e13c9
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,N07-01,规划与决策,completed,67.5,67.5,67.5,,544821f69352c28f1e37ac8f3d1cd86f
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,N10-01,规划与决策,completed,73.0,73.0,73.0,,1c6e077504c4d8b7ef214346951922dc
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,N13-02,规划与决策,completed,92.5,92.5,92.5,,fe5d246ca0ec7650c85b02d517b2176c
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,N15-01,规划与决策,completed,82.0,82.0,82.0,,456a122c9799a1fec49f14cc9c561470
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,O04-04,两阶段任务,completed,75.0,75.0,75.0,,d76be59504ad4b3d3461f05631f55905
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,N01-02,两阶段任务,completed,85.0,85.0,85.0,,80e324d9ad8a5b49b85a448273d9a308
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,N08-02,两阶段任务,completed,72.5,72.5,72.5,,59637d164b625d546af9a0f9b294906c
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,N16-02,两阶段任务,completed,85.0,85.0,85.0,,eab1dfb34c33238d828226968ef82a21
+antigravity-gemini-3-1-pro-high,Gemini 3.1 Pro,BY-B-APPLY,择校推荐,completed,66.67,66.67,66.67,,13ac63dc492cd321ac5fd88a4d029f53
+antigravity-gemini-3-1-pro-high,Gemini 3.1 Pro,BY-H-APPLY,择校推荐,completed,30.59,30.59,30.59,,25e45781af16645456f928ab3f6349ed
+antigravity-gemini-3-1-pro-high,Gemini 3.1 Pro,N04-03,择校推荐,completed,31.5,31.5,31.5,,c1b1ff1040231324d29e5a941b8bc131
+antigravity-gemini-3-1-pro-high,Gemini 3.1 Pro,N06-03,择校推荐,completed,,27.69,36.44,N06-10;N06-14,a602595d291c2e42e93ffcc74a19fa70
+antigravity-gemini-3-1-pro-high,Gemini 3.1 Pro,N11-03,择校推荐,completed,60.25,60.25,60.25,,50136dd2cd8caf7ba44cd598a77572c4
+antigravity-gemini-3-1-pro-high,Gemini 3.1 Pro,N14-03,择校推荐,completed,,19.06,32.29,N14-L1-02;N14-L1-06;execution,2ab9c25b656767c4527c85f9b875aeda
+antigravity-gemini-3-1-pro-high,Gemini 3.1 Pro,BY-A-OFFER,规划与决策,completed,72.5,72.5,72.5,,ac73df7b823811d380680e2d489ba672
+antigravity-gemini-3-1-pro-high,Gemini 3.1 Pro,TRY-C-03,规划与决策,completed,55.0,55.0,55.0,,6a8641fcc126f1ef9873375842b05e2d
+antigravity-gemini-3-1-pro-high,Gemini 3.1 Pro,BY-E-REPLAN,规划与决策,completed,77.5,77.5,77.5,,c5f403e664f6df58ac047d7a8972932e
+antigravity-gemini-3-1-pro-high,Gemini 3.1 Pro,TRY-F-02,规划与决策,completed,47.5,47.5,47.5,,8a02db47448e033a3fae3fb65636131b
+antigravity-gemini-3-1-pro-high,Gemini 3.1 Pro,N02-01,规划与决策,completed,70.0,70.0,70.0,,829187b242a8f0fe7b0a641e13f2d51b
+antigravity-gemini-3-1-pro-high,Gemini 3.1 Pro,N03-02,规划与决策,completed,52.5,52.5,52.5,,aa0c42442ef8859257a08e799249aaea
+antigravity-gemini-3-1-pro-high,Gemini 3.1 Pro,N07-01,规划与决策,completed,55.0,55.0,55.0,,1a56355affc5b74719afcf809cf5f667
+antigravity-gemini-3-1-pro-high,Gemini 3.1 Pro,N10-01,规划与决策,completed,68.5,68.5,68.5,,0b3d92fa3c5ad2ad4ea326bddb093866
+antigravity-gemini-3-1-pro-high,Gemini 3.1 Pro,N13-02,规划与决策,completed,50.0,50.0,50.0,,047583f1988cf24d6a6d913257e592ca
+antigravity-gemini-3-1-pro-high,Gemini 3.1 Pro,N15-01,规划与决策,completed,50.0,50.0,50.0,,1c3e524d225e3c4ec4335b6f8c5bab20
+antigravity-gemini-3-1-pro-high,Gemini 3.1 Pro,O04-04,两阶段任务,completed,87.5,87.5,87.5,,a7119f59537aabe76149fa243da9ede6
+antigravity-gemini-3-1-pro-high,Gemini 3.1 Pro,N01-02,两阶段任务,completed,80.0,80.0,80.0,,f76b5266d57bca8c0c7e7dea73fcb737
+antigravity-gemini-3-1-pro-high,Gemini 3.1 Pro,N08-02,两阶段任务,completed,64.5,64.5,64.5,,0826863044cb33dd4e27161dcfe8773a
+antigravity-gemini-3-1-pro-high,Gemini 3.1 Pro,N16-02,两阶段任务,completed,48.0,48.0,48.0,,a0f41930dbf142041e2ac1e69abab1bb
+antigravity-gemini-3-8-flash-high,Gemini 3.8 Flash,BY-B-APPLY,择校推荐,completed,71.63,71.63,71.63,,852e6a03ff0f6e2100c44007e80763c9
+antigravity-gemini-3-8-flash-high,Gemini 3.8 Flash,BY-H-APPLY,择校推荐,completed,34.17,34.17,34.17,,de69e688b43a9a237ff8c6e8a89b14d7
+antigravity-gemini-3-8-flash-high,Gemini 3.8 Flash,N04-03,择校推荐,completed,38.33,38.33,38.33,,61bfc27f6ec42e96eeab41351c368b16
+antigravity-gemini-3-8-flash-high,Gemini 3.8 Flash,N06-03,择校推荐,completed,,40.69,45.06,N06-14,b67098a4868cfcbb65cd027835c03322
+antigravity-gemini-3-8-flash-high,Gemini 3.8 Flash,N11-03,择校推荐,completed,75.0,75.0,75.0,,636d5b972c449e5cb67535aff1c887ff
+antigravity-gemini-3-8-flash-high,Gemini 3.8 Flash,N14-03,择校推荐,completed,,33.53,37.65,N14-L1-06,415f4ae0e4e0824dc49f675933008112
+antigravity-gemini-3-8-flash-high,Gemini 3.8 Flash,BY-A-OFFER,规划与决策,completed,87.5,87.5,87.5,,0878b4164f119f8ee99ac2dac116e698
+antigravity-gemini-3-8-flash-high,Gemini 3.8 Flash,TRY-C-03,规划与决策,completed,65.0,65.0,65.0,,ce01af6031567a69c1f57e38ee01cbc0
+antigravity-gemini-3-8-flash-high,Gemini 3.8 Flash,BY-E-REPLAN,规划与决策,completed,,52.5,77.5,BY-E-REPLAN-R10-02,7412e94e5f674eec5854383faada97d3
+antigravity-gemini-3-8-flash-high,Gemini 3.8 Flash,TRY-F-02,规划与决策,completed,55.0,55.0,55.0,,118b0617b5e534f61676b7a2f2a016e0
+antigravity-gemini-3-8-flash-high,Gemini 3.8 Flash,N02-01,规划与决策,completed,82.5,82.5,82.5,,496b73bc19c001b1318edf39925e9d04
+antigravity-gemini-3-8-flash-high,Gemini 3.8 Flash,N03-02,规划与决策,completed,45.0,45.0,45.0,,219bb69324e6cacb7734b818204700b6
+antigravity-gemini-3-8-flash-high,Gemini 3.8 Flash,N07-01,规划与决策,completed,35.5,35.5,35.5,,9878e61614f401044cb8674547cdd67a
+antigravity-gemini-3-8-flash-high,Gemini 3.8 Flash,N10-01,规划与决策,completed,,48.0,81.0,N10-01-T1;N10-01-T5,0f65020377cec663c3c2d48492b7efd9
+antigravity-gemini-3-8-flash-high,Gemini 3.8 Flash,N13-02,规划与决策,completed,77.5,77.5,77.5,,1641b3ebd92dc2b5aa10f56b8be06172
+antigravity-gemini-3-8-flash-high,Gemini 3.8 Flash,N15-01,规划与决策,completed,56.0,56.0,56.0,,6fe25d80671b76850c5b16f8fe8aba6c
+antigravity-gemini-3-8-flash-high,Gemini 3.8 Flash,O04-04,两阶段任务,completed,87.5,87.5,87.5,,a5574eec1403f358c32113ed80044978
+antigravity-gemini-3-8-flash-high,Gemini 3.8 Flash,N01-02,两阶段任务,completed,80.0,80.0,80.0,,daa69534276ab1552355349baf2e5caf
+antigravity-gemini-3-8-flash-high,Gemini 3.8 Flash,N08-02,两阶段任务,completed,53.0,53.0,53.0,,20bed8cbf186a2d1c01c63ecf99d466c
+antigravity-gemini-3-8-flash-high,Gemini 3.8 Flash,N16-02,两阶段任务,completed,60.0,60.0,60.0,,204338a5e3a86b8bb9d47907cd0b0f5d
+kimi-k3,Kimi K3,BY-B-APPLY,择校推荐,completed,62.0,62.0,62.0,,5ffb7ed43320691e7e16c3a17ffaac30
+kimi-k3,Kimi K3,BY-H-APPLY,择校推荐,completed,44.17,44.17,44.17,,bb4e9dab657d4f41a579c4497b5b305b
+kimi-k3,Kimi K3,N04-03,择校推荐,completed,48.0,48.0,48.0,,6c81e570f6226287af14b6cce5b87cd2
+kimi-k3,Kimi K3,N06-03,择校推荐,completed,,36.44,40.81,N06-10,2b4c8e2dba2c5708f1fb216cffce0709
+kimi-k3,Kimi K3,N11-03,择校推荐,completed,49.25,49.25,49.25,,beaff312a35eb574f84bab8ba4d3264e
+kimi-k3,Kimi K3,N14-03,择校推荐,completed,29.44,29.44,29.44,,91ce6e3e3b89b6d277009278ca27458c
+kimi-k3,Kimi K3,BY-A-OFFER,规划与决策,completed,85.0,85.0,85.0,,87ba51612bda78124f1a2ad5c6b7cbf4
+kimi-k3,Kimi K3,TRY-C-03,规划与决策,completed,70.0,70.0,70.0,,97b653ba30e6a3a4173d0ccac28df20f
+kimi-k3,Kimi K3,BY-E-REPLAN,规划与决策,completed,80.0,80.0,80.0,,a5f989b72dcc42df49a568546a6bdcbd
+kimi-k3,Kimi K3,TRY-F-02,规划与决策,completed,50.0,50.0,50.0,,bac176f862ac81c1fa7f8ddb50e7952e
+kimi-k3,Kimi K3,N02-01,规划与决策,completed,70.0,70.0,70.0,,f06776f21de8450ca797d891bdfbb2f7
+kimi-k3,Kimi K3,N03-02,规划与决策,completed,62.5,62.5,62.5,,fdf054f6f28b725edf7681dc78836690
+kimi-k3,Kimi K3,N07-01,规划与决策,completed,68.0,68.0,68.0,,94642f1c7d5f34fbd51527e442cba7a4
+kimi-k3,Kimi K3,N10-01,规划与决策,completed,58.0,58.0,58.0,,05336c33ab3e30a89e2c016b4f2b9758
+kimi-k3,Kimi K3,N13-02,规划与决策,completed,67.5,67.5,67.5,,c984e86a9907b31ab23836a77ba4dbb6
+kimi-k3,Kimi K3,N15-01,规划与决策,completed,67.5,67.5,67.5,,d6886888cf7075507f7e38bb8880f1b1
+kimi-k3,Kimi K3,O04-04,两阶段任务,completed,87.5,87.5,87.5,,022c08f1023d40d92056235439e92000
+kimi-k3,Kimi K3,N01-02,两阶段任务,completed,80.0,80.0,80.0,,497e1e42f2f6857a31fd88855f30c717
+kimi-k3,Kimi K3,N08-02,两阶段任务,completed,67.5,67.5,67.5,,a6fb2660db489695f1d55857360e0996
+kimi-k3,Kimi K3,N16-02,两阶段任务,completed,55.0,55.0,55.0,,aa195427a7128e279cd8b947c25390bd

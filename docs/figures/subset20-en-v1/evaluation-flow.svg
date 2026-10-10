@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+<title id="title">Staged execution and independent evaluation</title>
+<desc id="desc">S0 to A0, then S1 to A1 in the candidate session. Both answers and organizer-held rubrics enter independent evaluation.</desc>
+<rect x="0" y="0" width="1600" height="1100" rx="0" fill="#FFFFFF" stroke="none"/>
+<rect x="64" y="44" width="8" height="22" rx="0" fill="#405DC6" stroke="none"/>
+<text x="88" y="61.2" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="600" text-anchor="start" fill="#202B40">Baoyan Agent Benchmark</text>
+<text x="1536" y="60.62" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="400" text-anchor="end" fill="#647087">03 / PROTOCOL  /  SUBSET 20</text>
+<text x="64" y="145.84" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="44" font-weight="600" text-anchor="start" fill="#202B40">Answer using only the facts available now</text>
+<text x="64" y="197.06" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#647087">Release prompts stage by stage. Separate candidates from reviewers and retain original records.</text>
+<rect x="64" y="263" width="1054" height="463" rx="12" fill="#F7F9FE" stroke="none"/>
+<rect x="1150" y="263" width="386" height="463" rx="12" fill="#FCF8F3" stroke="none"/>
+<text x="90" y="304.92" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="600" text-anchor="start" fill="#405DC6">CANDIDATE  /  One task, one session</text>
+<text x="1175" y="304.92" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="600" text-anchor="start" fill="#B96532">ORGANIZER  /  Materials</text>
+<rect x="92" y="375" width="221" height="164" rx="8" fill="white" stroke="#DEE4ED"/>
+<line x1="114" y1="426" x2="291" y2="426" stroke="#DEE4ED" stroke-width="1"/>
+<rect x="114" y="397" width="7" height="7" rx="0" fill="#405DC6" stroke="none"/>
+<text x="132" y="404.62" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" text-anchor="start" fill="#405DC6">S0</text>
+<text x="202" y="479.64" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="600" text-anchor="middle" fill="#202B40">Initial prompt</text>
+<rect x="350" y="375" width="221" height="164" rx="8" fill="white" stroke="#DEE4ED"/>
+<line x1="372" y1="426" x2="549" y2="426" stroke="#DEE4ED" stroke-width="1"/>
+<rect x="372" y="397" width="7" height="7" rx="0" fill="#405DC6" stroke="none"/>
+<text x="390" y="404.62" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" text-anchor="start" fill="#405DC6">A0</text>
+<text x="460" y="479.64" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="600" text-anchor="middle" fill="#202B40">First answer</text>
+<rect x="608" y="375" width="221" height="164" rx="8" fill="white" stroke="#DEE4ED"/>
+<line x1="630" y1="426" x2="807" y2="426" stroke="#DEE4ED" stroke-width="1"/>
+<rect x="630" y="397" width="7" height="7" rx="0" fill="#B96532" stroke="none"/>
+<text x="648" y="404.62" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" text-anchor="start" fill="#B96532">S1</text>
+<text x="718" y="479.64" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="600" text-anchor="middle" fill="#202B40">New facts</text>
+<rect x="866" y="375" width="221" height="164" rx="8" fill="white" stroke="#DEE4ED"/>
+<line x1="888" y1="426" x2="1065" y2="426" stroke="#DEE4ED" stroke-width="1"/>
+<rect x="888" y="397" width="7" height="7" rx="0" fill="#405DC6" stroke="none"/>
+<text x="906" y="404.62" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" text-anchor="start" fill="#405DC6">A1</text>
+<text x="976" y="479.64" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="600" text-anchor="middle" fill="#202B40">Revised answer</text>
+<line x1="317" y1="462" x2="344" y2="462" stroke="#405DC6" stroke-width="2"/>
+<line x1="344" y1="462" x2="333.4690092573155" y2="467.75310646325045" stroke="#405DC6" stroke-width="2"/>
+<line x1="344" y1="462" x2="333.4690092573155" y2="456.24689353674955" stroke="#405DC6" stroke-width="2"/>
+<line x1="575" y1="462" x2="602" y2="462" stroke="#405DC6" stroke-width="2"/>
+<line x1="602" y1="462" x2="591.4690092573155" y2="467.75310646325045" stroke="#405DC6" stroke-width="2"/>
+<line x1="602" y1="462" x2="591.4690092573155" y2="456.24689353674955" stroke="#405DC6" stroke-width="2"/>
+<line x1="833" y1="462" x2="860" y2="462" stroke="#405DC6" stroke-width="2"/>
+<line x1="860" y1="462" x2="849.4690092573155" y2="467.75310646325045" stroke="#405DC6" stroke-width="2"/>
+<line x1="860" y1="462" x2="849.4690092573155" y2="456.24689353674955" stroke="#405DC6" stroke-width="2"/>
+<text x="590" y="351.06" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="600" text-anchor="middle" fill="#B96532">Release S1 only after A0</text>
+<line x1="590" y1="365" x2="590" y2="438" stroke="#B96532" stroke-width="1"/>
+<text x="590" y="638.78" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="600" text-anchor="middle" fill="#405DC6">Keep both original answers, in sequence</text>
+<text x="90" y="702.2" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" text-anchor="start" fill="#647087">New HOME, workspace, and session per task; preserve context within the same task.</text>
+<rect x="1175" y="372" width="4" height="54" rx="0" fill="#B96532" stroke="none"/>
+<text x="1192" y="391.78" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="600" text-anchor="start" fill="#202B40">Task rubric</text>
+<text x="1192" y="423.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#647087">Criteria and reference material</text>
+<rect x="1175" y="478" width="4" height="54" rx="0" fill="#B96532" stroke="none"/>
+<text x="1192" y="497.78" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="600" text-anchor="start" fill="#202B40">Future prompts</text>
+<text x="1192" y="529.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#647087">Release at their assigned stage</text>
+<rect x="1175" y="584" width="4" height="54" rx="0" fill="#B96532" stroke="none"/>
+<text x="1192" y="603.78" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="600" text-anchor="start" fill="#202B40">Other tasks &amp; answers</text>
+<text x="1192" y="635.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#647087">Keep outside this workspace</text>
+<line x1="460" y1="539" x2="460" y2="556" stroke="#405DC6" stroke-width="1"/>
+<line x1="976" y1="539" x2="976" y2="556" stroke="#405DC6" stroke-width="1"/>
+<line x1="460" y1="556" x2="1077" y2="556" stroke="#405DC6" stroke-width="1"/>
+<line x1="1077" y1="556" x2="1077" y2="751" stroke="#405DC6" stroke-width="2"/>
+<line x1="1077" y1="751" x2="296" y2="751" stroke="#405DC6" stroke-width="2"/>
+<line x1="296" y1="751" x2="296" y2="784" stroke="#405DC6" stroke-width="2"/>
+<line x1="296" y1="751" x2="296" y2="784" stroke="#405DC6" stroke-width="2"/>
+<line x1="296" y1="784" x2="290.24689353674955" y2="773.4690092573155" stroke="#405DC6" stroke-width="2"/>
+<line x1="296" y1="784" x2="301.75310646325045" y2="773.4690092573155" stroke="#405DC6" stroke-width="2"/>
+<line x1="1485" y1="405" x2="1560" y2="405" stroke="#B96532" stroke-width="2"/>
+<line x1="1560" y1="405" x2="1560" y2="762" stroke="#B96532" stroke-width="2"/>
+<line x1="1560" y1="762" x2="818" y2="762" stroke="#B96532" stroke-width="2"/>
+<line x1="818" y1="762" x2="818" y2="784" stroke="#B96532" stroke-width="2"/>
+<line x1="818" y1="762" x2="818" y2="784" stroke="#B96532" stroke-width="2"/>
+<line x1="818" y1="784" x2="812.2468935367496" y2="773.4690092573155" stroke="#B96532" stroke-width="2"/>
+<line x1="818" y1="784" x2="823.7531064632504" y2="773.4690092573155" stroke="#B96532" stroke-width="2"/>
+<rect x="64" y="784" width="464" height="150" rx="8" fill="#EFF2FC" stroke="none"/>
+<rect x="584" y="784" width="464" height="150" rx="8" fill="#EBF5F2" stroke="none"/>
+<rect x="1104" y="784" width="432" height="150" rx="8" fill="#F4F6F9" stroke="none"/>
+<text x="88" y="822.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#405DC6">1</text>
+<text x="122" y="824.36" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#202B40">Anonymous packet</text>
+<text x="88" y="892.2" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" text-anchor="start" fill="#647087">A0 + A1 count as one task</text>
+<text x="608" y="822.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#19776B">2</text>
+<text x="642" y="824.36" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#202B40">Independent review</text>
+<text x="608" y="892.2" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" text-anchor="start" fill="#647087">Rubric judgments, quotes, reasons</text>
+<text x="1128" y="822.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#202B40">3</text>
+<text x="1162" y="824.36" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#202B40">Scoring code</text>
+<text x="1128" y="892.2" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" text-anchor="start" fill="#647087">Validate, archive, recompute</text>
+<line x1="536" y1="860" x2="576" y2="860" stroke="#405DC6" stroke-width="2"/>
+<line x1="576" y1="860" x2="565.4690092573155" y2="865.7531064632504" stroke="#405DC6" stroke-width="2"/>
+<line x1="576" y1="860" x2="565.4690092573155" y2="854.2468935367496" stroke="#405DC6" stroke-width="2"/>
+<line x1="1056" y1="860" x2="1096" y2="860" stroke="#19776B" stroke-width="2"/>
+<line x1="1096" y1="860" x2="1085.4690092573155" y2="865.7531064632504" stroke="#19776B" stroke-width="2"/>
+<line x1="1096" y1="860" x2="1085.4690092573155" y2="854.2468935367496" stroke="#19776B" stroke-width="2"/>
+<text x="64" y="997.92" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#202B40">Keep failures and pending items visible. Report a complete mean only for a fully scored selection.</text>
+<line x1="64" y1="1038" x2="1536" y2="1038" stroke="#DEE4ED" stroke-width="1"/>
+<text x="64" y="1073.76" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#647087">Method illustration. Disclose sandbox, authentication, and network conditions with each experiment.</text>
+<text x="1536" y="1073.76" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" text-anchor="end" fill="#647087">1.0.1  ·  public-dev-20-v1</text>
+</svg>

@@ -1,0 +1,83 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "N02-01",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "明确询问学校名称或院校背景，说明它关系到申请范围，而非假设学校层次",
+      "grading": "three_level",
+      "half_credit": "询问本科学校但没有表明用途",
+      "id": "N02-01-I1",
+      "label": "主动询问本科院校及院校背景",
+      "points": 20
+    },
+    {
+      "full_credit": "明确询问名次/专业总人数或前五学期有效综合排名，区分成绩排名与推免排名",
+      "grading": "three_level",
+      "half_credit": "只问GPA或模糊问成绩好不好",
+      "id": "N02-01-I2",
+      "label": "主动询问准确专业排名与人数",
+      "points": 20
+    },
+    {
+      "full_credit": "明确询问CET6是否通过及具体分数，必要时问四级/其他语言成绩及取得时间",
+      "grading": "three_level",
+      "half_credit": "仅问英语水平，不区分考试类型",
+      "id": "N02-01-I3",
+      "label": "主动询问英语成绩与考试类型",
+      "points": 20
+    },
+    {
+      "full_credit": "询问本科专业、目标专业或学位及是否取得/预计取得本校推免资格，说明对申请方案的作用",
+      "grading": "three_level",
+      "half_credit": "只触及部分关键资格或目标",
+      "id": "N02-01-I4",
+      "label": "专业、培养目标与资格信息",
+      "points": 15
+    },
+    {
+      "full_credit": "确认申请年份/拟入学届别和当前大几、所处批次；不会将某年政策当普遍政策",
+      "grading": "three_level",
+      "half_credit": "只问大几或申请季之一",
+      "id": "N02-01-I5",
+      "label": "阶段和适用政策时间",
+      "points": 10
+    },
+    {
+      "full_credit": "明确说明缺关键信息时无法可靠给具体学校清单，可在得到信息后制定方案；不编造资格",
+      "grading": "three_level",
+      "half_credit": "没有乱推荐，但缺合理的后续收集动作",
+      "id": "N02-01-I6",
+      "label": "先澄清再制定个性方案",
+      "points": 10
+    },
+    {
+      "full_credit": "简洁分层提出少数核心问题，无冗长无关清单",
+      "grading": "three_level",
+      "half_credit": "包含核心问题但冗长或排序一般",
+      "id": "N02-01-I7",
+      "label": "提问成本与表达",
+      "points": 5
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "recommendation_verification": "reviewer_verifies_content",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "只依据已披露事实评分；未给事实允许询问或条件处理，不能要求猜测。单阶段题中的反馈/状态变化按提出可执行核验或调整条件理解，不要求实际收到未提供的反馈。层次项按本题0/0.5/1边界评分，未使用按降级院校数自动扣分。同一错误不得在案例锚点与通用事实项重复扣分，独立影响按通则说明。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": false
+}

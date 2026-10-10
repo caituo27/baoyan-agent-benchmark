@@ -1,0 +1,1 @@
+完整中文答卷已写入 [answer.md](/private/var/folders/7q/lh8gcfwj1bq91rl4hqmj18dw0000gn/T/baoyan-candidate-ldzf6olv/workspace/answer.md)，包含15个具体组合、申请梯度、背景匹配分析、条件核验、官方来源及申请建议。

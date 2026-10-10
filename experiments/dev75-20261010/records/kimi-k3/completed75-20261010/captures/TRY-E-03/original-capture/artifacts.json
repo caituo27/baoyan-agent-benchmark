@@ -1,0 +1,62 @@
+[
+  {
+    "bytes": 0,
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "cli.stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformed": false
+  },
+  {
+    "bytes": 1904,
+    "export_sha256": "817e4557b744bfcd08b26bbc3da9e02d424aea583c3487e1a4cbc34dc2092bfe",
+    "path": "execution.json",
+    "source_pattern_counts": {},
+    "source_sha256": "817e4557b744bfcd08b26bbc3da9e02d424aea583c3487e1a4cbc34dc2092bfe",
+    "transformed": false
+  },
+  {
+    "bytes": 1637,
+    "export_sha256": "0e7415e23827d2fbc3958bb7c37e797e89ced34277fbed1f5e35627710005368",
+    "path": "run.json",
+    "source_pattern_counts": {},
+    "source_sha256": "f91d133f5ad0d87fcfd21b51c8868b55d07918176c2ce1659f4bf6eed4af5ef6",
+    "transformed": true
+  },
+  {
+    "bytes": 70753,
+    "export_sha256": "8c2318fa449c49b0e5a941e6bfdf76bf3ed01dc230c8a22948bdc6b382cb5d2b",
+    "path": "trace.jsonl",
+    "source_pattern_counts": {
+      "email": 1
+    },
+    "source_sha256": "3acfb1bb2ea4e32e609f07015c43f92e6bcd517e5f743cea7e32004be182fb65",
+    "transformed": true
+  },
+  {
+    "bytes": 8493,
+    "export_sha256": "f1dc42e3bb9e96133d7221b3dc54ac2d5e750c2aa50ad791506d2116c7f1a7ed",
+    "path": "workspace/answer.md",
+    "source_pattern_counts": {},
+    "source_sha256": "f1dc42e3bb9e96133d7221b3dc54ac2d5e750c2aa50ad791506d2116c7f1a7ed",
+    "transformed": false
+  },
+  {
+    "bytes": 69789,
+    "export_sha256": "3e597330e70b23fdec1feb4535ddd4058f7222860b8552d2974e6ad80a69e8b5",
+    "path": "workspace/trajectory.jsonl",
+    "source_pattern_counts": {
+      "email": 1
+    },
+    "source_sha256": "0af1d521f3dc14163771420b11cb5bb6e706bbfed10e17c33753b56afdea77bc",
+    "transformed": true
+  },
+  {
+    "bytes": 72,
+    "export_sha256": "dbe2cf615315c4831999c1438f9fb2a01048dca1abba40d345ce8da18037c28e",
+    "path": "workspace/usage.json",
+    "source_pattern_counts": {},
+    "source_sha256": "dbe2cf615315c4831999c1438f9fb2a01048dca1abba40d345ce8da18037c28e",
+    "transformed": false
+  }
+]

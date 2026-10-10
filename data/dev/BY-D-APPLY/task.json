@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-D",
+  "context": {
+    "observation": {
+      "评测时间": "2026年3月"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "hard",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "BY-D-APPLY",
+  "prompt": "我在吉林大学读通信工程，大三下排名2/289、六级523，一篇WCL通信期刊一作论文已发表（JCR Q1），另一篇论文在写；主持国家级大创，参与过专利设计，数学建模、蓝桥杯等竞赛有获奖，还连续两年拿到国家奖学金。想继续通信、机器学习或AI交叉，清北本部优先，学硕、直博和硕博连读都能考虑，以后倾向企业研发。能帮我推荐21个国内学校、学院和具体专业（项目）组合吗？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "1baf2f3cae0374b77d5819ffdeb06619960122572e7b0ce2c3f16cc24f2e78c6",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "recommendation",
+  "task_version": "1.0.1"
+}

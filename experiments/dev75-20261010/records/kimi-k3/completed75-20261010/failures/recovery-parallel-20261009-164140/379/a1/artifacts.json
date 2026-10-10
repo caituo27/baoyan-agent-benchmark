@@ -1,0 +1,28 @@
+[
+  {
+    "bytes": 411,
+    "export_sha256": "efb70fea72017e3442e5d7cce86ff87c0f7667275e169957a10a68a7d13ac422",
+    "path": "result.json",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "fae48915d243afa3836d5bc9033b4f3a9140bd7be987fda11a306fb6fa2555bc",
+    "transformed": true
+  },
+  {
+    "bytes": 62,
+    "export_sha256": "bd3f07f663376884b08751992938df4a5a94771d69b6f517cce700ae463c99ba",
+    "path": "worker.stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "bd3f07f663376884b08751992938df4a5a94771d69b6f517cce700ae463c99ba",
+    "transformed": false
+  },
+  {
+    "bytes": 0,
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "worker.stdout.log",
+    "source_pattern_counts": {},
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformed": false
+  }
+]

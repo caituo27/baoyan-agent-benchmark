@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-N13",
+  "context": {
+    "observation": {
+      "评测时间": "2026年推免申请季"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "medium",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "N13-02",
+  "prompt": "我是广州大学机械专业的，排名1/171，六级452。成绩是优势，但科研、英语、比赛和申请准备都要兼顾，时间又有限。接下来这段时间怎么安排才更合理，哪些事情值得优先投入？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "e68dfe5ff5e02ebc95f7dfe3a2419d10404cde6ab017f7cc1a1f40503dddaf36",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.1"
+}

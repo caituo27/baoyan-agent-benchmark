@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-10-10T03:23:55.612765+00:00",
+  "execution_backend": "native_cli",
+  "execution_contract_sha256": "9dec440ea660195bd4e942c08229786f4b18feb07d4738d52167e959e2562073",
+  "isolation_verified": false,
+  "model": "k3",
+  "official": false,
+  "product": "kimi-k3",
+  "schema_version": "longitudinal-pilot.1",
+  "snapshot_sha256": "20d37d36021d95dbfa0ae1c46b5cda4f560a71dbfe9ee747ed7e0bc7e90e578d"
+}

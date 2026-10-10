@@ -1,0 +1,58 @@
+[
+  {
+    "bytes": 0,
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "cli.stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformed": false
+  },
+  {
+    "bytes": 1904,
+    "export_sha256": "d2fea03219cf9a02f7bf899922c89f363bc01bce1fb10420347dd1300aea4df2",
+    "path": "execution.json",
+    "source_pattern_counts": {},
+    "source_sha256": "d2fea03219cf9a02f7bf899922c89f363bc01bce1fb10420347dd1300aea4df2",
+    "transformed": false
+  },
+  {
+    "bytes": 1638,
+    "export_sha256": "66a1eaf63b1f57d81a554aa0a71d98a44f91546f2e9f083eba6c62696a09dcb7",
+    "path": "run.json",
+    "source_pattern_counts": {},
+    "source_sha256": "365af2155aeb81bf00067712890d980389073251ab0b4334721fe7e7d324e2c9",
+    "transformed": true
+  },
+  {
+    "bytes": 65673,
+    "export_sha256": "00f311caecbc3c24f7c19a561448dd1ca399906492b0ad851d1884022056188a",
+    "path": "trace.jsonl",
+    "source_pattern_counts": {},
+    "source_sha256": "047cb1bb5832aa19a3c9b2107c0565a2ce0d71965e2001fcb3ce302724790331",
+    "transformed": true
+  },
+  {
+    "bytes": 1559,
+    "export_sha256": "831ec44b3b2665f74a6166704cb1a63d9fb57a6ded4b3492296ed3b8421a4bc9",
+    "path": "workspace/answer.md",
+    "source_pattern_counts": {},
+    "source_sha256": "831ec44b3b2665f74a6166704cb1a63d9fb57a6ded4b3492296ed3b8421a4bc9",
+    "transformed": false
+  },
+  {
+    "bytes": 64709,
+    "export_sha256": "5b804883b7ca77a59a9bb10e95a3f7a8bcc4ba61389b9091ed1f94b1c67e046c",
+    "path": "workspace/trajectory.jsonl",
+    "source_pattern_counts": {},
+    "source_sha256": "0fd3f85668b4fee51e72a3dfe0cfdd7967ddf24bbcae5b07c1899cd1d482b70a",
+    "transformed": true
+  },
+  {
+    "bytes": 72,
+    "export_sha256": "dbe2cf615315c4831999c1438f9fb2a01048dca1abba40d345ce8da18037c28e",
+    "path": "workspace/usage.json",
+    "source_pattern_counts": {},
+    "source_sha256": "dbe2cf615315c4831999c1438f9fb2a01048dca1abba40d345ce8da18037c28e",
+    "transformed": false
+  }
+]

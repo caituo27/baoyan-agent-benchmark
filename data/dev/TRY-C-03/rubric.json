@@ -1,0 +1,82 @@
+{
+  "candidate_limit": null,
+  "coverage_points": 0,
+  "forced_pending_reference_ids": [],
+  "id": "TRY-C-03",
+  "kind": "admissions_rubric_v1",
+  "max_points": 100,
+  "nodes": [
+    {
+      "full_credit": "结合已有M奖判断再参加美赛的新增收益和成本，给有理由的参加或暂缓结论。",
+      "grading": "three_level",
+      "half_credit": "已有再参赛的具体收益或成本分析，但另一侧或结论依据不足。",
+      "id": "TRY-C-03-R10-01",
+      "label": "美赛具体评估",
+      "points": 10
+    },
+    {
+      "full_credit": "联系化工、能源或现有研究评价节能减排，依据队伍、认可和时间提出参加条件。",
+      "grading": "three_level",
+      "half_credit": "已有专业或研究适配分析，但资源、认可或投入条件不完整。",
+      "id": "TRY-C-03-R10-02",
+      "label": "节能减排具体评估",
+      "points": 10
+    },
+    {
+      "full_credit": "结合已有国二比较继续化工设计的训练收益与成本，不把旧奖重复当新增收益。",
+      "grading": "three_level",
+      "half_credit": "已考虑旧奖和新增训练价值，但投入成本或继续参赛条件不足。",
+      "id": "TRY-C-03-R10-03",
+      "label": "化工设计具体评估",
+      "points": 10
+    },
+    {
+      "full_credit": "解释已有奖项体现的能力，比较新增收益，并核同类认定和加分上限，避免奖项机械相加。",
+      "grading": "three_level",
+      "half_credit": "已有增量或能力分析，但校内认定、上限或与旧奖的比较不充分。",
+      "id": "TRY-C-03-R10-04",
+      "label": "已有基础、增量与校内认定",
+      "points": 20
+    },
+    {
+      "full_credit": "将论文、课程和英语的实际任务纳入参赛机会成本，明确应优先保护什么。",
+      "grading": "three_level",
+      "half_credit": "已指出具体时间冲突，但被挤占任务或优先关系不清楚。",
+      "id": "TRY-C-03-R10-05",
+      "label": "论文与课程机会成本",
+      "points": 15
+    },
+    {
+      "full_credit": "给明确参加、暂缓或条件决定及理由；参加有组队、任务和时间安排，暂缓有替代时间用途。",
+      "grading": "three_level",
+      "half_credit": "已有具体决定及理由，但执行安排、保护任务或暂缓后的时间用途不足。",
+      "id": "TRY-C-03-R10-06",
+      "label": "参赛决定与执行",
+      "points": 25
+    },
+    {
+      "full_credit": "给与论文、出分、队伍或认定有关的具体复核节点，并说明何种变化会重启或停止。",
+      "grading": "three_level",
+      "half_credit": "已有具体复核节点或变化条件，但另一部分不完整。",
+      "id": "TRY-C-03-R10-07",
+      "label": "复核或重启条件",
+      "points": 10
+    }
+  ],
+  "numeric_scoring_enabled": true,
+  "official": false,
+  "quantity_overflow_policy": "score_with_warning",
+  "reference_candidates": [],
+  "reference_denominator": null,
+  "review_notes": "只依据当前轮已披露事实评分；未披露的成果、角色、状态允许询问或条件处理，不能要求猜测。单阶段题提及反馈时按提出核验及调整条件评价，不要求真实获得未提供的回复。同一错误不得在覆盖与质量项重复扣分。院校层次按本题three_level边界评分。",
+  "scoring_method": {
+    "method": "admissions_rubric_v1"
+  },
+  "scoring_policy": "docs/scoring.md",
+  "scoring_policy_sha256": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+  "scoring_revision": "1.0.1",
+  "task_kind": "planning",
+  "teacher_calibration": "pending",
+  "tier_exception": false,
+  "tier_report_only": false
+}

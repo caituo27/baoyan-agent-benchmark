@@ -1,0 +1,63 @@
+{
+  "answer_capture": {
+    "answer_sha256": "24b1a2a2e1749d2bbbf297d68312cc0161d8081603f2785173fd9fa609f99192",
+    "final_response_sha256": "e962aba3de4c230125557ed3075ee7b39d74bbeef4bd6475a44ef1a0d90ae10f",
+    "source": "workspace_file"
+  },
+  "auth_mode": "api",
+  "auth_provenance": "selected_local_credential_not_account_or_entitlement_verification",
+  "cli": "dsh",
+  "cli_version": "0.2.0-rc.2",
+  "continuation_input": null,
+  "credentials_included": false,
+  "extra_mcp_servers": [],
+  "extra_skills": [],
+  "isolation": {
+    "allowed_hosts": [
+      "api.deepseek.com"
+    ],
+    "backend": "macos-seatbelt-provider-proxy-v1",
+    "boundary_probe": {
+      "exit_code": 0,
+      "proxy_denial_observed": true
+    },
+    "checks": [
+      "candidate_read",
+      "candidate_write",
+      "outside_read_denied",
+      "outside_write_denied",
+      "input_write_denied",
+      "symlink_escape_denied",
+      "descendant_read_denied",
+      "local_service_denied",
+      "unlisted_proxy_host_denied"
+    ],
+    "cleanup": "complete",
+    "credential_state": "per_attempt",
+    "fake_ip_policy": "exact_provider_names_via_configured_proxy_only",
+    "file_watch": false,
+    "loopback_listener": false,
+    "network": "public_https_no_private_addresses",
+    "profile_sha256": "9bd1ff565d9e9e126f2a4d3fd51aad22886f790de4035d3078752018695ab9e2",
+    "pty": "disabled",
+    "public_web_dns_resolver": "https://1.1.1.1/dns-query",
+    "public_web_fake_ip_policy": "cloudflare_doh_public_ip_pinning",
+    "scope": "local_boundary_probes",
+    "status": "passed",
+    "system_trust": false,
+    "system_user_lookup": false,
+    "tls_ca_sha256": "9dae8d76e55cb08991f2b672d58999ea15560d910759c16b544f843bdffbb994",
+    "upstream_proxy": null
+  },
+  "known_tool_limitations": [],
+  "native_event_count": 228,
+  "official": false,
+  "personal_state": "fresh_per_attempt",
+  "phase": "output_validation",
+  "requested_model": "deepseek-flash",
+  "schema": "native-execution.1",
+  "source_rules_enforced": false,
+  "status": "completed",
+  "tools": "native_tools_inside_outer_sandbox",
+  "web_mode": "historical_source_rules_in_prompt"
+}

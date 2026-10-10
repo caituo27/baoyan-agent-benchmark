@@ -1,0 +1,18 @@
+{
+  "agent_count": 7,
+  "completed": 140,
+  "expected_results": 140,
+  "official": false,
+  "pending": 11,
+  "previous_revision": "r1",
+  "qwen_execution": "qwen-execution.json",
+  "release_id": "dev20-20261009-r2",
+  "reproduction_note": "Frozen original engine and supplemental scripts/configuration are included. Supplemental scripts retain historical paths; no fresh seven-agent replay or checkpoint export is claimed.",
+  "result_snapshot": "../subset20-results-seven-complete-20261010",
+  "reviewed": 140,
+  "schema": "subset-experiment-snapshot.2",
+  "scored": 129,
+  "stage_count_per_agent": 24,
+  "task_count_per_agent": 20,
+  "uploaded": false
+}

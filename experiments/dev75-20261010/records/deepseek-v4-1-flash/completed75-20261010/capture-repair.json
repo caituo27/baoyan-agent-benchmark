@@ -1,0 +1,17 @@
+{
+  "answer_sha256": "e53f248b1f9efa38e1f00d9c8ac3eae160617ba9316198a1b4796b10046747d3",
+  "at": "2026-10-09T17:31:05.482358+00:00",
+  "attempt": 2,
+  "authorization": "[REDACTED]",
+  "new_inference": false,
+  "next_task_retry": "N15-03 attempt 2 (prior HTTP 402)",
+  "original_campaign": "runs/deepseek-dev75-remaining42-20261009-231528",
+  "original_run_sha256": "3c4628537c24dad7d8e548294a9611406a9dcb2e2d53afbff23a9bec394fc6d3",
+  "original_status": "invalid_output",
+  "publication": "local_only_no_push",
+  "reason": "str.splitlines split a legal U+2028 inside a JSON string; LF parsing validates every record",
+  "recovered_status": "completed",
+  "retry_budget_changed": false,
+  "task": "N14-02",
+  "trajectory_sha256": "9862d85ecd755d99ee080a8e773b3ad9edc58a37844770c9c0400f23df980972"
+}

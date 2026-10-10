@@ -1,0 +1,112 @@
+[
+  {
+    "bytes": 441,
+    "export_sha256": "89f731d0e7ca7f02d7b25fa014d84283249c7ffa0aee175c246d193b3bd45a4c",
+    "path": "run.json",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "a4b3ef4a2430a0088160e9ada8dca9bb8cf305516cfa536d832abcd41786dbd8",
+    "transformed": true
+  },
+  {
+    "bytes": 5109,
+    "export_sha256": "36b0d5ab3082745dcfa16dd5f68b516583b283302e4ff42902463c347c099307",
+    "path": "stages/S0/answer.md",
+    "source_pattern_counts": {},
+    "source_sha256": "36b0d5ab3082745dcfa16dd5f68b516583b283302e4ff42902463c347c099307",
+    "transformed": false
+  },
+  {
+    "bytes": 109911,
+    "export_sha256": "280f3cd136ee87a444bebb17eead45c0cfeb9f6a192a0f97b931c1b45ead7061",
+    "path": "stages/S0/events.jsonl",
+    "source_pattern_counts": {
+      "email": 5
+    },
+    "source_sha256": "812d284dcef9476b4c0ed42a4c3075d1e2a9a95ca7d0005c85bfa542996e6e2c",
+    "transformed": true
+  },
+  {
+    "bytes": 2151,
+    "export_sha256": "f38de4c57f938fb4cb1574ff85a36e2f1faceedf96ee2ddaadad99a800fc706f",
+    "path": "stages/S0/execution.json",
+    "source_pattern_counts": {},
+    "source_sha256": "f38de4c57f938fb4cb1574ff85a36e2f1faceedf96ee2ddaadad99a800fc706f",
+    "transformed": false
+  },
+  {
+    "bytes": 5109,
+    "export_sha256": "36b0d5ab3082745dcfa16dd5f68b516583b283302e4ff42902463c347c099307",
+    "path": "stages/S0/final-response.md",
+    "source_pattern_counts": {},
+    "source_sha256": "36b0d5ab3082745dcfa16dd5f68b516583b283302e4ff42902463c347c099307",
+    "transformed": false
+  },
+  {
+    "bytes": 0,
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "stages/S0/stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformed": false
+  },
+  {
+    "bytes": 114136,
+    "export_sha256": "38edc602e29de3d2571c277dd2d6d47afb9fd83c69c151a515dccfd7705b7451",
+    "path": "stages/S0/trace.jsonl",
+    "source_pattern_counts": {
+      "email": 5
+    },
+    "source_sha256": "22012e6a0e047191ab91b60692a73597debcd75f2d7895215a3d4a89ba1fda66",
+    "transformed": true
+  },
+  {
+    "bytes": 4090,
+    "export_sha256": "fa537f05c3d92e4974b2b969a7583068c5e5513fb21e108b33a2bb42c627e8e8",
+    "path": "stages/S1/answer.md",
+    "source_pattern_counts": {},
+    "source_sha256": "fa537f05c3d92e4974b2b969a7583068c5e5513fb21e108b33a2bb42c627e8e8",
+    "transformed": false
+  },
+  {
+    "bytes": 23812,
+    "export_sha256": "dbcbef9bb233d3c8b6eff7c8f37a97151bde2cbc52a31e197685f0b244cc0c20",
+    "path": "stages/S1/events.jsonl",
+    "source_pattern_counts": {},
+    "source_sha256": "cce52bfdf73948de9bcba6b399b3dd47573ebd6d024eb659d6fb7cba7dac6bef",
+    "transformed": true
+  },
+  {
+    "bytes": 2213,
+    "export_sha256": "918cbd188e635170a262ed681cde8aea5e756bb3f1aacc189d9ecbca976f7698",
+    "path": "stages/S1/execution.json",
+    "source_pattern_counts": {},
+    "source_sha256": "918cbd188e635170a262ed681cde8aea5e756bb3f1aacc189d9ecbca976f7698",
+    "transformed": false
+  },
+  {
+    "bytes": 4090,
+    "export_sha256": "fa537f05c3d92e4974b2b969a7583068c5e5513fb21e108b33a2bb42c627e8e8",
+    "path": "stages/S1/final-response.md",
+    "source_pattern_counts": {},
+    "source_sha256": "fa537f05c3d92e4974b2b969a7583068c5e5513fb21e108b33a2bb42c627e8e8",
+    "transformed": false
+  },
+  {
+    "bytes": 0,
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "stages/S1/stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformed": false
+  },
+  {
+    "bytes": 24528,
+    "export_sha256": "81544e933d17b41837397085d3bad06c9c938324ba9ce20181011e963e48baa5",
+    "path": "stages/S1/trace.jsonl",
+    "source_pattern_counts": {},
+    "source_sha256": "b6b34e4b4025a8c218ea0c5277e2ac454419d645cf226856a00f6a645711ff3c",
+    "transformed": true
+  }
+]

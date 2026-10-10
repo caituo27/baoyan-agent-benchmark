@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1082" viewBox="0 0 1600 1082" role="img" aria-labelledby="title desc">
+<title id="title">20题均分排名</title>
+<desc id="desc">Descending complete Dev20 means. Source results.json SHA256: 79a97362906d674fcd2b7d5caefc078708270c5e475f7c325f3355099eaaab25</desc>
+<rect x="0" y="0" width="1600" height="1082" rx="0" fill="#FFFFFF" stroke="none"/>
+<rect x="0" y="0" width="1600" height="1082" rx="36" fill="#FAF7F1" stroke="none"/>
+<text x="56" y="49.480000000000004" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#7854A6">DEV20 / OVERALL RESULTS</text>
+<text x="56" y="115.12" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="42" font-weight="600" text-anchor="start" fill="#30283F">20题均分排名</text>
+<text x="56" y="157.92" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#746C7E">9个配置 · 同一组20题 · 满分100分</text>
+<line x1="500.0" y1="221" x2="500.0" y2="913" stroke="#E4D9CD" stroke-width="1"/>
+<text x="500.0" y="939.62" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="400" text-anchor="middle" fill="#746C7E">0</text>
+<line x1="720.0" y1="221" x2="720.0" y2="913" stroke="#E4D9CD" stroke-width="1"/>
+<text x="720.0" y="939.62" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="400" text-anchor="middle" fill="#746C7E">25</text>
+<line x1="940.0" y1="221" x2="940.0" y2="913" stroke="#E4D9CD" stroke-width="1"/>
+<text x="940.0" y="939.62" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="400" text-anchor="middle" fill="#746C7E">50</text>
+<line x1="1160.0" y1="221" x2="1160.0" y2="913" stroke="#E4D9CD" stroke-width="1"/>
+<text x="1160.0" y="939.62" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="400" text-anchor="middle" fill="#746C7E">75</text>
+<line x1="1380.0" y1="221" x2="1380.0" y2="913" stroke="#E4D9CD" stroke-width="1"/>
+<text x="1380.0" y="939.62" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="400" text-anchor="middle" fill="#746C7E">100</text>
+<text x="56" y="269.64" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="400" text-anchor="start" fill="#746C7E">1</text>
+<text x="110" y="270.5" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="600" text-anchor="start" fill="#30283F">GPT-6 Astra</text>
+<rect x="500" y="245" width="880" height="32" rx="5" fill="#EDE5EF" stroke="none"/>
+<rect x="500" y="245" width="711.4976000000001" height="32" rx="5" fill="#7854A6" stroke="none"/>
+<text x="1528" y="272.08" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="600" text-anchor="end" fill="#30283F">80.85</text>
+<text x="56" y="347.64" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="400" text-anchor="start" fill="#746C7E">2</text>
+<text x="110" y="348.5" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="600" text-anchor="start" fill="#30283F">GPT-6.1 Sol</text>
+<rect x="500" y="323" width="880" height="32" rx="5" fill="#EDE5EF" stroke="none"/>
+<rect x="500" y="323" width="707.7136" height="32" rx="5" fill="#7854A6" stroke="none"/>
+<text x="1528" y="350.08" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="600" text-anchor="end" fill="#30283F">80.42</text>
+<text x="56" y="425.64" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="400" text-anchor="start" fill="#746C7E">3</text>
+<text x="110" y="426.5" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="600" text-anchor="start" fill="#30283F">Claude Opus 5.5</text>
+<rect x="500" y="401" width="880" height="32" rx="5" fill="#EDE5EF" stroke="none"/>
+<rect x="500" y="401" width="643.6628000000001" height="32" rx="5" fill="#7854A6" stroke="none"/>
+<text x="1528" y="428.08" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="600" text-anchor="end" fill="#30283F">73.14</text>
+<text x="56" y="503.64" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="400" text-anchor="start" fill="#746C7E">4</text>
+<text x="110" y="504.5" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="600" text-anchor="start" fill="#30283F">DeepSeek V4.1 Flash</text>
+<rect x="500" y="479" width="880" height="32" rx="5" fill="#EDE5EF" stroke="none"/>
+<rect x="500" y="479" width="609.2548" height="32" rx="5" fill="#7854A6" stroke="none"/>
+<text x="1528" y="506.08" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="600" text-anchor="end" fill="#30283F">69.23</text>
+<text x="56" y="581.64" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="400" text-anchor="start" fill="#746C7E">5</text>
+<text x="110" y="582.5" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="600" text-anchor="start" fill="#30283F">GLM 5.3 Flash (Ark)</text>
+<rect x="500" y="557" width="880" height="32" rx="5" fill="#EDE5EF" stroke="none"/>
+<rect x="500" y="557" width="606.4344" height="32" rx="5" fill="#7854A6" stroke="none"/>
+<text x="1528" y="584.08" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="600" text-anchor="end" fill="#30283F">68.91</text>
+<text x="56" y="659.64" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="400" text-anchor="start" fill="#746C7E">6</text>
+<text x="110" y="660.5" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="600" text-anchor="start" fill="#30283F">Qwen 3.8 Max</text>
+<rect x="500" y="635" width="880" height="32" rx="5" fill="#EDE5EF" stroke="none"/>
+<rect x="500" y="635" width="580.558" height="32" rx="5" fill="#7854A6" stroke="none"/>
+<text x="1528" y="662.08" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="600" text-anchor="end" fill="#30283F">65.97</text>
+<text x="56" y="737.64" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="400" text-anchor="start" fill="#746C7E">7</text>
+<text x="110" y="738.5" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="600" text-anchor="start" fill="#30283F">Kimi K3</text>
+<rect x="500" y="713" width="880" height="32" rx="5" fill="#EDE5EF" stroke="none"/>
+<rect x="500" y="713" width="546.5548" height="32" rx="5" fill="#7854A6" stroke="none"/>
+<text x="1528" y="740.08" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="600" text-anchor="end" fill="#30283F">62.11</text>
+<text x="56" y="815.64" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="400" text-anchor="start" fill="#746C7E">8</text>
+<text x="110" y="816.5" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="600" text-anchor="start" fill="#30283F">Gemini 3.8 Flash</text>
+<rect x="500" y="791" width="880" height="32" rx="5" fill="#EDE5EF" stroke="none"/>
+<rect x="500" y="791" width="532.928" height="32" rx="5" fill="#7854A6" stroke="none"/>
+<text x="1528" y="818.08" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="600" text-anchor="end" fill="#30283F">60.56</text>
+<text x="56" y="893.64" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="400" text-anchor="start" fill="#746C7E">9</text>
+<text x="110" y="894.5" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="600" text-anchor="start" fill="#30283F">Gemini 3.1 Pro</text>
+<rect x="500" y="869" width="880" height="32" rx="5" fill="#EDE5EF" stroke="none"/>
+<rect x="500" y="869" width="494.99559999999997" height="32" rx="5" fill="#7854A6" stroke="none"/>
+<text x="1528" y="896.08" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="600" text-anchor="end" fill="#30283F">56.25</text>
+<text x="56" y="1056.34" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="400" text-anchor="start" fill="#746C7E">开发集初评 · 按均分从高到低排列</text>
+</svg>

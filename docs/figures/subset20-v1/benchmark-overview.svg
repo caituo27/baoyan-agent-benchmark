@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="960" viewBox="0 0 1600 960" role="img" aria-labelledby="title desc">
+<title id="title">信息变了，建议如何更新？</title>
+<desc id="desc">N16-02: S0 and S1 enter one native agent session in order; both answers go to independent review. 20 tasks, 20 cases, 24 stages.</desc>
+<rect x="0" y="0" width="1600" height="960" rx="0" fill="#FFFFFF" stroke="none"/>
+<rect x="12" y="12" width="1576" height="936" rx="36" fill="#FAF7F1" stroke="none"/>
+<text x="68" y="68.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#7854A6">BAOYAN AGENT BENCHMARK</text>
+<text x="1532" y="68.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" text-anchor="end" fill="#746C7E">01 / HOW IT WORKS</text>
+<text x="68" y="139.84" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="44" font-weight="600" text-anchor="start" fill="#30283F">信息变了，建议如何更新？</text>
+<text x="68" y="185.78" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="400" text-anchor="start" fill="#746C7E">用一道真实两阶段题，展示从背景理解、信息补充到独立评审的完整过程。</text>
+<rect x="68" y="257" width="421" height="208" rx="20" fill="#FBE0D7" stroke="none"/>
+<circle cx="104" cy="292" r="17" fill="#D96351" stroke="none" stroke-width="2"/>
+<text x="104" y="295.62" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" text-anchor="middle" fill="white">01</text>
+<text x="134" y="299.06" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="600" text-anchor="start" fill="#30283F">初始信息 / S0</text>
+<rect x="68" y="501" width="421" height="208" rx="20" fill="#F8E6AB" stroke="none"/>
+<circle cx="104" cy="536" r="17" fill="#B57D17" stroke="none" stroke-width="2"/>
+<text x="104" y="539.62" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" text-anchor="middle" fill="white">02</text>
+<text x="134" y="543.06" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="600" text-anchor="start" fill="#30283F">补充信息 / S1</text>
+<text x="94" y="355.94" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="29" font-weight="600" text-anchor="start" fill="#30283F">“还没正式分流，</text>
+<text x="94" y="398.94" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="29" font-weight="600" text-anchor="start" fill="#30283F">想申请机械或智能制造。”</text>
+<text x="94" y="447.06" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#746C7E">专业排名 19/123  ·  六级 458</text>
+<text x="94" y="597.78" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="600" text-anchor="start" fill="#30283F">机械创新 · 省级大创 · 智能门锁</text>
+<text x="94" y="668.92" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#746C7E">学籍仍是工科大类，未正式分流</text>
+<rect x="557" y="257" width="465" height="452" rx="20" fill="#EEE5F5" stroke="none"/>
+<circle cx="595" cy="294" r="18" fill="#7854A6" stroke="none" stroke-width="2"/>
+<text x="595" y="300.06" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="600" text-anchor="middle" fill="white">A</text>
+<text x="626" y="299.78" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="600" text-anchor="start" fill="#30283F">同一个原生 Agent 会话</text>
+<text x="584" y="345.06" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#746C7E">模型 + 工具 + 认证配置</text>
+<rect x="583" y="374" width="413" height="100" rx="12" fill="#FFFFFF" stroke="none"/>
+<text x="608" y="414.36" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#30283F">A0  首轮作答</text>
+<text x="608" y="452.06" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#746C7E">只依据当前背景提出建议</text>
+<line x1="789" y1="484" x2="789" y2="549" stroke="#7854A6" stroke-width="2"/>
+<line x1="789" y1="549" x2="783.2468935367496" y2="538.4690092573155" stroke="#7854A6" stroke-width="2"/>
+<line x1="789" y1="549" x2="794.7531064632504" y2="538.4690092573155" stroke="#7854A6" stroke-width="2"/>
+<text x="812" y="524.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#7854A6">完成后再释放 S1</text>
+<rect x="583" y="561" width="413" height="119" rx="12" fill="#FFFFFF" stroke="none"/>
+<text x="608" y="602.36" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#30283F">A1  更新建议</text>
+<text x="608" y="643.06" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#746C7E">结合新证据，保留原有约束</text>
+<line x1="501" y1="412" x2="545" y2="412" stroke="#D96351" stroke-width="2"/>
+<line x1="545" y1="412" x2="534.4690092573155" y2="417.75310646325045" stroke="#D96351" stroke-width="2"/>
+<line x1="545" y1="412" x2="534.4690092573155" y2="406.24689353674955" stroke="#D96351" stroke-width="2"/>
+<line x1="501" y1="622" x2="545" y2="622" stroke="#B57D17" stroke-width="2"/>
+<line x1="545" y1="622" x2="534.4690092573155" y2="627.7531064632504" stroke="#B57D17" stroke-width="2"/>
+<line x1="545" y1="622" x2="534.4690092573155" y2="616.2468935367496" stroke="#B57D17" stroke-width="2"/>
+<rect x="1090" y="257" width="442" height="452" rx="20" fill="#FFFEFC" stroke="#E4D9CD"/>
+<text x="1118" y="304.36" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#30283F">独立评审</text>
+<text x="1118" y="346.06" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#746C7E">两轮原文 + 逐题评分标准</text>
+<line x1="1034" y1="485" x2="1078" y2="485" stroke="#7854A6" stroke-width="2"/>
+<line x1="1078" y1="485" x2="1067.4690092573155" y2="490.75310646325045" stroke="#7854A6" stroke-width="2"/>
+<line x1="1078" y1="485" x2="1067.4690092573155" y2="479.24689353674955" stroke="#7854A6" stroke-width="2"/>
+<circle cx="1135" cy="402" r="16" fill="#7854A6" stroke="none" stroke-width="2"/>
+<line x1="1127" y1="403" x2="1133" y2="409" stroke="white" stroke-width="3"/>
+<line x1="1133" y1="409" x2="1145" y2="395" stroke="white" stroke-width="3"/>
+<text x="1165" y="405.78" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="600" text-anchor="start" fill="#30283F">理解背景与条件</text>
+<text x="1165" y="442.34" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="400" text-anchor="start" fill="#746C7E">不把排名直接当作推免资格</text>
+<line x1="1118" y1="467" x2="1504" y2="467" stroke="#E4D9CD" stroke-width="1"/>
+<circle cx="1135" cy="503" r="16" fill="#7854A6" stroke="none" stroke-width="2"/>
+<line x1="1127" y1="504" x2="1133" y2="510" stroke="white" stroke-width="3"/>
+<line x1="1133" y1="510" x2="1145" y2="496" stroke="white" stroke-width="3"/>
+<text x="1165" y="506.78" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="600" text-anchor="start" fill="#30283F">利用新增信息</text>
+<text x="1165" y="543.34" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="400" text-anchor="start" fill="#746C7E">核验项目贡献，重新评估适配</text>
+<line x1="1118" y1="568" x2="1504" y2="568" stroke="#E4D9CD" stroke-width="1"/>
+<circle cx="1135" cy="604" r="16" fill="#7854A6" stroke="none" stroke-width="2"/>
+<line x1="1127" y1="605" x2="1133" y2="611" stroke="white" stroke-width="3"/>
+<line x1="1133" y1="611" x2="1145" y2="597" stroke="white" stroke-width="3"/>
+<text x="1165" y="607.78" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="600" text-anchor="start" fill="#30283F">落实申请行动</text>
+<text x="1165" y="644.34" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="400" text-anchor="start" fill="#746C7E">解释取舍与需要验证的条件</text>
+<text x="68" y="799.16" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="56" font-weight="600" text-anchor="start" fill="#30283F">20</text>
+<text x="159" y="796.78" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="600" text-anchor="start" fill="#30283F">道题</text>
+<text x="68" y="838.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#746C7E">6 择校 / 10 规划 / 4 两阶段</text>
+<text x="594" y="799.16" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="56" font-weight="600" text-anchor="start" fill="#30283F">20</text>
+<text x="685" y="796.78" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="600" text-anchor="start" fill="#30283F">个学生案例</text>
+<text x="594" y="838.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#746C7E">每个案例选取一道题</text>
+<text x="1120" y="799.16" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="56" font-weight="600" text-anchor="start" fill="#30283F">24</text>
+<text x="1211" y="796.78" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="600" text-anchor="start" fill="#30283F">个作答阶段</text>
+<text x="1120" y="838.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#746C7E">两阶段合并计分，仍算一道题</text>
+<rect x="68" y="878" width="1464" height="42" rx="12" fill="#30283F" stroke="none"/>
+<text x="800" y="905.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#FFFFFF">S0 → A0 → S1 → A1  ·  评分标准仅供评审使用  ·  例题 N16-02，图示不包含模型成绩</text>
+</svg>

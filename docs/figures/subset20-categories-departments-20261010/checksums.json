@@ -1,0 +1,8 @@
+{
+  "source_results_sha256": "57fcb3bccf09752979e5a7c8e78942a085e03ed7f7cc9dbbdcc662ec70333f45",
+  "renderer_sha256": "15973d67a5299c1dc1d00a4cda31fede07dff2098b01e784b51734e5e3ff781a",
+  "files": {
+    "category-scores.en.svg": "0c84da47a02f6e7bc84e82eb9d1618704042f12fd2aaf79fa7b27e9c6d1f9b67",
+    "category-scores.zh-CN.svg": "f6c8a056a5462165b38f6152bfff05324a79dd5de71ee91c484ed37e5dee8565"
+  }
+}

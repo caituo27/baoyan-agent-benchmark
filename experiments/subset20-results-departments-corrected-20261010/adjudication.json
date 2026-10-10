@@ -1,0 +1,1172 @@
+{
+  "id": "department-identities-20261010",
+  "date": "2026-10-10T00:26:40+08:00",
+  "kind": "scoped_owner_approved_adjudication",
+  "base_report": "experiments/subset20-results-sysu-corrected-20261010",
+  "base_results_sha256": "ca59ab6ff357b8a3d396aeced8d2d40e6f1665ad81e476bc7792428fdf441331",
+  "decision_path": "release/errata/department-identities-20261010/decision.json",
+  "decision_sha256": "d5b701adc4e2ef463e0797be4977c453dd524645076f326f2231d1b77665a70c",
+  "candidate_reruns": 0,
+  "new_independent_model_reviews": 0,
+  "configurations_rechecked": 7,
+  "task_answers_recomputed": 14,
+  "original_scores_replayed": 140,
+  "inherited_scores_replayed": 7,
+  "local_review_directory": "reviews/subset20-departments-adjudication-20261010",
+  "changes": [
+    {
+      "agent": "gpt-6-astra",
+      "name": "GPT-6 Astra",
+      "task_id": "N06-03",
+      "reference_id": "N06-14",
+      "packet": "62110730f80a91d31bb968da2a8b9114",
+      "prior_judgment_path": "reviews/subset20-sysu-adjudication-20261010/62110730f80a91d31bb968da2a8b9114",
+      "prior_judgment_sha256": "2157b92155a8fc330ebfb17f50794256ae47d1cdfd17bbd9df3217870195b37a",
+      "original_evidence_sha256": "7ccf21c9e7d0213e6221f4e2317f80417b4d948c4f86a56202b1483992361a82",
+      "before": {
+        "score": 42.69,
+        "score_interval": [
+          42.69,
+          42.69
+        ],
+        "coverage": {
+          "answer_quote": "下面列出16个具体组合，覆盖15所学校；暨南大学保留两个不同院系的选项，供你根据兴趣二选一。",
+          "error_ids": [],
+          "id": "N06-14",
+          "matched_answer_item_id": null,
+          "matches": [],
+          "reason": "已核对全文及全部去重候选；没有推荐、条件备选、排除或提名厦门大学的文学院｜语言学及应用语言学，也没有该校可成立的同院系/跨院系相关项目。缺的是学校及具体项目；其他学校同名中文专业不能跨学校匹配。",
+          "status": "miss"
+        }
+      },
+      "after": {
+        "score": 42.69,
+        "score_interval": [
+          42.69,
+          42.69
+        ],
+        "coverage": {
+          "id": "N06-14",
+          "status": "miss",
+          "matches": [],
+          "matched_answer_item_id": null,
+          "error_ids": [],
+          "reason": "已按修订参考复核全卷提取的候选与原文；没有该校有效直接推荐或具体条件方案可形成匹配。仅排除或仅提名不计分；不把参考名称问题作为答卷错误。",
+          "answer_quote": "下面列出16个具体组合，覆盖15所学校；暨南大学保留两个不同院系的选项，供你根据兴趣二选一。"
+        },
+        "allocated_node": {
+          "id": "N06-14",
+          "kind": "coverage",
+          "status": "miss",
+          "points": 0,
+          "weight": {
+            "numerator": 35,
+            "denominator": 8
+          },
+          "match_level": null,
+          "match_coefficient": 0,
+          "matched_answer_item_id": null,
+          "reviewed_status": "miss"
+        }
+      },
+      "judgment_sha256": "fd3041f2829ea0673a0adbd3ee787a30b52577ca98dc959cd399fd8a30b71209",
+      "score_sha256": "891ba8264de2a50551eff9a8aa6a2feb9d6b0bc85071adba868a5cdf4d902753"
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "name": "GPT-6.1 Sol",
+      "task_id": "N06-03",
+      "reference_id": "N06-14",
+      "packet": "08d74d18cbc0e342ab6eed7b13db445b",
+      "prior_judgment_path": "reviews/subset20-sysu-adjudication-20261010/08d74d18cbc0e342ab6eed7b13db445b",
+      "prior_judgment_sha256": "328a2209641f37137f36bfb627fce0a4c5f8fe415b2d3559e267d1c6b0f108d2",
+      "original_evidence_sha256": "0da195e154cf6ba3ccc3213dc34262ebf298ba1a1ba2d19badc09d83644249ad",
+      "before": {
+        "score": 32.56,
+        "score_interval": [
+          32.56,
+          32.56
+        ],
+        "coverage": {
+          "answer_quote": "下面列的是 **16所不同学校的16个具体院系—专业组合**",
+          "error_ids": [],
+          "id": "N06-14",
+          "matched_answer_item_id": null,
+          "matches": [],
+          "reason": "全文已核对，未推荐、条件备选或提名厦门大学—文学院｜语言学及应用语言学；也没有同校可成立的相近/跨院系候选。其缺失直接判miss，不以未提供链接或未命中作为候选错误。",
+          "status": "miss"
+        }
+      },
+      "after": {
+        "score": 32.56,
+        "score_interval": [
+          32.56,
+          32.56
+        ],
+        "coverage": {
+          "id": "N06-14",
+          "status": "miss",
+          "matches": [],
+          "matched_answer_item_id": null,
+          "error_ids": [],
+          "reason": "已按修订参考复核全卷提取的候选与原文；没有该校有效直接推荐或具体条件方案可形成匹配。仅排除或仅提名不计分；不把参考名称问题作为答卷错误。",
+          "answer_quote": "下面列的是 **16所不同学校的16个具体院系—专业组合**"
+        },
+        "allocated_node": {
+          "id": "N06-14",
+          "kind": "coverage",
+          "status": "miss",
+          "points": 0,
+          "weight": {
+            "numerator": 35,
+            "denominator": 8
+          },
+          "match_level": null,
+          "match_coefficient": 0,
+          "matched_answer_item_id": null,
+          "reviewed_status": "miss"
+        }
+      },
+      "judgment_sha256": "98abacd7e80d065a1df5ecdd80a81ba78b492cf6c4063b6e21c538c1165dfb34",
+      "score_sha256": "c96501519cb0a7e64eb1c58c4d6e94c38166a72a6e9bd676584200de75a74e67"
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "name": "DeepSeek V4.1 Flash",
+      "task_id": "N06-03",
+      "reference_id": "N06-14",
+      "packet": "f61dd883fa64dcf302685f4341e7dc7f",
+      "prior_judgment_path": "reviews/subset20-sysu-adjudication-20261010/f61dd883fa64dcf302685f4341e7dc7f",
+      "prior_judgment_sha256": "59cb1953341681f89ef2a9e82fc5d34479ee91fd5fe6fd207a200f1148e22567",
+      "original_evidence_sha256": "9e288371ab8da8122417d6979873fb0ba4261319175c0688a92b3cbc6c8fd1c7",
+      "before": {
+        "score": null,
+        "score_interval": [
+          38.19,
+          42.56
+        ],
+        "coverage": {
+          "answer_quote": "**#12 厦门大学 中国语言文学系 —— 050102 语言学及应用语言学、050103 汉语言文字学**",
+          "error_ids": [],
+          "id": "N06-14",
+          "matched_answer_item_id": null,
+          "matches": [],
+          "reason": "gold_issue：冻结参考为厦门大学文学院语言学及应用语言学；XMU-structure与XMU-program确认实际招生主体是2022年11月以来学校直属中国语言文学系，050102和050103均可推免。未取得文学院是此直属系正式别名、调整前后等价招生单位的依据，不能机械按专业同名填exact，也不能把正确的直属系推荐判错。冻结参考的主体需统一澄清后再决定C12a exact及C12b same_department关系。",
+          "status": "pending",
+          "pending_answer_item_ids": [
+            "C12a",
+            "C12b"
+          ]
+        }
+      },
+      "after": {
+        "score": 42.56,
+        "score_interval": [
+          42.56,
+          42.56
+        ],
+        "coverage": {
+          "id": "N06-14",
+          "status": "hit",
+          "matches": [
+            {
+              "answer_item_id": "C12a",
+              "match_level": "exact",
+              "reason": "按已批准勘误，参考主体为直属中国语言文学系；答卷明确推荐该系050102语言学及应用语言学学硕，当届官方推免目录确认同一项目，完整匹配。原候选申请条件核验继承。",
+              "answer_quote": "**#12 厦门大学 中国语言文学系 —— 050102 语言学及应用语言学、050103 汉语言文字学**",
+              "relation_evidence": [
+                {
+                  "source": "https://chinese.xmu.edu.cn/jggk.htm",
+                  "applicable_cycle": "截至2026-05-31的机构简介；2026申请季",
+                  "scope": "2022年11月中文系提升为学校直属系；中文系中国语言文学一级学科包括语言学、文字学和文学等二级学科。"
+                },
+                {
+                  "source": "https://chinese.xmu.edu.cn/info/1731/45092.htm",
+                  "applicable_cycle": "2026年申请、2027年入学推免",
+                  "scope": "中国语言文学系明确列050102、050103、050105、050108等硕士/直博申请专业及各自研究范围。"
+                },
+                {
+                  "source": "https://oec.xmu.edu.cn/info/1003/1001.htm",
+                  "applicable_cycle": "既有培养与机构身份；原评审用于2026申请季关系核验",
+                  "scope": "国际中文教育学院/海外教育学院为另一单位，具有语言学与国际中文教育培养；不据此证明实时招生名额。"
+                }
+              ]
+            },
+            {
+              "answer_item_id": "C12b",
+              "match_level": "same_department",
+              "reason": "同属中国语言文学系的中国语言文学一级学科学术培养，候选文字学或文学方向与语言学项目共享汉语言文学、语言/文本分析的学科训练，适配中文本科背景且官方当届目录确认可申请学硕路径。专业研究重点不同，按同院系相近专业60%计分，不视作050102专业等价；同系多方向只匹配本参考项一次。",
+              "answer_quote": "**#12 厦门大学 中国语言文学系 —— 050102 语言学及应用语言学、050103 汉语言文字学**",
+              "relation_evidence": [
+                {
+                  "source": "https://chinese.xmu.edu.cn/jggk.htm",
+                  "applicable_cycle": "截至2026-05-31的机构简介；2026申请季",
+                  "scope": "2022年11月中文系提升为学校直属系；中文系中国语言文学一级学科包括语言学、文字学和文学等二级学科。"
+                },
+                {
+                  "source": "https://chinese.xmu.edu.cn/info/1731/45092.htm",
+                  "applicable_cycle": "2026年申请、2027年入学推免",
+                  "scope": "中国语言文学系明确列050102、050103、050105、050108等硕士/直博申请专业及各自研究范围。"
+                },
+                {
+                  "source": "https://oec.xmu.edu.cn/info/1003/1001.htm",
+                  "applicable_cycle": "既有培养与机构身份；原评审用于2026申请季关系核验",
+                  "scope": "国际中文教育学院/海外教育学院为另一单位，具有语言学与国际中文教育培养；不据此证明实时招生名额。"
+                }
+              ]
+            }
+          ],
+          "matched_answer_item_id": null,
+          "error_ids": [],
+          "reason": "按已批准勘误，参考主体为直属中国语言文学系；答卷明确推荐该系050102语言学及应用语言学学硕，当届官方推免目录确认同一项目，完整匹配。原候选申请条件核验继承。 同属中国语言文学系的中国语言文学一级学科学术培养，候选文字学或文学方向与语言学项目共享汉语言文学、语言/文本分析的学科训练，适配中文本科背景且官方当届目录确认可申请学硕路径。专业研究重点不同，按同院系相近专业60%计分，不视作050102专业等价；同系多方向只匹配本参考项一次。",
+          "answer_quote": "**#12 厦门大学 中国语言文学系 —— 050102 语言学及应用语言学、050103 汉语言文字学**"
+        },
+        "allocated_node": {
+          "id": "N06-14",
+          "kind": "coverage",
+          "status": "hit",
+          "points": 4.38,
+          "weight": {
+            "numerator": 35,
+            "denominator": 8
+          },
+          "match_level": "exact",
+          "match_coefficient": 1.0,
+          "matched_answer_item_id": "C12a",
+          "reviewed_status": "hit"
+        }
+      },
+      "judgment_sha256": "dc5aa3a74db8b0efeb0596a65d6dfbcc91305d1536ae3cee9da77626df3c2181",
+      "score_sha256": "3fa61f2f2ad77062c56c8383c135c5cfac8e9a7762e89146987680c14a41273f"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "name": "Gemini 3.1 Pro",
+      "task_id": "N06-03",
+      "reference_id": "N06-14",
+      "packet": "a602595d291c2e42e93ffcc74a19fa70",
+      "prior_judgment_path": "reviews/subset20-sysu-adjudication-20261010/a602595d291c2e42e93ffcc74a19fa70",
+      "prior_judgment_sha256": "dda2c0c836f91cfca4f6e1e81683b53852097db4a10327adc3c11036912cc95e",
+      "original_evidence_sha256": "416c06d1d85c92f5d48db4dbb6466c225a63ce241c8b748f066f7ad4a91fb7fc",
+      "before": {
+        "score": null,
+        "score_interval": [
+          30.31,
+          34.69
+        ],
+        "coverage": {
+          "answer_quote": "厦门大学 - 中国语言文学系 - 语言学及应用语言学（学术学位）",
+          "error_ids": [],
+          "id": "N06-14",
+          "matched_answer_item_id": null,
+          "matches": [],
+          "reason": "答卷的厦门大学中国语言文学系语言学及应用语言学正是官方2027硕士申请项目，学校与专业均正确。官方机构说明该系自2022年提升为直属系，而冻结参考写文学院；未有资料核准文学院为该周期该招生主体的规范简称或更名。因此单列gold_issue，参考院系身份须统一复核，保留本项pending；不因答卷使用真实单位名称记错，也不擅自改写参考来给exact。",
+          "status": "pending",
+          "pending_answer_item_ids": [
+            "A03"
+          ],
+          "gold_issue": {
+            "type": "reference_department_identity",
+            "reason": "冻结参考的院系称谓与适用周期官方招生单位不一致，须统一复核参考身份；未修改输入、分母或权重。",
+            "relation_evidence": [
+              {
+                "source": "https://chinese.xmu.edu.cn/jggk.htm",
+                "applicable_cycle": "2026年推免申请季（2027年入学；题面未给具体咨询日期）",
+                "scope": "截至2026年5月31日的简介明确：中文系于2022年11月提升为直属系，并设语言学及应用语言学学位点。"
+              },
+              {
+                "source": "https://chinese.xmu.edu.cn/info/1731/45092.htm",
+                "applicable_cycle": "2026年推免申请季（2027年入学；题面未给具体咨询日期）",
+                "scope": "明确050102语言学及应用语言学硕士/直博招生，研究涉及计算语言学、方言、汉语教育等；允许雅思成绩达到总分60%的英语证明。"
+              }
+            ]
+          }
+        }
+      },
+      "after": {
+        "score": 34.69,
+        "score_interval": [
+          34.69,
+          34.69
+        ],
+        "coverage": {
+          "id": "N06-14",
+          "status": "hit",
+          "matches": [
+            {
+              "answer_item_id": "A03",
+              "match_level": "exact",
+              "reason": "按已批准勘误，参考主体为直属中国语言文学系；答卷明确推荐该系050102语言学及应用语言学学硕，当届官方推免目录确认同一项目，完整匹配。原候选申请条件核验继承。",
+              "answer_quote": "厦门大学 - 中国语言文学系 - 语言学及应用语言学（学术学位）",
+              "relation_evidence": [
+                {
+                  "source": "https://chinese.xmu.edu.cn/jggk.htm",
+                  "applicable_cycle": "截至2026-05-31的机构简介；2026申请季",
+                  "scope": "2022年11月中文系提升为学校直属系；中文系中国语言文学一级学科包括语言学、文字学和文学等二级学科。"
+                },
+                {
+                  "source": "https://chinese.xmu.edu.cn/info/1731/45092.htm",
+                  "applicable_cycle": "2026年申请、2027年入学推免",
+                  "scope": "中国语言文学系明确列050102、050103、050105、050108等硕士/直博申请专业及各自研究范围。"
+                },
+                {
+                  "source": "https://oec.xmu.edu.cn/info/1003/1001.htm",
+                  "applicable_cycle": "既有培养与机构身份；原评审用于2026申请季关系核验",
+                  "scope": "国际中文教育学院/海外教育学院为另一单位，具有语言学与国际中文教育培养；不据此证明实时招生名额。"
+                }
+              ]
+            }
+          ],
+          "matched_answer_item_id": null,
+          "error_ids": [],
+          "reason": "按已批准勘误，参考主体为直属中国语言文学系；答卷明确推荐该系050102语言学及应用语言学学硕，当届官方推免目录确认同一项目，完整匹配。原候选申请条件核验继承。",
+          "answer_quote": "厦门大学 - 中国语言文学系 - 语言学及应用语言学（学术学位）"
+        },
+        "allocated_node": {
+          "id": "N06-14",
+          "kind": "coverage",
+          "status": "hit",
+          "points": 4.38,
+          "weight": {
+            "numerator": 35,
+            "denominator": 8
+          },
+          "match_level": "exact",
+          "match_coefficient": 1.0,
+          "matched_answer_item_id": "A03",
+          "reviewed_status": "hit"
+        }
+      },
+      "judgment_sha256": "c1dad77a0194eb7c0bd0b7f29a707867be34eff7a7e49a2ccc1da50664d5221a",
+      "score_sha256": "25505b5f3a6a53ec82b468940da4b67e1ae01682d1b0b8bb215ef6c853a9be31"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "name": "Gemini 3.8 Flash",
+      "task_id": "N06-03",
+      "reference_id": "N06-14",
+      "packet": "b67098a4868cfcbb65cd027835c03322",
+      "prior_judgment_path": "reviews/subset20-sysu-adjudication-20261010/b67098a4868cfcbb65cd027835c03322",
+      "prior_judgment_sha256": "6946fc1ce47c31daf08654a3aeaebb9c65ad67708347782eb5cc518136453497",
+      "original_evidence_sha256": "4bbd15f23728eca30b579b1523ae16a0615d918f90c96bbd386993014dab2880",
+      "before": {
+        "score": null,
+        "score_interval": [
+          40.69,
+          45.06
+        ],
+        "coverage": {
+          "answer_quote": "#### 10. 厦门大学 | 中国语言文学系 | 比较文学与世界文学 / 中国古代文学（学术硕士，050108/050105）",
+          "error_ids": [],
+          "id": "N06-14",
+          "matched_answer_item_id": null,
+          "matches": [],
+          "reason": "gold_issue：当届EV-xmu-current正式招生主体为中国语言文学系，参考却写文学院。EV-xmu-history和现行当届通知未确立这两个名称为同一招生主体的正式等价关系。答卷比较文学/古代文学学硕真实，不可因此判invalid；它与050102语应也不是exact。若统一复核认定参考文学院实指中文系，可能涉及同院系相近专业关系裁决；目前不得擅改冻结参考或用字面名称给0/60%。因此仅本条保留参考身份与匹配关系pending，matches为空、matched_answer_item_id为null。",
+          "status": "pending",
+          "gold_issue": {
+            "type": "reference_department_identity",
+            "reference_text": "厦门大学｜文学院｜语言学及应用语言学",
+            "official_department": "中国语言文学系",
+            "evidence_ids": [
+              "EV-xmu-current",
+              "EV-xmu-history"
+            ],
+            "scope": "请求统一参考身份复核；不修改rubric、分母或答卷。"
+          }
+        }
+      },
+      "after": {
+        "score": 43.31,
+        "score_interval": [
+          43.31,
+          43.31
+        ],
+        "coverage": {
+          "id": "N06-14",
+          "status": "hit",
+          "matches": [
+            {
+              "answer_item_id": "A10",
+              "match_level": "same_department",
+              "reason": "同属中国语言文学系的中国语言文学一级学科学术培养，候选文字学或文学方向与语言学项目共享汉语言文学、语言/文本分析的学科训练，适配中文本科背景且官方当届目录确认可申请学硕路径。专业研究重点不同，按同院系相近专业60%计分，不视作050102专业等价；同系多方向只匹配本参考项一次。",
+              "answer_quote": "#### 10. 厦门大学 | 中国语言文学系 | 比较文学与世界文学 / 中国古代文学（学术硕士，050108/050105）",
+              "relation_evidence": [
+                {
+                  "source": "https://chinese.xmu.edu.cn/jggk.htm",
+                  "applicable_cycle": "截至2026-05-31的机构简介；2026申请季",
+                  "scope": "2022年11月中文系提升为学校直属系；中文系中国语言文学一级学科包括语言学、文字学和文学等二级学科。"
+                },
+                {
+                  "source": "https://chinese.xmu.edu.cn/info/1731/45092.htm",
+                  "applicable_cycle": "2026年申请、2027年入学推免",
+                  "scope": "中国语言文学系明确列050102、050103、050105、050108等硕士/直博申请专业及各自研究范围。"
+                },
+                {
+                  "source": "https://oec.xmu.edu.cn/info/1003/1001.htm",
+                  "applicable_cycle": "既有培养与机构身份；原评审用于2026申请季关系核验",
+                  "scope": "国际中文教育学院/海外教育学院为另一单位，具有语言学与国际中文教育培养；不据此证明实时招生名额。"
+                }
+              ]
+            }
+          ],
+          "matched_answer_item_id": null,
+          "error_ids": [],
+          "reason": "同属中国语言文学系的中国语言文学一级学科学术培养，候选文字学或文学方向与语言学项目共享汉语言文学、语言/文本分析的学科训练，适配中文本科背景且官方当届目录确认可申请学硕路径。专业研究重点不同，按同院系相近专业60%计分，不视作050102专业等价；同系多方向只匹配本参考项一次。",
+          "answer_quote": "#### 10. 厦门大学 | 中国语言文学系 | 比较文学与世界文学 / 中国古代文学（学术硕士，050108/050105）"
+        },
+        "allocated_node": {
+          "id": "N06-14",
+          "kind": "coverage",
+          "status": "hit",
+          "points": 2.63,
+          "weight": {
+            "numerator": 35,
+            "denominator": 8
+          },
+          "match_level": "same_department",
+          "match_coefficient": 0.6,
+          "matched_answer_item_id": "A10",
+          "reviewed_status": "hit"
+        }
+      },
+      "judgment_sha256": "5f68ca78281e61e30c259f1f63f9aaaa35b0d610d131715f47fd22581d34172e",
+      "score_sha256": "e09c5f01d75b31511544f6f756851fb1f979103f2488d6035c86998edc1b8e3a"
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "name": "Qwen 3.8 Max",
+      "task_id": "N06-03",
+      "reference_id": "N06-14",
+      "packet": "18ebe6ab6eea520b9828da44f14c36bb",
+      "prior_judgment_path": "reviews/subset20-sysu-adjudication-20261010/18ebe6ab6eea520b9828da44f14c36bb",
+      "prior_judgment_sha256": "f0ad0b002ceac05d3d06a5d7e28781c20c9b40aa47ff6eeec8f08a4666696f7a",
+      "original_evidence_sha256": "b91e4a2e226881660a6604bd6a7f94e8687933a6c3e3b489145416f419e0926c",
+      "before": {
+        "score": 46.94,
+        "score_interval": [
+          46.94,
+          46.94
+        ],
+        "coverage": {
+          "answer_quote": "**厦门大学国际中文教育学院（海外教育学院）**",
+          "error_ids": [],
+          "id": "N06-14",
+          "matched_answer_item_id": null,
+          "matches": [],
+          "reason": "明确排除的是厦大国际中文教育学院；没有文学院050102推荐。排除／仅提名不计分，不据查不到2027通知宣称文学院语言学停招。",
+          "status": "miss"
+        }
+      },
+      "after": {
+        "score": 46.94,
+        "score_interval": [
+          46.94,
+          46.94
+        ],
+        "coverage": {
+          "id": "N06-14",
+          "status": "miss",
+          "matches": [],
+          "matched_answer_item_id": null,
+          "error_ids": [],
+          "reason": "已按修订参考复核全卷提取的候选与原文；没有该校有效直接推荐或具体条件方案可形成匹配。仅排除或仅提名不计分；不把参考名称问题作为答卷错误。",
+          "answer_quote": "**厦门大学国际中文教育学院（海外教育学院）**"
+        },
+        "allocated_node": {
+          "id": "N06-14",
+          "kind": "coverage",
+          "status": "miss",
+          "points": 0,
+          "weight": {
+            "numerator": 35,
+            "denominator": 8
+          },
+          "match_level": null,
+          "match_coefficient": 0,
+          "matched_answer_item_id": null,
+          "reviewed_status": "miss"
+        }
+      },
+      "judgment_sha256": "d774b346fe609e69b94632debcd72c1aa97a8643447cd2cce60cda085f0ccd7a",
+      "score_sha256": "b0f449214eecc92f3c10a7397699fef6f369f3d5d2f0cd87f58459afcd3d317a"
+    },
+    {
+      "agent": "kimi-k3",
+      "name": "Kimi K3",
+      "task_id": "N06-03",
+      "reference_id": "N06-14",
+      "packet": "2b4c8e2dba2c5708f1fb216cffce0709",
+      "prior_judgment_path": "reviews/subset20-sysu-adjudication-20261010/2b4c8e2dba2c5708f1fb216cffce0709",
+      "prior_judgment_sha256": "fb11cbe34fe47026fd455245747be38e9ed983d93e38e0bbd515ec0c95b4647d",
+      "original_evidence_sha256": "0c9229ea21ac2a8a94df3567f74b70ab5e1d699a5d29bf48f6322845641985c2",
+      "before": {
+        "score": 40.81,
+        "score_interval": [
+          40.81,
+          40.81
+        ],
+        "coverage": {
+          "answer_quote": "厦门大学 海外教育学院 — 国际中文教育（专业硕士，0453）",
+          "error_ids": [],
+          "id": "N06-14",
+          "matched_answer_item_id": null,
+          "matches": [
+            {
+              "answer_item_id": "A11",
+              "match_level": "related_department",
+              "answer_quote": "厦门大学 海外教育学院 — 国际中文教育（专业硕士，0453）",
+              "reason": "海外教育学院与国际中文教育学院是同一机构并列名，与参考文学院为不同招生单位；该学院同时培养语言学学硕和中文教育专硕，专硕汉语教学方向与参考语言学高度相关，成立跨院系关系。",
+              "relation_evidence": [
+                {
+                  "source": "https://oec.xmu.edu.cn/info/1003/1001.htm",
+                  "applicable_cycle": "2023年公布的既有学院身份及专业；用于2026年关系核验",
+                  "scope": "国际中文教育学院与海外教育学院是同一单位的并列名称，设语言学学硕和国际中文教育专硕；支持与参考文学院语言学相关，不认定为同院系。"
+                },
+                {
+                  "source": "rubric.json:reference_candidates[N06-14]（冻结参考）",
+                  "applicable_cycle": "task.json指定的2026年推免申请季",
+                  "scope": "支持参考列明的学校、院系和方向身份；不额外要求参考未给出的细分专业。"
+                }
+              ]
+            }
+          ],
+          "reason": "海外教育学院与国际中文教育学院是同一机构并列名，与参考文学院为不同招生单位；该学院同时培养语言学学硕和中文教育专硕，专硕汉语教学方向与参考语言学高度相关，成立跨院系关系。",
+          "status": "hit"
+        }
+      },
+      "after": {
+        "score": 40.81,
+        "score_interval": [
+          40.81,
+          40.81
+        ],
+        "coverage": {
+          "id": "N06-14",
+          "status": "hit",
+          "matches": [
+            {
+              "answer_item_id": "A11",
+              "match_level": "related_department",
+              "reason": "候选为国际中文教育学院/海外教育学院国际中文教育专硕，与直属中文系为不同招生单位。官方中文系050102研究范围包含国际中文教育、教材语言及世界汉语教育史，与候选中文教学培养有明确交叉且符合学生意向。继承原候选有效性，保留跨院系相关30%。",
+              "answer_quote": "厦门大学 海外教育学院 — 国际中文教育（专业硕士，0453）",
+              "relation_evidence": [
+                {
+                  "source": "https://chinese.xmu.edu.cn/jggk.htm",
+                  "applicable_cycle": "截至2026-05-31的机构简介；2026申请季",
+                  "scope": "2022年11月中文系提升为学校直属系；中文系中国语言文学一级学科包括语言学、文字学和文学等二级学科。"
+                },
+                {
+                  "source": "https://chinese.xmu.edu.cn/info/1731/45092.htm",
+                  "applicable_cycle": "2026年申请、2027年入学推免",
+                  "scope": "中国语言文学系明确列050102、050103、050105、050108等硕士/直博申请专业及各自研究范围。"
+                },
+                {
+                  "source": "https://oec.xmu.edu.cn/info/1003/1001.htm",
+                  "applicable_cycle": "既有培养与机构身份；原评审用于2026申请季关系核验",
+                  "scope": "国际中文教育学院/海外教育学院为另一单位，具有语言学与国际中文教育培养；不据此证明实时招生名额。"
+                }
+              ]
+            }
+          ],
+          "matched_answer_item_id": null,
+          "error_ids": [],
+          "reason": "候选为国际中文教育学院/海外教育学院国际中文教育专硕，与直属中文系为不同招生单位。官方中文系050102研究范围包含国际中文教育、教材语言及世界汉语教育史，与候选中文教学培养有明确交叉且符合学生意向。继承原候选有效性，保留跨院系相关30%。",
+          "answer_quote": "厦门大学 海外教育学院 — 国际中文教育（专业硕士，0453）"
+        },
+        "allocated_node": {
+          "id": "N06-14",
+          "kind": "coverage",
+          "status": "hit",
+          "points": 1.31,
+          "weight": {
+            "numerator": 35,
+            "denominator": 8
+          },
+          "match_level": "related_department",
+          "match_coefficient": 0.3,
+          "matched_answer_item_id": "A11",
+          "reviewed_status": "hit"
+        }
+      },
+      "judgment_sha256": "66cf6981c38a00d9e912a6069e9a0341f5ca58760a989cf7a1834417d13a2773",
+      "score_sha256": "6a65f517ebfa1642fa2ac458fa5086994ccf83eaf1dfb706fcda1b13ea6d24dc"
+    },
+    {
+      "agent": "gpt-6-astra",
+      "name": "GPT-6 Astra",
+      "task_id": "N14-03",
+      "reference_id": "N14-L1-06",
+      "packet": "c6287d3213683e96c481ce53bfca01a8",
+      "prior_judgment_path": "reviews/subset20-preview-20261009-194705/executions/c6287d3213683e96c481ce53bfca01a8",
+      "prior_judgment_sha256": "c0f1f4768fbd3b60b9dfe30a52f9d1c1872edc6a7b834d6321726ad16cd1d221",
+      "original_evidence_sha256": "5c171fc7e94a3d022c50c04ce02cc7b80793887a8917151a92a8d3e846e95495",
+      "before": {
+        "score": 41.09,
+        "score_interval": [
+          41.09,
+          41.09
+        ],
+        "coverage": {
+          "answer_quote": "会计主线申请，向财务管理、审计适度延伸；冲刺与稳妥选择同时保留",
+          "error_ids": [],
+          "id": "N14-L1-06",
+          "matched_answer_item_id": null,
+          "matches": [],
+          "reason": "已审阅全文、主清单、排除/提名及重复。未推荐或给出具体可行条件方案：北京理工大学—管理学院｜应用经济学；同校有效相近或跨院系相关项目亦未出现。该项为缺失，不是认定其他学校项目错误。",
+          "status": "miss"
+        }
+      },
+      "after": {
+        "score": 41.09,
+        "score_interval": [
+          41.09,
+          41.09
+        ],
+        "coverage": {
+          "id": "N14-L1-06",
+          "status": "miss",
+          "matches": [],
+          "matched_answer_item_id": null,
+          "error_ids": [],
+          "reason": "已按修订参考复核全卷提取的候选与原文；没有该校有效直接推荐或具体条件方案可形成匹配。仅排除或仅提名不计分；不把参考名称问题作为答卷错误。",
+          "answer_quote": "会计主线申请，向财务管理、审计适度延伸；冲刺与稳妥选择同时保留"
+        },
+        "allocated_node": {
+          "id": "N14-L1-06",
+          "kind": "coverage",
+          "status": "miss",
+          "points": 0,
+          "weight": {
+            "numerator": 70,
+            "denominator": 17
+          },
+          "match_level": null,
+          "match_coefficient": 0,
+          "matched_answer_item_id": null,
+          "reviewed_status": "miss"
+        }
+      },
+      "judgment_sha256": "003932b58985087ada1e10dae33595a9681790f3dc26ee287db709b8ef5f2b07",
+      "score_sha256": "393007fb745282d55c2be0d53e22062a5b6a531b5fdf41e69afcb40fc51cc201"
+    },
+    {
+      "agent": "gpt-6-1-sol",
+      "name": "GPT-6.1 Sol",
+      "task_id": "N14-03",
+      "reference_id": "N14-L1-06",
+      "packet": "05c79e3668e92f7c76906c2c62be0c16",
+      "prior_judgment_path": "reviews/subset20-preview-20261009-194705/executions/05c79e3668e92f7c76906c2c62be0c16",
+      "prior_judgment_sha256": "88c0340aedc673aea92792b467a4f3548c18057686ceeb5eaaec36ad3fc8e5af",
+      "original_evidence_sha256": "7a6ca174392c432c88be32d32f9cb58657bbb03091027f946640276db4c7cb56",
+      "before": {
+        "score": 39.44,
+        "score_interval": [
+          39.44,
+          39.44
+        ],
+        "coverage": {
+          "answer_quote": "",
+          "error_ids": [],
+          "id": "N14-L1-06",
+          "matched_answer_item_id": null,
+          "matches": [],
+          "reason": "完整审阅全文，未推荐、条件备选或另列北京理工大学—管理学院｜应用经济学这一申请路径，且无该校可成立的同院系相近或跨院系高度相关候选；这是缺项，不是内容错误，亦不是待核争议。其他学校会计项目不能跨校替代，不将参考视为唯一合法推荐。",
+          "status": "miss"
+        }
+      },
+      "after": {
+        "score": 39.44,
+        "score_interval": [
+          39.44,
+          39.44
+        ],
+        "coverage": {
+          "id": "N14-L1-06",
+          "status": "miss",
+          "matches": [],
+          "matched_answer_item_id": null,
+          "error_ids": [],
+          "reason": "已按修订参考复核全卷提取的候选与原文；没有该校有效直接推荐或具体条件方案可形成匹配。仅排除或仅提名不计分；不把参考名称问题作为答卷错误。",
+          "answer_quote": ""
+        },
+        "allocated_node": {
+          "id": "N14-L1-06",
+          "kind": "coverage",
+          "status": "miss",
+          "points": 0,
+          "weight": {
+            "numerator": 70,
+            "denominator": 17
+          },
+          "match_level": null,
+          "match_coefficient": 0,
+          "matched_answer_item_id": null,
+          "reviewed_status": "miss"
+        }
+      },
+      "judgment_sha256": "03914b293296d5e00b9569fb6eba51f5ecbb818ec81a508768393d2e1394e13e",
+      "score_sha256": "985e3febedae3c38fc8109ad268e8a95437ea76d922b02550560e90575a2b1bc"
+    },
+    {
+      "agent": "deepseek-v4-1-flash",
+      "name": "DeepSeek V4.1 Flash",
+      "task_id": "N14-03",
+      "reference_id": "N14-L1-06",
+      "packet": "25e1e2cea7a3aba2ae8344f4b3409f77",
+      "prior_judgment_path": "reviews/subset20-preview-20261009-194705/executions/25e1e2cea7a3aba2ae8344f4b3409f77",
+      "prior_judgment_sha256": "38ce6cbf4ba772ecb4eb1af2ee1c4436f8314620b91e4da8ef3d3fbface35db9",
+      "original_evidence_sha256": "e1e31b84aea1059869123c85da96fb0dd0fe907dbebd4d7388f07b45131d81cc",
+      "before": {
+        "score": 38.18,
+        "score_interval": [
+          38.18,
+          38.18
+        ],
+        "coverage": {
+          "answer_quote": "#### 13. 北京理工大学 管理学院 —— 工商管理学（学术型硕士，含会计学方向）",
+          "error_ids": [],
+          "id": "N14-L1-06",
+          "matched_answer_item_id": null,
+          "matches": [
+            {
+              "answer_item_id": "bit-master",
+              "match_level": "same_department",
+              "answer_quote": "#### 13. 北京理工大学 管理学院 —— 工商管理学（学术型硕士，含会计学方向）",
+              "reason": "招生单位均为管理学院；参考应用经济学含金融方向，答卷工商管理学会计方向为另一学术硕士路径。官方会计财务研究及应用经济学金融授权内容支持实质邻近，按同院系相近专业判断，不视为专业等价。",
+              "relation_evidence": [
+                {
+                  "source": "rubric.json reference_candidates[N14-L1-06]",
+                  "applicable_cycle": "2026年推免申请季；本题冻结rubric粒度",
+                  "scope": "管理学院应用经济学身份。冻结参考可支持给定粒度的同名项目身份；不作为唯一合法择校清单。"
+                },
+                {
+                  "source": "https://som.bit.edu.cn/gbxwzx/tzgg/a199a3ca0f8144b3b72e029c9e8d9804.htm",
+                  "applicable_cycle": "2026年申请、2027级入学；官方检索摘要",
+                  "scope": "管理学院工商管理学推免学术硕士路径"
+                },
+                {
+                  "source": "https://som.bit.edu.cn/gbxwzx/gb3zsxx/ba6f9038d6a34aca92e50407d0b6e2e5.htm",
+                  "applicable_cycle": "2025年申请、2026级入学；2025-09-07发布",
+                  "scope": "答卷工商管理学学术硕士推荐的往届路径"
+                },
+                {
+                  "source": "https://som.bit.edu.cn/xzxb/gbkjx/xbjj5/index.htm",
+                  "applicable_cycle": "长期学科介绍；用于2026年院系与方向识别，不证明逐年招生计划",
+                  "scope": "管理学院会计系的会计/财务学术培养及金融经济研究邻近性"
+                },
+                {
+                  "source": "https://som.bit.edu.cn/xzxb/gbgjmyyjr/xbjj4/index.htm",
+                  "applicable_cycle": "长期学科介绍；适用范围限项目关系识别",
+                  "scope": "管理学院应用经济学涵盖国际贸易学和金融学"
+                }
+              ]
+            }
+          ],
+          "reason": "没有直接报应用经济学，但管理学院工商管理学会计方向与应用经济学金融方向形成同院相近学术路径，给予same_department。泛称同时投其专硕不能补出具体MPAcc推免通道，MPAcc仅提名，不列第二条正向关系。已核对其他正文提及的学位类型；未明确推荐管科/能源项目，不替作者创建候选。",
+          "status": "hit"
+        }
+      },
+      "after": {
+        "score": 36.94,
+        "score_interval": [
+          36.94,
+          36.94
+        ],
+        "coverage": {
+          "id": "N14-L1-06",
+          "status": "hit",
+          "matches": [
+            {
+              "answer_item_id": "bit-master",
+              "match_level": "related_department",
+              "reason": "参考按当届招生归经济学院020200应用经济学；答卷会计学/工商管理学会计方向归管理学院，为不同招生单位。管理学院会计信息治理、投资决策研究与经济学院金融方向的公司金融、实证资产定价有具体交叉，符合会计本科学生相关经管学硕意向。原评审已核实其学术硕士申请路径有效，统一按跨院系相关30%计分，不再按旧院系名称给60%；不将MPAcc提名或无效推免路径计入。",
+              "answer_quote": "#### 13. 北京理工大学 管理学院 —— 工商管理学（学术型硕士，含会计学方向）",
+              "relation_evidence": [
+                {
+                  "source": "https://soe.bit.edu.cn/xygk/lsyg/index.htm",
+                  "applicable_cycle": "2024年沿革及2026年申请季",
+                  "scope": "经济学院2024年成立，承接经济学学科。"
+                },
+                {
+                  "source": "https://som.bit.edu.cn/gbxygk/yjsm/index.htm",
+                  "applicable_cycle": "2024年更名及2026年申请季",
+                  "scope": "管理与经济学院2024年更名为管理学院；不能据旧称认为两个现行学院相同。"
+                },
+                {
+                  "source": "https://soe.bit.edu.cn/rcpy/xsybs/tzgg1/2a124e6c2c6940df82094a574c40dd62.htm",
+                  "applicable_cycle": "2026-09-03发布，2027年入学推免",
+                  "scope": "经济学院独立招收020200应用经济学学术硕士。"
+                },
+                {
+                  "source": "https://som.bit.edu.cn/gbxwzx/tzgg/a199a3ca0f8144b3b72e029c9e8d9804.htm",
+                  "applicable_cycle": "2026-09-07发布，2027年入学推免",
+                  "scope": "管理学院招收120200工商管理学学术硕士，目录不含020200应用经济学。"
+                },
+                {
+                  "source": "https://som.bit.edu.cn/gbszdw/gbjxzy/gbskjx/b126509.htm",
+                  "applicable_cycle": "2026年会计系教师及研究领域介绍",
+                  "scope": "会计学学术研究涉及会计信息治理、投资决策及公司金融；原评审已核实学术会计培养路径。"
+                },
+                {
+                  "source": "https://soe.bit.edu.cn/szdw/zrjs/dc44b0c205a94efbb5776d1a2c3b162f.htm",
+                  "applicable_cycle": "2026年经济学院师资研究方向；非名额证明",
+                  "scope": "经济学院金融与财政系硕士生导师研究实证资产定价、公司金融，与会计信息及投资研究有具体交叉。"
+                }
+              ]
+            }
+          ],
+          "matched_answer_item_id": null,
+          "error_ids": [],
+          "reason": "参考按当届招生归经济学院020200应用经济学；答卷会计学/工商管理学会计方向归管理学院，为不同招生单位。管理学院会计信息治理、投资决策研究与经济学院金融方向的公司金融、实证资产定价有具体交叉，符合会计本科学生相关经管学硕意向。原评审已核实其学术硕士申请路径有效，统一按跨院系相关30%计分，不再按旧院系名称给60%；不将MPAcc提名或无效推免路径计入。",
+          "answer_quote": "#### 13. 北京理工大学 管理学院 —— 工商管理学（学术型硕士，含会计学方向）"
+        },
+        "allocated_node": {
+          "id": "N14-L1-06",
+          "kind": "coverage",
+          "status": "hit",
+          "points": 1.24,
+          "weight": {
+            "numerator": 70,
+            "denominator": 17
+          },
+          "match_level": "related_department",
+          "match_coefficient": 0.3,
+          "matched_answer_item_id": "bit-master",
+          "reviewed_status": "hit"
+        }
+      },
+      "judgment_sha256": "0905bcf18fafa89617a0424c2fc8f23fd14e65bddcaae8d2fb3b3b3351138116",
+      "score_sha256": "88b4ef505ea434d1760843834033fbb19635a95836a479d60db21bd5081de135"
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "name": "Gemini 3.1 Pro",
+      "task_id": "N14-03",
+      "reference_id": "N14-L1-06",
+      "packet": "2ab9c25b656767c4527c85f9b875aeda",
+      "prior_judgment_path": "reviews/subset20-preview-20261009-194705/executions/2ab9c25b656767c4527c85f9b875aeda",
+      "prior_judgment_sha256": "fdbc6a0aaf16c47a85dc6490dbed33b3ac4c1dc1268a9d8dcba81e688c4c0673",
+      "original_evidence_sha256": "f4df3d72f0aab7763bc9c14a00a0cfaac843f6eab950b8b3b32a4ec0e876c380",
+      "before": {
+        "score": null,
+        "score_interval": [
+          19.06,
+          32.29
+        ],
+        "coverage": {
+          "answer_quote": "北京理工大学 - 管理与经济学院 - 会计学 / 会计专硕（MPAcc）",
+          "error_ids": [],
+          "id": "N14-L1-06",
+          "matched_answer_item_id": null,
+          "matches": [],
+          "reason": "gold_issue：冻结参考写管理学院应用经济学，2027官方资料却由经济学院招应用经济学，而管理学院本轮招生表不含该专业。会计学学术路径A07a可识别，但相对于冻结参考究竟沿旧院系按同院系相近，还是按调整后的独立经济学院跨院系，不能在不修订参考的情况下擅定。依据评分通则，参考问题单列，保留此项待核，等待统一复核参考及版本；MPAcc错误E02只在reasons处理。",
+          "status": "pending",
+          "pending_answer_item_ids": [
+            "A07a"
+          ],
+          "gold_issue": {
+            "id": "G01",
+            "status": "confirmed_reference_department_conflict",
+            "reason": "2027届管理学院/经济学院独立招生与冻结参考院系不一致；未修改冻结rubric。",
+            "relation_evidence": [
+              {
+                "source": "https://som.bit.edu.cn/gbxwzx/tzgg/a199a3ca0f8144b3b72e029c9e8d9804.htm",
+                "applicable_cycle": "2026-09-07发布，2027年入学推免",
+                "scope": "管理学院完整推免招生表包含工商管理学等学术型专业，不包含125300会计专硕或020200应用经济学。"
+              },
+              {
+                "source": "https://soe.bit.edu.cn/rcpy/xsybs/tzgg1/2a124e6c2c6940df82094a574c40dd62.htm",
+                "applicable_cycle": "2026-09-03发布，2027年入学推免",
+                "scope": "应用经济学020200由经济学院接收推免，形成冻结参考N14-L1-06的招生院系问题。"
+              }
+            ]
+          }
+        }
+      },
+      "after": {
+        "score": null,
+        "score_interval": [
+          20.29,
+          29.41
+        ],
+        "coverage": {
+          "id": "N14-L1-06",
+          "status": "hit",
+          "matches": [
+            {
+              "answer_item_id": "A07a",
+              "match_level": "related_department",
+              "reason": "参考按当届招生归经济学院020200应用经济学；答卷会计学/工商管理学会计方向归管理学院，为不同招生单位。管理学院会计信息治理、投资决策研究与经济学院金融方向的公司金融、实证资产定价有具体交叉，符合会计本科学生相关经管学硕意向。原评审已核实其学术硕士申请路径有效，统一按跨院系相关30%计分，不再按旧院系名称给60%；不将MPAcc提名或无效推免路径计入。",
+              "answer_quote": "北京理工大学 - 管理与经济学院 - 会计学 / 会计专硕（MPAcc）",
+              "relation_evidence": [
+                {
+                  "source": "https://soe.bit.edu.cn/xygk/lsyg/index.htm",
+                  "applicable_cycle": "2024年沿革及2026年申请季",
+                  "scope": "经济学院2024年成立，承接经济学学科。"
+                },
+                {
+                  "source": "https://som.bit.edu.cn/gbxygk/yjsm/index.htm",
+                  "applicable_cycle": "2024年更名及2026年申请季",
+                  "scope": "管理与经济学院2024年更名为管理学院；不能据旧称认为两个现行学院相同。"
+                },
+                {
+                  "source": "https://soe.bit.edu.cn/rcpy/xsybs/tzgg1/2a124e6c2c6940df82094a574c40dd62.htm",
+                  "applicable_cycle": "2026-09-03发布，2027年入学推免",
+                  "scope": "经济学院独立招收020200应用经济学学术硕士。"
+                },
+                {
+                  "source": "https://som.bit.edu.cn/gbxwzx/tzgg/a199a3ca0f8144b3b72e029c9e8d9804.htm",
+                  "applicable_cycle": "2026-09-07发布，2027年入学推免",
+                  "scope": "管理学院招收120200工商管理学学术硕士，目录不含020200应用经济学。"
+                },
+                {
+                  "source": "https://som.bit.edu.cn/gbszdw/gbjxzy/gbskjx/b126509.htm",
+                  "applicable_cycle": "2026年会计系教师及研究领域介绍",
+                  "scope": "会计学学术研究涉及会计信息治理、投资决策及公司金融；原评审已核实学术会计培养路径。"
+                },
+                {
+                  "source": "https://soe.bit.edu.cn/szdw/zrjs/dc44b0c205a94efbb5776d1a2c3b162f.htm",
+                  "applicable_cycle": "2026年经济学院师资研究方向；非名额证明",
+                  "scope": "经济学院金融与财政系硕士生导师研究实证资产定价、公司金融，与会计信息及投资研究有具体交叉。"
+                }
+              ]
+            }
+          ],
+          "matched_answer_item_id": null,
+          "error_ids": [],
+          "reason": "参考按当届招生归经济学院020200应用经济学；答卷会计学/工商管理学会计方向归管理学院，为不同招生单位。管理学院会计信息治理、投资决策研究与经济学院金融方向的公司金融、实证资产定价有具体交叉，符合会计本科学生相关经管学硕意向。原评审已核实其学术硕士申请路径有效，统一按跨院系相关30%计分，不再按旧院系名称给60%；不将MPAcc提名或无效推免路径计入。",
+          "answer_quote": "北京理工大学 - 管理与经济学院 - 会计学 / 会计专硕（MPAcc）"
+        },
+        "allocated_node": {
+          "id": "N14-L1-06",
+          "kind": "coverage",
+          "status": "hit",
+          "points": 1.24,
+          "weight": {
+            "numerator": 70,
+            "denominator": 17
+          },
+          "match_level": "related_department",
+          "match_coefficient": 0.3,
+          "matched_answer_item_id": "A07a",
+          "reviewed_status": "hit"
+        }
+      },
+      "judgment_sha256": "f10cf15830ee1fc5667a847a2c4f0254ad8e1292b7bd3a7aee6e5f6112610bc7",
+      "score_sha256": "9d6645f8f9d5d4aafe7da75cd88e2956f67f8ecd5586e0dc46093d485e32ab21"
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "name": "Gemini 3.8 Flash",
+      "task_id": "N14-03",
+      "reference_id": "N14-L1-06",
+      "packet": "415f4ae0e4e0824dc49f675933008112",
+      "prior_judgment_path": "reviews/subset20-preview-20261009-194705/executions/415f4ae0e4e0824dc49f675933008112",
+      "prior_judgment_sha256": "2102a229aa132ee98da1b37370d9e2f08233a09a4f466f286336e7d69b9f3e0e",
+      "original_evidence_sha256": "a819d28c70bfbac60e84657bd31968bc277f557cba903a93f3829976b874efec",
+      "before": {
+        "score": null,
+        "score_interval": [
+          33.53,
+          37.65
+        ],
+        "coverage": {
+          "answer_quote": "9. 北京理工大学 · 管理与经济学院 · 会计学（学术型硕士，代码：120201）",
+          "error_ids": [],
+          "id": "N14-L1-06",
+          "matched_answer_item_id": null,
+          "matches": [],
+          "reason": "gold_issue GI-01：旧管理与经济学院与管理学院同一身份已核实，会计学硕路径可识别；但2026季官方管理学院招生表不列应用经济学，经济学院当届办法却明确列020200。冻结参考仍为管理学院｜应用经济学，归属冲突会改变同院系/跨院系关系，须统一复核参考及版本。本次不自行改写参考，不将参考争议算成答卷错误，保留该项pending（evidence.json）。",
+          "status": "pending"
+        }
+      },
+      "after": {
+        "score": 34.76,
+        "score_interval": [
+          34.76,
+          34.76
+        ],
+        "coverage": {
+          "id": "N14-L1-06",
+          "status": "hit",
+          "matches": [
+            {
+              "answer_item_id": "A09_main",
+              "match_level": "related_department",
+              "reason": "参考按当届招生归经济学院020200应用经济学；答卷会计学/工商管理学会计方向归管理学院，为不同招生单位。管理学院会计信息治理、投资决策研究与经济学院金融方向的公司金融、实证资产定价有具体交叉，符合会计本科学生相关经管学硕意向。原评审已核实其学术硕士申请路径有效，统一按跨院系相关30%计分，不再按旧院系名称给60%；不将MPAcc提名或无效推免路径计入。",
+              "answer_quote": "9. 北京理工大学 · 管理与经济学院 · 会计学（学术型硕士，代码：120201）",
+              "relation_evidence": [
+                {
+                  "source": "https://soe.bit.edu.cn/xygk/lsyg/index.htm",
+                  "applicable_cycle": "2024年沿革及2026年申请季",
+                  "scope": "经济学院2024年成立，承接经济学学科。"
+                },
+                {
+                  "source": "https://som.bit.edu.cn/gbxygk/yjsm/index.htm",
+                  "applicable_cycle": "2024年更名及2026年申请季",
+                  "scope": "管理与经济学院2024年更名为管理学院；不能据旧称认为两个现行学院相同。"
+                },
+                {
+                  "source": "https://soe.bit.edu.cn/rcpy/xsybs/tzgg1/2a124e6c2c6940df82094a574c40dd62.htm",
+                  "applicable_cycle": "2026-09-03发布，2027年入学推免",
+                  "scope": "经济学院独立招收020200应用经济学学术硕士。"
+                },
+                {
+                  "source": "https://som.bit.edu.cn/gbxwzx/tzgg/a199a3ca0f8144b3b72e029c9e8d9804.htm",
+                  "applicable_cycle": "2026-09-07发布，2027年入学推免",
+                  "scope": "管理学院招收120200工商管理学学术硕士，目录不含020200应用经济学。"
+                },
+                {
+                  "source": "https://som.bit.edu.cn/gbszdw/gbjxzy/gbskjx/b126509.htm",
+                  "applicable_cycle": "2026年会计系教师及研究领域介绍",
+                  "scope": "会计学学术研究涉及会计信息治理、投资决策及公司金融；原评审已核实学术会计培养路径。"
+                },
+                {
+                  "source": "https://soe.bit.edu.cn/szdw/zrjs/dc44b0c205a94efbb5776d1a2c3b162f.htm",
+                  "applicable_cycle": "2026年经济学院师资研究方向；非名额证明",
+                  "scope": "经济学院金融与财政系硕士生导师研究实证资产定价、公司金融，与会计信息及投资研究有具体交叉。"
+                }
+              ]
+            }
+          ],
+          "matched_answer_item_id": null,
+          "error_ids": [],
+          "reason": "参考按当届招生归经济学院020200应用经济学；答卷会计学/工商管理学会计方向归管理学院，为不同招生单位。管理学院会计信息治理、投资决策研究与经济学院金融方向的公司金融、实证资产定价有具体交叉，符合会计本科学生相关经管学硕意向。原评审已核实其学术硕士申请路径有效，统一按跨院系相关30%计分，不再按旧院系名称给60%；不将MPAcc提名或无效推免路径计入。",
+          "answer_quote": "9. 北京理工大学 · 管理与经济学院 · 会计学（学术型硕士，代码：120201）"
+        },
+        "allocated_node": {
+          "id": "N14-L1-06",
+          "kind": "coverage",
+          "status": "hit",
+          "points": 1.24,
+          "weight": {
+            "numerator": 70,
+            "denominator": 17
+          },
+          "match_level": "related_department",
+          "match_coefficient": 0.3,
+          "matched_answer_item_id": "A09_main",
+          "reviewed_status": "hit"
+        }
+      },
+      "judgment_sha256": "99c40b9b15233871021c0ad2b27cb89735a65f6432690708f43b86752b6afdaa",
+      "score_sha256": "4b6c2f193f1ef276abc9c31e088b0a5e63508b547d1b0d82916be1d52eff0a19"
+    },
+    {
+      "agent": "qwen3-8-max-0902",
+      "name": "Qwen 3.8 Max",
+      "task_id": "N14-03",
+      "reference_id": "N14-L1-06",
+      "packet": "d5540e93329a7a655064e6a0e85feede",
+      "prior_judgment_path": "reviews/subset20-preview-20261009-194705/executions/d5540e93329a7a655064e6a0e85feede",
+      "prior_judgment_sha256": "ca311dc35590081df3bf42d80d64ee61713bf5c2e0eca6f77a21d15f1f7ca765",
+      "original_evidence_sha256": "38f7208a7f908e48cf4c31ee3f94bdaf00f0488cb4f69a9c5f668d3386eba416",
+      "before": {
+        "score": 24.44,
+        "score_interval": [
+          24.44,
+          24.44
+        ],
+        "coverage": {
+          "answer_quote": "",
+          "error_ids": [],
+          "id": "N14-L1-06",
+          "matched_answer_item_id": null,
+          "matches": [],
+          "reason": "完整审阅主清单、替补、横向扩展及排除对象，未出现北京理工大学的实际推荐或可成立同校相关申请路径；这是缺项，不是项目内容错误，也不是证据争议。",
+          "status": "miss"
+        }
+      },
+      "after": {
+        "score": 24.44,
+        "score_interval": [
+          24.44,
+          24.44
+        ],
+        "coverage": {
+          "id": "N14-L1-06",
+          "status": "miss",
+          "matches": [],
+          "matched_answer_item_id": null,
+          "error_ids": [],
+          "reason": "已按修订参考复核全卷提取的候选与原文；没有该校有效直接推荐或具体条件方案可形成匹配。仅排除或仅提名不计分；不把参考名称问题作为答卷错误。",
+          "answer_quote": ""
+        },
+        "allocated_node": {
+          "id": "N14-L1-06",
+          "kind": "coverage",
+          "status": "miss",
+          "points": 0,
+          "weight": {
+            "numerator": 70,
+            "denominator": 17
+          },
+          "match_level": null,
+          "match_coefficient": 0,
+          "matched_answer_item_id": null,
+          "reviewed_status": "miss"
+        }
+      },
+      "judgment_sha256": "4ec05d6b82d3e4b871e1cff616ea507323b43f591427f3c21b48fc53a8f6312f",
+      "score_sha256": "3b05deba9f1e0a42fb7ccd89a3e675fb00e746dfd7152ffed856d9910ebd264a"
+    },
+    {
+      "agent": "kimi-k3",
+      "name": "Kimi K3",
+      "task_id": "N14-03",
+      "reference_id": "N14-L1-06",
+      "packet": "91ce6e3e3b89b6d277009278ca27458c",
+      "prior_judgment_path": "reviews/subset20-preview-20261009-194705/executions/91ce6e3e3b89b6d277009278ca27458c",
+      "prior_judgment_sha256": "9b8da3210a7ae85f003dea95ec853ca984adb88b5e561e0ded4b9607053c462b",
+      "original_evidence_sha256": "4c4b31a37ca3007641e550a24100e79364103df6c3ccf8628da06bda749b8ba5",
+      "before": {
+        "score": 29.44,
+        "score_interval": [
+          29.44,
+          29.44
+        ],
+        "coverage": {
+          "answer_quote": "北理\"一流学科建设大学\"条款",
+          "error_ids": [],
+          "id": "N14-L1-06",
+          "matched_answer_item_id": null,
+          "matches": [],
+          "reason": "北理仅在背景定位表作门槛举例，没有管理学院应用经济学的申请推荐；缺具体项目，不构成覆盖。",
+          "status": "miss"
+        }
+      },
+      "after": {
+        "score": 29.44,
+        "score_interval": [
+          29.44,
+          29.44
+        ],
+        "coverage": {
+          "id": "N14-L1-06",
+          "status": "miss",
+          "matches": [],
+          "matched_answer_item_id": null,
+          "error_ids": [],
+          "reason": "已按修订参考复核全卷提取的候选与原文；没有该校有效直接推荐或具体条件方案可形成匹配。仅排除或仅提名不计分；不把参考名称问题作为答卷错误。",
+          "answer_quote": "北理\"一流学科建设大学\"条款"
+        },
+        "allocated_node": {
+          "id": "N14-L1-06",
+          "kind": "coverage",
+          "status": "miss",
+          "points": 0,
+          "weight": {
+            "numerator": 70,
+            "denominator": 17
+          },
+          "match_level": null,
+          "match_coefficient": 0,
+          "matched_answer_item_id": null,
+          "reviewed_status": "miss"
+        }
+      },
+      "judgment_sha256": "e10b8bce1ff46ab627d28dded5131e45e862551fa592ae896e53418fc1a71f81",
+      "score_sha256": "c7e6bf1eb8be1d3ea2322f77e4d02f59a96c52893dfe1d08c9f2bc58a08e8ade"
+    }
+  ]
+}

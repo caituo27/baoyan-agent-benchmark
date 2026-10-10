@@ -1,0 +1,2193 @@
+{
+  "agent": "deepseek-v4-1-flash",
+  "completed": 75,
+  "configuration": {
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "auth": "api",
+    "base_url": "https://api.deepseek.com/anthropic",
+    "binary": "dsh",
+    "cli": "dsh",
+    "cli_version": "0.2.0-rc.2",
+    "id": "deepseek-v4-1-flash",
+    "model": "deepseek-flash",
+    "reasoning_effort": "high"
+  },
+  "expected_full_scope": 75,
+  "official": false,
+  "provenance_counts": {
+    "completed_native_capture": 67,
+    "legacy_final_response_capture_audited_not_relabelled": 8
+  },
+  "records": [
+    {
+      "capture_path": "captures/TRY-E-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/TRY-E-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/0/a1/capture/deepseek-v4-1-flash/TRY-E-02/r1/workspace/answer.md": "8d244075c9eb489fda30085375e9a4af6f58bdf7fa6e3a297f385b6162f6c655"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/0/a1/capture/deepseek-v4-1-flash/TRY-E-02/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/0/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-E-02"
+    },
+    {
+      "capture_path": "captures/BY-F-APPLY",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/BY-F-APPLY/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/1/a1/capture/deepseek-v4-1-flash/BY-F-APPLY/r1/workspace/answer.md": "6e20065b7fbe92fd878c28fdd033909443e6a5b74e96e4e79c2ec3d9ca1dd480"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/1/a1/capture/deepseek-v4-1-flash/BY-F-APPLY/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/1/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-F-APPLY"
+    },
+    {
+      "capture_path": "captures/TRY-G-01",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/TRY-G-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/2/a1/capture/deepseek-v4-1-flash/TRY-G-01/r1/workspace/answer.md": "2cad3947c27202bfb0f94c40313e01be9071e44c13d7bcba26bd13ed1ec1e0aa"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/2/a1/capture/deepseek-v4-1-flash/TRY-G-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/2/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-G-01"
+    },
+    {
+      "capture_path": "captures/TRY-G-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/TRY-G-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/3/a1/capture/deepseek-v4-1-flash/TRY-G-02/r1/workspace/answer.md": "e7679100063cd6744bf133b807391d5d10184708c9b3acd57bad2e2ebe4d8c94"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/3/a1/capture/deepseek-v4-1-flash/TRY-G-02/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/3/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-G-02"
+    },
+    {
+      "capture_path": "captures/BY-G-APPLY",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/BY-G-APPLY/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/4/a1/capture/deepseek-v4-1-flash/BY-G-APPLY/r1/workspace/answer.md": "60583466238452691ede831e37cd4ccfb07067aa33399ef4680f997253c4c557"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/4/a1/capture/deepseek-v4-1-flash/BY-G-APPLY/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/4/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-G-APPLY"
+    },
+    {
+      "capture_path": "captures/BY-E-PREP",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/BY-E-PREP/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/5/a1/capture/deepseek-v4-1-flash/BY-E-PREP/r1/workspace/answer.md": "ae39a5a13a582296740d21ca446774bb3f4989afb244a5caadd15fd44222a840"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/5/a1/capture/deepseek-v4-1-flash/BY-E-PREP/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/5/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-E-PREP"
+    },
+    {
+      "capture_path": "captures/N01-01",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N01-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/6/a1/capture/deepseek-v4-1-flash/N01-01/r1/workspace/answer.md": "893b5af75ac6ca713a93f4fa70b1424fbd68e601bdc359c13a415914f6e4b71c"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/6/a1/capture/deepseek-v4-1-flash/N01-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/6/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N01-01"
+    },
+    {
+      "capture_path": "captures/N02-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N02-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/7/a1/capture/deepseek-v4-1-flash/N02-02/r1/workspace/answer.md": "b8207558258a72761afce3b4fd64b3ddd5c97ebd09adeb784016bafc655de947"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/7/a1/capture/deepseek-v4-1-flash/N02-02/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/7/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N02-02"
+    },
+    {
+      "capture_path": "captures/N02-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N02-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/8/a1/capture/deepseek-v4-1-flash/N02-03/r1/workspace/answer.md": "17eabbec130c9af22eeb18525bd6887ceffd385027a67d4175cc743fb1263b10"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/8/a1/capture/deepseek-v4-1-flash/N02-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/8/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N02-03"
+    },
+    {
+      "capture_path": "captures/N03-01",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N03-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/9/a1/capture/deepseek-v4-1-flash/N03-01/r1/workspace/answer.md": "ddd89685e0185baac403a2fb3f885fc72a1bc450e58061396b768c7845b7c5ed"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/9/a1/capture/deepseek-v4-1-flash/N03-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/9/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N03-01"
+    },
+    {
+      "capture_path": "captures/N03-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N03-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/10/a1/capture/deepseek-v4-1-flash/N03-03/r1/workspace/answer.md": "301243b008b59d2ebd43ca52c64becce4fc06fd963aea99fcc7160b7d99af1a5"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/10/a1/capture/deepseek-v4-1-flash/N03-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/10/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N03-03"
+    },
+    {
+      "capture_path": "captures/N04-01",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N04-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/11/a1/capture/deepseek-v4-1-flash/N04-01/r1/workspace/answer.md": "4f0af00d40b94e34619edec5a524c2e3f470e733a47b78be2cb506eecb812d00"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/11/a1/capture/deepseek-v4-1-flash/N04-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/11/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N04-01"
+    },
+    {
+      "capture_path": "captures/N05-01",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N05-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/12/a1/capture/deepseek-v4-1-flash/N05-01/r1/workspace/answer.md": "95527c3eb57e358437f14277cc2d45a6bb0f375ec93ad4be252ad4b903d6b1fa"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/12/a1/capture/deepseek-v4-1-flash/N05-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/12/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N05-01"
+    },
+    {
+      "capture_path": "captures/N05-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N05-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/13/a1/capture/deepseek-v4-1-flash/N05-03/r1/workspace/answer.md": "432a2c96667aeade7f8fe2d387e762c16f233031ceeceafeb9be6aaacfc085cd"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/13/a1/capture/deepseek-v4-1-flash/N05-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/13/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N05-03"
+    },
+    {
+      "capture_path": "captures/N06-01",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N06-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/14/a1/capture/deepseek-v4-1-flash/N06-01/r1/workspace/answer.md": "9e99f77019689a5cc758c55bf6ea6cee1b87a6aa8a7d3644515714f222f434be"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/14/a1/capture/deepseek-v4-1-flash/N06-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/14/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N06-01"
+    },
+    {
+      "capture_path": "captures/N06-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N06-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/15/a1/capture/deepseek-v4-1-flash/N06-02/r1/workspace/answer.md": "db1fa85549422bb0288647d7e09a854032efb3aa722e5838b12b6c43699935d7"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/15/a1/capture/deepseek-v4-1-flash/N06-02/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/15/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N06-02"
+    },
+    {
+      "capture_path": "captures/N07-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N07-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/16/a1/capture/deepseek-v4-1-flash/N07-03/r1/workspace/answer.md": "f2f6cc6f8f3c6a7c648b61a0e84add2d2b67f0d19655b7ec6868da5e191242a9"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/16/a1/capture/deepseek-v4-1-flash/N07-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/16/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N07-03"
+    },
+    {
+      "capture_path": "captures/N08-01",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N08-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/17/a1/capture/deepseek-v4-1-flash/N08-01/r1/workspace/answer.md": "2bb5c330beb09d2bb4a00f9df7ff34db3299647c6a72d91e7f42ab1ea55ff7e6"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/17/a1/capture/deepseek-v4-1-flash/N08-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/17/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N08-01"
+    },
+    {
+      "capture_path": "captures/N08-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N08-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/18/a2/capture/deepseek-v4-1-flash/N08-03/r1/workspace/answer.md": "fdc4ebe7081bb279706378b14cc460101ea34116572d87c774ab08c720473383"
+        },
+        "attempts": [
+          {
+            "category": "failed",
+            "number": 1
+          },
+          {
+            "category": "completed",
+            "number": 2
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/18/a2/capture/deepseek-v4-1-flash/N08-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 2,
+          "path": "attempts/18/a2"
+        }
+      },
+      "status": "completed",
+      "task_id": "N08-03"
+    },
+    {
+      "capture_path": "captures/N09-01",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N09-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/19/a1/capture/deepseek-v4-1-flash/N09-01/r1/workspace/answer.md": "8bf029f1b84b13530c79042192c230892f9cda194ddedf283fbdfe0fd80ec569"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/19/a1/capture/deepseek-v4-1-flash/N09-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/19/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N09-01"
+    },
+    {
+      "capture_path": "captures/N09-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N09-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/20/a1/capture/deepseek-v4-1-flash/N09-03/r1/workspace/answer.md": "35e45664417abc843f3b960be4c180782370d725bc90e599f35eab7820e42cc8"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/20/a1/capture/deepseek-v4-1-flash/N09-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/20/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N09-03"
+    },
+    {
+      "capture_path": "captures/N10-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N10-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/21/a1/capture/deepseek-v4-1-flash/N10-02/r1/workspace/answer.md": "ca1987436ad79fd0546b4fd0cdf54cfde392d93b3cd4894a95d5375643a5f8d6"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/21/a1/capture/deepseek-v4-1-flash/N10-02/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/21/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N10-02"
+    },
+    {
+      "capture_path": "captures/N10-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N10-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/22/a1/capture/deepseek-v4-1-flash/N10-03/r1/workspace/answer.md": "5d08201436a6f815fb312ed74af5df50e8d24149312952bb5cf6920af5777dfc"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/22/a1/capture/deepseek-v4-1-flash/N10-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/22/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N10-03"
+    },
+    {
+      "capture_path": "captures/N12-01",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N12-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/23/a1/capture/deepseek-v4-1-flash/N12-01/r1/workspace/answer.md": "f9a861d99765ab22e885f74a973270639c04476f38cd0249483b5ac2e0e9f0b7"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/23/a1/capture/deepseek-v4-1-flash/N12-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/23/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N12-01"
+    },
+    {
+      "capture_path": "captures/N12-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N12-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/24/a1/capture/deepseek-v4-1-flash/N12-03/r1/workspace/answer.md": "3c5377d1d31702386e63bd01f1d7f1523b6a17057d90a16d76c433cee9f87668"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/24/a1/capture/deepseek-v4-1-flash/N12-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/24/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N12-03"
+    },
+    {
+      "capture_path": "captures/N13-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N13-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/25/a1/capture/deepseek-v4-1-flash/N13-03/r1/workspace/answer.md": "24c8fbe2cedc5ccf8e07ac9f288fd8a952e157b7f4070456f905e34b7f076cd3"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/25/a1/capture/deepseek-v4-1-flash/N13-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/25/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N13-03"
+    },
+    {
+      "capture_path": "captures/N14-01",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N14-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/26/a1/capture/deepseek-v4-1-flash/N14-01/r1/workspace/answer.md": "a5141629dd459f16c397e5024e265ec19930312fcb504edb977be423b43dab1a"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/26/a1/capture/deepseek-v4-1-flash/N14-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/26/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N14-01"
+    },
+    {
+      "capture_path": "captures/N14-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N14-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/27/a2/capture/deepseek-v4-1-flash/N14-02/r1/workspace/answer.md": "e53f248b1f9efa38e1f00d9c8ac3eae160617ba9316198a1b4796b10046747d3"
+        },
+        "attempts": [
+          {
+            "category": "account_blocked",
+            "number": 1
+          },
+          {
+            "category": "completed",
+            "number": 2
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/27/a2/capture/deepseek-v4-1-flash/N14-02/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 2,
+          "path": "attempts/27/a2"
+        }
+      },
+      "status": "completed",
+      "task_id": "N14-02"
+    },
+    {
+      "capture_path": "captures/N15-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N15-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/28/a2/capture/deepseek-v4-1-flash/N15-03/r1/workspace/answer.md": "bbdef41ac8218687c142438ff5315df2c4380ba415cf0de0553c5cad0bb6efd8"
+        },
+        "attempts": [
+          {
+            "category": "account_blocked",
+            "number": 1
+          },
+          {
+            "category": "completed",
+            "number": 2
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/28/a2/capture/deepseek-v4-1-flash/N15-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 2,
+          "path": "attempts/28/a2"
+        }
+      },
+      "status": "completed",
+      "task_id": "N15-03"
+    },
+    {
+      "capture_path": "captures/N16-01",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N16-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/29/a1/capture/deepseek-v4-1-flash/N16-01/r1/workspace/answer.md": "9173aee406ad9a3cfbfbab4278d6c20cfbb721b2cfcfb92aabee3e831599a5ab"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/29/a1/capture/deepseek-v4-1-flash/N16-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/29/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N16-01"
+    },
+    {
+      "capture_path": "captures/N16-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N16-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/30/a1/capture/deepseek-v4-1-flash/N16-03/r1/workspace/answer.md": "bda716646d7e46aba06d275fc7432587cb850c86d609162e4582ecc9badad786"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/30/a1/capture/deepseek-v4-1-flash/N16-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/30/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N16-03"
+    },
+    {
+      "capture_path": "captures/O08-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/O08-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/31/a1/capture/deepseek-v4-1-flash/O08-02/r1/workspace/answer.md": "c15f3978978dd77c9ece91104227d4f4ad84d9019c2a16f88b45a515262456ba"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/31/a1/capture/deepseek-v4-1-flash/O08-02/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/31/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "O08-02"
+    },
+    {
+      "capture_path": "captures/N04-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N04-02/selected-answer/S0/answer.md",
+        "captures/N04-02/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/32/a1/capture/stages/S0/answer.md": "36b0d5ab3082745dcfa16dd5f68b516583b283302e4ff42902463c347c099307",
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/32/a1/capture/stages/S1/answer.md": "fa537f05c3d92e4974b2b969a7583068c5e5513fb21e108b33a2bb42c627e8e8"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/32/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/32/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N04-02"
+    },
+    {
+      "capture_path": "captures/N05-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N05-02/selected-answer/S0/answer.md",
+        "captures/N05-02/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/33/a1/capture/stages/S0/answer.md": "5cb1b0521d136548c559a9cecea082700ed233e5d58e05c9b11e0acfb3f27067",
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/33/a1/capture/stages/S1/answer.md": "db5619bb121ed1a804620810c9e101c553634fef5e183a6d19bbbf7d85108e17"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/33/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/33/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N05-02"
+    },
+    {
+      "capture_path": "captures/N07-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N07-02/selected-answer/S0/answer.md",
+        "captures/N07-02/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/34/a1/capture/stages/S0/answer.md": "ebcd27d8e682e5a789cd0554238d0cd57ef1b4dcbf62ff16ac070165ec06ef51",
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/34/a1/capture/stages/S1/answer.md": "07bca7c577ea64bd15d8acbe5960dc6904672ecd33c1f3bfc7a0b150c0e524e8"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/34/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/34/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N07-02"
+    },
+    {
+      "capture_path": "captures/N09-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N09-02/selected-answer/S0/answer.md",
+        "captures/N09-02/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/35/a1/capture/stages/S0/answer.md": "38f5dcc81fbca5b7613723b634ec50752d1b9c425c48df373403d6edcc8c6c2a",
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/35/a1/capture/stages/S1/answer.md": "b120b0788f0066a5ebab891971e79f0bd5d21e91c6bd04713b73744b999faf8d"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/35/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/35/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N09-02"
+    },
+    {
+      "capture_path": "captures/N11-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N11-02/selected-answer/S0/answer.md",
+        "captures/N11-02/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/36/a1/capture/stages/S0/answer.md": "212930d9e39b75004f9b2288309963e42c90bdeaf6efa8444a5a9c3c12a17bc2",
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/36/a1/capture/stages/S1/answer.md": "1fb0b7d8100eea206883421ea85800a735825ffff378f16eabbf12ab512b4781"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/36/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/36/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N11-02"
+    },
+    {
+      "capture_path": "captures/N12-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N12-02/selected-answer/S0/answer.md",
+        "captures/N12-02/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/37/a1/capture/stages/S0/answer.md": "aec0e6f3e580b37d26697979995ee9d0afc0956053bee022b9e5e9f5aa0a6a28",
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/37/a1/capture/stages/S1/answer.md": "04b7c74d8310f1f6f5f9c67e53a9a2f2730b4e151fd96718985bbc61c03e8bc8"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/37/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/37/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N12-02"
+    },
+    {
+      "capture_path": "captures/N15-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N15-02/selected-answer/S0/answer.md",
+        "captures/N15-02/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/38/a1/capture/stages/S0/answer.md": "fd99fe474c74425ba6b1f488a1086350f84fa7e6edc820779c096f6b96d685aa",
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/38/a1/capture/stages/S1/answer.md": "2cc9a076c78eb5a055d486e2396ff1a7600539229155cd4715b1b513f405e330"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/38/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/38/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N15-02"
+    },
+    {
+      "capture_path": "captures/O01-04",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/O01-04/selected-answer/S0/answer.md",
+        "captures/O01-04/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/39/a1/capture/stages/S0/answer.md": "d4718403d210236fa884167f7154c4748a1e5ab0bfd200979a487d1e2716c1f9",
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/39/a1/capture/stages/S1/answer.md": "63e8235937ce077914019f2235a917c535aa6bf05ad845e6df405a272c4e19a8"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/39/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/39/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "O01-04"
+    },
+    {
+      "capture_path": "captures/O03-04",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/O03-04/selected-answer/S0/answer.md",
+        "captures/O03-04/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/40/a1/capture/stages/S0/answer.md": "7f0db685bff6edbae0c3e75b9d703c0c90b358d5e1e6a08c7d570b24537615e0",
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/40/a1/capture/stages/S1/answer.md": "e5dc21bcb36b1cd5df3439f7299e415c6a8d2efd073d4238ef6b2be9fcee1b56"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/40/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/40/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "O03-04"
+    },
+    {
+      "capture_path": "captures/O06-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/O06-02/selected-answer/S0/answer.md",
+        "captures/O06-02/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/41/a1/capture/stages/S0/answer.md": "e61a2ee314cd6ddc0432aeb9c17744766821a417603847d4a80ea08542b52ace",
+          "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/41/a1/capture/stages/S1/answer.md": "823bcaa774654ec2ddbbc0c8afb1073fcda254231585ca5e7c480f5794e4036a"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "deepseek-dev75-parser-recovery-20261010-013104",
+        "capture": "runs/deepseek-dev75-parser-recovery-20261010-013104/attempts/41/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/41/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "O06-02"
+    },
+    {
+      "capture_path": "captures/BY-A-APPLY",
+      "provenance": "legacy_final_response_capture_audited_not_relabelled",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/BY-A-APPLY/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/BY-A-APPLY/r1/workspace/answer.md": "94e3bcfb58f3c35b260fdeedb4a8a3311fcd66f7845a2513b470c0776095c96d"
+        },
+        "attempts": [],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/BY-A-APPLY/r1",
+        "provenance": "legacy_final_response_capture_audited_not_relabelled",
+        "selected": {
+          "answer": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/BY-A-APPLY/r1/workspace/answer.md",
+          "prior": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/BY-A-APPLY/r1",
+          "provenance": "legacy_final_response_capture_audited_not_relabelled"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-A-APPLY"
+    },
+    {
+      "capture_path": "captures/BY-A-PLAN",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/BY-A-PLAN/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/recovery-parallel-20261009-164140/attempts/166/a2/capture/deepseek-v4-1-flash/BY-A-PLAN/r1/workspace/answer.md": "51a3dc8253086ea85925b717ba118760930d43eebf9dfd2751927dec906ec1b6"
+        },
+        "attempts": [
+          {
+            "category": "interrupted",
+            "number": 1
+          },
+          {
+            "category": "completed",
+            "number": 2
+          }
+        ],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/recovery-parallel-20261009-164140/attempts/166/a2/capture/deepseek-v4-1-flash/BY-A-PLAN/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 2,
+          "path": "attempts/166/a2"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-A-PLAN"
+    },
+    {
+      "capture_path": "captures/BY-C-APPLY",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/BY-C-APPLY/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/recovery-parallel-20261009-164140/attempts/173/a1/capture/deepseek-v4-1-flash/BY-C-APPLY/r1/workspace/answer.md": "f46963da6a1f9afb60d0b2ed54138923923e102a049db4b303f2e4bd1289621e"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/recovery-parallel-20261009-164140/attempts/173/a1/capture/deepseek-v4-1-flash/BY-C-APPLY/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/173/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-C-APPLY"
+    },
+    {
+      "capture_path": "captures/BY-C-WINTER",
+      "provenance": "legacy_final_response_capture_audited_not_relabelled",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/BY-C-WINTER/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/BY-C-WINTER/r1/workspace/answer.md": "b9d9509e179e8644df0f60bb724408c78503cb636b8ef822aeea57a2c6e5735e"
+        },
+        "attempts": [],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/BY-C-WINTER/r1",
+        "provenance": "legacy_final_response_capture_audited_not_relabelled",
+        "selected": {
+          "answer": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/BY-C-WINTER/r1/workspace/answer.md",
+          "prior": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/BY-C-WINTER/r1",
+          "provenance": "legacy_final_response_capture_audited_not_relabelled"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-C-WINTER"
+    },
+    {
+      "capture_path": "captures/BY-D-APPLY",
+      "provenance": "legacy_final_response_capture_audited_not_relabelled",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/BY-D-APPLY/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/BY-D-APPLY/r1/workspace/answer.md": "d89b22fa68ac7df74e5c152518d68ca27c03b8c669e692b6ec59e4a73d5c7800"
+        },
+        "attempts": [],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/BY-D-APPLY/r1",
+        "provenance": "legacy_final_response_capture_audited_not_relabelled",
+        "selected": {
+          "answer": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/BY-D-APPLY/r1/workspace/answer.md",
+          "prior": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/BY-D-APPLY/r1",
+          "provenance": "legacy_final_response_capture_audited_not_relabelled"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-D-APPLY"
+    },
+    {
+      "capture_path": "captures/BY-E-APPLY",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/BY-E-APPLY/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/recovery-parallel-20261009-164140/attempts/177/a1/capture/deepseek-v4-1-flash/BY-E-APPLY/r1/workspace/answer.md": "1528ab1e21e7b1a211b718e7485a99eb5abbec47024b033632f58e24764f74d0"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/recovery-parallel-20261009-164140/attempts/177/a1/capture/deepseek-v4-1-flash/BY-E-APPLY/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/177/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-E-APPLY"
+    },
+    {
+      "capture_path": "captures/N01-03",
+      "provenance": "legacy_final_response_capture_audited_not_relabelled",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/N01-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/N01-03/r1/workspace/answer.md": "70131c6c056577be01adabc317a7346c67ed516df4eed6490c3ef43e3acd240f"
+        },
+        "attempts": [],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/N01-03/r1",
+        "provenance": "legacy_final_response_capture_audited_not_relabelled",
+        "selected": {
+          "answer": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/N01-03/r1/workspace/answer.md",
+          "prior": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/N01-03/r1",
+          "provenance": "legacy_final_response_capture_audited_not_relabelled"
+        }
+      },
+      "status": "completed",
+      "task_id": "N01-03"
+    },
+    {
+      "capture_path": "captures/TRY-A-03",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/TRY-A-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/recovery-parallel-20261009-164140/attempts/168/a2/capture/deepseek-v4-1-flash/TRY-A-03/r1/workspace/answer.md": "24b1a2a2e1749d2bbbf297d68312cc0161d8081603f2785173fd9fa609f99192"
+        },
+        "attempts": [
+          {
+            "category": "interrupted",
+            "number": 1
+          },
+          {
+            "category": "completed",
+            "number": 2
+          }
+        ],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/recovery-parallel-20261009-164140/attempts/168/a2/capture/deepseek-v4-1-flash/TRY-A-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 2,
+          "path": "attempts/168/a2"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-A-03"
+    },
+    {
+      "capture_path": "captures/TRY-B-02",
+      "provenance": "legacy_final_response_capture_audited_not_relabelled",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/TRY-B-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/TRY-B-02/r1/workspace/answer.md": "58b826c74ff37fd3d63ccfc8b55432fc8d4ec342e0aa7396dddf6b9217f71a3c"
+        },
+        "attempts": [],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/TRY-B-02/r1",
+        "provenance": "legacy_final_response_capture_audited_not_relabelled",
+        "selected": {
+          "answer": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/TRY-B-02/r1/workspace/answer.md",
+          "prior": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/TRY-B-02/r1",
+          "provenance": "legacy_final_response_capture_audited_not_relabelled"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-B-02"
+    },
+    {
+      "capture_path": "captures/TRY-B-03",
+      "provenance": "legacy_final_response_capture_audited_not_relabelled",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/TRY-B-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/TRY-B-03/r1/workspace/answer.md": "3816a0abb49ad7e5af829905a6b26b446ec2881ddf5ba0d608775b9e03de030f"
+        },
+        "attempts": [],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/TRY-B-03/r1",
+        "provenance": "legacy_final_response_capture_audited_not_relabelled",
+        "selected": {
+          "answer": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/TRY-B-03/r1/workspace/answer.md",
+          "prior": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/TRY-B-03/r1",
+          "provenance": "legacy_final_response_capture_audited_not_relabelled"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-B-03"
+    },
+    {
+      "capture_path": "captures/TRY-D-02",
+      "provenance": "completed_native_capture",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/TRY-D-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/recovery-parallel-20261009-164140/attempts/176/a1/capture/deepseek-v4-1-flash/TRY-D-02/r1/workspace/answer.md": "3c21a3af4e0f38c26b32796432804d8634e9d21e621bc70a94aefb939809d52b"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/recovery-parallel-20261009-164140/attempts/176/a1/capture/deepseek-v4-1-flash/TRY-D-02/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/176/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-D-02"
+    },
+    {
+      "capture_path": "captures/TRY-E-03",
+      "provenance": "legacy_final_response_capture_audited_not_relabelled",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/TRY-E-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/TRY-E-03/r1/workspace/answer.md": "f1fba0959fcaad750c1a6439883311c3eda6c8d844c256b202c883eaf15a1834"
+        },
+        "attempts": [],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/TRY-E-03/r1",
+        "provenance": "legacy_final_response_capture_audited_not_relabelled",
+        "selected": {
+          "answer": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/TRY-E-03/r1/workspace/answer.md",
+          "prior": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/TRY-E-03/r1",
+          "provenance": "legacy_final_response_capture_audited_not_relabelled"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-E-03"
+    },
+    {
+      "capture_path": "captures/TRY-H-02",
+      "provenance": "legacy_final_response_capture_audited_not_relabelled",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "selected_answers": [
+        "captures/TRY-H-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/TRY-H-02/r1/workspace/answer.md": "0a18caf31c6c53a210c2789633e299bbec068f429712bd63b550fde0ba219052"
+        },
+        "attempts": [],
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/TRY-H-02/r1",
+        "provenance": "legacy_final_response_capture_audited_not_relabelled",
+        "selected": {
+          "answer": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/TRY-H-02/r1/workspace/answer.md",
+          "prior": "runs/deepseek-official-20261009/answers/single/deepseek-v4-1-flash/TRY-H-02/r1",
+          "provenance": "legacy_final_response_capture_audited_not_relabelled"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-H-02"
+    },
+    {
+      "capture_path": "captures/BY-A-OFFER",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/BY-A-OFFER/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-deepseek-resume-20261009-180941/attempts/6/a1/capture/deepseek-v4-1-flash/BY-A-OFFER/r1/workspace/answer.md": "aa5f429a735f49e337761d3baa57546a8f140ebef617afa84119ef443239e70d"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "subset20-deepseek-resume-20261009-180941",
+        "capture": "runs/subset20-deepseek-resume-20261009-180941/attempts/6/a1/capture/deepseek-v4-1-flash/BY-A-OFFER/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/6/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-A-OFFER"
+    },
+    {
+      "capture_path": "captures/BY-B-APPLY",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/BY-B-APPLY/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/recovery-parallel-20261009-164140/attempts/169/a1/capture/deepseek-v4-1-flash/BY-B-APPLY/r1/workspace/answer.md": "15e9452c4682dba00346d41f1e5422e5655302028a681b10e74d2a10c7f9afd5"
+        },
+        "attempts": [],
+        "campaign": "subset20-deepseek-resume-20261009-180941",
+        "capture": "runs/recovery-parallel-20261009-164140/attempts/169/a1/capture/deepseek-v4-1-flash/BY-B-APPLY/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "reused": "0"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-B-APPLY"
+    },
+    {
+      "capture_path": "captures/BY-E-REPLAN",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/BY-E-REPLAN/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-deepseek-resume-20261009-180941/attempts/8/a1/capture/deepseek-v4-1-flash/BY-E-REPLAN/r1/workspace/answer.md": "34419c95f157a0587024f3c84bf0ea3631140c6e13bc3dab4f28e29cb9b9c692"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "subset20-deepseek-resume-20261009-180941",
+        "capture": "runs/subset20-deepseek-resume-20261009-180941/attempts/8/a1/capture/deepseek-v4-1-flash/BY-E-REPLAN/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/8/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-E-REPLAN"
+    },
+    {
+      "capture_path": "captures/BY-H-APPLY",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/BY-H-APPLY/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-four-models-20261009-173556/attempts/1/a1/capture/deepseek-v4-1-flash/BY-H-APPLY/r1/workspace/answer.md": "066f623e60af60c8ced963b9a34b7c16c88d3fc3ea623f8152b20770c3220fee"
+        },
+        "attempts": [],
+        "campaign": "subset20-deepseek-resume-20261009-180941",
+        "capture": "runs/subset20-four-models-20261009-173556/attempts/1/a1/capture/deepseek-v4-1-flash/BY-H-APPLY/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "reused": "1"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-H-APPLY"
+    },
+    {
+      "capture_path": "captures/N01-02",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N01-02/selected-answer/S0/answer.md",
+        "captures/N01-02/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-deepseek-resume-20261009-180941/attempts/17/a1/capture/stages/S0/answer.md": "e51c75f0804a2ebedb6d596bc6025be9e9fb4addc0d3f92824174508f945d31c",
+          "runs/subset20-deepseek-resume-20261009-180941/attempts/17/a1/capture/stages/S1/answer.md": "f909566e71c2ac8471868331b387e5095fa9c096999472228fd2485682fbffee"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "subset20-deepseek-resume-20261009-180941",
+        "capture": "runs/subset20-deepseek-resume-20261009-180941/attempts/17/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/17/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N01-02"
+    },
+    {
+      "capture_path": "captures/N02-01",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N02-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-deepseek-resume-20261009-180941/attempts/10/a1/capture/deepseek-v4-1-flash/N02-01/r1/workspace/answer.md": "60da96574a3ba101dcdd6176cc5830ab110a2b69e35a2b9702a9b4ada8ab323c"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "subset20-deepseek-resume-20261009-180941",
+        "capture": "runs/subset20-deepseek-resume-20261009-180941/attempts/10/a1/capture/deepseek-v4-1-flash/N02-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/10/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N02-01"
+    },
+    {
+      "capture_path": "captures/N03-02",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N03-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-deepseek-resume-20261009-180941/attempts/11/a1/capture/deepseek-v4-1-flash/N03-02/r1/workspace/answer.md": "a41fe6054207a31062e6311adf6ebfb722a664563ac9d8fde751b33ec7673353"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "subset20-deepseek-resume-20261009-180941",
+        "capture": "runs/subset20-deepseek-resume-20261009-180941/attempts/11/a1/capture/deepseek-v4-1-flash/N03-02/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/11/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N03-02"
+    },
+    {
+      "capture_path": "captures/N04-03",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N04-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/2/a1/capture/deepseek-v4-1-flash/N04-03/r1/workspace/answer.md": "ce396cd34175e4a78f6d3c38445f5533aab320e86d733d5038f06fbf8b8c2f32"
+        },
+        "attempts": [],
+        "campaign": "subset20-deepseek-resume-20261009-180941",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/2/a1/capture/deepseek-v4-1-flash/N04-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "reused": "2"
+        }
+      },
+      "status": "completed",
+      "task_id": "N04-03"
+    },
+    {
+      "capture_path": "captures/N06-03",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N06-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/3/a1/capture/deepseek-v4-1-flash/N06-03/r1/workspace/answer.md": "a0101d3f4d31fab60c0e1cc5a820e1fac128b5f48c97368fe4bc662041fe051f"
+        },
+        "attempts": [],
+        "campaign": "subset20-deepseek-resume-20261009-180941",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/3/a1/capture/deepseek-v4-1-flash/N06-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "reused": "3"
+        }
+      },
+      "status": "completed",
+      "task_id": "N06-03"
+    },
+    {
+      "capture_path": "captures/N07-01",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N07-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-deepseek-resume-20261009-180941/attempts/12/a1/capture/deepseek-v4-1-flash/N07-01/r1/workspace/answer.md": "4198dbbb33b761a9975a9630037ecfd327059d2f233471c20dda0f1f405ec4f0"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "subset20-deepseek-resume-20261009-180941",
+        "capture": "runs/subset20-deepseek-resume-20261009-180941/attempts/12/a1/capture/deepseek-v4-1-flash/N07-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/12/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N07-01"
+    },
+    {
+      "capture_path": "captures/N08-02",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N08-02/selected-answer/S0/answer.md",
+        "captures/N08-02/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-deepseek-resume-20261009-180941/attempts/18/a1/capture/stages/S0/answer.md": "673aca4b6a5258923f991eac006d06e472ca107feda6b65a0000b5dcd7ee8330",
+          "runs/subset20-deepseek-resume-20261009-180941/attempts/18/a1/capture/stages/S1/answer.md": "a9b3013a52ca257788c070612027d04abfb99b8f3351d831a9ac55c606378bd7"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "subset20-deepseek-resume-20261009-180941",
+        "capture": "runs/subset20-deepseek-resume-20261009-180941/attempts/18/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/18/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N08-02"
+    },
+    {
+      "capture_path": "captures/N10-01",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N10-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-deepseek-resume-20261009-180941/attempts/13/a1/capture/deepseek-v4-1-flash/N10-01/r1/workspace/answer.md": "f4032691268b15565693172191847f0de54a4f5f45b20983f6ef81d1e66d8ac6"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "subset20-deepseek-resume-20261009-180941",
+        "capture": "runs/subset20-deepseek-resume-20261009-180941/attempts/13/a1/capture/deepseek-v4-1-flash/N10-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/13/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N10-01"
+    },
+    {
+      "capture_path": "captures/N11-03",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N11-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-deepseek-resume-20261009-180941/attempts/4/a1/capture/deepseek-v4-1-flash/N11-03/r1/workspace/answer.md": "3763f1b9d4944ffdfab2f1374740c6cf6ca50b23f36a4520407f3a37a0bab518"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "subset20-deepseek-resume-20261009-180941",
+        "capture": "runs/subset20-deepseek-resume-20261009-180941/attempts/4/a1/capture/deepseek-v4-1-flash/N11-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/4/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N11-03"
+    },
+    {
+      "capture_path": "captures/N13-02",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N13-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-deepseek-resume-20261009-180941/attempts/14/a1/capture/deepseek-v4-1-flash/N13-02/r1/workspace/answer.md": "bf18b8be4dca8795bad88eeb967e5486b085a51d69d49539d25bd3b87fdcaa3b"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "subset20-deepseek-resume-20261009-180941",
+        "capture": "runs/subset20-deepseek-resume-20261009-180941/attempts/14/a1/capture/deepseek-v4-1-flash/N13-02/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/14/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N13-02"
+    },
+    {
+      "capture_path": "captures/N14-03",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N14-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-deepseek-resume-20261009-180941/attempts/5/a1/capture/deepseek-v4-1-flash/N14-03/r1/workspace/answer.md": "19c3e40114249fc4f7d1c820c050dc971363f22ab30a01f2af94f248f1b3f49b"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "subset20-deepseek-resume-20261009-180941",
+        "capture": "runs/subset20-deepseek-resume-20261009-180941/attempts/5/a1/capture/deepseek-v4-1-flash/N14-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/5/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N14-03"
+    },
+    {
+      "capture_path": "captures/N15-01",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N15-01/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-deepseek-resume-20261009-180941/attempts/15/a1/capture/deepseek-v4-1-flash/N15-01/r1/workspace/answer.md": "0f6f12f526137ca8e37c2ea0387dc7b8563a93a47815b03506713231f2623021"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "subset20-deepseek-resume-20261009-180941",
+        "capture": "runs/subset20-deepseek-resume-20261009-180941/attempts/15/a1/capture/deepseek-v4-1-flash/N15-01/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/15/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N15-01"
+    },
+    {
+      "capture_path": "captures/N16-02",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/N16-02/selected-answer/S0/answer.md",
+        "captures/N16-02/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-deepseek-resume-20261009-180941/attempts/19/a1/capture/stages/S0/answer.md": "be6b9868e8d11080630b0c1762306755463fe9e29e6b7e524dc54a88c4be5b5d",
+          "runs/subset20-deepseek-resume-20261009-180941/attempts/19/a1/capture/stages/S1/answer.md": "53c9e201ced94226e6fae5e43a5252ea825dcbeb3202ce4ef3a8c35fa2f75e1c"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "subset20-deepseek-resume-20261009-180941",
+        "capture": "runs/subset20-deepseek-resume-20261009-180941/attempts/19/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/19/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N16-02"
+    },
+    {
+      "capture_path": "captures/O04-04",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/O04-04/selected-answer/S0/answer.md",
+        "captures/O04-04/selected-answer/S1/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-deepseek-resume-20261009-180941/attempts/16/a1/capture/stages/S0/answer.md": "685b0367aedc56e589172178e6633ba933ef71bbbb94ea431a8ec9b2288e36e4",
+          "runs/subset20-deepseek-resume-20261009-180941/attempts/16/a1/capture/stages/S1/answer.md": "81bf2f7eb9385cc933d0d5a7ec2d40bc4df9fb18ce249f63866782c94fa0bfd8"
+        },
+        "attempts": [
+          {
+            "category": "completed",
+            "number": 1
+          }
+        ],
+        "campaign": "subset20-deepseek-resume-20261009-180941",
+        "capture": "runs/subset20-deepseek-resume-20261009-180941/attempts/16/a1/capture",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/16/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "O04-04"
+    },
+    {
+      "capture_path": "captures/TRY-C-03",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/TRY-C-03/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/recovery-parallel-20261009-164140/attempts/174/a1/capture/deepseek-v4-1-flash/TRY-C-03/r1/workspace/answer.md": "5f7eba263fe508269ca4a3375d868bffa9aaa152a1df61515615c953cc375a0f"
+        },
+        "attempts": [],
+        "campaign": "subset20-deepseek-resume-20261009-180941",
+        "capture": "runs/recovery-parallel-20261009-164140/attempts/174/a1/capture/deepseek-v4-1-flash/TRY-C-03/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "reused": "7"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-C-03"
+    },
+    {
+      "capture_path": "captures/TRY-F-02",
+      "provenance": "completed_native_capture",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "selected_answers": [
+        "captures/TRY-F-02/selected-answer/S0/answer.md"
+      ],
+      "source": {
+        "answers": {
+          "runs/subset20-deepseek-resume-20261009-180941/attempts/9/a2/capture/deepseek-v4-1-flash/TRY-F-02/r1/workspace/answer.md": "c3341949dd44bb79deb3ac39b46edf60b6d467b863a9c212dd8a31ff1498f541"
+        },
+        "attempts": [
+          {
+            "category": "failed",
+            "number": 1
+          },
+          {
+            "category": "completed",
+            "number": 2
+          }
+        ],
+        "campaign": "subset20-deepseek-resume-20261009-180941",
+        "capture": "runs/subset20-deepseek-resume-20261009-180941/attempts/9/a2/capture/deepseek-v4-1-flash/TRY-F-02/r1",
+        "provenance": "completed_native_capture",
+        "selected": {
+          "attempt": 2,
+          "path": "attempts/9/a2"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-F-02"
+    }
+  ],
+  "review_status": "historical_capture_verified",
+  "schema": "community-execution-record.1",
+  "scope_note": "75 tasks collected across historical, resumed and recovered attempts; no new model calls in this export. Initial Dev20 review is retained; incremental55 scoring is pending. Failure artifacts and the referenced campaign ledger are preserved.",
+  "scored": false,
+  "stage_count": 89
+}

@@ -1,0 +1,64 @@
+[
+  {
+    "bytes": 0,
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "cli.stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformed": false
+  },
+  {
+    "bytes": 1818,
+    "export_sha256": "cda714160ede2e2d8924be923373edd80cf56bb4ce9e9631cb7d7092f0219a05",
+    "path": "execution.json",
+    "source_pattern_counts": {},
+    "source_sha256": "cda714160ede2e2d8924be923373edd80cf56bb4ce9e9631cb7d7092f0219a05",
+    "transformed": false
+  },
+  {
+    "bytes": 1860,
+    "export_sha256": "e0017ce610471336fe9e61bbdb39f4bc41501e9177f5e088e800d71ce033cc01",
+    "path": "run.json",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "55ed0d3f5f8295b6390c274669c88da9f889bd7f9fbc9e7cd12a96dd01f9a0a6",
+    "transformed": true
+  },
+  {
+    "bytes": 307620,
+    "export_sha256": "486a72eb78711fa388dd21404e1760881f9ee09c5315726bf8e3217664e1dc1f",
+    "path": "trace.jsonl",
+    "source_pattern_counts": {
+      "email": 1
+    },
+    "source_sha256": "a80822f73b253cdd8f1b31ed0916a0c8e3a577c96614fda7ea4cb51e41fac2ca",
+    "transformed": true
+  },
+  {
+    "bytes": 27685,
+    "export_sha256": "58b826c74ff37fd3d63ccfc8b55432fc8d4ec342e0aa7396dddf6b9217f71a3c",
+    "path": "workspace/answer.md",
+    "source_pattern_counts": {},
+    "source_sha256": "58b826c74ff37fd3d63ccfc8b55432fc8d4ec342e0aa7396dddf6b9217f71a3c",
+    "transformed": false
+  },
+  {
+    "bytes": 297950,
+    "export_sha256": "ad9e544cd0bdf884fa1e096874869c962c1b775afb3f04e883de3bf936fe017b",
+    "path": "workspace/trajectory.jsonl",
+    "source_pattern_counts": {
+      "email": 1
+    },
+    "source_sha256": "c774fa58dc77a53d3161541abaac5ac89b789395c5ce462a70f5d42851d771c8",
+    "transformed": true
+  },
+  {
+    "bytes": 75,
+    "export_sha256": "f1be8a1a5e2f46a58599cce9c61c990fe8431e1d45b3da2b0201ce31ef01be2a",
+    "path": "workspace/usage.json",
+    "source_pattern_counts": {},
+    "source_sha256": "f1be8a1a5e2f46a58599cce9c61c990fe8431e1d45b3da2b0201ce31ef01be2a",
+    "transformed": false
+  }
+]

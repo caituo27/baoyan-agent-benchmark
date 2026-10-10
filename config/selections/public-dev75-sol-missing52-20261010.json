@@ -1,0 +1,833 @@
+{
+  "case_group_count": 24,
+  "case_group_counts": {
+    "student-A": 1,
+    "student-B": 2,
+    "student-C": 3,
+    "student-D": 2,
+    "student-E": 4,
+    "student-F": 2,
+    "student-G": 3,
+    "student-H": 2,
+    "student-N01": 2,
+    "student-N02": 2,
+    "student-N03": 2,
+    "student-N04": 2,
+    "student-N05": 3,
+    "student-N06": 2,
+    "student-N07": 2,
+    "student-N08": 2,
+    "student-N09": 3,
+    "student-N10": 2,
+    "student-N11": 1,
+    "student-N12": 3,
+    "student-N13": 1,
+    "student-N14": 2,
+    "student-N15": 2,
+    "student-N16": 2
+  },
+  "counts": {
+    "planning_single": 26,
+    "recommendation_single": 16,
+    "staged": 10
+  },
+  "id": "public-dev75-sol-missing52-20261010",
+  "label": "gpt-6-1-sol 75题补齐任务",
+  "official": false,
+  "selected_at": "2026-10-10",
+  "selection_method": "固定75题减去指纹、题面、配方与原始答卷校验通过的历史记录；冻结时点2026-10-10，不按成绩取舍。",
+  "source_files_sha256": {
+    "data/dev/manifest.json": "5ba854ff9ca44add6cc5cad42ac43413663ae947addf59f19834ce7e51050fb0",
+    "data/staged-dev/manifest.json": "25574b7e2d8c5d8288025e08a7f2f4a466aaa1ffadfaf3e3b17dbdc66e8efacf",
+    "docs/scoring.md": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374"
+  },
+  "source_task_count": 75,
+  "source_version": "1.0.1",
+  "split": "dev",
+  "stage_count": 62,
+  "task_count": 52,
+  "task_ids": [
+    "TRY-B-02",
+    "TRY-B-03",
+    "BY-C-WINTER",
+    "BY-C-APPLY",
+    "BY-D-APPLY",
+    "TRY-D-02",
+    "BY-E-APPLY",
+    "TRY-E-02",
+    "TRY-E-03",
+    "BY-F-APPLY",
+    "TRY-G-01",
+    "TRY-G-02",
+    "TRY-H-02",
+    "BY-G-APPLY",
+    "BY-E-PREP",
+    "N01-01",
+    "N01-03",
+    "N02-02",
+    "N02-03",
+    "N03-01",
+    "N03-03",
+    "N04-01",
+    "N05-01",
+    "N05-03",
+    "N06-01",
+    "N06-02",
+    "N07-03",
+    "N08-01",
+    "N08-03",
+    "N09-01",
+    "N09-03",
+    "N10-02",
+    "N10-03",
+    "N12-01",
+    "N12-03",
+    "N13-03",
+    "N14-01",
+    "N14-02",
+    "N15-03",
+    "N16-01",
+    "N16-03",
+    "O08-02",
+    "N04-02",
+    "N05-02",
+    "N07-02",
+    "N09-02",
+    "N11-02",
+    "N12-02",
+    "N15-02",
+    "O01-04",
+    "O03-04",
+    "O06-02"
+  ],
+  "tasks": [
+    {
+      "case_group_id": "student-B",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "c0c864e38cbe053f3a07877fb392ef3d11edfb4b0755fb8f2745a21c13d6d72f",
+        "task": "20146b9a1862e5d2be851be9ecaedac6ed57dc42fdbb6208e45af6cb6d76c357"
+      },
+      "rubric_path": "data/dev/TRY-B-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-B-02",
+      "task_path": "data/dev/TRY-B-02/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-B",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "56b5f460fd9660ec795aed0f6052d62e8571139b92eb3c18b86860f55cc0ccff",
+        "task": "3c6680767cd36a11f82facd208e324bb7e99f12a2bf9d8d1feff33a6f883b080"
+      },
+      "rubric_path": "data/dev/TRY-B-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-B-03",
+      "task_path": "data/dev/TRY-B-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-C",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "c1c9e61e6d38c2a3fad57b734499d9082077cafd67822241b3ff88b717ef6561",
+        "task": "6f732356f6ffbb61205a30dad58aaa2dca9d6f40fef3564e8c3657f998c2b7db"
+      },
+      "rubric_path": "data/dev/BY-C-WINTER/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-C-WINTER",
+      "task_path": "data/dev/BY-C-WINTER/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-C",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "cab42f3b1eb6ed71085249b4cf43a846151e93867bfe61b3463c63d63cb04f7a",
+        "task": "ccecf04257d6d475dcb687a687485837f7607dd64fbcec9db437261de9ccb85a"
+      },
+      "rubric_path": "data/dev/BY-C-APPLY/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-C-APPLY",
+      "task_path": "data/dev/BY-C-APPLY/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-D",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "1baf2f3cae0374b77d5819ffdeb06619960122572e7b0ce2c3f16cc24f2e78c6",
+        "task": "387fef8608ae9e86580496cc1081afc4accb8eedf0e011595a09f1b35e2dd4c6"
+      },
+      "rubric_path": "data/dev/BY-D-APPLY/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-D-APPLY",
+      "task_path": "data/dev/BY-D-APPLY/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-D",
+      "category": "planning_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "7a9999c70e2fbc8e5a7f503e9e82c4c98808919e5e3d7ec0277cc82d4181f1f1",
+        "task": "dd994efba7ef578f25e2682510d30d47f8b11cf809733136b2e41f8e599fdf72"
+      },
+      "rubric_path": "data/dev/TRY-D-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-D-02",
+      "task_path": "data/dev/TRY-D-02/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-E",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "0beba86fa1d47b37e010ac932dec9ea78d402635bbda1eb1264c7026acc22d00",
+        "task": "a091b49fb207d90d778017bff670df5125d1cf83577fc4d26e4fbf7d082e9801"
+      },
+      "rubric_path": "data/dev/BY-E-APPLY/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-E-APPLY",
+      "task_path": "data/dev/BY-E-APPLY/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-E",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "cd2851d85ab0901e1cd69d73687053481b8dc1ac2f8deea32f368c2091d40cea",
+        "task": "6a8ea6c3d7bc3bc5f384f95eb48732e1e8b1f43f558d312049307af8b8e24179"
+      },
+      "rubric_path": "data/dev/TRY-E-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-E-02",
+      "task_path": "data/dev/TRY-E-02/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-E",
+      "category": "planning_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "8311f66b7b28c34b95f16ffa4195650db9de8143acde0d1338a49e58992ec80f",
+        "task": "3bc3c8c1f933ab117426e582a717856fd627a976f77a8e16d3bf7fa49552851d"
+      },
+      "rubric_path": "data/dev/TRY-E-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-E-03",
+      "task_path": "data/dev/TRY-E-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-F",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "5ed859a209eb37a8b361a62810cd023a242367a9f30104cd45f11f9b950d304b",
+        "task": "9e6c30f0262872eaf4451dbd32a0c7f3b51c6b20c425ac3f59773723377b3aa6"
+      },
+      "rubric_path": "data/dev/BY-F-APPLY/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-F-APPLY",
+      "task_path": "data/dev/BY-F-APPLY/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-G",
+      "category": "planning_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "6e84451c0931be1f7c945db63f0cc266409820712dd64b6a0300458c33ad7625",
+        "task": "611efe905d77c9d768dde30948826cc90f852558e05d2bb8e5d61c0485ba8e68"
+      },
+      "rubric_path": "data/dev/TRY-G-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-G-01",
+      "task_path": "data/dev/TRY-G-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-G",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "d25c044765d0e618903519722876939fd53a35cdb4569620d94daeb21091aa0c",
+        "task": "125e4950c3e956f4845685e42cd365dd2805c5420280a89c1dfb977d4f20214d"
+      },
+      "rubric_path": "data/dev/TRY-G-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-G-02",
+      "task_path": "data/dev/TRY-G-02/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-H",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "8d964d27ee4a93036d2d608b1531bdd02005275fa9b7634f269a080a18f81b2a",
+        "task": "99c021b5dff4089347f6228f08b39680c7d002b49fa43ab0b92775a4c3df0f3c"
+      },
+      "rubric_path": "data/dev/TRY-H-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-H-02",
+      "task_path": "data/dev/TRY-H-02/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-G",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "54f8635474341a2c8f72a7f93de7fd1e1db9978f1e6a2af05827da9371b54619",
+        "task": "306412d8394dbc1d75ef88e62c0d3b7315293aaf1862188325a19a0deb5457f7"
+      },
+      "rubric_path": "data/dev/BY-G-APPLY/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-G-APPLY",
+      "task_path": "data/dev/BY-G-APPLY/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-E",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "45d6b94c7b1d2446380305325be18d7a4692e2249bbfca016255d17ced9a7931",
+        "task": "c7a3f64aaa48e911d9187495ab64e4fa3201ce6d488ec193ce83f617afb0ffe2"
+      },
+      "rubric_path": "data/dev/BY-E-PREP/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-E-PREP",
+      "task_path": "data/dev/BY-E-PREP/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N01",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "b9f8a3a464563743d9e5095b59887a0bad9cb0b2e7afdbd22a802aebbec51dcb",
+        "task": "ac9774005b1d1eb8d78d44977bde0aa8c243c3047b138ed4f359872df9bc2af5"
+      },
+      "rubric_path": "data/dev/N01-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N01-01",
+      "task_path": "data/dev/N01-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N01",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "36ed30cebfa4fff234f0b5671deb1d180006c327f900188434245bfa12ecce38",
+        "task": "0051c4a15d59addb7aa851a1c0043b57b7ccca496bcf7cf60b14e5985c7f623d"
+      },
+      "rubric_path": "data/dev/N01-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N01-03",
+      "task_path": "data/dev/N01-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N02",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "a2d74f8770214075ced651844e79d26d530881f3040e726c99c81adba4612c4d",
+        "task": "c536d3f2498c55ee332d3936dce5a9ad3aebeffc5fcdbf2a231a512cb7c55678"
+      },
+      "rubric_path": "data/dev/N02-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "N02-02",
+      "task_path": "data/dev/N02-02/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N02",
+      "category": "planning_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "7d4bb07431664b15b727c833c64ff69f4be4cc0bae1636a629fe65b374c540c8",
+        "task": "9511c36aaaee72a3af6c86e73dfbee2336205ce90a5b9a7c7b2aa35195e6e971"
+      },
+      "rubric_path": "data/dev/N02-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N02-03",
+      "task_path": "data/dev/N02-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N03",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "1d096e93cbf388a7534ec6a6320348fd6f9ee7d11dcc1014793d3278432e8731",
+        "task": "3212aa1f1ae906f5576237092ebb60df48493ef8cc0192e70d49bd2ab691a7cd"
+      },
+      "rubric_path": "data/dev/N03-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N03-01",
+      "task_path": "data/dev/N03-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N03",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "dbee3fe5ba47c9f19ca4d28911411c16ddb1488b115f9b8963517844ec73052a",
+        "task": "7b3dd0ced91e0d667e8e2779d454ef867e40730ec4b6e8c6be19ceeab00fc6a7"
+      },
+      "rubric_path": "data/dev/N03-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N03-03",
+      "task_path": "data/dev/N03-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N04",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "f312b12b83402f766a5a4a87071e8144f297a99ca43d6e9371c1cb6c90a4dcff",
+        "task": "fbd3277cbfc83e3be38d898ed2b7b79928501fe7a66de914317e52a2d61a33cc"
+      },
+      "rubric_path": "data/dev/N04-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N04-01",
+      "task_path": "data/dev/N04-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N05",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "6658f6315d767a664d8b66be63c7183197a98304cf5574d114e077b29d6b826e",
+        "task": "15a9ff1dfecac080038995e761f69a9fce8745f2c04d7d2526b1d68973d88e99"
+      },
+      "rubric_path": "data/dev/N05-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N05-01",
+      "task_path": "data/dev/N05-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N05",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "cb27c6918317804a3d4f74c3b4846d93a7ec897802fdfae1b20017fd9da5c4a6",
+        "task": "1366718b2c70b4d643ecbc2bbe66bb10fcaa6f206c4dc77bdc6447af71af81d8"
+      },
+      "rubric_path": "data/dev/N05-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N05-03",
+      "task_path": "data/dev/N05-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N06",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "cb6a63d9bdd2f5e782a459f1c36c383bb40662fb19b4f720785a7e0e6839e1e0",
+        "task": "03214b1a472d16416a63e9a8b78933c4c1c16bf77b917ecdc6d0f7fbfb25d20f"
+      },
+      "rubric_path": "data/dev/N06-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N06-01",
+      "task_path": "data/dev/N06-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N06",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "4c385e3997270cb3c894c9e0f7ac5df6ca4fb65cfe73ae79e8bedfebab93a67d",
+        "task": "78496785bc9d334dcaa6c46bdc1fba401fdd9bbcde827dc5635f3a2e5f9e8a75"
+      },
+      "rubric_path": "data/dev/N06-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "N06-02",
+      "task_path": "data/dev/N06-02/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N07",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "8c50ca43d22939954cb09a4dd64e5c67f35e1ea38cd10b10f21a85da312d3511",
+        "task": "8d21b397b050354692f6baf35e104506ce08d2fb86721f0b4203eb77045206c0"
+      },
+      "rubric_path": "data/dev/N07-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N07-03",
+      "task_path": "data/dev/N07-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N08",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "88424e92227dc8a6ad7a249d7c7abfbe6a925dde1f01c4d500b6e2cd5bc88bf4",
+        "task": "b5ed808c185afeaaed1ea9fae83d197637b0a06ffc3c58aa87883e4611658482"
+      },
+      "rubric_path": "data/dev/N08-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N08-01",
+      "task_path": "data/dev/N08-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N08",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "38affb6fb8ad551ccee1a91aac21dfce7f86bf1d8036f654c62dfd6287840e69",
+        "task": "ef92b8dd7f7caaa3a56f688a011b8da8df5803da969af801445f27d4bc4cd7b6"
+      },
+      "rubric_path": "data/dev/N08-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N08-03",
+      "task_path": "data/dev/N08-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N09",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "35e702c7d82650bbf5a8cf697722f891837015d4496a18b8c07e400be981d1ab",
+        "task": "a87126cc631c21f76d46f9604df7b7267211b973c8385fb9d575f00000fdb50e"
+      },
+      "rubric_path": "data/dev/N09-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N09-01",
+      "task_path": "data/dev/N09-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N09",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "44d91225173a976247891155e0b19044c4701fcd9be2184a50a4d60cced57398",
+        "task": "b14ff9c88f14103a8570c8fb6cb56fe9fa790d3c131405b13c0fa38ae5bcd9cd"
+      },
+      "rubric_path": "data/dev/N09-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N09-03",
+      "task_path": "data/dev/N09-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N10",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "9b02243e25a1a70ac0da2ac353e0cb3e4cba7b4dcd372e02964dfaa50696b143",
+        "task": "a48571b715c98394c0b6e87cd01778e0ef2b821c707f74d41165a0858b51e28d"
+      },
+      "rubric_path": "data/dev/N10-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "N10-02",
+      "task_path": "data/dev/N10-02/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N10",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "e0820be2b587778ba29b04d71fdd5144adaf6fe53f5e90ffd0fafebc67ef40b4",
+        "task": "33c229f77dd532aa75ccb9a646f4672d39f8c90dcf32b24ab42e0c392a9aa3a4"
+      },
+      "rubric_path": "data/dev/N10-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N10-03",
+      "task_path": "data/dev/N10-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N12",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "b532c7f33bb557207caa5bc6a627e952cf9f39267099de17ef1ef4906049a0bb",
+        "task": "c084a1b17e0dab3305737390f3f826f0a618b0578f300236e8f214e4e4b26c69"
+      },
+      "rubric_path": "data/dev/N12-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N12-01",
+      "task_path": "data/dev/N12-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N12",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "ba3a622370d4d968ab3b4e2cebfb1feaefdb73c17326e4277883009aadf480c0",
+        "task": "ee630c377886cc7cc8461eb64a7573e5f4d8e851fd661539e2f02e8ee75877dd"
+      },
+      "rubric_path": "data/dev/N12-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N12-03",
+      "task_path": "data/dev/N12-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N13",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "8836d2cbdb523749fbe6291deaf20341520f729bd1cd9fb35d57e83b668539c0",
+        "task": "1ec5a0068ca3b1cdfd8a478a368f27783768d63fa8c6fb25e557293b52370acc"
+      },
+      "rubric_path": "data/dev/N13-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N13-03",
+      "task_path": "data/dev/N13-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N14",
+      "category": "planning_single",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "2c9cb6f0028e0a9edae184d9043e03b48e0185c4fd8b6202f9ac606469adce70",
+        "task": "9a32817b5bcee976d19c9f098c81ae8e415fa0aeb820d4ca189fd388e104561f"
+      },
+      "rubric_path": "data/dev/N14-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N14-01",
+      "task_path": "data/dev/N14-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N14",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "fd266c4219f9545f5adef4b68a51686fcab0cc6e604cde14cbcbc86cef26c6ed",
+        "task": "beb874beef76e95b656ca20d7d92be65839fdcbabb25709cd52232c325683b48"
+      },
+      "rubric_path": "data/dev/N14-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "N14-02",
+      "task_path": "data/dev/N14-02/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N15",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "a5d21bb694ced702eafc56692fe4abbfeb3f633d5fc7ef8286499521d80eab35",
+        "task": "a1ac3ff5786f9848d3a6b2bbbce8358f51f4b0df65b1508d8765d22e7f4d2c62"
+      },
+      "rubric_path": "data/dev/N15-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N15-03",
+      "task_path": "data/dev/N15-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N16",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "8b7ed5cd99c6214d073a3844c0422e0715ab9c99be66f159d2f3c50ef21f072d",
+        "task": "b3082bd3d4fdfe9138af1b73fe1e6546ff07bf2163b2b54b3eb372793513c57c"
+      },
+      "rubric_path": "data/dev/N16-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N16-01",
+      "task_path": "data/dev/N16-01/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N16",
+      "category": "recommendation_single",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "60cba97926cbdeaed594712281646d60c62c1cc00ff5e4d60dd6fc1a3bb0eaec",
+        "task": "b4f6cbf05f5c4057f6ecbe0f85f7c86630c47e7e926cb8cd1d8144334b1f1286"
+      },
+      "rubric_path": "data/dev/N16-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N16-03",
+      "task_path": "data/dev/N16-03/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-H",
+      "category": "planning_single",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "98e568491b2c1fa920f7fed309a56a3c85a10fed8dd0b2fcd429af676ed5a2e5",
+        "task": "b89a2725b2e302a6573734f23ae817c28f315a116c00f4031398d90942dc114b"
+      },
+      "rubric_path": "data/dev/O08-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "O08-02",
+      "task_path": "data/dev/O08-02/task.json",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N04",
+      "category": "staged",
+      "difficulty": null,
+      "fingerprints": {
+        "rubric": "e37fee323bda59d268ba36362da2b6c6c519ff48b5c1c973196ecb8fb2042187",
+        "task": "d3d91ff78fe852d2a8fcac6528755bc3c61648fbea1d32fe0a0a50be87239b6c"
+      },
+      "rubric_path": "data/staged-dev/N04-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "N04-02",
+      "task_path": "data/staged-dev/N04-02/task.json",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-N05",
+      "category": "staged",
+      "difficulty": null,
+      "fingerprints": {
+        "rubric": "516032be30b20373af4685a27f02d345bc414794e1fbdf2f955f966580b70c7e",
+        "task": "af3f070ffef35561245ada50c6470765a48f88b55871174286f3a37356b4a566"
+      },
+      "rubric_path": "data/staged-dev/N05-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "N05-02",
+      "task_path": "data/staged-dev/N05-02/task.json",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-N07",
+      "category": "staged",
+      "difficulty": null,
+      "fingerprints": {
+        "rubric": "06497bfa08ed29be693188b1cfad8eca556c50338fb2c714f3c13533fe8b50e2",
+        "task": "d7e95f7bb0db68efbe3a40060aa9a0996a9664b3d938d987344bd768cd832b3c"
+      },
+      "rubric_path": "data/staged-dev/N07-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "N07-02",
+      "task_path": "data/staged-dev/N07-02/task.json",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-N09",
+      "category": "staged",
+      "difficulty": null,
+      "fingerprints": {
+        "rubric": "44c0d4346a2c1dc5ce669a9ad5abf517a722196363d8af28f604ac08e9ba5ea2",
+        "task": "08783887801b17634ecc88bddf78fd45969af2589e41ff7a252d41384bf0dc11"
+      },
+      "rubric_path": "data/staged-dev/N09-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "N09-02",
+      "task_path": "data/staged-dev/N09-02/task.json",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-N11",
+      "category": "staged",
+      "difficulty": null,
+      "fingerprints": {
+        "rubric": "c5827528e0b775e734f21cc7eed4ca88103dd721e5bed22b29e747c92ce9287f",
+        "task": "05e2413cfc44976e6b942ade4ee9e7b6539ee68c3de8e606bc7f75c5f8ea5c3c"
+      },
+      "rubric_path": "data/staged-dev/N11-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "N11-02",
+      "task_path": "data/staged-dev/N11-02/task.json",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-N12",
+      "category": "staged",
+      "difficulty": null,
+      "fingerprints": {
+        "rubric": "57f7963348523fdb3ef2d8b9af8260044bd92e1992350951b452c3aba76d868a",
+        "task": "b7aa463151b15eb54e5114b323455e8c67d72e66128e1748c12e4a8ec2de68ee"
+      },
+      "rubric_path": "data/staged-dev/N12-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "N12-02",
+      "task_path": "data/staged-dev/N12-02/task.json",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-N15",
+      "category": "staged",
+      "difficulty": null,
+      "fingerprints": {
+        "rubric": "12e965f1b3fa0b9041c2926330cfe6dcffab3b1d8432312f0bc086137d6719f1",
+        "task": "b66dccbb54c0b82420a41b950d0e418bc50e1fb4e0a49c0ef26d478dd9584b84"
+      },
+      "rubric_path": "data/staged-dev/N15-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "N15-02",
+      "task_path": "data/staged-dev/N15-02/task.json",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-A",
+      "category": "staged",
+      "difficulty": null,
+      "fingerprints": {
+        "rubric": "6346dea9a9fa7107d7033cc53c17465e41167b93c2df0308e156b543eac49b74",
+        "task": "766957d5741edcbb4bd323d153aefde7371c7a3676a7c50dc2cddbdf74061e15"
+      },
+      "rubric_path": "data/staged-dev/O01-04/rubric.json",
+      "stage_count": 2,
+      "task_id": "O01-04",
+      "task_path": "data/staged-dev/O01-04/task.json",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-C",
+      "category": "staged",
+      "difficulty": null,
+      "fingerprints": {
+        "rubric": "b9f82004f87e16843735fdbaf5eaac074ce4d036e5682362de2a0ef0b067d937",
+        "task": "5501a2524beb09869e412724c4f7cae8f6e87f22d8f2c7de3bb855f3520a42e0"
+      },
+      "rubric_path": "data/staged-dev/O03-04/rubric.json",
+      "stage_count": 2,
+      "task_id": "O03-04",
+      "task_path": "data/staged-dev/O03-04/task.json",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-F",
+      "category": "staged",
+      "difficulty": null,
+      "fingerprints": {
+        "rubric": "620f55f7dfe28fc1c419e00976cfc39705aae3f8fa74217edf6c86a24c78bfa1",
+        "task": "79c7a2297d346e8c8c367d9ac450467e721f6c9546a14157570205dcec1d4d6b"
+      },
+      "rubric_path": "data/staged-dev/O06-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "O06-02",
+      "task_path": "data/staged-dev/O06-02/task.json",
+      "track": "staged-dev"
+    }
+  ]
+}

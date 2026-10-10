@@ -1,0 +1,120 @@
+[
+  {
+    "bytes": 430,
+    "export_sha256": "36ef5c70171e01609abf9183f8f0358728823748586c5e6d8f347460c51e6204",
+    "path": "run.json",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "39ac109101a7ab739e118198956ac9db0928540a1e21d27df489182ec9ef0fb9",
+    "transformed": true
+  },
+  {
+    "bytes": 3048,
+    "export_sha256": "2cc9d4bd4bada1826d69e17858fe4616a51c1ef0f8cd5a6fdb64d955408c1275",
+    "path": "stages/S0/answer.md",
+    "source_pattern_counts": {},
+    "source_sha256": "2cc9d4bd4bada1826d69e17858fe4616a51c1ef0f8cd5a6fdb64d955408c1275",
+    "transformed": false
+  },
+  {
+    "bytes": 29271,
+    "export_sha256": "6773f5eb96b491f4fcece8b4b53f4821d55263b2e121ab618f91e76cac2a4094",
+    "path": "stages/S0/events.jsonl",
+    "source_pattern_counts": {
+      "email": 8,
+      "mobile_phone": 1,
+      "user_home": 1
+    },
+    "source_sha256": "6912d97fa0bb5d36859d47de5617b274e444ce43c0bd3034c2cc7261753939df",
+    "transformed": true
+  },
+  {
+    "bytes": 2209,
+    "export_sha256": "be072cab80966ab5f942ecdaba03a8fb82d3300e8df56859c4e6d04bbfdc7839",
+    "path": "stages/S0/execution.json",
+    "source_pattern_counts": {},
+    "source_sha256": "be072cab80966ab5f942ecdaba03a8fb82d3300e8df56859c4e6d04bbfdc7839",
+    "transformed": false
+  },
+  {
+    "bytes": 3048,
+    "export_sha256": "2cc9d4bd4bada1826d69e17858fe4616a51c1ef0f8cd5a6fdb64d955408c1275",
+    "path": "stages/S0/final-response.md",
+    "source_pattern_counts": {},
+    "source_sha256": "2cc9d4bd4bada1826d69e17858fe4616a51c1ef0f8cd5a6fdb64d955408c1275",
+    "transformed": false
+  },
+  {
+    "bytes": 0,
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "stages/S0/stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformed": false
+  },
+  {
+    "bytes": 30034,
+    "export_sha256": "7fdc7da6508f1c68f7f9a521904c653f1cb46ae44b32926f5c1668dc7601a513",
+    "path": "stages/S0/trace.jsonl",
+    "source_pattern_counts": {
+      "email": 8,
+      "mobile_phone": 1,
+      "user_home": 1
+    },
+    "source_sha256": "8cb92803c7983dcbff6f7965bf2d684c9db66ed717acca69efd82c4c37c72da0",
+    "transformed": true
+  },
+  {
+    "bytes": 2702,
+    "export_sha256": "1b9a7460cc6f0ebef5d18cadc7c1a4ce9a40014f17b6a1d92ae775a12a580107",
+    "path": "stages/S1/answer.md",
+    "source_pattern_counts": {},
+    "source_sha256": "1b9a7460cc6f0ebef5d18cadc7c1a4ce9a40014f17b6a1d92ae775a12a580107",
+    "transformed": false
+  },
+  {
+    "bytes": 3506,
+    "export_sha256": "62136f7f819365e5db3b5cba010f78ec60d1000ad1a83c3aeb55d1f32c2c5146",
+    "path": "stages/S1/events.jsonl",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "29d1c7fe10382dcda1bada2f7ebb02b2f0736c464a59771c1f9d2cac1336072d",
+    "transformed": true
+  },
+  {
+    "bytes": 2270,
+    "export_sha256": "8df5eeac6df81ffa4d1dc4257ecda10d7c1015727819abf6e8b275586a689570",
+    "path": "stages/S1/execution.json",
+    "source_pattern_counts": {},
+    "source_sha256": "8df5eeac6df81ffa4d1dc4257ecda10d7c1015727819abf6e8b275586a689570",
+    "transformed": false
+  },
+  {
+    "bytes": 2702,
+    "export_sha256": "1b9a7460cc6f0ebef5d18cadc7c1a4ce9a40014f17b6a1d92ae775a12a580107",
+    "path": "stages/S1/final-response.md",
+    "source_pattern_counts": {},
+    "source_sha256": "1b9a7460cc6f0ebef5d18cadc7c1a4ce9a40014f17b6a1d92ae775a12a580107",
+    "transformed": false
+  },
+  {
+    "bytes": 119,
+    "export_sha256": "582527c0f26143d299f98ffb72472894b412a5b340149921363a2637dd38f0fb",
+    "path": "stages/S1/stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "582527c0f26143d299f98ffb72472894b412a5b340149921363a2637dd38f0fb",
+    "transformed": false
+  },
+  {
+    "bytes": 3824,
+    "export_sha256": "82adcde5b928f92061423683d68ba8c893b235b2df711b637839b4d52dbbe091",
+    "path": "stages/S1/trace.jsonl",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "7acda042f0f2fb39b9129eed4069681c933e492cd6d9537400ee4ad92d2e62b1",
+    "transformed": true
+  }
+]

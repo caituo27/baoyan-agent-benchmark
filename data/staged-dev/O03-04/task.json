@@ -1,0 +1,33 @@
+{
+  "as_of": "2026年1月12日",
+  "case_group_id": "student-C",
+  "case_id": "O03",
+  "constraints": [
+    "仅依据当前阶段提供的信息作答；不查询学生身份或其真实最终去向。"
+  ],
+  "deliverables": [],
+  "persona": {},
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending"
+  },
+  "stages": [
+    {
+      "instruction": "2026年1月，我在哈工大（威海）读化工，排名2/29，六级472，刚刷过一次六级还没出分。拿过化工设计国二、美赛M奖，参与过ChemECar，电池催化论文还在做，另一段高分子合成科研是否继续还没确定。寒假有课程复习、论文和比赛等事情要安排，我该怎么取舍？",
+      "stage_id": "S0",
+      "visible_at": "2026年1月12日"
+    },
+    {
+      "instruction": "现在到了2026年3月，我更想申请直博，复旦是首选，也更偏好南方。目前电池催化论文还在写，大创也在推进。之前寒假的安排在申请阶段还适用吗？",
+      "stage_id": "S1",
+      "visible_at": "2026年3月"
+    }
+  ],
+  "task_id": "O03-04",
+  "task_version": "1.0.1",
+  "time_context": {
+    "application_year": "2026",
+    "assessment_period": "2026年1月12日",
+    "time_precision": "day"
+  }
+}

@@ -1,0 +1,2 @@
+error: failed to run prompt: provider.auth_error: 403 You've reached your 5-hour usage limit. Your quota will reset when the current 5-hour window ends. To continue now, purchase extra usage or upgrade your plan: https://www.kimi.com/membership/subscription?tab=quota
+See log: /private/var/folders/7q/lh8gcfwj1bq91rl4hqmj18dw0000gn/T/baoyan-candidate-zz88l2ru/home/REDACTED/logs/kimi-code.log

@@ -1,0 +1,16 @@
+{
+  "answer_files": [],
+  "batch": "/Users/REDACTED/Desktop/benchmark-open-source/runs/recovery-parallel-20261009-163101/attempts/381/a1/capture",
+  "category": "failed",
+  "completed": 0,
+  "executed": true,
+  "exit_code": 1,
+  "finished_at": "2026-10-09T08:33:09.872024+00:00",
+  "official": false,
+  "planned": 1,
+  "status": "failed",
+  "statuses": {
+    "failed": 1
+  },
+  "stopped": "kimi-k3/N10-03/r1"
+}

@@ -1,0 +1,33 @@
+{
+  "as_of": "2024年上半年",
+  "case_group_id": "student-D",
+  "case_id": "O04",
+  "constraints": [
+    "仅依据当前阶段提供的信息作答；不查询学生身份或其真实最终去向。"
+  ],
+  "deliverables": [],
+  "persona": {},
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending"
+  },
+  "stages": [
+    {
+      "instruction": "现在是2024年，我在吉林大学读通信工程大一，上学期加权成绩约92分，美赛得过S奖、大数赛省二，还没正式科研论文，计划以后接触GNN研究，四六级也在准备。我想争取保研，未来也希望冲清华或者通信、AI交叉方向。现在该怎么规划大学这几年的学习？",
+      "stage_id": "S0",
+      "visible_at": "2024年上半年"
+    },
+    {
+      "instruction": "现在是2026年3月，大三下，专业排名2/289，六级523，已经发表一篇通信类一作论文，也有国家级大创。现在更想申请清北本部，也考虑AI交叉。之前的大学规划有哪些仍适用，哪些该调整？",
+      "stage_id": "S1",
+      "visible_at": "2026年3月"
+    }
+  ],
+  "task_id": "O04-04",
+  "task_version": "1.0.1",
+  "time_context": {
+    "application_year": "2024",
+    "assessment_period": "2024年上半年",
+    "time_precision": "year_part"
+  }
+}

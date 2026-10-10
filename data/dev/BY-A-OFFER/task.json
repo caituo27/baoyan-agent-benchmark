@@ -1,0 +1,43 @@
+{
+  "case_group_id": "student-A",
+  "context": {
+    "observation": {
+      "专业背景": "新能源材料与器件，有石墨烯材料、金属双极板及电化学相关实验经历。",
+      "科研角色与已知成果记录": "所给简历记国家级大创项目核心成员；教师补充记项目尚未形成成果。未提供Offer阶段新的论文或成果更新，不能据此断言Offer当日状态完全未变。",
+      "补充背景": "**候选记录**\n\n|项目|状态|\n|---|---|\n|中国科学技术大学材料工程|有Offer记录。|\n|西北工业大学材料方向|有Offer记录。|\n|苏州大学电化学/半导体方向|口头Offer。|\n\n具体比较日期、回复期限、导师和培养条件未给，按候选记录处理；不要断言已完成正式录取。"
+    },
+    "persona": {
+      "专业": "新能源材料与器件（中外合作办学）",
+      "本科": "苏州大学"
+    }
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "medium",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "BY-A-OFFER",
+  "prompt": "我拿到了下面几条接收意向或Offer记录，不知道该怎么选。你能结合我的情况帮我比较一下吗？\n\n### 背景\n\n- **专业**：新能源材料与器件（中外合作办学）\n- **本科**：苏州大学\n- **专业背景**：新能源材料与器件，有石墨烯材料、金属双极板及电化学相关实验经历。\n- **科研角色与已知成果记录**：所给简历记国家级大创项目核心成员；教师补充记项目尚未形成成果。未提供Offer阶段新的论文或成果更新，不能据此断言Offer当日状态完全未变。\n\n**候选记录**\n\n|项目|状态|\n|---|---|\n|中国科学技术大学材料工程|有Offer记录。|\n|西北工业大学材料方向|有Offer记录。|\n|苏州大学电化学/半导体方向|口头Offer。|\n\n具体比较日期、回复期限、导师和培养条件未给，按候选记录处理；不要断言已完成正式录取。\n\n请只交付回答，不自评分，不搜索学生身份或最终去向。\n\n",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "5e9922a583669608102248de1864ba9948e85a29c3dea8a77cce19c647d172f0",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.1"
+}

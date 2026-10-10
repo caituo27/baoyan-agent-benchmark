@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "请引用所用版本及发布包 manifest.json 中的内容指纹；正式论文与 DOI 尚未提供。"
+title: "保研 Agent Benchmark"
+type: software
+version: "1.0.1"
+authors:
+  - name: "保研 Agent Benchmark contributors"
+license: "MIT"

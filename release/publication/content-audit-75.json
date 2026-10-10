@@ -1,0 +1,1217 @@
+{
+  "direct_identifier_findings": 0,
+  "fact_checking": "completed_owner_confirmed",
+  "matching_prior_approval_bindings": 0,
+  "prior_review_sha256": "b4a584a35b7dc47c527e66b5b7eb7b904c31f5f6cb87649eb7e1472993b9edef",
+  "public_release_approved": false,
+  "reason": "Current public75 fingerprints bound; historical approvals retained without silently changing their bindings.",
+  "remaining_decision": "Concrete public75 and sanitized records ready for owner publication review; prior factual/teacher confirmation preserved.",
+  "reviewed_at": "2026-10-09",
+  "reviewer": "Codex-assisted technical review",
+  "schema": "publication-content-audit.1",
+  "selection_sha256": "bc1a3b67f37e8e33ac5159ecfef8c0320cb3e57f5cb33ff0381f786285385256",
+  "task_count": 75,
+  "tasks": [
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/BY-A-PLAN",
+      "current_fingerprints": {
+        "rubric": "d6fa48dc1a1004d15a684c226f05791fe14a50d15089a7c99de0789e1e8cd7ae",
+        "task": "d2fdc2ce2203a4056e1893f0a75b419a4da70de8102b58facb4ba8e831692368"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "d6fa48dc1a1004d15a684c226f05791fe14a50d15089a7c99de0789e1e8cd7ae",
+        "task": "81d877f043fcd37cb9c64290546edc468ac2717210b3df4daaca1283e9d1e1a9"
+      },
+      "task_id": "BY-A-PLAN",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/BY-A-APPLY",
+      "current_fingerprints": {
+        "rubric": "5b13022a1cfeb2dd8e0c82095eefd276b58c37acdc5a4059e930bfe2f7849785",
+        "task": "df6403023f38e09b249c7fc93211bb0102331957240d9c1f28e401b81fbcca89"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "5b13022a1cfeb2dd8e0c82095eefd276b58c37acdc5a4059e930bfe2f7849785",
+        "task": "c5bfd266e44db13095e42459a79cf504bf20dd57006f3974112dbdf48a751966"
+      },
+      "task_id": "BY-A-APPLY",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/TRY-A-03",
+      "current_fingerprints": {
+        "rubric": "64de2d754f415d0c4bf9dd4183d53e74d5cf11733d6096c049cb5b2aa8327ab1",
+        "task": "471e0b50b1cc370a20b7bf74d2c4e28606283d744e354faeba0b11c02b62dd25"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "64de2d754f415d0c4bf9dd4183d53e74d5cf11733d6096c049cb5b2aa8327ab1",
+        "task": "350b0551a4fe8533b848ef85997431efb9267341882765cd50dbf87c3f4973e7"
+      },
+      "task_id": "TRY-A-03",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/BY-B-APPLY",
+      "current_fingerprints": {
+        "rubric": "d0659164718aa4401c232230067e19019b5e772ba6b5e833a23575388cde0bdd",
+        "task": "144e20a5dde5458066234a4916feaa0a2e7253ea39feb2d53ce34c89686e91c2"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "d0659164718aa4401c232230067e19019b5e772ba6b5e833a23575388cde0bdd",
+        "task": "a2c25917a6d070234e2913bad8e3f81b9fbafaf5134e900afd60a6ea3c3e7622"
+      },
+      "task_id": "BY-B-APPLY",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/TRY-B-02",
+      "current_fingerprints": {
+        "rubric": "c0c864e38cbe053f3a07877fb392ef3d11edfb4b0755fb8f2745a21c13d6d72f",
+        "task": "20146b9a1862e5d2be851be9ecaedac6ed57dc42fdbb6208e45af6cb6d76c357"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "c0c864e38cbe053f3a07877fb392ef3d11edfb4b0755fb8f2745a21c13d6d72f",
+        "task": "6303d197cad9a4c542843e84880a2f02bdedd4e8ea483b6c4048d8aa8dc441bb"
+      },
+      "task_id": "TRY-B-02",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/TRY-B-03",
+      "current_fingerprints": {
+        "rubric": "56b5f460fd9660ec795aed0f6052d62e8571139b92eb3c18b86860f55cc0ccff",
+        "task": "3c6680767cd36a11f82facd208e324bb7e99f12a2bf9d8d1feff33a6f883b080"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "56b5f460fd9660ec795aed0f6052d62e8571139b92eb3c18b86860f55cc0ccff",
+        "task": "8b01eb462cde5e9db3562794bd03c8a63d5a46005d051945a976a98285bfa2ae"
+      },
+      "task_id": "TRY-B-03",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/BY-C-WINTER",
+      "current_fingerprints": {
+        "rubric": "c1c9e61e6d38c2a3fad57b734499d9082077cafd67822241b3ff88b717ef6561",
+        "task": "6f732356f6ffbb61205a30dad58aaa2dca9d6f40fef3564e8c3657f998c2b7db"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "c1c9e61e6d38c2a3fad57b734499d9082077cafd67822241b3ff88b717ef6561",
+        "task": "c1ec25f080ef338f040752d3db7c09cae0fa922c40d3d335abfc1556cb259a6b"
+      },
+      "task_id": "BY-C-WINTER",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/BY-C-APPLY",
+      "current_fingerprints": {
+        "rubric": "cab42f3b1eb6ed71085249b4cf43a846151e93867bfe61b3463c63d63cb04f7a",
+        "task": "ccecf04257d6d475dcb687a687485837f7607dd64fbcec9db437261de9ccb85a"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "cab42f3b1eb6ed71085249b4cf43a846151e93867bfe61b3463c63d63cb04f7a",
+        "task": "5b09256f40be66f289d80c008acced5d6dcca2ef0204693f09c8c569c02152ed"
+      },
+      "task_id": "BY-C-APPLY",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/TRY-C-03",
+      "current_fingerprints": {
+        "rubric": "4eac665ca4d15ce5e0c68ad772235dfad162f863bae5db23b51b9145187fcdf0",
+        "task": "672be34c3c0bbfc882231f9ce4e554a898543a60dfb40e6117ffe9cabe8a60bf"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "4eac665ca4d15ce5e0c68ad772235dfad162f863bae5db23b51b9145187fcdf0",
+        "task": "574e882f92732293ea5608cf9618ed90e57f6c57fc281c08953c0cd783a42abb"
+      },
+      "task_id": "TRY-C-03",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/BY-D-APPLY",
+      "current_fingerprints": {
+        "rubric": "1baf2f3cae0374b77d5819ffdeb06619960122572e7b0ce2c3f16cc24f2e78c6",
+        "task": "387fef8608ae9e86580496cc1081afc4accb8eedf0e011595a09f1b35e2dd4c6"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "1baf2f3cae0374b77d5819ffdeb06619960122572e7b0ce2c3f16cc24f2e78c6",
+        "task": "858ccf1ec5ad45b2b1514baadfda573f5435105337f4247fd8191de2113cfe56"
+      },
+      "task_id": "BY-D-APPLY",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/TRY-D-02",
+      "current_fingerprints": {
+        "rubric": "7a9999c70e2fbc8e5a7f503e9e82c4c98808919e5e3d7ec0277cc82d4181f1f1",
+        "task": "dd994efba7ef578f25e2682510d30d47f8b11cf809733136b2e41f8e599fdf72"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "7a9999c70e2fbc8e5a7f503e9e82c4c98808919e5e3d7ec0277cc82d4181f1f1",
+        "task": "6c38484cd4c23ea3cdb1f59480a3f75ead4d98bfe1c114ced2b685a7f08e7012"
+      },
+      "task_id": "TRY-D-02",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/BY-E-APPLY",
+      "current_fingerprints": {
+        "rubric": "0beba86fa1d47b37e010ac932dec9ea78d402635bbda1eb1264c7026acc22d00",
+        "task": "a091b49fb207d90d778017bff670df5125d1cf83577fc4d26e4fbf7d082e9801"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "0beba86fa1d47b37e010ac932dec9ea78d402635bbda1eb1264c7026acc22d00",
+        "task": "176996e1a8979c9e6d023de7dfc67167d5b2d8486a4ee575200129601496e63d"
+      },
+      "task_id": "BY-E-APPLY",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/TRY-E-02",
+      "current_fingerprints": {
+        "rubric": "cd2851d85ab0901e1cd69d73687053481b8dc1ac2f8deea32f368c2091d40cea",
+        "task": "6a8ea6c3d7bc3bc5f384f95eb48732e1e8b1f43f558d312049307af8b8e24179"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "cd2851d85ab0901e1cd69d73687053481b8dc1ac2f8deea32f368c2091d40cea",
+        "task": "cc7d4ac4d2f7a957ae91bf5e206ad6b2adea9fc804fface218ea08c1d33a001a"
+      },
+      "task_id": "TRY-E-02",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/TRY-E-03",
+      "current_fingerprints": {
+        "rubric": "8311f66b7b28c34b95f16ffa4195650db9de8143acde0d1338a49e58992ec80f",
+        "task": "3bc3c8c1f933ab117426e582a717856fd627a976f77a8e16d3bf7fa49552851d"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "8311f66b7b28c34b95f16ffa4195650db9de8143acde0d1338a49e58992ec80f",
+        "task": "35088c334ece29551658c2521011e6dc7943232ac20bedbd5d0c706a9cd4bbe5"
+      },
+      "task_id": "TRY-E-03",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/BY-F-APPLY",
+      "current_fingerprints": {
+        "rubric": "5ed859a209eb37a8b361a62810cd023a242367a9f30104cd45f11f9b950d304b",
+        "task": "9e6c30f0262872eaf4451dbd32a0c7f3b51c6b20c425ac3f59773723377b3aa6"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "5ed859a209eb37a8b361a62810cd023a242367a9f30104cd45f11f9b950d304b",
+        "task": "132de281a72e149abe62ce4cb12b3802419e61288d8cd647c9b2b2608f48ed6f"
+      },
+      "task_id": "BY-F-APPLY",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/TRY-F-02",
+      "current_fingerprints": {
+        "rubric": "3eb960837f8203d914dd0f9db2353b409e78ce0e28c546b3747ff86b08b4c07a",
+        "task": "ee175e403a4bcb5b0f30ab228b6cbd31d6588715fd24e199bfdc5edbaaae8356"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "3eb960837f8203d914dd0f9db2353b409e78ce0e28c546b3747ff86b08b4c07a",
+        "task": "24c601374f6a466180336653d737c95396407c510fa0d123761aa73098b2732b"
+      },
+      "task_id": "TRY-F-02",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/TRY-G-01",
+      "current_fingerprints": {
+        "rubric": "6e84451c0931be1f7c945db63f0cc266409820712dd64b6a0300458c33ad7625",
+        "task": "611efe905d77c9d768dde30948826cc90f852558e05d2bb8e5d61c0485ba8e68"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "6e84451c0931be1f7c945db63f0cc266409820712dd64b6a0300458c33ad7625",
+        "task": "17109249dfe6870c0d5308e159be986e98eacf4111f49cdf0b68b4c3f1e5c16c"
+      },
+      "task_id": "TRY-G-01",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/TRY-G-02",
+      "current_fingerprints": {
+        "rubric": "d25c044765d0e618903519722876939fd53a35cdb4569620d94daeb21091aa0c",
+        "task": "125e4950c3e956f4845685e42cd365dd2805c5420280a89c1dfb977d4f20214d"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "d25c044765d0e618903519722876939fd53a35cdb4569620d94daeb21091aa0c",
+        "task": "275f9aae2df13c12e7df49a9bc6bd47998e574bb508a53fd18886f1bf25224e1"
+      },
+      "task_id": "TRY-G-02",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/BY-H-APPLY",
+      "current_fingerprints": {
+        "rubric": "f92f972e0d7f10e58c7d135780b774ca151f531078efaa5af34e586e27d6e906",
+        "task": "6731f59dc9ab36c846d5107568a4a4ba460d3abb8bba8665af6f5d4fed12c2c1"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "f92f972e0d7f10e58c7d135780b774ca151f531078efaa5af34e586e27d6e906",
+        "task": "4db77ad80f1820c8ec79702b5fb526923518b631ec279e096bcd42e2ce4db102"
+      },
+      "task_id": "BY-H-APPLY",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/TRY-H-02",
+      "current_fingerprints": {
+        "rubric": "8d964d27ee4a93036d2d608b1531bdd02005275fa9b7634f269a080a18f81b2a",
+        "task": "99c021b5dff4089347f6228f08b39680c7d002b49fa43ab0b92775a4c3df0f3c"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "8d964d27ee4a93036d2d608b1531bdd02005275fa9b7634f269a080a18f81b2a",
+        "task": "04c95bebaa92d6f9033be36c35a46b30c22c70640d0a42f0a98ba583e0917ec9"
+      },
+      "task_id": "TRY-H-02",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/BY-G-APPLY",
+      "current_fingerprints": {
+        "rubric": "54f8635474341a2c8f72a7f93de7fd1e1db9978f1e6a2af05827da9371b54619",
+        "task": "306412d8394dbc1d75ef88e62c0d3b7315293aaf1862188325a19a0deb5457f7"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "54f8635474341a2c8f72a7f93de7fd1e1db9978f1e6a2af05827da9371b54619",
+        "task": "575f7daea7c605432a5b539b40d818dd805d1040922aeb70ca81829a4b227f4a"
+      },
+      "task_id": "BY-G-APPLY",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/BY-A-OFFER",
+      "current_fingerprints": {
+        "rubric": "5e9922a583669608102248de1864ba9948e85a29c3dea8a77cce19c647d172f0",
+        "task": "cb739fde94314f5b1b33e9232f321f4ff416c7c7651470242ce687dd2b1582af"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "5e9922a583669608102248de1864ba9948e85a29c3dea8a77cce19c647d172f0",
+        "task": "f512e8c4ae1b15d4c37d04f208f0231d9330850ea7cf35d99846f9d41ba7fb03"
+      },
+      "task_id": "BY-A-OFFER",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/BY-E-REPLAN",
+      "current_fingerprints": {
+        "rubric": "527dfb6b7fba252361e8dbc25133241ef5d3398e380fd6d6c54f4b70914024dc",
+        "task": "b7fcebca28322eb55179fbf69b74b8d9165666225642e5b8f3a1d71fdb5fe55c"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "527dfb6b7fba252361e8dbc25133241ef5d3398e380fd6d6c54f4b70914024dc",
+        "task": "524cc14ba24ca632a4e8e28ddd26b5e94d64821facbbabbfc4e198e3c79a5371"
+      },
+      "task_id": "BY-E-REPLAN",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/BY-E-PREP",
+      "current_fingerprints": {
+        "rubric": "45d6b94c7b1d2446380305325be18d7a4692e2249bbfca016255d17ced9a7931",
+        "task": "c7a3f64aaa48e911d9187495ab64e4fa3201ce6d488ec193ce83f617afb0ffe2"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "45d6b94c7b1d2446380305325be18d7a4692e2249bbfca016255d17ced9a7931",
+        "task": "2df00b366f3095e536e50ba4c3f961dc3dbf6d75624029ca30f71371071e5ad5"
+      },
+      "task_id": "BY-E-PREP",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N01-01",
+      "current_fingerprints": {
+        "rubric": "b9f8a3a464563743d9e5095b59887a0bad9cb0b2e7afdbd22a802aebbec51dcb",
+        "task": "ac9774005b1d1eb8d78d44977bde0aa8c243c3047b138ed4f359872df9bc2af5"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "b9f8a3a464563743d9e5095b59887a0bad9cb0b2e7afdbd22a802aebbec51dcb",
+        "task": "3917ab5628ef62ac33e62df15a62b54c6e1a33de737c370e7bcce7c792bcc03f"
+      },
+      "task_id": "N01-01",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N01-03",
+      "current_fingerprints": {
+        "rubric": "36ed30cebfa4fff234f0b5671deb1d180006c327f900188434245bfa12ecce38",
+        "task": "0051c4a15d59addb7aa851a1c0043b57b7ccca496bcf7cf60b14e5985c7f623d"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "36ed30cebfa4fff234f0b5671deb1d180006c327f900188434245bfa12ecce38",
+        "task": "654b3a42d0e40c5f116e5c0ed0d8d994109f567e86ddc9c38c3de134f39abf78"
+      },
+      "task_id": "N01-03",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N02-01",
+      "current_fingerprints": {
+        "rubric": "af5038ea02d9686435bd192eaa40feaa3a7d9609e3b2c83db610e4a1c5257926",
+        "task": "3ae86e65cbc07e2430b7a7a80f2f29fe8b1cbd0e76694e2b50688829cbb0401f"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "af5038ea02d9686435bd192eaa40feaa3a7d9609e3b2c83db610e4a1c5257926",
+        "task": "6e0668dfc772bb216a67da638c55854225caad4e31311172b255773db961028e"
+      },
+      "task_id": "N02-01",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N02-02",
+      "current_fingerprints": {
+        "rubric": "a2d74f8770214075ced651844e79d26d530881f3040e726c99c81adba4612c4d",
+        "task": "c536d3f2498c55ee332d3936dce5a9ad3aebeffc5fcdbf2a231a512cb7c55678"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "a2d74f8770214075ced651844e79d26d530881f3040e726c99c81adba4612c4d",
+        "task": "f7e718c4b847b5636876489feadd7d1002be993c44ba15f1a8e2ed07e6839391"
+      },
+      "task_id": "N02-02",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N02-03",
+      "current_fingerprints": {
+        "rubric": "7d4bb07431664b15b727c833c64ff69f4be4cc0bae1636a629fe65b374c540c8",
+        "task": "9511c36aaaee72a3af6c86e73dfbee2336205ce90a5b9a7c7b2aa35195e6e971"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "7d4bb07431664b15b727c833c64ff69f4be4cc0bae1636a629fe65b374c540c8",
+        "task": "9a4a7373a616fae9f6ad2e02420f9993931bc23aca7e3c0d1c84ea25414baa70"
+      },
+      "task_id": "N02-03",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N03-01",
+      "current_fingerprints": {
+        "rubric": "1d096e93cbf388a7534ec6a6320348fd6f9ee7d11dcc1014793d3278432e8731",
+        "task": "3212aa1f1ae906f5576237092ebb60df48493ef8cc0192e70d49bd2ab691a7cd"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "1d096e93cbf388a7534ec6a6320348fd6f9ee7d11dcc1014793d3278432e8731",
+        "task": "3084dc85e6b96a0cbf1bd515294b5071fb82cf5bf199fd26656f06de35ed745f"
+      },
+      "task_id": "N03-01",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N03-02",
+      "current_fingerprints": {
+        "rubric": "6b25bc9b8a3098dc8b3b5ffc0d8dfefb65f04e1d6a5d5a7bab4e5ae848268289",
+        "task": "e51a2d3b8b597e6bf84b7c34dec8da2d3d969dc21e7eb90f851db6e1648a8890"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "6b25bc9b8a3098dc8b3b5ffc0d8dfefb65f04e1d6a5d5a7bab4e5ae848268289",
+        "task": "0598cb391b07396e8d55f9e9e68ada918c43cc774f457d70040732a0d9f3a0a9"
+      },
+      "task_id": "N03-02",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N03-03",
+      "current_fingerprints": {
+        "rubric": "dbee3fe5ba47c9f19ca4d28911411c16ddb1488b115f9b8963517844ec73052a",
+        "task": "7b3dd0ced91e0d667e8e2779d454ef867e40730ec4b6e8c6be19ceeab00fc6a7"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "dbee3fe5ba47c9f19ca4d28911411c16ddb1488b115f9b8963517844ec73052a",
+        "task": "20741df5b76ee54fe57e331ff316084d4fe9be1707c1c1f3d3ba19c197310464"
+      },
+      "task_id": "N03-03",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N04-01",
+      "current_fingerprints": {
+        "rubric": "f312b12b83402f766a5a4a87071e8144f297a99ca43d6e9371c1cb6c90a4dcff",
+        "task": "fbd3277cbfc83e3be38d898ed2b7b79928501fe7a66de914317e52a2d61a33cc"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "f312b12b83402f766a5a4a87071e8144f297a99ca43d6e9371c1cb6c90a4dcff",
+        "task": "252faf871bc0b3ac40cea8f054caed284e4aae4c3bc5716f3faf770832284beb"
+      },
+      "task_id": "N04-01",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N04-03",
+      "current_fingerprints": {
+        "rubric": "0481dc24a1521b8ea5701eb149cc01eb5f98cac04df13010d78dd8c4f43ed88c",
+        "task": "2c946ba4911eb735f2c51ee936f76bae5b0bbfc558bb88b459f8d6c5e43f4d3c"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "0481dc24a1521b8ea5701eb149cc01eb5f98cac04df13010d78dd8c4f43ed88c",
+        "task": "568336e3da5e21271bcf1a83d1e4f5a40ab8f08de55c2a170745c6fb0a543532"
+      },
+      "task_id": "N04-03",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N05-01",
+      "current_fingerprints": {
+        "rubric": "6658f6315d767a664d8b66be63c7183197a98304cf5574d114e077b29d6b826e",
+        "task": "15a9ff1dfecac080038995e761f69a9fce8745f2c04d7d2526b1d68973d88e99"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "6658f6315d767a664d8b66be63c7183197a98304cf5574d114e077b29d6b826e",
+        "task": "3012068023d6fcf3f96119c550d33b8cfaa3e70f3b1bdd40c688f4b912dc0f73"
+      },
+      "task_id": "N05-01",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N05-03",
+      "current_fingerprints": {
+        "rubric": "cb27c6918317804a3d4f74c3b4846d93a7ec897802fdfae1b20017fd9da5c4a6",
+        "task": "1366718b2c70b4d643ecbc2bbe66bb10fcaa6f206c4dc77bdc6447af71af81d8"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "cb27c6918317804a3d4f74c3b4846d93a7ec897802fdfae1b20017fd9da5c4a6",
+        "task": "20b54be6a5cd32e9ada663790a4cdae592d71cd129a4bacb452dd08eb7a57bc8"
+      },
+      "task_id": "N05-03",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N06-01",
+      "current_fingerprints": {
+        "rubric": "cb6a63d9bdd2f5e782a459f1c36c383bb40662fb19b4f720785a7e0e6839e1e0",
+        "task": "03214b1a472d16416a63e9a8b78933c4c1c16bf77b917ecdc6d0f7fbfb25d20f"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "cb6a63d9bdd2f5e782a459f1c36c383bb40662fb19b4f720785a7e0e6839e1e0",
+        "task": "dcb02f396164f900df7f1c4de340c3c5b4ac64700c23522678a5b2e95b34ef5c"
+      },
+      "task_id": "N06-01",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N06-02",
+      "current_fingerprints": {
+        "rubric": "4c385e3997270cb3c894c9e0f7ac5df6ca4fb65cfe73ae79e8bedfebab93a67d",
+        "task": "78496785bc9d334dcaa6c46bdc1fba401fdd9bbcde827dc5635f3a2e5f9e8a75"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "4c385e3997270cb3c894c9e0f7ac5df6ca4fb65cfe73ae79e8bedfebab93a67d",
+        "task": "e805c085aa15e51fb3a00dde60123635b6191a04794ca376cccb6ef02ae3e416"
+      },
+      "task_id": "N06-02",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N06-03",
+      "current_fingerprints": {
+        "rubric": "4ef3b790ed24dd44c4df766fd2f353642f8ebab60abe776f06ed270535802326",
+        "task": "aa6e8777087aa70792f8de769578f4119bf4a9826ca2c0cf06c911c1aa050f8a"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "4ef3b790ed24dd44c4df766fd2f353642f8ebab60abe776f06ed270535802326",
+        "task": "805a4cd416d542b47c664caba833e6f40f24c3f887f216e31de2d57184f90824"
+      },
+      "task_id": "N06-03",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N07-01",
+      "current_fingerprints": {
+        "rubric": "1b055fe0a63a5f7e923ced9d94d8fe8d81ca3449c2427faee0c9c6ec66b620cb",
+        "task": "2b9e6134635d4dca702375dddcdd9f80e02fd4e4fa5d52dfca00b181fceca3a7"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "1b055fe0a63a5f7e923ced9d94d8fe8d81ca3449c2427faee0c9c6ec66b620cb",
+        "task": "b0ae091c62824a91e8e0486b616eeba3218393fa716d0c2dafda317438e00b1d"
+      },
+      "task_id": "N07-01",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N07-03",
+      "current_fingerprints": {
+        "rubric": "8c50ca43d22939954cb09a4dd64e5c67f35e1ea38cd10b10f21a85da312d3511",
+        "task": "8d21b397b050354692f6baf35e104506ce08d2fb86721f0b4203eb77045206c0"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "8c50ca43d22939954cb09a4dd64e5c67f35e1ea38cd10b10f21a85da312d3511",
+        "task": "8bdce53052702b6309d4bc8773831e302e4cd3fb043216ea508de96b66f8e369"
+      },
+      "task_id": "N07-03",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N08-01",
+      "current_fingerprints": {
+        "rubric": "88424e92227dc8a6ad7a249d7c7abfbe6a925dde1f01c4d500b6e2cd5bc88bf4",
+        "task": "b5ed808c185afeaaed1ea9fae83d197637b0a06ffc3c58aa87883e4611658482"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "88424e92227dc8a6ad7a249d7c7abfbe6a925dde1f01c4d500b6e2cd5bc88bf4",
+        "task": "25ecc683ea7a1d7fec6be279229926fca0da79185553a02510bdf4792053e9fd"
+      },
+      "task_id": "N08-01",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N08-03",
+      "current_fingerprints": {
+        "rubric": "38affb6fb8ad551ccee1a91aac21dfce7f86bf1d8036f654c62dfd6287840e69",
+        "task": "ef92b8dd7f7caaa3a56f688a011b8da8df5803da969af801445f27d4bc4cd7b6"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "38affb6fb8ad551ccee1a91aac21dfce7f86bf1d8036f654c62dfd6287840e69",
+        "task": "b9802af4220b01dc4c26ac4d21609bead20570b0c1b2b1be738a86f882ab596b"
+      },
+      "task_id": "N08-03",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N09-01",
+      "current_fingerprints": {
+        "rubric": "35e702c7d82650bbf5a8cf697722f891837015d4496a18b8c07e400be981d1ab",
+        "task": "a87126cc631c21f76d46f9604df7b7267211b973c8385fb9d575f00000fdb50e"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "35e702c7d82650bbf5a8cf697722f891837015d4496a18b8c07e400be981d1ab",
+        "task": "3c05e49baf9117289d6d4cb691bdd88e1e332a243428dd5cbe99215a37611420"
+      },
+      "task_id": "N09-01",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N09-03",
+      "current_fingerprints": {
+        "rubric": "44d91225173a976247891155e0b19044c4701fcd9be2184a50a4d60cced57398",
+        "task": "b14ff9c88f14103a8570c8fb6cb56fe9fa790d3c131405b13c0fa38ae5bcd9cd"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "44d91225173a976247891155e0b19044c4701fcd9be2184a50a4d60cced57398",
+        "task": "c87453dede121c79c51604b39db4892b71fa4ad110679867799066875c76b5ab"
+      },
+      "task_id": "N09-03",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N10-01",
+      "current_fingerprints": {
+        "rubric": "2256aaf90f22d59c058bd3445482802eee81065c254d2caed47bf533cc5a4fc7",
+        "task": "3105900ad4b507a9efd0741b3e8d8d3a8b80dd7d27075f3708ffe935ff576d43"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "2256aaf90f22d59c058bd3445482802eee81065c254d2caed47bf533cc5a4fc7",
+        "task": "d06538d45b285e150121f84824e51b1471c5d2cc4716b1bb0e75d3bc9d6ce998"
+      },
+      "task_id": "N10-01",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N10-02",
+      "current_fingerprints": {
+        "rubric": "9b02243e25a1a70ac0da2ac353e0cb3e4cba7b4dcd372e02964dfaa50696b143",
+        "task": "a48571b715c98394c0b6e87cd01778e0ef2b821c707f74d41165a0858b51e28d"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "9b02243e25a1a70ac0da2ac353e0cb3e4cba7b4dcd372e02964dfaa50696b143",
+        "task": "a5f4f58f421ac6094c146a04ef0d7022202bc051576cbf75cd5ae4d3b40b9f75"
+      },
+      "task_id": "N10-02",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N10-03",
+      "current_fingerprints": {
+        "rubric": "e0820be2b587778ba29b04d71fdd5144adaf6fe53f5e90ffd0fafebc67ef40b4",
+        "task": "33c229f77dd532aa75ccb9a646f4672d39f8c90dcf32b24ab42e0c392a9aa3a4"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "e0820be2b587778ba29b04d71fdd5144adaf6fe53f5e90ffd0fafebc67ef40b4",
+        "task": "74fab6c3520b5133d48b14d3fe20dd4b99beb30a22a87617d5274669762e9493"
+      },
+      "task_id": "N10-03",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N11-03",
+      "current_fingerprints": {
+        "rubric": "af3c0c15cd219cfbc21d8c3b205b4ed7be0e3452e680cb4918bb667dff8f5694",
+        "task": "6cdc180458d48b16ab71cfe039fc2cf088c27960b72a6f69105a208f43c518c6"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "af3c0c15cd219cfbc21d8c3b205b4ed7be0e3452e680cb4918bb667dff8f5694",
+        "task": "50ed8f5f8055064d19c83c73691a2c36178a0462c1151444a241236903a3167a"
+      },
+      "task_id": "N11-03",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N12-01",
+      "current_fingerprints": {
+        "rubric": "b532c7f33bb557207caa5bc6a627e952cf9f39267099de17ef1ef4906049a0bb",
+        "task": "c084a1b17e0dab3305737390f3f826f0a618b0578f300236e8f214e4e4b26c69"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "b532c7f33bb557207caa5bc6a627e952cf9f39267099de17ef1ef4906049a0bb",
+        "task": "6086418741fd8f1157f5f10b327c776b0cef4177239a569186e80c17faff7273"
+      },
+      "task_id": "N12-01",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N12-03",
+      "current_fingerprints": {
+        "rubric": "ba3a622370d4d968ab3b4e2cebfb1feaefdb73c17326e4277883009aadf480c0",
+        "task": "ee630c377886cc7cc8461eb64a7573e5f4d8e851fd661539e2f02e8ee75877dd"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "ba3a622370d4d968ab3b4e2cebfb1feaefdb73c17326e4277883009aadf480c0",
+        "task": "ebe2f3d92d7245cfe47bb17353dc1c685058434616e3cdc965299be56131cd80"
+      },
+      "task_id": "N12-03",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N13-02",
+      "current_fingerprints": {
+        "rubric": "e68dfe5ff5e02ebc95f7dfe3a2419d10404cde6ab017f7cc1a1f40503dddaf36",
+        "task": "c05309b7730a9092161d2380dbab989d5e13751b5a8e08196f08565dc3b168d6"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "e68dfe5ff5e02ebc95f7dfe3a2419d10404cde6ab017f7cc1a1f40503dddaf36",
+        "task": "5e030c3a5987ba72f26f2a46ab94d5bc493a98021d6627a57a678dbdb7b51604"
+      },
+      "task_id": "N13-02",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N13-03",
+      "current_fingerprints": {
+        "rubric": "8836d2cbdb523749fbe6291deaf20341520f729bd1cd9fb35d57e83b668539c0",
+        "task": "1ec5a0068ca3b1cdfd8a478a368f27783768d63fa8c6fb25e557293b52370acc"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "8836d2cbdb523749fbe6291deaf20341520f729bd1cd9fb35d57e83b668539c0",
+        "task": "b4b7f8aba9ac192224141d4503571cb89506a966ac3b04892675fc4eea7507c9"
+      },
+      "task_id": "N13-03",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N14-01",
+      "current_fingerprints": {
+        "rubric": "2c9cb6f0028e0a9edae184d9043e03b48e0185c4fd8b6202f9ac606469adce70",
+        "task": "9a32817b5bcee976d19c9f098c81ae8e415fa0aeb820d4ca189fd388e104561f"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "2c9cb6f0028e0a9edae184d9043e03b48e0185c4fd8b6202f9ac606469adce70",
+        "task": "9b3921082bd2f71c54d216ab15b80bf342f3c35edbee03edd330148484343baf"
+      },
+      "task_id": "N14-01",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N14-02",
+      "current_fingerprints": {
+        "rubric": "fd266c4219f9545f5adef4b68a51686fcab0cc6e604cde14cbcbc86cef26c6ed",
+        "task": "beb874beef76e95b656ca20d7d92be65839fdcbabb25709cd52232c325683b48"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "fd266c4219f9545f5adef4b68a51686fcab0cc6e604cde14cbcbc86cef26c6ed",
+        "task": "f24029312d1c65e0991d3aa995d8a07af2e97adf988095dd80a70b5d3e92dc9c"
+      },
+      "task_id": "N14-02",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N14-03",
+      "current_fingerprints": {
+        "rubric": "b04f6038c84cbc754f453aeb7d1a8b89cdbaaedb7534a3ed0c0ca9ae5cbe3f9f",
+        "task": "cefba07ace443aa213a789fbd0b68eff92a25ad0363b571188b0b046e2d1ad8a"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "b04f6038c84cbc754f453aeb7d1a8b89cdbaaedb7534a3ed0c0ca9ae5cbe3f9f",
+        "task": "0620457e63d0a3f73388b2c24d4e6473220f70e07fd7b2e2968212f291a7bfaa"
+      },
+      "task_id": "N14-03",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N15-01",
+      "current_fingerprints": {
+        "rubric": "9bd0c64eb7f08b76d230818fc25c891606226ac931f1d116e36b42771baba241",
+        "task": "b738d5330da9ecab7fb5e97501c7c0602d3087ce510788c1637da5cd2ac76d69"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "9bd0c64eb7f08b76d230818fc25c891606226ac931f1d116e36b42771baba241",
+        "task": "f60df8c38536ba7289c2cce1719a938fc6ecca0661998619c1612e10a4df00db"
+      },
+      "task_id": "N15-01",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N15-03",
+      "current_fingerprints": {
+        "rubric": "a5d21bb694ced702eafc56692fe4abbfeb3f633d5fc7ef8286499521d80eab35",
+        "task": "a1ac3ff5786f9848d3a6b2bbbce8358f51f4b0df65b1508d8765d22e7f4d2c62"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "a5d21bb694ced702eafc56692fe4abbfeb3f633d5fc7ef8286499521d80eab35",
+        "task": "a188b107f23386e745cf7e7c1a47b7d34960650d0b93b667cd02e66ac7142e5a"
+      },
+      "task_id": "N15-03",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N16-01",
+      "current_fingerprints": {
+        "rubric": "8b7ed5cd99c6214d073a3844c0422e0715ab9c99be66f159d2f3c50ef21f072d",
+        "task": "b3082bd3d4fdfe9138af1b73fe1e6546ff07bf2163b2b54b3eb372793513c57c"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "8b7ed5cd99c6214d073a3844c0422e0715ab9c99be66f159d2f3c50ef21f072d",
+        "task": "1e50964aa1614ed1dc7792a50dd411a43768f1cdd616488d8ad5124541949d5b"
+      },
+      "task_id": "N16-01",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/N16-03",
+      "current_fingerprints": {
+        "rubric": "60cba97926cbdeaed594712281646d60c62c1cc00ff5e4d60dd6fc1a3bb0eaec",
+        "task": "b4f6cbf05f5c4057f6ecbe0f85f7c86630c47e7e926cb8cd1d8144334b1f1286"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "60cba97926cbdeaed594712281646d60c62c1cc00ff5e4d60dd6fc1a3bb0eaec",
+        "task": "3f323c86db233d6b37d2f8f23310bac5484ae110fe7effdf302a0586dad72316"
+      },
+      "task_id": "N16-03",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/dev/O08-02",
+      "current_fingerprints": {
+        "rubric": "98e568491b2c1fa920f7fed309a56a3c85a10fed8dd0b2fcd429af676ed5a2e5",
+        "task": "b89a2725b2e302a6573734f23ae817c28f315a116c00f4031398d90942dc114b"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "98e568491b2c1fa920f7fed309a56a3c85a10fed8dd0b2fcd429af676ed5a2e5",
+        "task": "890c1f72f5469fa18406e8d42fd1b6cc9c36f16b71cf212e9d737264eb695eda"
+      },
+      "task_id": "O08-02",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/staged-dev/N01-02",
+      "current_fingerprints": {
+        "rubric": "31c0f6c2a09988eebb75ab1e93bd612fc4cc7e7af6335256c8985a33721e02b3",
+        "task": "791519e60a7e8977ce79bfb07716590b95fd70b28adf52a52f4a00f9ccb46ea2"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "31c0f6c2a09988eebb75ab1e93bd612fc4cc7e7af6335256c8985a33721e02b3",
+        "task": "c4a34a29cc6c1c18dad1fff82d10b5417272edb6b507e93dee1baf9cd3fc6976"
+      },
+      "task_id": "N01-02",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/staged-dev/N04-02",
+      "current_fingerprints": {
+        "rubric": "e37fee323bda59d268ba36362da2b6c6c519ff48b5c1c973196ecb8fb2042187",
+        "task": "d3d91ff78fe852d2a8fcac6528755bc3c61648fbea1d32fe0a0a50be87239b6c"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "e37fee323bda59d268ba36362da2b6c6c519ff48b5c1c973196ecb8fb2042187",
+        "task": "45a9e811cd6ddba844391c60225f7bbae485f2ffd7588c605fbe8d13e158603f"
+      },
+      "task_id": "N04-02",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/staged-dev/N05-02",
+      "current_fingerprints": {
+        "rubric": "516032be30b20373af4685a27f02d345bc414794e1fbdf2f955f966580b70c7e",
+        "task": "af3f070ffef35561245ada50c6470765a48f88b55871174286f3a37356b4a566"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "516032be30b20373af4685a27f02d345bc414794e1fbdf2f955f966580b70c7e",
+        "task": "b6e5507ca5c25ab5b34970dd1483b281009505f3606f576f2a5165bb70dfb69c"
+      },
+      "task_id": "N05-02",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/staged-dev/N07-02",
+      "current_fingerprints": {
+        "rubric": "06497bfa08ed29be693188b1cfad8eca556c50338fb2c714f3c13533fe8b50e2",
+        "task": "d7e95f7bb0db68efbe3a40060aa9a0996a9664b3d938d987344bd768cd832b3c"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "06497bfa08ed29be693188b1cfad8eca556c50338fb2c714f3c13533fe8b50e2",
+        "task": "a8f309696e2bc2f3607aa54297fdb40b2ae8983561a6da0925f39de79221f8b5"
+      },
+      "task_id": "N07-02",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/staged-dev/N08-02",
+      "current_fingerprints": {
+        "rubric": "bc9ef94ee2495fe661bb5d7e826965189b4701238f40548e45410c6193183aff",
+        "task": "339149d736333ffaeed0f5403cfe8fe6a1b0d411b9fb1225ce2359a4530f188c"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "bc9ef94ee2495fe661bb5d7e826965189b4701238f40548e45410c6193183aff",
+        "task": "f9e12b4f030639c3e40ddb7475bdc3c3f9677aba2a97672ed539764f0cf9e86a"
+      },
+      "task_id": "N08-02",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/staged-dev/N09-02",
+      "current_fingerprints": {
+        "rubric": "44c0d4346a2c1dc5ce669a9ad5abf517a722196363d8af28f604ac08e9ba5ea2",
+        "task": "08783887801b17634ecc88bddf78fd45969af2589e41ff7a252d41384bf0dc11"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "44c0d4346a2c1dc5ce669a9ad5abf517a722196363d8af28f604ac08e9ba5ea2",
+        "task": "1a715e7f478dbb08be28beec024a2ad9a6cbd2fd2b95687a8d0075a8d4a8a5b9"
+      },
+      "task_id": "N09-02",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/staged-dev/N11-02",
+      "current_fingerprints": {
+        "rubric": "c5827528e0b775e734f21cc7eed4ca88103dd721e5bed22b29e747c92ce9287f",
+        "task": "05e2413cfc44976e6b942ade4ee9e7b6539ee68c3de8e606bc7f75c5f8ea5c3c"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "c5827528e0b775e734f21cc7eed4ca88103dd721e5bed22b29e747c92ce9287f",
+        "task": "fef1538bd88a3010e3fa543e586e58861d4efb06014e4af47409ae95c8720d10"
+      },
+      "task_id": "N11-02",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/staged-dev/N12-02",
+      "current_fingerprints": {
+        "rubric": "57f7963348523fdb3ef2d8b9af8260044bd92e1992350951b452c3aba76d868a",
+        "task": "b7aa463151b15eb54e5114b323455e8c67d72e66128e1748c12e4a8ec2de68ee"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "57f7963348523fdb3ef2d8b9af8260044bd92e1992350951b452c3aba76d868a",
+        "task": "98020702c1cc54d55c46bdebe3d707762f0d5df307d19b19839a26f605da0979"
+      },
+      "task_id": "N12-02",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/staged-dev/N15-02",
+      "current_fingerprints": {
+        "rubric": "12e965f1b3fa0b9041c2926330cfe6dcffab3b1d8432312f0bc086137d6719f1",
+        "task": "b66dccbb54c0b82420a41b950d0e418bc50e1fb4e0a49c0ef26d478dd9584b84"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "12e965f1b3fa0b9041c2926330cfe6dcffab3b1d8432312f0bc086137d6719f1",
+        "task": "b2ed5adc57d6f1b36b638f5c2f59fbd7b2ca6a76ef4081b95677cacdb1d908a9"
+      },
+      "task_id": "N15-02",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/staged-dev/N16-02",
+      "current_fingerprints": {
+        "rubric": "d23f1fa825b0230f91229a95b9ce0a6db610fd82bd1f07c0ae2d9b918085d6d6",
+        "task": "35ac220c33b619b92c2e6bc22f53fdd30774fc42883fa384e641e7dc64751dd7"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "d23f1fa825b0230f91229a95b9ce0a6db610fd82bd1f07c0ae2d9b918085d6d6",
+        "task": "2a6217d6feed8e4407299f91374936cf4916f0f8c24b0b3ce28e3234a63218c0"
+      },
+      "task_id": "N16-02",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/staged-dev/O01-04",
+      "current_fingerprints": {
+        "rubric": "6346dea9a9fa7107d7033cc53c17465e41167b93c2df0308e156b543eac49b74",
+        "task": "766957d5741edcbb4bd323d153aefde7371c7a3676a7c50dc2cddbdf74061e15"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "6346dea9a9fa7107d7033cc53c17465e41167b93c2df0308e156b543eac49b74",
+        "task": "9a5f5ad3f11ef337435826658434262e414e6d3b43472e8539646d8a53133157"
+      },
+      "task_id": "O01-04",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/staged-dev/O03-04",
+      "current_fingerprints": {
+        "rubric": "b9f82004f87e16843735fdbaf5eaac074ce4d036e5682362de2a0ef0b067d937",
+        "task": "5501a2524beb09869e412724c4f7cae8f6e87f22d8f2c7de3bb855f3520a42e0"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "b9f82004f87e16843735fdbaf5eaac074ce4d036e5682362de2a0ef0b067d937",
+        "task": "85812b1f00cb9f2a1215741fb43a751eba3927e6379be1556a60ce7eaf72ff4a"
+      },
+      "task_id": "O03-04",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/staged-dev/O04-04",
+      "current_fingerprints": {
+        "rubric": "6e04ed68ef6165257420e5b4c3281786e250a507aebad56808970beaf60a74e1",
+        "task": "fa2f9f580e058c0dacf7c30fd92ea361e1b24759befb46f82c89d073436b4ff9"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "6e04ed68ef6165257420e5b4c3281786e250a507aebad56808970beaf60a74e1",
+        "task": "760d96c281fdbf77a639bfbd1a1367b924d6d9036947e5059d03676daf7c4fbf"
+      },
+      "task_id": "O04-04",
+      "technical_content_binding": "verified"
+    },
+    {
+      "binding_matches": false,
+      "collection_path": "data/staged-dev/O06-02",
+      "current_fingerprints": {
+        "rubric": "620f55f7dfe28fc1c419e00976cfc39705aae3f8fa74217edf6c86a24c78bfa1",
+        "task": "79c7a2297d346e8c8c367d9ac450467e721f6c9546a14157570205dcec1d4d6b"
+      },
+      "current_human_publication_approval": "not_recorded_for_these_fingerprints",
+      "direct_identifier_scan": {},
+      "previous_fingerprints": {
+        "rubric": "620f55f7dfe28fc1c419e00976cfc39705aae3f8fa74217edf6c86a24c78bfa1",
+        "task": "fa0841e727a53950ed6dcb69865cee66d3388f638885f41e3c8d34c15459b659"
+      },
+      "task_id": "O06-02",
+      "technical_content_binding": "verified"
+    }
+  ],
+  "teacher_calibration": "completed_owner_confirmed"
+}

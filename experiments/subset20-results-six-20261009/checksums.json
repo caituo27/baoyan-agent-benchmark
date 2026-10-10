@@ -1,0 +1,42 @@
+{
+  "exporter_sha256": "3829d2d9ea4d4d72465585d590db26a9e34f1dd619daf70222cd1820b85e0b65",
+  "files": {
+    "README.md": "8cc00f7fcbbe794907450aaf51d817f7633b6812ed018a9604f7c3c7bd32ac2d",
+    "README.zh-CN.md": "5e2d2a814c72acfae5875935bcd4fcae085a07ce13ef2eafe771d1b78d6bbb57",
+    "pending-review.md": "28e85e770b193ac54515ca525c1bafccb003523522f5fb7ca03f41df61458487",
+    "results.json": "d7b76327e6de3c170c4b1ecfde52be3e6e5d6d5e36a004678151034342bd0e7f",
+    "score-bounds.svg": "e6021a994b813ea66e3ff2a03eb2e6331aa822dc9699b7868ae85bbc88cef153",
+    "scores.csv": "2066816bcacd67c50a6d90ee7516eff4479a07bd835ccea881269678e4edf308",
+    "task-scores.svg": "4ba32236ffa136727aa5d8200d0bb8531270b30ef352dc2ff13cd9fac17cb7c4",
+    "verification.json": "30c9c7c851ce21b27d2d8db6a0337fbc5efbaea198ac9369f5cf904b8a24c94b"
+  },
+  "editorial_revision": {
+    "reason": "Disclose that item-level judgments and the offline score verification package are not public; clarify report regeneration requirements. Scores and judgments unchanged.",
+    "recorded_at": "2026-10-09T22:24:23+08:00",
+    "previous_checksums_sha256": "38955669e7eb064d931bf858892c44e517416857aafa1cb7f91f9b20448848f7",
+    "previous_document_sha256": {
+      "README.md": "9e7b3ab876f884ceff3c1870d86defda7eb26ac259678e10a8972b683ff6e4e3",
+      "README.zh-CN.md": "dc1bd48601aab5705777419e556418e94f0129762696cda2902b0402e912c73c"
+    },
+    "updated_report_generator_sha256": "01c1808f2ea1379251c6101fd74b66ee0085eaf5e4c58550d444b054e4e8c37c"
+  },
+  "editorial_revision_history": [
+    {
+      "reason": "Clarify dev20 mean bounds in the bilingual reports; scores and judgments unchanged.",
+      "previous_checksums_sha256": "92d321e4cb3dfcaec50280010c9f8a6e86acacb05cbb184d78aaee1747cf7f23",
+      "previous_document_sha256": {
+        "README.md": "14f328e7aa20fc689d60aef4730004cb688629bb67d6fd731a39c87dca1d8d4c",
+        "README.zh-CN.md": "e165fc8bb12837a297b570c23778618f65e0d2c69104e2a18b403bc70ef567e9"
+      }
+    }
+  ],
+  "visual_revision": {
+    "reason": "Restyle score bounds with a shared zero-to-100 axis, purple lower bounds and gold pending contributions. Scores and review records unchanged.",
+    "previous_checksums_sha256": "03e31f4859b12222ed96b0d8b9390e3a128961931260f2896c5b56488e2d2e63",
+    "previous_chart_sha256": "a870ad828c7512940a5e60f3b78931319219436174c32e81d616e14839264672",
+    "renderer_sha256": {
+      "scripts/export_review_results.py": "61570ba096f6b50a5dd6f4ada5f176cf20c44906a71be76eedda4abbd136d152",
+      "scripts/render_benchmark_figures.py": "fd5b1f3b426f9e0ca74198cf8733a6d9f13347506d630bfd2f616b90660fa6a2"
+    }
+  }
+}

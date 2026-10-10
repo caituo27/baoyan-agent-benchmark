@@ -1,0 +1,33 @@
+{
+  "as_of": "2026年推免申请季",
+  "case_group_id": "student-N11",
+  "case_id": "N11",
+  "constraints": [
+    "仅依据当前阶段提供的信息作答；不查询学生身份或其真实最终去向。"
+  ],
+  "deliverables": [],
+  "persona": {},
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending"
+  },
+  "stages": [
+    {
+      "instruction": "我是东北大学生物医学工程专业的，排名4/116，六级523，做过医学影像相关研究。读研既想继续医学影像，也想了解计算机或工程方向的项目。我不知道自己更适合哪条路，可以帮我分析吗？",
+      "stage_id": "S0",
+      "visible_at": "2026年推免申请季"
+    },
+    {
+      "instruction": "我再补充一下项目状态：大二的校级大创延期了；大三主持的大创级别还没确定；一篇第一作者综述正在准备，还没投稿。另外还做过医学影像分割方向的会议研究。结合这些信息，之前的方向建议还适用吗？",
+      "stage_id": "S1",
+      "visible_at": "2026年推免申请季"
+    }
+  ],
+  "task_id": "N11-02",
+  "task_version": "1.0.1",
+  "time_context": {
+    "application_year": "2026",
+    "assessment_period": "2026年推免申请季",
+    "time_precision": "year_only_scenario"
+  }
+}

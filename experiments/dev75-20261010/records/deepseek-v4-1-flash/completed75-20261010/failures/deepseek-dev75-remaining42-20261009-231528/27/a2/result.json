@@ -1,0 +1,18 @@
+{
+  "answer_files": [
+    "attempts/27/a2/capture/deepseek-v4-1-flash/N14-02/r1/workspace/answer.md"
+  ],
+  "batch": "/Users/REDACTED/Desktop/benchmark-open-source/runs/deepseek-dev75-remaining42-20261009-231528/attempts/27/a2/capture",
+  "category": "failed",
+  "completed": 0,
+  "executed": true,
+  "exit_code": 1,
+  "finished_at": "2026-10-09T17:09:52.249858+00:00",
+  "official": false,
+  "planned": 1,
+  "status": "invalid_output",
+  "statuses": {
+    "invalid_output": 1
+  },
+  "stopped": "deepseek-v4-1-flash/N14-02/r1"
+}

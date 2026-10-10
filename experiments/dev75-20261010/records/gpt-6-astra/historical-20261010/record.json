@@ -1,0 +1,851 @@
+{
+  "agent": "gpt-6-astra",
+  "completed": 43,
+  "expected_full_scope": 75,
+  "failed_attempts": "Preserved in the referenced original campaigns. This export contains selected successful captures only, not the complete historical invocation ledger.",
+  "official": false,
+  "records": [
+    {
+      "capture_path": "captures/BY-A-PLAN",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/recovery-parallel-20261009-164140/attempts/0/a2/capture/gpt-6-astra/BY-A-PLAN/r1/workspace/answer.md": "f3aad5c181dd4dee8d33b5dce5798546c27a61cee194a9b2652afddfb31f665b"
+        },
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/recovery-parallel-20261009-164140/attempts/0/a2/capture/gpt-6-astra/BY-A-PLAN/r1",
+        "other_verified_captures": [
+          {
+            "campaign": "subset40-astra-additional20-20261009-214742",
+            "capture": "runs/subset40-astra-additional20-20261009-214742/attempts/0/a1/capture/gpt-6-astra/BY-A-PLAN/r1"
+          }
+        ],
+        "selected": {
+          "attempt": 2,
+          "path": "attempts/0/a2"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-A-PLAN"
+    },
+    {
+      "capture_path": "captures/BY-A-APPLY",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/recovery-parallel-20261009-164140/attempts/1/a1/capture/gpt-6-astra/BY-A-APPLY/r1/workspace/answer.md": "7ae2c76e48e3cb0c7a48bc5982f2fa0ea6edd8ece614776b42ad0a965a48b61a"
+        },
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/recovery-parallel-20261009-164140/attempts/1/a1/capture/gpt-6-astra/BY-A-APPLY/r1",
+        "other_verified_captures": [
+          {
+            "campaign": "subset40-astra-additional20-20261009-214742",
+            "capture": "runs/subset40-astra-additional20-20261009-214742/attempts/1/a1/capture/gpt-6-astra/BY-A-APPLY/r1"
+          }
+        ],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/1/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-A-APPLY"
+    },
+    {
+      "capture_path": "captures/TRY-A-03",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/recovery-parallel-20261009-164140/attempts/2/a1/capture/gpt-6-astra/TRY-A-03/r1/workspace/answer.md": "ba677d2712d3572aaed3e6ae7acb9c5bfb89c1e36fe821fa814fe31fa14d5ec4"
+        },
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/recovery-parallel-20261009-164140/attempts/2/a1/capture/gpt-6-astra/TRY-A-03/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/2/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-A-03"
+    },
+    {
+      "capture_path": "captures/BY-B-APPLY",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/recovery-parallel-20261009-164140/attempts/3/a1/capture/gpt-6-astra/BY-B-APPLY/r1/workspace/answer.md": "d8eceba24168434e9dc5e52c16f29d5c78e1b07528df1b0e4a570d16beec8072"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/recovery-parallel-20261009-164140/attempts/3/a1/capture/gpt-6-astra/BY-B-APPLY/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "reused": "40"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-B-APPLY"
+    },
+    {
+      "capture_path": "captures/TRY-B-02",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/recovery-parallel-20261009-164140/attempts/4/a1/capture/gpt-6-astra/TRY-B-02/r1/workspace/answer.md": "56e68e843d6db6fb4fd99f268fe8cc6319bfa7e57f02413c489a63b90562d708"
+        },
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/recovery-parallel-20261009-164140/attempts/4/a1/capture/gpt-6-astra/TRY-B-02/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/4/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-B-02"
+    },
+    {
+      "capture_path": "captures/TRY-B-03",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/recovery-parallel-20261009-164140/attempts/5/a1/capture/gpt-6-astra/TRY-B-03/r1/workspace/answer.md": "fb01f3f1d16b4f06312630a3836a55d5e5b523184e3a0a8e384339290290a87f"
+        },
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/recovery-parallel-20261009-164140/attempts/5/a1/capture/gpt-6-astra/TRY-B-03/r1",
+        "other_verified_captures": [
+          {
+            "campaign": "subset40-astra-additional20-20261009-214742",
+            "capture": "runs/subset40-astra-additional20-20261009-214742/attempts/2/a1/capture/gpt-6-astra/TRY-B-03/r1"
+          }
+        ],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/5/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-B-03"
+    },
+    {
+      "capture_path": "captures/BY-C-WINTER",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/recovery-parallel-20261009-164140/attempts/6/a1/capture/gpt-6-astra/BY-C-WINTER/r1/workspace/answer.md": "241ccd6e40a0e4516b3d52c66264b649a3aea2f219c393e85fea2e70658b931a"
+        },
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/recovery-parallel-20261009-164140/attempts/6/a1/capture/gpt-6-astra/BY-C-WINTER/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/6/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-C-WINTER"
+    },
+    {
+      "capture_path": "captures/BY-C-APPLY",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/subset40-astra-additional20-20261009-214742/attempts/3/a1/capture/gpt-6-astra/BY-C-APPLY/r1/workspace/answer.md": "dc89c385a0a4860aa3fd48686580b12bc44f8b8c0d8a8f45beeaa411cd8d2836"
+        },
+        "campaign": "subset40-astra-additional20-20261009-214742",
+        "capture": "runs/subset40-astra-additional20-20261009-214742/attempts/3/a1/capture/gpt-6-astra/BY-C-APPLY/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/3/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-C-APPLY"
+    },
+    {
+      "capture_path": "captures/TRY-C-03",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/47/a1/capture/gpt-6-astra/TRY-C-03/r1/workspace/answer.md": "a86e965d1b3c7a3fff25986f8017268271628cdb8f3e4470bfe0ed59ed26910d"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/47/a1/capture/gpt-6-astra/TRY-C-03/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/47/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-C-03"
+    },
+    {
+      "capture_path": "captures/TRY-D-02",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/subset40-astra-additional20-20261009-214742/attempts/4/a1/capture/gpt-6-astra/TRY-D-02/r1/workspace/answer.md": "8191b67ca0cbcc75faf01051c13d59bb7f7c34b82676ce60ac29623219ae6df0"
+        },
+        "campaign": "subset40-astra-additional20-20261009-214742",
+        "capture": "runs/subset40-astra-additional20-20261009-214742/attempts/4/a1/capture/gpt-6-astra/TRY-D-02/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/4/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-D-02"
+    },
+    {
+      "capture_path": "captures/TRY-E-02",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/subset40-astra-additional20-20261009-214742/attempts/5/a1/capture/gpt-6-astra/TRY-E-02/r1/workspace/answer.md": "27be6ea726a07e1ee04b5227b551889bf2fd8f8430a90d02f5cfed3e460cb4bc"
+        },
+        "campaign": "subset40-astra-additional20-20261009-214742",
+        "capture": "runs/subset40-astra-additional20-20261009-214742/attempts/5/a1/capture/gpt-6-astra/TRY-E-02/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/5/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-E-02"
+    },
+    {
+      "capture_path": "captures/BY-F-APPLY",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/subset40-astra-additional20-20261009-214742/attempts/7/a1/capture/gpt-6-astra/BY-F-APPLY/r1/workspace/answer.md": "23de87256869a80c4990147b22006e7ce9fbba9b2cad1eb74e99d057d4ce3d27"
+        },
+        "campaign": "subset40-astra-additional20-20261009-214742",
+        "capture": "runs/subset40-astra-additional20-20261009-214742/attempts/7/a1/capture/gpt-6-astra/BY-F-APPLY/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/7/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-F-APPLY"
+    },
+    {
+      "capture_path": "captures/TRY-F-02",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/49/a1/capture/gpt-6-astra/TRY-F-02/r1/workspace/answer.md": "bea7a6fe7b31f546cf705260aa4ff8f38cf3a2f5e7da3f6ea5b124774f4415c8"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/49/a1/capture/gpt-6-astra/TRY-F-02/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/49/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-F-02"
+    },
+    {
+      "capture_path": "captures/TRY-G-01",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/subset40-astra-additional20-20261009-214742/attempts/9/a1/capture/gpt-6-astra/TRY-G-01/r1/workspace/answer.md": "36b1a1938ae0157fdf11fa39487c01bb3490f79ad1d5a2a25bb64fc2a5920a8b"
+        },
+        "campaign": "subset40-astra-additional20-20261009-214742",
+        "capture": "runs/subset40-astra-additional20-20261009-214742/attempts/9/a1/capture/gpt-6-astra/TRY-G-01/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/9/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-G-01"
+    },
+    {
+      "capture_path": "captures/TRY-G-02",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/subset40-astra-additional20-20261009-214742/attempts/8/a1/capture/gpt-6-astra/TRY-G-02/r1/workspace/answer.md": "fef147cfbb6019820b6c693d39ead96c985efa351fdf6d32cb43978f5b74b0f0"
+        },
+        "campaign": "subset40-astra-additional20-20261009-214742",
+        "capture": "runs/subset40-astra-additional20-20261009-214742/attempts/8/a1/capture/gpt-6-astra/TRY-G-02/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/8/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-G-02"
+    },
+    {
+      "capture_path": "captures/BY-H-APPLY",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/41/a1/capture/gpt-6-astra/BY-H-APPLY/r1/workspace/answer.md": "17c29fb7f5902f9833816958f3863f8c5d7aee8726f10edb72f2cf1f6b872f8f"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/41/a1/capture/gpt-6-astra/BY-H-APPLY/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/41/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-H-APPLY"
+    },
+    {
+      "capture_path": "captures/BY-A-OFFER",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/46/a1/capture/gpt-6-astra/BY-A-OFFER/r1/workspace/answer.md": "2101590929fdc76dcd4e59deed6a62a2d6b242880d89dcce63b9df1627a26f9f"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/46/a1/capture/gpt-6-astra/BY-A-OFFER/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/46/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-A-OFFER"
+    },
+    {
+      "capture_path": "captures/BY-E-REPLAN",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/48/a1/capture/gpt-6-astra/BY-E-REPLAN/r1/workspace/answer.md": "fd99173fcaa03f08a98d75b64b8c83889d36c78fabc7fd6a73574f37f5ee8bbb"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/48/a1/capture/gpt-6-astra/BY-E-REPLAN/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/48/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-E-REPLAN"
+    },
+    {
+      "capture_path": "captures/BY-E-PREP",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/subset40-astra-additional20-20261009-214742/attempts/6/a1/capture/gpt-6-astra/BY-E-PREP/r1/workspace/answer.md": "fd9e86c6f8b6e0da8f3c8555f31ad01045f6e8f8d70538d8cf841c2952ea8ae7"
+        },
+        "campaign": "subset40-astra-additional20-20261009-214742",
+        "capture": "runs/subset40-astra-additional20-20261009-214742/attempts/6/a1/capture/gpt-6-astra/BY-E-PREP/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/6/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-E-PREP"
+    },
+    {
+      "capture_path": "captures/N02-01",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/50/a1/capture/gpt-6-astra/N02-01/r1/workspace/answer.md": "ee64937aaa6a83aeb41c37361dbfcc97daa4eb7e39ec08935372ad08061deb6d"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/50/a1/capture/gpt-6-astra/N02-01/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/50/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N02-01"
+    },
+    {
+      "capture_path": "captures/N02-03",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/subset40-astra-additional20-20261009-214742/attempts/10/a1/capture/gpt-6-astra/N02-03/r1/workspace/answer.md": "80e3d1d49663f43a4d916fc053ed9f0134bbd9937c8aee6b9d1d1e85178b81d5"
+        },
+        "campaign": "subset40-astra-additional20-20261009-214742",
+        "capture": "runs/subset40-astra-additional20-20261009-214742/attempts/10/a1/capture/gpt-6-astra/N02-03/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/10/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N02-03"
+    },
+    {
+      "capture_path": "captures/N03-02",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/51/a1/capture/gpt-6-astra/N03-02/r1/workspace/answer.md": "f154c3ce5e5cf2aa860a84d4f79e98d9ff085603656494efe18f45882f219666"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/51/a1/capture/gpt-6-astra/N03-02/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/51/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N03-02"
+    },
+    {
+      "capture_path": "captures/N04-03",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/42/a1/capture/gpt-6-astra/N04-03/r1/workspace/answer.md": "9d55e06a3b5b2a17971018e0a56df1cea525898313404539e91c57f23e134036"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/42/a1/capture/gpt-6-astra/N04-03/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/42/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N04-03"
+    },
+    {
+      "capture_path": "captures/N06-02",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/subset40-astra-additional20-20261009-214742/attempts/12/a1/capture/gpt-6-astra/N06-02/r1/workspace/answer.md": "9ccc10619c96ec16bc927e210b89a586ddb3bcee09b18e9d4b386d304d200fd2"
+        },
+        "campaign": "subset40-astra-additional20-20261009-214742",
+        "capture": "runs/subset40-astra-additional20-20261009-214742/attempts/12/a1/capture/gpt-6-astra/N06-02/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/12/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N06-02"
+    },
+    {
+      "capture_path": "captures/N06-03",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/43/a1/capture/gpt-6-astra/N06-03/r1/workspace/answer.md": "f7a052948c6a66b1c7ea2c98acf4a305f5d2bd610f3afdc1d4217620a53ae9ea"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/43/a1/capture/gpt-6-astra/N06-03/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/43/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N06-03"
+    },
+    {
+      "capture_path": "captures/N07-01",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/52/a1/capture/gpt-6-astra/N07-01/r1/workspace/answer.md": "64e5aa56cb2ad44ad55fcd093885b2eb047058182cf356e8ec89d0551a647642"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/52/a1/capture/gpt-6-astra/N07-01/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/52/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N07-01"
+    },
+    {
+      "capture_path": "captures/N07-03",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/subset40-astra-additional20-20261009-214742/attempts/13/a1/capture/gpt-6-astra/N07-03/r1/workspace/answer.md": "973fd2e45c98c636a7218b8eaa21094659b826f73a5485f7feeff06917b5d088"
+        },
+        "campaign": "subset40-astra-additional20-20261009-214742",
+        "capture": "runs/subset40-astra-additional20-20261009-214742/attempts/13/a1/capture/gpt-6-astra/N07-03/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/13/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N07-03"
+    },
+    {
+      "capture_path": "captures/N08-03",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/subset40-astra-additional20-20261009-214742/attempts/14/a1/capture/gpt-6-astra/N08-03/r1/workspace/answer.md": "348fa98541ba905b37b4d1a905c0fa03c3b058e67ab9863b9150f6a671d5ad09"
+        },
+        "campaign": "subset40-astra-additional20-20261009-214742",
+        "capture": "runs/subset40-astra-additional20-20261009-214742/attempts/14/a1/capture/gpt-6-astra/N08-03/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/14/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N08-03"
+    },
+    {
+      "capture_path": "captures/N10-01",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/53/a1/capture/gpt-6-astra/N10-01/r1/workspace/answer.md": "9dd7da7e894bd8b6550b0fd31a9df1de7662333ecd2547571931ad7cf07191b0"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/53/a1/capture/gpt-6-astra/N10-01/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/53/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N10-01"
+    },
+    {
+      "capture_path": "captures/N11-03",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/44/a1/capture/gpt-6-astra/N11-03/r1/workspace/answer.md": "4b6d1e54c4927e81cd2fdfb387ff74a6b1d79e15abdf20ed9f6d7d2319b5b308"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/44/a1/capture/gpt-6-astra/N11-03/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/44/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N11-03"
+    },
+    {
+      "capture_path": "captures/N13-02",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/54/a1/capture/gpt-6-astra/N13-02/r1/workspace/answer.md": "daa9bc33e2250fdf96569c75b91281f9faa1592ffbdfa28d6c31061053071a7f"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/54/a1/capture/gpt-6-astra/N13-02/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/54/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N13-02"
+    },
+    {
+      "capture_path": "captures/N13-03",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/subset40-astra-additional20-20261009-214742/attempts/18/a1/capture/gpt-6-astra/N13-03/r1/workspace/answer.md": "0ff4a755ac645856242a99a9821f1021f87f80ad18c59b7e303f5286692aac4b"
+        },
+        "campaign": "subset40-astra-additional20-20261009-214742",
+        "capture": "runs/subset40-astra-additional20-20261009-214742/attempts/18/a1/capture/gpt-6-astra/N13-03/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/18/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N13-03"
+    },
+    {
+      "capture_path": "captures/N14-02",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/subset40-astra-additional20-20261009-214742/attempts/19/a1/capture/gpt-6-astra/N14-02/r1/workspace/answer.md": "4709acf34c91ed13ad7201339606b69eaf72d19e0b35187f932b4114ef0ec50a"
+        },
+        "campaign": "subset40-astra-additional20-20261009-214742",
+        "capture": "runs/subset40-astra-additional20-20261009-214742/attempts/19/a1/capture/gpt-6-astra/N14-02/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/19/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N14-02"
+    },
+    {
+      "capture_path": "captures/N14-03",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/45/a1/capture/gpt-6-astra/N14-03/r1/workspace/answer.md": "024a94bf91c3b2fbdfe3d81845c2d1fec94a658348c54de20494ad8a6d4293f1"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/45/a1/capture/gpt-6-astra/N14-03/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/45/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N14-03"
+    },
+    {
+      "capture_path": "captures/N15-01",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/55/a1/capture/gpt-6-astra/N15-01/r1/workspace/answer.md": "6e1b664ac79abef649999c7fbd7296a8bf38e5465dfd8e3982305379d33ba518"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/55/a1/capture/gpt-6-astra/N15-01/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/55/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N15-01"
+    },
+    {
+      "capture_path": "captures/N01-02",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/57/a1/capture/stages/S0/answer.md": "e09c6772d8c724b7bb8cc18a9317b1def0f6ee8b64235059b98bbbbaf7877e0a",
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/57/a1/capture/stages/S1/answer.md": "fdfc96675f78ce31da734ea3bc8bd2521c94231de9b6350c7aa0bc719507630b"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/57/a1/capture",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/57/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N01-02"
+    },
+    {
+      "capture_path": "captures/N05-02",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/subset40-astra-additional20-20261009-214742/attempts/11/a1/capture/stages/S0/answer.md": "737b0ec7097ce2ebf4198452e5370dde7b934bac193aaa78a8f944c9944a1da6",
+          "runs/subset40-astra-additional20-20261009-214742/attempts/11/a1/capture/stages/S1/answer.md": "d2af56e1a457393d722538621c36e4f6f193c887205a857ed5ca799fe85bbc5a"
+        },
+        "campaign": "subset40-astra-additional20-20261009-214742",
+        "capture": "runs/subset40-astra-additional20-20261009-214742/attempts/11/a1/capture",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/11/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N05-02"
+    },
+    {
+      "capture_path": "captures/N08-02",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/58/a1/capture/stages/S0/answer.md": "703fba3a391d11803ed795f4d568b8789db122c5f3eb4a16785de404227fec9f",
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/58/a1/capture/stages/S1/answer.md": "9b87bf3329df9c681b5eeb91363ec62e9c95a64cc0d3f3e8ce25caf6ad53751b"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/58/a1/capture",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/58/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N08-02"
+    },
+    {
+      "capture_path": "captures/N09-02",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/subset40-astra-additional20-20261009-214742/attempts/15/a1/capture/stages/S0/answer.md": "08f1d95f09d1653e7b24b6f4c890643fe81dc396a71f282d5a020be071b60535",
+          "runs/subset40-astra-additional20-20261009-214742/attempts/15/a1/capture/stages/S1/answer.md": "0e30df6f1c6c9ee881fb5613e54b77308f7be5c7d86d218fa2e95fba4ae1279d"
+        },
+        "campaign": "subset40-astra-additional20-20261009-214742",
+        "capture": "runs/subset40-astra-additional20-20261009-214742/attempts/15/a1/capture",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/15/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N09-02"
+    },
+    {
+      "capture_path": "captures/N11-02",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/subset40-astra-additional20-20261009-214742/attempts/16/a1/capture/stages/S0/answer.md": "3c61ce3008c14a47bd0981878c5556d35c31adcc370a2f812444c27155ce2ca0",
+          "runs/subset40-astra-additional20-20261009-214742/attempts/16/a1/capture/stages/S1/answer.md": "994edd7d5af386c60a75d8a98a6d8bf776e984249e535e2671eb93e8f0c3de3c"
+        },
+        "campaign": "subset40-astra-additional20-20261009-214742",
+        "capture": "runs/subset40-astra-additional20-20261009-214742/attempts/16/a1/capture",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/16/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N11-02"
+    },
+    {
+      "capture_path": "captures/N12-02",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/subset40-astra-additional20-20261009-214742/attempts/17/a1/capture/stages/S0/answer.md": "104acdfbd56bcad43507d63a4144bafa41f0ac699449ac3ad6cc1fa2eed60408",
+          "runs/subset40-astra-additional20-20261009-214742/attempts/17/a1/capture/stages/S1/answer.md": "5e180d1ec61c01aff18539e94eec0b3e716038a0dff84981e8e514baf371455a"
+        },
+        "campaign": "subset40-astra-additional20-20261009-214742",
+        "capture": "runs/subset40-astra-additional20-20261009-214742/attempts/17/a1/capture",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/17/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N12-02"
+    },
+    {
+      "capture_path": "captures/N16-02",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/59/a1/capture/stages/S0/answer.md": "abac183192f0563ad7129804bf9ae782cd62f1f188fd79fc59020bebdefb1ebf",
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/59/a1/capture/stages/S1/answer.md": "e3597adae4ea93dc987db70285d250eca43406bf2bc3738041383c47e9c39d1a"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/59/a1/capture",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/59/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N16-02"
+    },
+    {
+      "capture_path": "captures/O04-04",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/56/a1/capture/stages/S0/answer.md": "4b3b4d0fa27d06a875fc3dd1e6bebab271379076f52ba0e76e9423cda8af1ce9",
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/56/a1/capture/stages/S1/answer.md": "2143661a73b9b5d4605eb4e1b09cbf6b195e12a1e72edd30471e72f22227b40a"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/56/a1/capture",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/56/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "O04-04"
+    }
+  ],
+  "review_status": "historical_capture_verified",
+  "schema": "community-execution-record.1",
+  "scored": false
+}

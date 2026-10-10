@@ -1,0 +1,522 @@
+{
+  "id": "pending-evidence-20261010",
+  "kind": "evidence_adjudication_without_rubric_change",
+  "base_report": "experiments/subset20-results-departments-corrected-20261010",
+  "base_results_sha256": "57fcb3bccf09752979e5a7c8e78942a085e03ed7f7cc9dbbdcc662ec70333f45",
+  "base_verification_sha256": "477971a01198d76578e0835c08c621d27815e19bc8c3b538f93bce204897b043",
+  "authorization": "用户要求：查完了重新评下分。",
+  "sources": {
+    "HKUST": {
+      "source": "https://prog-crs.hkust.edu.hk/pgprog/2026-27",
+      "applicable_cycle": "2026/27 programme catalogue",
+      "scope": "完整香港校区研究生目录未列MSc Intelligent Autonomous Systems；不能将MSc AI或广州Robotics and Autonomous Systems研究型MPhil/PhD等同于该授课硕士。"
+    },
+    "UIBE": {
+      "source": "http://yjsy.uibe.edu.cn/cms/infoSingleArticle.do?articleId=7864&columnId=2398",
+      "applicable_cycle": "2027推免；2026-08-26发布、9月3日更新",
+      "scope": "本届接收推免通知明确排除审计MAud等非全日制专业。"
+    },
+    "NJUST": {
+      "source": "https://yz.chsi.com.cn/tm/tjbf/detail?schCode=10288&zsgsId=3545934479",
+      "applicable_cycle": "2027推免推荐办法；2026-09-14",
+      "scope": "普通课程成绩前40%，学业权重至少85%；特殊学术专长前50%另有成果及答辩要求。存在工程硕博改革、国防科工补偿、研支团，但未建立答卷全部专项名称等价关系或通用30%～50%放宽。"
+    },
+    "USTB": {
+      "source": "https://iet.ustb.edu.cn/gydt/tzgg1/2b3fab5036a044cba3477bf33be4c739.htm",
+      "applicable_cycle": "2027推免；2026-08-21",
+      "scope": "工程技术研究院下高效轧制与智能制造国家工程研究中心独立招生，机械/控制相关学科接收推免；支持学校与方向提名，不证明智能制造研究院为正式单位名。"
+    },
+    "NUS": {
+      "source": "https://scale.nus.edu.sg/docs/default-source/graduate-programmes/international-postgraduate-guide/nus-international-postgraduate-guide.pdf",
+      "applicable_cycle": "International Postgraduate Guide 2025，PDF第19页、印刷34—35页",
+      "scope": "MComp（包括AI专门化）托福90；85出现在MSc Computer Engineering条目。结合现行MComp AI页面90，不能支持答卷合并计算硕士路径的85门槛。旧专门化最后一届2025年1月；历史指南不单独证明新AI项目2026全部条件。"
+    },
+    "NUS-current": {
+      "source": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-ai/admissions/",
+      "applicable_cycle": "现行页面，仅与2025指南交叉核对",
+      "scope": "TOEFL旧量表90；不把2026之后新量表反推2025咨询时点。"
+    },
+    "HKBU": {
+      "source": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-data-analytics-and-artificial-intelligence",
+      "applicable_cycle": "现行页面；2026历史六级等效资格仍未证实",
+      "scope": "IELTS6.0/TOEFL74及其他等效资格；不能将AIDM的CET6 450自动移植给DAAI，也不能据未列证明绝不接受。"
+    }
+  },
+  "adjudications": [
+    {
+      "agent": "deepseek-v4-1-flash",
+      "task_id": "BY-E-REPLAN",
+      "packet": "5803e86212cea7626bd29ac1e01f7212",
+      "base_judgment_sha256": "708eb5bcf8d3fc0c247d1792c38626119c694f066d60d01768694b8002cc9892",
+      "base_score_sha256": "bf0263609104da24b5c55494fd5190a3d3d6920fe5f2154b3fe883df32e14f24",
+      "source_ids": [
+        "NUS",
+        "NUS-current",
+        "HKBU"
+      ],
+      "patches": {
+        "nodes": [
+          {
+            "answer_quote": "- **选雅思还是托福**：港新普遍同时接受，但许多项目的分数线并不对称——例如 NTU MSc AI 是\"雅思6.5 **或** 托福100\"，对中国学生而言雅思通常更容易在短时间内达到等效线。**建议主攻雅思。**\n- **目标**：**雅思总分6.5、单项不低于6.0 为保底；冲7.0** 以匹配港三热门项目。注意竞争线往往高于官方线——有统计显示 NTU AI 项目录取者中约72%雅思≥7.0。\n- **时间表**：**7月下旬立刻报名**；8月下旬—9月初首考；若未达标，10月二考（可选机考加快出分与场次）。雅思出分约13天，送分另需时间，**务必在11月前拿到可用成绩**，以赶上11月—1月第一轮截止。\n- **六级509的角色**：可作为过渡与保底——CityU（多数专业450，且不设有效期）、HKBU（450，含 AI 与数字媒体方向）、岭南大学（450+口语B）、澳门大学（430）、澳门科技大学等。但 **HKU、CUHK、HKUST、PolyU 不接受六级**，所以六级不能替代雅思。\n- **注意有效期与送分**：雅思/托福通常2年有效；部分学校对六级也有有效期要求（如香港教育大学要求2年内）。申请前逐校核对，并预留官方送分时间。",
+            "error_ids": [
+              "ERR-L1"
+            ],
+            "grade": "pending",
+            "id": "BY-E-REPLAN-R10-05",
+            "reason": "已有具体语言考试、首考复考、有效期和送分安排。NUS计算硕士合并路径托福85已依据2025官方指南与现行AI页面确认为错误（ERR-L1）；该争议不再待核。仍待核的唯一问题是HKBU DAAI在2026申请周期是否认可CET6 450等效资格：现页仅列IELTS6.0/TOEFL74及其他等效资格，不能挪用AIDM条款或把未列当拒绝。保留05 pending，不假定DAAI适用；冻结评分器仍按完整10分节点给出保守区间，该上界不代表已确认错误可得满分。"
+          }
+        ],
+        "coverage": [],
+        "recommendation_review": [
+          {
+            "answer_item_id": "A037",
+            "canonical_candidate_key": "nus-mcomp-ai-path-group",
+            "school_key": "nus",
+            "label": "NUS MComp / MComp in AI 合并计算硕士路径",
+            "answer_quote": "| NUS Master of Computing（含 AI 方向）/ Master of Computing in AI（授课型） | 通常雅思6.0/托福85（以官网为准） | 秋季约每年10月开放、次年初截止；**春季（1月）约7月1日—8月31日** | 以官网为准 |",
+            "treatment": "direct",
+            "validity": "valid",
+            "reason": "真实计算硕士AI申请对象成立；合并路径的托福85门槛错误见ERR-L1。valid仅确认候选身份，不表示全部条件正确；旧专门化不另计独立2026项目。",
+            "error_ids": [
+              "ERR-L1"
+            ],
+            "evidence": [
+              {
+                "source": "https://scale.nus.edu.sg/docs/default-source/graduate-programmes/international-postgraduate-guide/nus-international-postgraduate-guide.pdf",
+                "applicable_cycle": "International Postgraduate Guide 2025，PDF第19页、印刷34—35页",
+                "scope": "MComp（包括AI专门化）托福90；85出现在MSc Computer Engineering条目。结合现行MComp AI页面90，不能支持答卷合并计算硕士路径的85门槛。旧专门化最后一届2025年1月；历史指南不单独证明新AI项目2026全部条件。"
+              },
+              {
+                "source": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-ai/admissions/",
+                "applicable_cycle": "现行页面，仅与2025指南交叉核对",
+                "scope": "TOEFL旧量表90；不把2026之后新量表反推2025咨询时点。"
+              }
+            ]
+          },
+          {
+            "answer_item_id": "A038",
+            "canonical_candidate_key": "nus-mcomp-ai-path-group",
+            "school_key": "nus",
+            "label": "NUS MComp / MComp in AI 合并计算硕士路径",
+            "answer_quote": "   - 最近窗口：**2026年1月春季入学**。NUS、NTU部分硕士项目申请期约为 **2025年7月1日—8月31日**，现在只剩约6周。",
+            "treatment": "direct",
+            "validity": "valid",
+            "reason": "真实计算硕士AI申请对象成立；合并路径的托福85门槛错误见ERR-L1。valid仅确认候选身份，不表示全部条件正确；旧专门化不另计独立2026项目。",
+            "error_ids": [
+              "ERR-L1"
+            ],
+            "evidence": [
+              {
+                "source": "https://scale.nus.edu.sg/docs/default-source/graduate-programmes/international-postgraduate-guide/nus-international-postgraduate-guide.pdf",
+                "applicable_cycle": "International Postgraduate Guide 2025，PDF第19页、印刷34—35页",
+                "scope": "MComp（包括AI专门化）托福90；85出现在MSc Computer Engineering条目。结合现行MComp AI页面90，不能支持答卷合并计算硕士路径的85门槛。旧专门化最后一届2025年1月；历史指南不单独证明新AI项目2026全部条件。"
+              },
+              {
+                "source": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-ai/admissions/",
+                "applicable_cycle": "现行页面，仅与2025指南交叉核对",
+                "scope": "TOEFL旧量表90；不把2026之后新量表反推2025咨询时点。"
+              }
+            ]
+          },
+          {
+            "answer_item_id": "A039",
+            "canonical_candidate_key": "nus-mcomp-ai-path-group",
+            "school_key": "nus",
+            "label": "NUS MComp / MComp in AI 合并计算硕士路径",
+            "answer_quote": "- **2026年1月春季**：NUS（计算机、工程等方向）与 NTU 部分硕士项目的春季申请期约为 **2025年7月1日—8月31日**。此刻只剩约6周，而你尚无雅思/托福。要在6周内完成\"报名—考试—出分—送分—文书—递交\"几乎不现实。",
+            "treatment": "direct",
+            "validity": "valid",
+            "reason": "真实计算硕士AI申请对象成立；合并路径的托福85门槛错误见ERR-L1。valid仅确认候选身份，不表示全部条件正确；旧专门化不另计独立2026项目。",
+            "error_ids": [
+              "ERR-L1"
+            ],
+            "evidence": [
+              {
+                "source": "https://scale.nus.edu.sg/docs/default-source/graduate-programmes/international-postgraduate-guide/nus-international-postgraduate-guide.pdf",
+                "applicable_cycle": "International Postgraduate Guide 2025，PDF第19页、印刷34—35页",
+                "scope": "MComp（包括AI专门化）托福90；85出现在MSc Computer Engineering条目。结合现行MComp AI页面90，不能支持答卷合并计算硕士路径的85门槛。旧专门化最后一届2025年1月；历史指南不单独证明新AI项目2026全部条件。"
+              },
+              {
+                "source": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-ai/admissions/",
+                "applicable_cycle": "现行页面，仅与2025指南交叉核对",
+                "scope": "TOEFL旧量表90；不把2026之后新量表反推2025咨询时点。"
+              }
+            ]
+          },
+          {
+            "answer_item_id": "A040",
+            "canonical_candidate_key": "nus-mcomp-ai-path-group",
+            "school_key": "nus",
+            "label": "NUS MComp / MComp in AI 合并计算硕士路径",
+            "answer_quote": "- 若语言已达标且材料齐备，可顺带评估 NUS/NTU 春季（8/31截止）——但通常来不及。",
+            "treatment": "direct",
+            "validity": "valid",
+            "reason": "真实计算硕士AI申请对象成立；合并路径的托福85门槛错误见ERR-L1。valid仅确认候选身份，不表示全部条件正确；旧专门化不另计独立2026项目。",
+            "error_ids": [
+              "ERR-L1"
+            ],
+            "evidence": [
+              {
+                "source": "https://scale.nus.edu.sg/docs/default-source/graduate-programmes/international-postgraduate-guide/nus-international-postgraduate-guide.pdf",
+                "applicable_cycle": "International Postgraduate Guide 2025，PDF第19页、印刷34—35页",
+                "scope": "MComp（包括AI专门化）托福90；85出现在MSc Computer Engineering条目。结合现行MComp AI页面90，不能支持答卷合并计算硕士路径的85门槛。旧专门化最后一届2025年1月；历史指南不单独证明新AI项目2026全部条件。"
+              },
+              {
+                "source": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-ai/admissions/",
+                "applicable_cycle": "现行页面，仅与2025指南交叉核对",
+                "scope": "TOEFL旧量表90；不把2026之后新量表反推2025咨询时点。"
+              }
+            ]
+          }
+        ],
+        "errors": [
+          {
+            "id": "ERR-L1",
+            "answer_quote": "| NUS Master of Computing（含 AI 方向）/ Master of Computing in AI（授课型） | 通常雅思6.0/托福85（以官网为准） | 秋季约每年10月开放、次年初截止；**春季（1月）约7月1日—8月31日** | 以官网为准 |",
+            "reason": "2025官方指南MComp含AI列托福90，85属于MSc Computer Engineering；现行新MComp AI亦为90。答卷将两个计算硕士路径合并写通常托福85不成立。只记语言节点05，不否定真实项目身份，不另罚地区或执行节点。",
+            "evidence": [
+              {
+                "source": "https://scale.nus.edu.sg/docs/default-source/graduate-programmes/international-postgraduate-guide/nus-international-postgraduate-guide.pdf",
+                "applicable_cycle": "International Postgraduate Guide 2025，PDF第19页、印刷34—35页",
+                "scope": "MComp（包括AI专门化）托福90；85出现在MSc Computer Engineering条目。结合现行MComp AI页面90，不能支持答卷合并计算硕士路径的85门槛。旧专门化最后一届2025年1月；历史指南不单独证明新AI项目2026全部条件。"
+              },
+              {
+                "source": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-ai/admissions/",
+                "applicable_cycle": "现行页面，仅与2025指南交叉核对",
+                "scope": "TOEFL旧量表90；不把2026之后新量表反推2025咨询时点。"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "BY-E-REPLAN",
+      "packet": "7412e94e5f674eec5854383faada97d3",
+      "base_judgment_sha256": "a32ad1c2eb69d98a09e830c089c15ca77d1b0b6387456403c3b974511f167289",
+      "base_score_sha256": "a978ecf776679e3556ac6ec8d499eb66123908d514f759e2c776f5a3e2c85a05",
+      "source_ids": [
+        "HKUST"
+      ],
+      "patches": {
+        "nodes": [
+          {
+            "answer_quote": "结合此前表达的“港新优先”意向，以及家庭预算、学制时长和学科声誉，建立“冲刺-核心主申-稳健保底”三层阶梯矩阵。",
+            "error_ids": [
+              "E-GUARANTEE",
+              "E-NUS-NAME",
+              "E-ISS-NAME",
+              "E-HKU-NAME",
+              "E-HKUST-IAS"
+            ],
+            "grade": 0.5,
+            "id": "BY-E-REPLAN-R10-02",
+            "reason": "落实港新优先及授课/研究路径，存在具体且正确的分层组合；但录取保证、若干学位误称及HKUST虚构授课硕士E-HKUST-IAS破坏项目准确性，按冻结三档规则判半分。2026/27完整官方目录已排除所称项目，不能以MSc AI或广州研究型MPhil替换答卷名称。错误集中计入本项，其他节点不重复扣分。"
+          }
+        ],
+        "coverage": [],
+        "recommendation_review": [
+          {
+            "answer_item_id": "A15",
+            "canonical_candidate_key": "HKUST:ias-disputed",
+            "school_key": "HKUST",
+            "label": "HKUST MSc Intelligent Autonomous Systems（目录不支持的项目）",
+            "answer_quote": "`MSc in Intelligent Autonomous Systems`",
+            "treatment": "direct",
+            "validity": "invalid",
+            "reason": "2026/27完整香港校区研究生项目目录不含MSc Intelligent Autonomous Systems。MSc Artificial Intelligence与广州Robotics and Autonomous Systems的MPhil/PhD均不是该名称/学位的等价项目。具体申请对象身份错误；仅归地区与路径节点02，不整题归零。",
+            "error_ids": [
+              "E-HKUST-IAS"
+            ],
+            "review_evidence_ids": [
+              "HKUST-CSE",
+              "HKUST-CATALOG"
+            ],
+            "evidence": [
+              {
+                "source": "https://prog-crs.hkust.edu.hk/pgprog/2026-27",
+                "applicable_cycle": "2026/27 programme catalogue",
+                "scope": "完整香港校区研究生目录未列MSc Intelligent Autonomous Systems；不能将MSc AI或广州Robotics and Autonomous Systems研究型MPhil/PhD等同于该授课硕士。"
+              }
+            ]
+          }
+        ],
+        "errors": [
+          {
+            "id": "E-HKUST-IAS",
+            "answer_quote": "`MSc in Intelligent Autonomous Systems`",
+            "reason": "2026/27完整香港校区研究生项目目录不含MSc Intelligent Autonomous Systems。MSc Artificial Intelligence与广州Robotics and Autonomous Systems的MPhil/PhD均不是该名称/学位的等价项目。具体申请对象身份错误；仅归地区与路径节点02，不整题归零。",
+            "evidence": [
+              {
+                "source": "https://prog-crs.hkust.edu.hk/pgprog/2026-27",
+                "applicable_cycle": "2026/27 programme catalogue",
+                "scope": "完整香港校区研究生目录未列MSc Intelligent Autonomous Systems；不能将MSc AI或广州Robotics and Autonomous Systems研究型MPhil/PhD等同于该授课硕士。"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "agent": "antigravity-gemini-3-1-pro-high",
+      "task_id": "N14-03",
+      "packet": "2ab9c25b656767c4527c85f9b875aeda",
+      "base_judgment_sha256": "ec8ab10d0266f72a9b5644efd6022c6b5beb3991f2b923da501e623135a2c775",
+      "base_score_sha256": "3b8f321457744f46c062fbe2b50f8fe5f5951a77233e253fab7ebf44711883c5",
+      "source_ids": [
+        "UIBE"
+      ],
+      "patches": {
+        "nodes": [
+          {
+            "answer_quote": "二、 核心档：中坚985与强势财经211（建议作为主攻方向）",
+            "error_ids": [],
+            "grade": 0.5,
+            "id": "execution",
+            "reason": "已有冲刺选部分、核心主攻、稳妥重点保底的具体优先排序，满足半分；缺少实际申请批次、导师联系及条件核验动作，未达满分。MAud错误已仅在N14-L1-02扣分，本项依据独立的行动缺项判半分，不重复扣该错误。"
+          }
+        ],
+        "coverage": [
+          {
+            "answer_quote": "对外经济贸易大学 - 国际商学院 - 会计学 / 审计专硕（MAud）",
+            "error_ids": [
+              "E06"
+            ],
+            "id": "N14-L1-02",
+            "matched_answer_item_id": null,
+            "matches": [],
+            "reason": "没有推荐国际经济贸易学院国际商务/金融。剩余MAud候选被2027官方推免通知明确排除，不能建立有效跨院系匹配，判miss。会计学停招E01仍只归原reasons，不在本项重复扣分。",
+            "status": "miss"
+          }
+        ],
+        "recommendation_review": [
+          {
+            "answer_item_id": "A06b",
+            "canonical_candidate_key": "对外经济贸易大学|国际商学院|maud",
+            "school_key": "对外经济贸易大学",
+            "label": "对外经济贸易大学｜国际商学院｜审计专硕（MAud）",
+            "answer_quote": "对外经济贸易大学 - 国际商学院 - 会计学 / 审计专硕（MAud）",
+            "treatment": "direct",
+            "validity": "invalid",
+            "reason": "贸大2027接收推免官方通知明确排除MAud等非全日制专业，因此答卷将MAud直接列为本届推免主攻候选无效；只归N14-L1-02，不连带否定会计或其他学位。",
+            "error_ids": [
+              "E06"
+            ],
+            "evidence": [
+              {
+                "source": "http://yjsy.uibe.edu.cn/cms/infoSingleArticle.do?articleId=7864&columnId=2398",
+                "applicable_cycle": "2027推免；2026-08-26发布、9月3日更新",
+                "scope": "本届接收推免通知明确排除审计MAud等非全日制专业。"
+              }
+            ]
+          }
+        ],
+        "errors": [
+          {
+            "id": "E06",
+            "answer_quote": "对外经济贸易大学 - 国际商学院 - 会计学 / 审计专硕（MAud）",
+            "reason": "贸大2027接收推免官方通知明确排除MAud等非全日制专业，因此答卷将MAud直接列为本届推免主攻候选无效；只归N14-L1-02，不连带否定会计或其他学位。",
+            "evidence": [
+              {
+                "source": "http://yjsy.uibe.edu.cn/cms/infoSingleArticle.do?articleId=7864&columnId=2398",
+                "applicable_cycle": "2027推免；2026-08-26发布、9月3日更新",
+                "scope": "本届接收推免通知明确排除审计MAud等非全日制专业。"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "agent": "antigravity-gemini-3-8-flash-high",
+      "task_id": "N10-01",
+      "packet": "0f65020377cec663c3c2d48492b7efd9",
+      "base_judgment_sha256": "12e3d97f062c57274486b1abd2a5e4ad31ff4f28cdd4df12412bfd20d696ca7c",
+      "base_score_sha256": "b45d8bf58b82b8bc43b492c8811f317fff5778021e18c4043b7203aab9382bfb",
+      "source_ids": [
+        "NJUST",
+        "USTB"
+      ],
+      "patches": {
+        "nodes": [
+          {
+            "answer_quote": "* **明确折算权重**：南理工推免综合成绩通常由**“智育学业成绩（约占 80%~85%） + 综合发展性素质测评加分（约占 15%~20%）”**构成。",
+            "error_ids": [
+              "E4"
+            ],
+            "grade": "pending",
+            "id": "N10-01-T1",
+            "reason": "正确把校内资格作为首务，要求核对细则、综合分及成果截止；2027校规已确认普通课程成绩前40%、学业至少85%、其他最多15%，不支持答卷80%～85%加15%～20%及无依据名额/微小分差判断。特殊学术专长前50%另有严格成果与答辩要求，不能泛化为专项30%～50%兜底。工程硕博改革、国防科工补偿、研支团真实存在，但与答卷卓工/校企、国防领军/拔尖、辅导员合并名称的完整等价及本人的资格仍未确认。仅这些具体特殊通道适用性保留pending，已确认权重错误记录E4；冻结25分节点区间保留，不表示可达满分。"
+          },
+          {
+            "answer_quote": "* **顶尖行业 211**：北京科技大学（智能制造研究院）、北京交通大学、西安电子科技大学。",
+            "error_ids": [
+              "E3",
+              "E5"
+            ],
+            "grade": 0.5,
+            "id": "N10-01-T5",
+            "reason": "已有机械/控制方向、院校梯度、机械或电子信息专硕与夏令营/预推免批次及跟踪表，支持半分；北科大本届相关方向真实招生，学校提名不应归零，但单位称谓不准确（E5）。缺项目级名额、培养限制与当届条件适配，且导师绝对兜底错误（E3），不能满分。特殊通道资格仍仅在T1待核；即使该资格争议解决，本项已有正确方案及独立缺项仍固定为半分，不把同一争议重复悬挂。"
+          }
+        ],
+        "coverage": [],
+        "recommendation_review": [
+          {
+            "answer_item_id": "A001",
+            "canonical_candidate_key": "njust:excellence_enterprise_bundle",
+            "school_key": "南京理工大学",
+            "label": "国家卓越工程师学院专项/校企联合培养专项（合并）",
+            "answer_quote": "* **国家卓越工程师学院专项 / 校企联合培养专项**：面向智能制造、高端装备等国家战略急需产业，专硕指标多，排名要求相对宽松。",
+            "treatment": "direct",
+            "validity": "pending",
+            "reason": "2027校规确认工程硕博改革、国防科工补偿、研支团等真实专项，但不能证明本合并称谓所有路径等价或普通学生排名30%～50%即适用。具名资格路径争议仍pending，仅关联T1；不把真实计划一概判不存在。",
+            "error_ids": [],
+            "affected_node_ids": [
+              "N10-01-T1"
+            ],
+            "evidence": [
+              {
+                "source": "https://yz.chsi.com.cn/tm/tjbf/detail?schCode=10288&zsgsId=3545934479",
+                "applicable_cycle": "2027推免推荐办法；2026-09-14",
+                "scope": "普通课程成绩前40%，学业权重至少85%；特殊学术专长前50%另有成果及答辩要求。存在工程硕博改革、国防科工补偿、研支团，但未建立答卷全部专项名称等价关系或通用30%～50%放宽。"
+              }
+            ]
+          },
+          {
+            "answer_item_id": "A002",
+            "canonical_candidate_key": "njust:defense_innovation_bundle",
+            "school_key": "南京理工大学",
+            "label": "国防科技领军人才专项/拔尖创新人才专项（合并）",
+            "answer_quote": "* **国防科技领军人才专项 / 拔尖创新人才专项**：南理工具有深厚的国防军工底色，兵器、机械等相关领域有特定名额支持。",
+            "treatment": "direct",
+            "validity": "pending",
+            "reason": "2027校规确认工程硕博改革、国防科工补偿、研支团等真实专项，但不能证明本合并称谓所有路径等价或普通学生排名30%～50%即适用。具名资格路径争议仍pending，仅关联T1；不把真实计划一概判不存在。",
+            "error_ids": [],
+            "affected_node_ids": [
+              "N10-01-T1"
+            ],
+            "evidence": [
+              {
+                "source": "https://yz.chsi.com.cn/tm/tjbf/detail?schCode=10288&zsgsId=3545934479",
+                "applicable_cycle": "2027推免推荐办法；2026-09-14",
+                "scope": "普通课程成绩前40%，学业权重至少85%；特殊学术专长前50%另有成果及答辩要求。存在工程硕博改革、国防科工补偿、研支团，但未建立答卷全部专项名称等价关系或通用30%～50%放宽。"
+              }
+            ]
+          },
+          {
+            "answer_item_id": "A004",
+            "canonical_candidate_key": "njust:service_counselor_bundle",
+            "school_key": "南京理工大学",
+            "label": "研究生支教团/思政辅导员专项（合并条件备选）",
+            "answer_quote": "* **研究生支教团（研支团）/ 思政辅导员专项**：如果综合素质过硬，可作为备用兜底选项。",
+            "treatment": "conditional",
+            "validity": "pending",
+            "reason": "2027校规确认工程硕博改革、国防科工补偿、研支团等真实专项，但不能证明本合并称谓所有路径等价或普通学生排名30%～50%即适用。具名资格路径争议仍pending，仅关联T1；不把真实计划一概判不存在。",
+            "error_ids": [],
+            "key_condition": "答卷仅称综合素质过硬；实际还须查本届支教团或辅导员专项身份、资格条件及服务要求，并确认学生接受相应义务。",
+            "feasibility": "研支团存在，具备核验入口；答卷没有落实本届公告、服务选择或专项报名办法，尚未形成足够具体的可行方案，不将评审补充的核验要求冒充答卷已完成。",
+            "affected_node_ids": [
+              "N10-01-T1"
+            ],
+            "evidence": [
+              {
+                "source": "https://yz.chsi.com.cn/tm/tjbf/detail?schCode=10288&zsgsId=3545934479",
+                "applicable_cycle": "2027推免推荐办法；2026-09-14",
+                "scope": "普通课程成绩前40%，学业权重至少85%；特殊学术专长前50%另有成果及答辩要求。存在工程硕博改革、国防科工补偿、研支团，但未建立答卷全部专项名称等价关系或通用30%～50%放宽。"
+              }
+            ]
+          },
+          {
+            "answer_item_id": "A015",
+            "canonical_candidate_key": "ustb:claimed_smart_manufacturing_institute",
+            "school_key": "北京科技大学",
+            "label": "北京科技大学“智能制造研究院”（答卷称谓）",
+            "answer_quote": "│ 天津大学、重庆大学、湖南大学、大连理工大学、北京科技大学、西电   │",
+            "treatment": "direct",
+            "validity": "valid",
+            "reason": "作为机械/控制方向的北京科技大学学校提名成立：2027工程技术研究院相关中心明确接受推免。答卷单位名称不规范记E5，不把评审补查当成答卷已完成项目条件核验，也不声明两单位名正式等价。",
+            "error_ids": [
+              "E5"
+            ],
+            "affected_node_ids": [
+              "N10-01-T5"
+            ],
+            "evidence": [
+              {
+                "source": "https://iet.ustb.edu.cn/gydt/tzgg1/2b3fab5036a044cba3477bf33be4c739.htm",
+                "applicable_cycle": "2027推免；2026-08-21",
+                "scope": "工程技术研究院下高效轧制与智能制造国家工程研究中心独立招生，机械/控制相关学科接收推免；支持学校与方向提名，不证明智能制造研究院为正式单位名。"
+              }
+            ]
+          },
+          {
+            "answer_item_id": "A030",
+            "canonical_candidate_key": "ustb:claimed_smart_manufacturing_institute",
+            "school_key": "北京科技大学",
+            "label": "北京科技大学“智能制造研究院”（答卷称谓）",
+            "answer_quote": "* **顶尖行业 211**：北京科技大学（智能制造研究院）、北京交通大学、西安电子科技大学。",
+            "treatment": "direct",
+            "validity": "valid",
+            "reason": "作为机械/控制方向的北京科技大学学校提名成立：2027工程技术研究院相关中心明确接受推免。答卷单位名称不规范记E5，不把评审补查当成答卷已完成项目条件核验，也不声明两单位名正式等价。",
+            "error_ids": [
+              "E5"
+            ],
+            "affected_node_ids": [
+              "N10-01-T5"
+            ],
+            "evidence": [
+              {
+                "source": "https://iet.ustb.edu.cn/gydt/tzgg1/2b3fab5036a044cba3477bf33be4c739.htm",
+                "applicable_cycle": "2027推免；2026-08-21",
+                "scope": "工程技术研究院下高效轧制与智能制造国家工程研究中心独立招生，机械/控制相关学科接收推免；支持学校与方向提名，不证明智能制造研究院为正式单位名。"
+              }
+            ]
+          }
+        ],
+        "errors": [
+          {
+            "id": "E4",
+            "answer_quote": "* **明确折算权重**：南理工推免综合成绩通常由**“智育学业成绩（约占 80%~85%） + 综合发展性素质测评加分（约占 15%~20%）”**构成。",
+            "reason": "本届校规学业成绩权重至少85%、其余合计最多15%，不支持答卷通常80%～85%加15%～20%的泛化；普通前40%仅为申请门槛，不证明22/83处于18～20名额递补。只关联T1。",
+            "evidence": [
+              {
+                "source": "https://yz.chsi.com.cn/tm/tjbf/detail?schCode=10288&zsgsId=3545934479",
+                "applicable_cycle": "2027推免推荐办法；2026-09-14",
+                "scope": "普通课程成绩前40%，学业权重至少85%；特殊学术专长前50%另有成果及答辩要求。存在工程硕博改革、国防科工补偿、研支团，但未建立答卷全部专项名称等价关系或通用30%～50%放宽。"
+              }
+            ]
+          },
+          {
+            "id": "E5",
+            "answer_quote": "* **顶尖行业 211**：北京科技大学（智能制造研究院）、北京交通大学、西安电子科技大学。",
+            "reason": "官方招生主体为工程技术研究院下高效轧制与智能制造国家工程研究中心，答卷智能制造研究院不是已核实的规范名称。机械/控制方向及本届推免真实，学校方向提名保留，不按学校或全部相关项目不存在处理。仅归T5。",
+            "evidence": [
+              {
+                "source": "https://iet.ustb.edu.cn/gydt/tzgg1/2b3fab5036a044cba3477bf33be4c739.htm",
+                "applicable_cycle": "2027推免；2026-08-21",
+                "scope": "工程技术研究院下高效轧制与智能制造国家工程研究中心独立招生，机械/控制相关学科接收推免；支持学校与方向提名，不证明智能制造研究院为正式单位名。"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "scope": "复核七配置的BY-E-REPLAN、N10-01、N14-03共21份答卷。仅四份含上述待核争议需变更；其余17份未识别相同未处理错误，保持原判断。无新模型答题或独立模型评审。",
+  "remaining": [
+    "DeepSeek BY-E-REPLAN-R10-05：HKBU DAAI 2026六级450等效资格",
+    "Gemini 3.8 Flash N10-01-T1：部分校内特殊通道完整名称及适用关系"
+  ],
+  "captured_evidence": {
+    "hkust-2627.html": "de9c3295fd676cf131fad9bf059f5f5841411d8c152b9029c8d907264425d92d",
+    "hkust-catalog-results.html": "1cf27424b8cd644627cddc50145222f182766439bfb94c23f7b9a19a4d2a996c",
+    "hkust-prog.js": "96773daeedae81b0127f2ec692522d23a52f3e42357939401c43784f34b6621c",
+    "uibe-7864.html": "ccd75a4d4d2d8db15bab2b380fa06de5ef9fa749d10b27e4bb334cf7fa400d17",
+    "uibe-7864.txt": "5927d6b1f5811eb8ff64b45edac8a242fdd0292eb49bd98806f99b8e52b48b5c",
+    "njust-2027.html": "09e2697d097c7a7f11db9e38cf2b51b406d866e2881fcc28346193578cbd5802",
+    "njust-2027.txt": "607d44527ac03f5cfcc09ee12a3faaba074ee9b4223842a143db9ba19604d1a4",
+    "ustb-2027.html": "27e32f1ff71fc5dcecd0f07dfac1706d6a91138a571c22fd90bcd6585dbb6092",
+    "daai.html": "b2a79c25466796e160e4d4d244606b074c247036cd78e7f96b495d4428f7d6e1"
+  }
+}

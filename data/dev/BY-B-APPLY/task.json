@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-B",
+  "context": {
+    "observation": {
+      "评测时间": "2026年3月18日"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "medium",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "BY-B-APPLY",
+  "prompt": "我在南京信息工程大学读电气工程及其自动化，2026年3月排名3/156，四级602、六级575。推免资格尚未确认，汽车充电调度的EI论文还没录用，专利仍在审；参加过智慧精英、大学生英语竞赛和美赛。我以后想进电网、尽量离家近，最想去东南大学。能推荐15个学校、学院和具体电气方向项目的候选组合，并说说为什么吗？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "d0659164718aa4401c232230067e19019b5e772ba6b5e833a23575388cde0bdd",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "recommendation",
+  "task_version": "1.0.1"
+}

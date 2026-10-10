@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite this dataset and record the task version and release manifest fingerprint used in your evaluation."
+title: "Baoyan Agent Benchmark: Public Development Set"
+type: dataset
+version: "1.0.1"
+authors:
+  - name: "Baoyan Agent Benchmark contributors"
+license: "CC-BY-4.0"

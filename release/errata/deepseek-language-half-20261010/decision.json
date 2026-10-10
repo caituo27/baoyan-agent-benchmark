@@ -1,0 +1,92 @@
+{
+  "id": "deepseek-language-half-20261010",
+  "date": "2026-10-10T01:26:27+08:00",
+  "kind": "owner_node_score_overlay.1",
+  "authorization": [
+    "可以，更新吧",
+    "没有查到的不算分",
+    "如果是错误的就是误导，不算分",
+    "最终明确选择：未证实说法不给分，语言项保留5分"
+  ],
+  "scope": "DeepSeek BY-E-REPLAN-R10-05 only; half credit for concrete correct language preparation despite the confirmed threshold error; unverified claims earn no credit; other nodes and candidate facts unchanged.",
+  "base_report": "experiments/subset20-results-nine-ucas-20261010",
+  "base_results_sha256": "3235a29aec0468965d48657a8a60707e9f8ef2bf9a943c9ab31ab8ea6f389be8",
+  "base_verification_sha256": "985132f27924de427f8da2c014564951dff7bea63a0ddc92e83ed4d4ff62f9dc",
+  "agent": "deepseek-v4-1-flash",
+  "task_id": "BY-E-REPLAN",
+  "packet": "5803e86212cea7626bd29ac1e01f7212",
+  "node": "BY-E-REPLAN-R10-05",
+  "grade": 0.5,
+  "points": 5,
+  "max_points": 10,
+  "reason": "按用户最终明确选择“未证实说法不给分，语言项保留5分”：已有具体语言考试、首考复考、出分与送分安排，保留这些正确内容的半分；NUS计算硕士托福门槛85的已确认错误（官方为90）使本项不能满分。HKBU DAAI在2026周期是否认可六级450仍未证实，该说法不取得分数，也不据此声称已证实错误；此未决事实不改变已有正确内容与确定错误并存的半分档位。R10-05为5/10分，其他项不变。",
+  "confirmed_error": {
+    "id": "ERR-L1",
+    "answer_quote": "| NUS Master of Computing（含 AI 方向）/ Master of Computing in AI（授课型） | 通常雅思6.0/托福85（以官网为准） | 秋季约每年10月开放、次年初截止；**春季（1月）约7月1日—8月31日** | 以官网为准 |",
+    "reason": "2025官方指南MComp含AI列托福90，85属于MSc Computer Engineering；现行新MComp AI亦为90。答卷将两个计算硕士路径合并写通常托福85不成立。只记语言节点05，不否定真实项目身份，不另罚地区或执行节点。",
+    "evidence": [
+      {
+        "source": "https://scale.nus.edu.sg/docs/default-source/graduate-programmes/international-postgraduate-guide/nus-international-postgraduate-guide.pdf",
+        "applicable_cycle": "International Postgraduate Guide 2025，PDF第19页、印刷34—35页",
+        "scope": "MComp（包括AI专门化）托福90；85出现在MSc Computer Engineering条目。结合现行MComp AI页面90，不能支持答卷合并计算硕士路径的85门槛。旧专门化最后一届2025年1月；历史指南不单独证明新AI项目2026全部条件。"
+      },
+      {
+        "source": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-ai/admissions/",
+        "applicable_cycle": "现行页面，仅与2025指南交叉核对",
+        "scope": "TOEFL旧量表90；不把2026之后新量表反推2025咨询时点。"
+      }
+    ]
+  },
+  "unresolved_fact": {
+    "id": "HKBU-DAAI-CET6-2026",
+    "agent": "deepseek-v4-1-flash",
+    "task_id": "BY-E-REPLAN",
+    "status": "unverified",
+    "claim": "HKBU DAAI在2026入学申请周期接受六级450作为英语资格。",
+    "score_blocking": false,
+    "reason": "当前官方页面只列IELTS6.0、TOEFL74或其他等效资格；AIDM的六级450条款不能移植到DAAI。未证明2026历史接受或拒绝。本项依据正确具体语言安排与独立确认的NUS门槛错误裁决为半分；未证实说法不给分，事实未决不改变档位。",
+    "source": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-data-analytics-and-artificial-intelligence",
+    "candidate_records": [
+      "A025",
+      "A026",
+      "A027",
+      "A028"
+    ]
+  },
+  "prior_judgment_path": "reviews/subset20-evidence-adjudication-20261010/BY-E-REPLAN/5803e86212cea7626bd29ac1e01f7212/judgment.json",
+  "prior_judgment_sha256": "cf0c1ffbc8c7dc7108237fd4d8c7174d71c2bf29c975f34113d0401c7d9c1ca3",
+  "prior_score_sha256": "b1657aab89e67de9d721ad0ed8576c001a6540ba684689a4d745783683edfdfa",
+  "original_packet_hashes": {
+    "answer.md": "34419c95f157a0587024f3c84bf0ea3631140c6e13bc3dab4f28e29cb9b9c692",
+    "judgment-template.json": "3c838781ed8424288f97bcaab8586c42f54e8be404c81e192431fdce6c13b1e9",
+    "review-settings.json": "55193bd64a6eed86ce32d3ac3e389c7fcd3a932bfe492f90fdd35043c9ef66f2",
+    "rubric.json": "527dfb6b7fba252361e8dbc25133241ef5d3398e380fd6d6c54f4b70914024dc",
+    "scoring.md": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+    "task.json": "b7fcebca28322eb55179fbf69b74b8d9165666225642e5b8f3a1d71fdb5fe55c"
+  },
+  "before": {
+    "score": null,
+    "score_interval": [
+      72.5,
+      82.5
+    ],
+    "pending_nodes": [
+      "BY-E-REPLAN-R10-05"
+    ]
+  },
+  "after": {
+    "score": 77.5,
+    "score_interval": [
+      77.5,
+      77.5
+    ],
+    "pending_nodes": []
+  },
+  "frozen_scorer_replay": "Prior result replayed unchanged. Final score is an explicit owner-approved overlay, not direct frozen-scorer output.",
+  "candidate_reruns": 0,
+  "new_independent_model_reviews": 0,
+  "unchanged_answer_rows": 179,
+  "local_review_directory": "reviews/subset20-nine-language-half-20261010",
+  "report": "experiments/subset20-results-nine-final-20261010",
+  "adjudicator_sha256": "bf3830baac859daafc912f01e88bb7f54157c75403310a1f3458c31fd13fb3eb"
+}

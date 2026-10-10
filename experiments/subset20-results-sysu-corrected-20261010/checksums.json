@@ -1,0 +1,16 @@
+{
+  "exporter_sha256": "ba7d18fec2c20f5ab5781d6044d47026c5e0ba3ebc1df88b7e7f7c63d7d4cd16",
+  "adjudicator_sha256": "e8d2b367d72d6d08da86812bce36cff125f4d2636417c6193e64e6265045098b",
+  "files": {
+    "README.md": "1f5db61e1c9efdc70da2e6c7935d469cb28c62cd9230346bf058ce3e5b9b3d85",
+    "README.zh-CN.md": "1506a8775b5d53bb53a3792ab06518b5ce88e91676814b515b9f7598241f5e24",
+    "adjudication.json": "43005acb63ea495293547b219ac029ac9ee77d020f482da63168cd7ca566c6f6",
+    "execution-progress.json": "df9b064f00a22d406f051cbeb60b1ca33ea3d2b12c46bdd422e5167d3654dbb5",
+    "pending-review.md": "f82422dc5ee35e3f0fd5a36b8a3cae344fb1a1e8f4f64e071c4e3fe0f760c133",
+    "results.json": "ca59ab6ff357b8a3d396aeced8d2d40e6f1665ad81e476bc7792428fdf441331",
+    "score-bounds.svg": "c74ca1aa28109b7050f39fc3baaf72ca213297477e01184e19fce04ed3e2c6f8",
+    "scores.csv": "78fe404b62acb6543ca31e329866c9967f7f46f8f5acb665afe8e3cf4e029146",
+    "task-scores.svg": "6ef6638bc8b9494326e94f2d5210cb435e9c014c932b56e4411c505e851298ba",
+    "verification.json": "3324d7a403efa0eae23164272cc75b6180a5105dca4df6bd3b456f1d7f8b334d"
+  }
+}

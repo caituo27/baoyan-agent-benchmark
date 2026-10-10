@@ -1,0 +1,120 @@
+[
+  {
+    "bytes": 430,
+    "export_sha256": "fb12a6a915889d0fb60d1aa40b2e30633c5c166e6ed62796db20d2a4d8ec5864",
+    "path": "run.json",
+    "source_pattern_counts": {
+      "user_home": 1
+    },
+    "source_sha256": "3f5b3835af26613acc25f9bbb9ff648217fe50b6a1c47ffad3fee0618ebfa5d2",
+    "transformed": true
+  },
+  {
+    "bytes": 6709,
+    "export_sha256": "2fe53740297b86c3c773249270371b42d240fa7d48ae98f7ff05efe5245d4102",
+    "path": "stages/S0/answer.md",
+    "source_pattern_counts": {},
+    "source_sha256": "2fe53740297b86c3c773249270371b42d240fa7d48ae98f7ff05efe5245d4102",
+    "transformed": false
+  },
+  {
+    "bytes": 61326,
+    "export_sha256": "f514eb6a5eece02c705eeac7aed30648b245261d7a96dd4cf12273d06f335f97",
+    "path": "stages/S0/events.jsonl",
+    "source_pattern_counts": {
+      "email": 3,
+      "user_home": 1
+    },
+    "source_sha256": "68ecf62e775682ace4f84da870b6920f11bc610a555221c9a531f00327592e64",
+    "transformed": true
+  },
+  {
+    "bytes": 2209,
+    "export_sha256": "0d0a0e5a790e49034da6a3cf843400d37c5509100db2a6f5f04f3290084451c2",
+    "path": "stages/S0/execution.json",
+    "source_pattern_counts": {},
+    "source_sha256": "0d0a0e5a790e49034da6a3cf843400d37c5509100db2a6f5f04f3290084451c2",
+    "transformed": false
+  },
+  {
+    "bytes": 6709,
+    "export_sha256": "2fe53740297b86c3c773249270371b42d240fa7d48ae98f7ff05efe5245d4102",
+    "path": "stages/S0/final-response.md",
+    "source_pattern_counts": {},
+    "source_sha256": "2fe53740297b86c3c773249270371b42d240fa7d48ae98f7ff05efe5245d4102",
+    "transformed": false
+  },
+  {
+    "bytes": 0,
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "stages/S0/stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformed": false
+  },
+  {
+    "bytes": 62538,
+    "export_sha256": "da6c1e15fd91e400d41434174870c520f792d0542450082a8dcd92d692b76ca4",
+    "path": "stages/S0/trace.jsonl",
+    "source_pattern_counts": {
+      "email": 3,
+      "user_home": 1
+    },
+    "source_sha256": "921920449f6ca0f6ffff60789545abff184312737de834b3046838dbf293f2d9",
+    "transformed": true
+  },
+  {
+    "bytes": 6842,
+    "export_sha256": "adb71df2dda10e3e41013fcb42436eac6dc9557287f0a9a75085de1314930ebc",
+    "path": "stages/S1/answer.md",
+    "source_pattern_counts": {},
+    "source_sha256": "adb71df2dda10e3e41013fcb42436eac6dc9557287f0a9a75085de1314930ebc",
+    "transformed": false
+  },
+  {
+    "bytes": 40889,
+    "export_sha256": "5d4b7540ee2e10494b8669a6eedf97c3a54a1d5cecb4dfa7d8801b8c02e1e4da",
+    "path": "stages/S1/events.jsonl",
+    "source_pattern_counts": {
+      "email": 8,
+      "user_home": 1
+    },
+    "source_sha256": "cff72bb4bae2676af7d7472293814d0a24bfb85ac4a352286c247fc32e3e7f33",
+    "transformed": true
+  },
+  {
+    "bytes": 2271,
+    "export_sha256": "c6281485527d1f379e1cd2d621aa9fbed153a7bef444898c9b117d3439298bac",
+    "path": "stages/S1/execution.json",
+    "source_pattern_counts": {},
+    "source_sha256": "c6281485527d1f379e1cd2d621aa9fbed153a7bef444898c9b117d3439298bac",
+    "transformed": false
+  },
+  {
+    "bytes": 6842,
+    "export_sha256": "adb71df2dda10e3e41013fcb42436eac6dc9557287f0a9a75085de1314930ebc",
+    "path": "stages/S1/final-response.md",
+    "source_pattern_counts": {},
+    "source_sha256": "adb71df2dda10e3e41013fcb42436eac6dc9557287f0a9a75085de1314930ebc",
+    "transformed": false
+  },
+  {
+    "bytes": 0,
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "stages/S1/stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformed": false
+  },
+  {
+    "bytes": 41973,
+    "export_sha256": "64e990a31321324172d20c62b2fae70bab3f140f0824ba01c3de6fd24b31f258",
+    "path": "stages/S1/trace.jsonl",
+    "source_pattern_counts": {
+      "email": 8,
+      "user_home": 1
+    },
+    "source_sha256": "2b34d6e3d8dfc50a62414bca8b63ff9bc4d6eb7bd93e1363d90d2a6b3d7af06d",
+    "transformed": true
+  }
+]

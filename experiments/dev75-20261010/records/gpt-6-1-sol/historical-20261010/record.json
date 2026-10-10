@@ -1,0 +1,452 @@
+{
+  "agent": "gpt-6-1-sol",
+  "completed": 23,
+  "expected_full_scope": 75,
+  "failed_attempts": "Preserved in the referenced original campaigns. This export contains selected successful captures only, not the complete historical invocation ledger.",
+  "official": false,
+  "records": [
+    {
+      "capture_path": "captures/BY-A-PLAN",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/recovery-parallel-20261009-164140/attempts/83/a2/capture/gpt-6-1-sol/BY-A-PLAN/r1/workspace/answer.md": "9064c5624dfe2a00110a245de46aff947c093fa6516bfc765373269d01a5d0fb"
+        },
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/recovery-parallel-20261009-164140/attempts/83/a2/capture/gpt-6-1-sol/BY-A-PLAN/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 2,
+          "path": "attempts/83/a2"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-A-PLAN"
+    },
+    {
+      "capture_path": "captures/BY-A-APPLY",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/recovery-parallel-20261009-164140/attempts/84/a1/capture/gpt-6-1-sol/BY-A-APPLY/r1/workspace/answer.md": "9d93ffbbcd998a6a634f2477ea84862d88673adc25bf99e5abc7134e1a598306"
+        },
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/recovery-parallel-20261009-164140/attempts/84/a1/capture/gpt-6-1-sol/BY-A-APPLY/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/84/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-A-APPLY"
+    },
+    {
+      "capture_path": "captures/TRY-A-03",
+      "scope": "increment55",
+      "scoring_status": "pending",
+      "source": {
+        "answers_sha256": {
+          "runs/recovery-parallel-20261009-164140/attempts/85/a1/capture/gpt-6-1-sol/TRY-A-03/r1/workspace/answer.md": "61ecae8792b9769360cff726a68e9cf56fafcc9aa95c6e8827c466ceb5a3c45f"
+        },
+        "campaign": "recovery-parallel-20261009-164140",
+        "capture": "runs/recovery-parallel-20261009-164140/attempts/85/a1/capture/gpt-6-1-sol/TRY-A-03/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/85/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-A-03"
+    },
+    {
+      "capture_path": "captures/BY-B-APPLY",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/recovery-parallel-20261009-164140/attempts/86/a1/capture/gpt-6-1-sol/BY-B-APPLY/r1/workspace/answer.md": "e5e7aee112ae8e1fe80c60e9c15f720147a31b86c27994f76b337c6e1e9d6c6c"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/recovery-parallel-20261009-164140/attempts/86/a1/capture/gpt-6-1-sol/BY-B-APPLY/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "reused": "20"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-B-APPLY"
+    },
+    {
+      "capture_path": "captures/TRY-C-03",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/27/a1/capture/gpt-6-1-sol/TRY-C-03/r1/workspace/answer.md": "aa0c0617b63a152d849570d2d16d458ff5748103e0090af178f864bf224da877"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/27/a1/capture/gpt-6-1-sol/TRY-C-03/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/27/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-C-03"
+    },
+    {
+      "capture_path": "captures/TRY-F-02",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/29/a1/capture/gpt-6-1-sol/TRY-F-02/r1/workspace/answer.md": "86a3f0bc5958925b41607fd6bab3a9876e6f1305bf19ffde14cf067d97cfa9be"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/29/a1/capture/gpt-6-1-sol/TRY-F-02/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/29/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "TRY-F-02"
+    },
+    {
+      "capture_path": "captures/BY-H-APPLY",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/21/a1/capture/gpt-6-1-sol/BY-H-APPLY/r1/workspace/answer.md": "0f0d6336e12a1f900b181cf9d94c58a24da9de16c6a3b17ff7511ab6eb222e2e"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/21/a1/capture/gpt-6-1-sol/BY-H-APPLY/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/21/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-H-APPLY"
+    },
+    {
+      "capture_path": "captures/BY-A-OFFER",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/26/a1/capture/gpt-6-1-sol/BY-A-OFFER/r1/workspace/answer.md": "59d1071b02ba0555fbe07aa83081a0bd2af774b66391426f1752830a5e0610d4"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/26/a1/capture/gpt-6-1-sol/BY-A-OFFER/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/26/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-A-OFFER"
+    },
+    {
+      "capture_path": "captures/BY-E-REPLAN",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/28/a1/capture/gpt-6-1-sol/BY-E-REPLAN/r1/workspace/answer.md": "4f598a7011683cc21a1ab1ec72dca8586581b2d656715a12395539b4848ce889"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/28/a1/capture/gpt-6-1-sol/BY-E-REPLAN/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/28/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "BY-E-REPLAN"
+    },
+    {
+      "capture_path": "captures/N02-01",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/30/a1/capture/gpt-6-1-sol/N02-01/r1/workspace/answer.md": "31268dcecf215eacb846210b9457558dfd371569b9222ca8864f8c58a0b6e93f"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/30/a1/capture/gpt-6-1-sol/N02-01/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/30/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N02-01"
+    },
+    {
+      "capture_path": "captures/N03-02",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/31/a1/capture/gpt-6-1-sol/N03-02/r1/workspace/answer.md": "bad238277b19132e147188552e8ffe08b3c421d07fb973e9385dc6b8444a725d"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/31/a1/capture/gpt-6-1-sol/N03-02/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/31/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N03-02"
+    },
+    {
+      "capture_path": "captures/N04-03",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/22/a1/capture/gpt-6-1-sol/N04-03/r1/workspace/answer.md": "297abc8ee7fcf1a66ad82630ae3490826e6cecd4106203c15220a829844f2689"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/22/a1/capture/gpt-6-1-sol/N04-03/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/22/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N04-03"
+    },
+    {
+      "capture_path": "captures/N06-03",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/23/a1/capture/gpt-6-1-sol/N06-03/r1/workspace/answer.md": "99b23500a7dfd70241a8e5e643c606e983d2209104ed25977c588ebed7df865d"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/23/a1/capture/gpt-6-1-sol/N06-03/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/23/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N06-03"
+    },
+    {
+      "capture_path": "captures/N07-01",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/32/a1/capture/gpt-6-1-sol/N07-01/r1/workspace/answer.md": "3a2bad82549def834884580ae04aa00e8793a96b392bd132e70bfe541f8799b5"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/32/a1/capture/gpt-6-1-sol/N07-01/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/32/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N07-01"
+    },
+    {
+      "capture_path": "captures/N10-01",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/33/a1/capture/gpt-6-1-sol/N10-01/r1/workspace/answer.md": "6b1a7aa2a0d1f04ba915166afddd79b965f2edccb88790d0a81f6b3e4b703401"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/33/a1/capture/gpt-6-1-sol/N10-01/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/33/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N10-01"
+    },
+    {
+      "capture_path": "captures/N11-03",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/24/a1/capture/gpt-6-1-sol/N11-03/r1/workspace/answer.md": "ab65f095cad38b7fb0eb0915014db453993acbe2485f0ecb4fd71654ef428e9b"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/24/a1/capture/gpt-6-1-sol/N11-03/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/24/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N11-03"
+    },
+    {
+      "capture_path": "captures/N13-02",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/34/a1/capture/gpt-6-1-sol/N13-02/r1/workspace/answer.md": "995b7484767eb4b19e72523bb1d2a2a5f5ef09eb986c9042a866f837f2e0e4f2"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/34/a1/capture/gpt-6-1-sol/N13-02/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/34/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N13-02"
+    },
+    {
+      "capture_path": "captures/N14-03",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/25/a1/capture/gpt-6-1-sol/N14-03/r1/workspace/answer.md": "60244c9b6c25e010ed713de89a8f426f74d877154b4df8277ebfc94f69a00b56"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/25/a1/capture/gpt-6-1-sol/N14-03/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/25/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N14-03"
+    },
+    {
+      "capture_path": "captures/N15-01",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/35/a1/capture/gpt-6-1-sol/N15-01/r1/workspace/answer.md": "ebd5c6162effdbe097785be4503bbd4748c4cd9f014f78540ba1bf738cbcdeac"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/35/a1/capture/gpt-6-1-sol/N15-01/r1",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/35/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N15-01"
+    },
+    {
+      "capture_path": "captures/N01-02",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/37/a1/capture/stages/S0/answer.md": "9a8c19bb962ca88be58d1b9603732c4e449b72fd69411cad794ae59e05bce0e8",
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/37/a1/capture/stages/S1/answer.md": "1c8561d48f00b985e8ee98ac2f829afdea9409ffb70ebcb35edefe1fb4e47dc6"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/37/a1/capture",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/37/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N01-02"
+    },
+    {
+      "capture_path": "captures/N08-02",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/38/a1/capture/stages/S0/answer.md": "1752548f70fcd0de4ca0eb3f761fbc170772ac0ee0644fe201f7c6b0cf7495e2",
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/38/a1/capture/stages/S1/answer.md": "8341cad37f46d6d5706c0a60c0e80d9f24f537d329aa04d9b089d8469abb6a38"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/38/a1/capture",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/38/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N08-02"
+    },
+    {
+      "capture_path": "captures/N16-02",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/39/a1/capture/stages/S0/answer.md": "2cc9d4bd4bada1826d69e17858fe4616a51c1ef0f8cd5a6fdb64d955408c1275",
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/39/a1/capture/stages/S1/answer.md": "1b9a7460cc6f0ebef5d18cadc7c1a4ce9a40014f17b6a1d92ae775a12a580107"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/39/a1/capture",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/39/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "N16-02"
+    },
+    {
+      "capture_path": "captures/O04-04",
+      "scope": "historical20",
+      "scoring_status": "see_published_dev20_initial_review",
+      "source": {
+        "answers_sha256": {
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/36/a1/capture/stages/S0/answer.md": "2fe53740297b86c3c773249270371b42d240fa7d48ae98f7ff05efe5245d4102",
+          "runs/subset20-reuse-four-models-20261009-174520/attempts/36/a1/capture/stages/S1/answer.md": "adb71df2dda10e3e41013fcb42436eac6dc9557287f0a9a75085de1314930ebc"
+        },
+        "campaign": "subset20-reuse-four-models-20261009-174520",
+        "capture": "runs/subset20-reuse-four-models-20261009-174520/attempts/36/a1/capture",
+        "other_verified_captures": [],
+        "selected": {
+          "attempt": 1,
+          "path": "attempts/36/a1"
+        }
+      },
+      "status": "completed",
+      "task_id": "O04-04"
+    }
+  ],
+  "review_status": "historical_capture_verified",
+  "schema": "community-execution-record.1",
+  "scored": false
+}

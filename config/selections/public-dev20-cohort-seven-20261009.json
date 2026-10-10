@@ -1,0 +1,19 @@
+{
+  "campaign_by_agent": {
+    "antigravity-gemini-3-1-pro-high": "runs/subset20-gemini31-pro-20261009-182435",
+    "antigravity-gemini-3-8-flash-high": "runs/subset20-gemini-20261009-174955",
+    "deepseek-v4-1-flash": "runs/subset20-deepseek-resume-20261009-180941",
+    "gpt-6-1-sol": "runs/subset20-reuse-four-models-20261009-174520",
+    "gpt-6-astra": "runs/subset20-reuse-four-models-20261009-174520",
+    "kimi-k3": "runs/subset20-kimi-resume-20261009-193820",
+    "qwen3-8-max-0902": "runs/subset20-reuse-four-models-20261009-174520"
+  },
+  "excluded_agents": [],
+  "note": "Qwen restored to the current dev20 report at owner request. Execution and review snapshots are separate; no missing scores are imputed. Original six-configuration snapshot remains unchanged.",
+  "official": false,
+  "schema": "publication-cohort.1",
+  "selection_sha256": "b4334c5b8464c5b5fcc397eb2a2c2f60c05566c5db1d0aadae0dda561257b7a7",
+  "task_count_per_agent": 20,
+  "updated_at": "2026-10-09T22:53:13+08:00",
+  "execution_progress": "release/publication/dev20-qwen-execution-progress-20261009.json"
+}

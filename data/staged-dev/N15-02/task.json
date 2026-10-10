@@ -1,0 +1,33 @@
+{
+  "as_of": "2026年推免申请季",
+  "case_group_id": "student-N15",
+  "case_id": "N15",
+  "constraints": [
+    "仅依据当前阶段提供的信息作答；不查询学生身份或其真实最终去向。"
+  ],
+  "deliverables": [],
+  "persona": {},
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending"
+  },
+  "stages": [
+    {
+      "instruction": "我是重庆大学法学专业的，排名5/150，六级571。科研项目做过一些，但还没有正式发表的论文。现在既想推进科研，又需要复习专业课、准备申请材料，应该怎样分配时间？",
+      "stage_id": "S0",
+      "visible_at": "2026年推免申请季"
+    },
+    {
+      "instruction": "我主持的法学大创还在推进，已经写过参营用的论文材料；社会学SRTP我是团队成员，目前还没有正式发表的论文。前面说的时间安排，需要据此改变吗？",
+      "stage_id": "S1",
+      "visible_at": "2026年推免申请季"
+    }
+  ],
+  "task_id": "N15-02",
+  "task_version": "1.0.1",
+  "time_context": {
+    "application_year": "2026",
+    "assessment_period": "2026年推免申请季",
+    "time_precision": "year_only_scenario"
+  }
+}

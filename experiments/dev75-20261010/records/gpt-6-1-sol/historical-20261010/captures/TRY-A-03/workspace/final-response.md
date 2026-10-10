@@ -1,0 +1,1 @@
+完整中文答卷已写入 [answer.md](/private/var/folders/7q/lh8gcfwj1bq91rl4hqmj18dw0000gn/T/baoyan-candidate-9rgqfeny/workspace/answer.md)，包含官方来源、资格门槛、毕业时间核实、申请流程及当前行动清单，按2024年10月的情境撰写。

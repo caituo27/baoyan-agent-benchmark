@@ -1,0 +1,75 @@
+{
+  "completed_task_ids_preserved": [
+    "TRY-D-02",
+    "TRY-A-03",
+    "BY-G-APPLY",
+    "N01-03",
+    "N03-03",
+    "N04-01",
+    "N05-01",
+    "N05-03",
+    "N06-01",
+    "N06-02",
+    "N07-03",
+    "N08-01",
+    "N09-01"
+  ],
+  "created_at": "2026-10-10T02:57:41.185866+00:00",
+  "model_auth_and_frozen_engine": "unchanged",
+  "pre_inference_authorization_attempts": [
+    {
+      "attempt_path": "runs/kimi-dev75-remaining36-20261010-004123/attempts/12/a2",
+      "files": {
+        ".capture.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "capture/batch.json": "2cd026a2f67dd9bbf5184e87be0c83c97049ea9bbd8532ab8d97be1b19e41215",
+        "capture/kimi-k3/N08-03/r1/cli.stderr.log": "5f8e90b14b61724aba8b6ce2a4480b52b26a2f6b731b25f4e65f0781e461ab7d",
+        "capture/kimi-k3/N08-03/r1/execution.json": "a269f6efca31f3e79ad5239ce40cf27e2534c772929f329eab62f650e847a3ba",
+        "capture/kimi-k3/N08-03/r1/protocol.json": "94858a4f4686b5d20ef5e7306d9c42971fc1496c5c0af35cd5f7c91cbb6a7a89",
+        "capture/kimi-k3/N08-03/r1/rubric.json": "38affb6fb8ad551ccee1a91aac21dfce7f86bf1d8036f654c62dfd6287840e69",
+        "capture/kimi-k3/N08-03/r1/run.json": "700d78a506d95745a8b1576af192e656ab6e3b937b6aec18630ac3eebbca3b24",
+        "capture/kimi-k3/N08-03/r1/scoring.md": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+        "capture/kimi-k3/N08-03/r1/task.json": "ef92b8dd7f7caaa3a56f688a011b8da8df5803da969af801445f27d4bc4cd7b6",
+        "capture/kimi-k3/N08-03/r1/trace.jsonl": "5888e144c43c7068b1009df24f409056c0b37c39c58d9c94d620ff2790693f4b",
+        "capture/kimi-k3/N08-03/r1/workspace/query.md": "3ece28dab657d75b8980c4e760203b3be449059f303b79340376cb59cb226e61",
+        "capture/kimi-k3/N08-03/r1/workspace/task.json": "1521baad6ad5cfdf94bcb876c24b157ab2933e95924d65c8c05a046831faa542",
+        "capture/kimi-k3/N08-03/r1/workspace/trajectory.jsonl": "dc15709072ae2f224327312af8413bd4f1d0ce3244a37efb0fa4a1cd1bf7527d",
+        "capture/readiness.json": "b6402e2decd7e6f11c75352e6e3be642e864aa273f644aea31e84adfafce27b2",
+        "capture/reproduction.json": "9418840a67f43a4a0b50c40e130647f5f57c6d6ca69d7e487e7f4d56dc2205a9",
+        "capture/resolved-registry.json": "48f68ba85a2503e31d653bac2098e945815e22978e5811b36f82f2ccf3a30e6d",
+        "result.json": "1dbce46414315c06f998fcd6ab4398c22288c6dc6a67005b7061b2dd22a5cc71",
+        "worker.stderr.log": "bfca7075f7295a257df7041c1f3a917a38634a2ae22d36ff941366d5c3e30f54",
+        "worker.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "reason": "authorization_refused_before_inference",
+      "task_id": "N08-03"
+    },
+    {
+      "attempt_path": "runs/kimi-dev75-remaining36-20261010-004123/attempts/14/a2",
+      "files": {
+        ".capture.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "capture/batch.json": "e69a036f8d846ecdf9736b0176798868da3f2797bd1303a4322ae35879febd84",
+        "capture/kimi-k3/N09-03/r1/cli.stderr.log": "cff73f88675fbb68ac0e72bc41cc238862f517416f50f7f757c09aecaa4d377c",
+        "capture/kimi-k3/N09-03/r1/execution.json": "8b314e54a5b7e41f3837f745916ec79450683fd9fca209a795e352f9a0e49ff2",
+        "capture/kimi-k3/N09-03/r1/protocol.json": "94858a4f4686b5d20ef5e7306d9c42971fc1496c5c0af35cd5f7c91cbb6a7a89",
+        "capture/kimi-k3/N09-03/r1/rubric.json": "44d91225173a976247891155e0b19044c4701fcd9be2184a50a4d60cced57398",
+        "capture/kimi-k3/N09-03/r1/run.json": "7bb9441a4a56e7017f86f95f2704f22777f030c5b142a23a767dd7cb568ab6d7",
+        "capture/kimi-k3/N09-03/r1/scoring.md": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+        "capture/kimi-k3/N09-03/r1/task.json": "b14ff9c88f14103a8570c8fb6cb56fe9fa790d3c131405b13c0fa38ae5bcd9cd",
+        "capture/kimi-k3/N09-03/r1/trace.jsonl": "5888e144c43c7068b1009df24f409056c0b37c39c58d9c94d620ff2790693f4b",
+        "capture/kimi-k3/N09-03/r1/workspace/query.md": "f387a947fdc6f6ae4111a969149a5f1ec25cfa07dd4f16fef2a906593980a808",
+        "capture/kimi-k3/N09-03/r1/workspace/task.json": "ab306819aa46b6fbf5cc11bb89046a6912cd7dc2166addc53bcec4b9ee60d501",
+        "capture/kimi-k3/N09-03/r1/workspace/trajectory.jsonl": "dc15709072ae2f224327312af8413bd4f1d0ce3244a37efb0fa4a1cd1bf7527d",
+        "capture/readiness.json": "45e941cdf2533ce3ee65d8ad43cb17f59d04f627228f59f80475ad61af33b855",
+        "capture/reproduction.json": "7ebbee15df4f06d7dd6a6be78df0f730b3d77f71120baf8ba6a117e9b9e1244b",
+        "capture/resolved-registry.json": "48f68ba85a2503e31d653bac2098e945815e22978e5811b36f82f2ccf3a30e6d",
+        "result.json": "fe611151a8bb256d24d3a6b25001101e776b7b334fa8b26846e3b6314a3df958",
+        "worker.stderr.log": "d6f5c9e47abcb4e1adff9f324caca66d40553145ec0a0b27c3ce94f75deee1b4",
+        "worker.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "reason": "authorization_refused_before_inference",
+      "task_id": "N09-03"
+    }
+  ],
+  "previous_campaign": "runs/kimi-dev75-remaining36-20261010-004123",
+  "retry_budget": "Each prior quota failure consumes one attempt. Exactly one pre-inference auth refusal per affected task is excluded; all physical attempts remain recorded."
+}

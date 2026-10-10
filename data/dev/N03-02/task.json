@@ -1,0 +1,38 @@
+{
+  "case_group_id": "student-N03",
+  "context": {
+    "observation": {
+      "评测时间": "2026年推免申请季"
+    },
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "medium",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "N03-02",
+  "prompt": "我在上海大学读电气工程及其自动化，排名1/59，六级663。一个项目做电机控制和嵌入式部署，另一个研究农业场景的视觉检测。研究生方向选控制、电气，还是机器人视觉和AI，我有点拿不准。结合我的经历，你会怎么选？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "6b25bc9b8a3098dc8b3b5ffc0d8dfefb65f04e1d6a5d5a7bab4e5ae848268289",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.1"
+}

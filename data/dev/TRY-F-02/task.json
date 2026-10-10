@@ -1,0 +1,36 @@
+{
+  "case_group_id": "student-F",
+  "context": {
+    "observation": {},
+    "persona": {}
+  },
+  "deliverables": [
+    {
+      "description": "完整原始答卷；不自评分",
+      "format": "markdown",
+      "path": "answer.md",
+      "required": true
+    }
+  ],
+  "difficulty": "medium",
+  "domain": "baoyan",
+  "execution": {
+    "mode": "static_tool_task",
+    "prompt_version": "candidate-input.2",
+    "stage_count": 1,
+    "trajectory_required": true,
+    "web_mode": "historical_source_rules_in_prompt"
+  },
+  "id": "TRY-F-02",
+  "prompt": "我在武汉大学读软件工程，申请前排名8/175、六级588。ICPC亚洲区拿过两金一银一铜，CCPC国赛两铜，还有蓝桥杯省一、CSP认证前1%等；科研做过三段，一段停止，另两段还在方法调试，目前没有正式论文。想申请清北、华五，也考虑港三，但学硕、专硕还是直博尚未确定。竞赛优势能在多大程度上弥补科研不足，我该怎么定位自己？",
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending",
+    "teacher_calibration": "pending"
+  },
+  "rubric_sha256": "3eb960837f8203d914dd0f9db2353b409e78ce0e28c546b3747ff86b08b4c07a",
+  "schema_version": "1.0",
+  "split": "dev",
+  "task_kind": "planning",
+  "task_version": "1.0.1"
+}

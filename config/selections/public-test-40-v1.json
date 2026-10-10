@@ -1,0 +1,904 @@
+{
+  "added_count": 20,
+  "added_task_ids": [
+    "BY-A-PLAN",
+    "BY-A-APPLY",
+    "TRY-B-03",
+    "BY-C-APPLY",
+    "TRY-D-02",
+    "TRY-E-02",
+    "BY-E-PREP",
+    "BY-F-APPLY",
+    "TRY-G-02",
+    "TRY-G-01",
+    "N02-03",
+    "N05-02",
+    "N06-02",
+    "N07-03",
+    "N08-03",
+    "N09-02",
+    "N11-02",
+    "N12-02",
+    "N13-03",
+    "N14-02"
+  ],
+  "case_group_count": 24,
+  "case_group_counts": {
+    "student-A": 3,
+    "student-B": 2,
+    "student-C": 2,
+    "student-D": 2,
+    "student-E": 3,
+    "student-F": 2,
+    "student-G": 2,
+    "student-H": 1,
+    "student-N01": 1,
+    "student-N02": 2,
+    "student-N03": 1,
+    "student-N04": 1,
+    "student-N05": 1,
+    "student-N06": 2,
+    "student-N07": 2,
+    "student-N08": 2,
+    "student-N09": 1,
+    "student-N10": 1,
+    "student-N11": 2,
+    "student-N12": 1,
+    "student-N13": 2,
+    "student-N14": 2,
+    "student-N15": 1,
+    "student-N16": 1
+  },
+  "counts": {
+    "planning_single": 20,
+    "recommendation_single": 12,
+    "staged": 8
+  },
+  "difficulty_counts": {
+    "easy": 6,
+    "hard": 15,
+    "medium": 11,
+    "unlabelled": 8
+  },
+  "historical_source_files_sha256": {
+    "data/dev/manifest.json": "0a2cdde4edc79959099aba65c5bcfc26efb38d61d6b25ee51f59228d62164e20",
+    "data/staged-dev/manifest.json": "0e61d0f613c2d597fa7f8937e351b474632939360f54a5982f16de4e46e9c193",
+    "docs/scoring.md": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374"
+  },
+  "id": "public-test-40-v1",
+  "label": "公开评测 40 题精选清单",
+  "official": false,
+  "parent_selection_id": "public-test-50-v1",
+  "previous_selection_id": "public-dev-20-v1",
+  "purpose": "独立40题评测范围；保留原始dev/staged-dev归属，不更改原始数据划分。",
+  "reproduction_adjustment": "Only collection-manifest bindings changed for public75; selected task/rubric content unchanged",
+  "retained_20_count": 20,
+  "rules": [
+    "40题来自24个学生案例组，不等于40个独立学生；两阶段题合并为一道原题评分。",
+    "清单名中的test仅描述拟评测用途，原始dev/staged-dev划分不变；不是新增独立隐藏测试集。",
+    "评分文件与未来阶段仅供组织者；通过现有隔离执行器按当前阶段释放题面。",
+    "原20题与新增20题分别保留运行来源，不复跑原20题，不按成绩选择尝试。",
+    "仅对这40题汇总时注明范围、缺失和失败；题目难度及教师校准仍待完成。"
+  ],
+  "selected_at": "2026-10-09",
+  "selection_basis": "不读取模型分数；新增优先补齐原20题缺失的案例，并平衡具体推荐、培养比较、资格核验与阶段更新。上游50题选题曾参考完整运行记录可得性，因此不宣称预注册或独立盲测。",
+  "selection_method": "完整保留原20题，再从现有50题清单的其余30题中按学科、案例、任务类型与决策情境人工选20题；不是随机抽样。",
+  "selection_provenance_sha256": {
+    "config/selections/public-dev-20-v1.json": "b4334c5b8464c5b5fcc397eb2a2c2f60c05566c5db1d0aadae0dda561257b7a7",
+    "config/selections/public-test-50-v1.json": "566c7fa06cc34f6c8d74cba1bc467b213db741e5e231eeda38b6647b1f9fa18a"
+  },
+  "source_files_sha256": {
+    "data/dev/manifest.json": "5ba854ff9ca44add6cc5cad42ac43413663ae947addf59f19834ce7e51050fb0",
+    "data/staged-dev/manifest.json": "25574b7e2d8c5d8288025e08a7f2f4a466aaa1ffadfaf3e3b17dbdc66e8efacf",
+    "docs/scoring.md": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374"
+  },
+  "source_task_count": 79,
+  "source_version": "1.0.1",
+  "stage_count": 48,
+  "status": "selected_pending_release",
+  "task_count": 40,
+  "task_ids": [
+    "BY-B-APPLY",
+    "BY-H-APPLY",
+    "N04-03",
+    "N06-03",
+    "N11-03",
+    "N14-03",
+    "BY-A-OFFER",
+    "TRY-C-03",
+    "BY-E-REPLAN",
+    "TRY-F-02",
+    "N02-01",
+    "N03-02",
+    "N07-01",
+    "N10-01",
+    "N13-02",
+    "N15-01",
+    "O04-04",
+    "N01-02",
+    "N08-02",
+    "N16-02",
+    "BY-A-PLAN",
+    "BY-A-APPLY",
+    "TRY-B-03",
+    "BY-C-APPLY",
+    "TRY-D-02",
+    "TRY-E-02",
+    "BY-E-PREP",
+    "BY-F-APPLY",
+    "TRY-G-02",
+    "TRY-G-01",
+    "N02-03",
+    "N05-02",
+    "N06-02",
+    "N07-03",
+    "N08-03",
+    "N09-02",
+    "N11-02",
+    "N12-02",
+    "N13-03",
+    "N14-02"
+  ],
+  "tasks": [
+    {
+      "case_group_id": "student-B",
+      "category": "择校推荐",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "d0659164718aa4401c232230067e19019b5e772ba6b5e833a23575388cde0bdd",
+        "task": "144e20a5dde5458066234a4916feaa0a2e7253ea39feb2d53ce34c89686e91c2"
+      },
+      "order": 1,
+      "reason": "兼顾就业、地域偏好和资格未确认时的条件推荐。",
+      "retained_from_20": true,
+      "rubric_path": "data/dev/BY-B-APPLY/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-B-APPLY",
+      "task_path": "data/dev/BY-B-APPLY/task.json",
+      "task_version": "1.0.1",
+      "title": "电气方向与电网就业择校",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-H",
+      "category": "择校推荐",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "f92f972e0d7f10e58c7d135780b774ca151f531078efaa5af34e586e27d6e906",
+        "task": "6731f59dc9ab36c846d5107568a4a4ba460d3abb8bba8665af6f5d4fed12c2c1"
+      },
+      "order": 2,
+      "reason": "覆盖不同本科平台，区分已发表论文与进行中的大创。",
+      "retained_from_20": true,
+      "rubric_path": "data/dev/BY-H-APPLY/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-H-APPLY",
+      "task_path": "data/dev/BY-H-APPLY/task.json",
+      "task_version": "1.0.1",
+      "title": "化工硕士与研发就业择校",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N04",
+      "category": "择校推荐",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "0481dc24a1521b8ea5701eb149cc01eb5f98cac04df13010d78dd8c4f43ed88c",
+        "task": "2c946ba4911eb735f2c51ee936f76bae5b0bbfc558bb88b459f8d6c5e43f4d3c"
+      },
+      "order": 3,
+      "reason": "评估科研优势与排名约束下的学校、院系和项目匹配。",
+      "retained_from_20": true,
+      "rubric_path": "data/dev/N04-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N04-03",
+      "task_path": "data/dev/N04-03/task.json",
+      "task_version": "1.0.1",
+      "title": "电池与催化方向择校",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N06",
+      "category": "择校推荐",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "4ef3b790ed24dd44c4df766fd2f353642f8ebab60abe776f06ed270535802326",
+        "task": "aa6e8777087aa70792f8de769578f4119bf4a9826ca2c0cf06c911c1aa050f8a"
+      },
+      "order": 4,
+      "reason": "纳入人文学科及语言学、专业培养路径的区别。",
+      "retained_from_20": true,
+      "rubric_path": "data/dev/N06-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N06-03",
+      "task_path": "data/dev/N06-03/task.json",
+      "task_version": "1.0.1",
+      "title": "语言学与国际中文教育择校",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N11",
+      "category": "择校推荐",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "af3c0c15cd219cfbc21d8c3b205b4ed7be0e3452e680cb4918bb667dff8f5694",
+        "task": "6cdc180458d48b16ab71cfe039fc2cf088c27960b72a6f69105a208f43c518c6"
+      },
+      "order": 5,
+      "reason": "检验医学影像、机器学习经历与具体招生项目的对应。",
+      "retained_from_20": true,
+      "rubric_path": "data/dev/N11-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N11-03",
+      "task_path": "data/dev/N11-03/task.json",
+      "task_version": "1.0.1",
+      "title": "生物医学工程与医学影像择校",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N14",
+      "category": "择校推荐",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "b04f6038c84cbc754f453aeb7d1a8b89cdbaaedb7534a3ed0c0ca9ae5cbe3f9f",
+        "task": "cefba07ace443aa213a789fbd0b68eff92a25ad0363b571188b0b046e2d1ad8a"
+      },
+      "order": 6,
+      "reason": "补充经管学科与跨方向项目适配。",
+      "retained_from_20": true,
+      "rubric_path": "data/dev/N14-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N14-03",
+      "task_path": "data/dev/N14-03/task.json",
+      "task_version": "1.0.1",
+      "title": "会计及相关经管项目择校",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-A",
+      "category": "规划与决策",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "5e9922a583669608102248de1864ba9948e85a29c3dea8a77cce19c647d172f0",
+        "task": "cb739fde94314f5b1b33e9232f321f4ff416c7c7651470242ce687dd2b1582af"
+      },
+      "order": 7,
+      "reason": "区分口头与书面记录，并处理导师、期限等信息缺口。",
+      "retained_from_20": true,
+      "rubric_path": "data/dev/BY-A-OFFER/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-A-OFFER",
+      "task_path": "data/dev/BY-A-OFFER/task.json",
+      "task_version": "1.0.1",
+      "title": "接收意向与 Offer 比较",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-C",
+      "category": "规划与决策",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "4eac665ca4d15ce5e0c68ad772235dfad162f863bae5db23b51b9145187fcdf0",
+        "task": "672be34c3c0bbfc882231f9ce4e554a898543a60dfb40e6117ffe9cabe8a60bf"
+      },
+      "order": 8,
+      "reason": "比较已有竞赛边际收益与科研、专业课的时间投入。",
+      "retained_from_20": true,
+      "rubric_path": "data/dev/TRY-C-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-C-03",
+      "task_path": "data/dev/TRY-C-03/task.json",
+      "task_version": "1.0.1",
+      "title": "寒假竞赛、课程与科研取舍",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-E",
+      "category": "规划与决策",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "527dfb6b7fba252361e8dbc25133241ef5d3398e380fd6d6c54f4b70914024dc",
+        "task": "b7fcebca28322eb55179fbf69b74b8d9165666225642e5b8f3a1d71fdb5fe55c"
+      },
+      "order": 9,
+      "reason": "检验关键约束变化后能否执行已确定的境外申请方向。",
+      "retained_from_20": true,
+      "rubric_path": "data/dev/BY-E-REPLAN/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-E-REPLAN",
+      "task_path": "data/dev/BY-E-REPLAN/task.json",
+      "task_version": "1.0.1",
+      "title": "失去推免资格后的路径调整",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-F",
+      "category": "规划与决策",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "3eb960837f8203d914dd0f9db2353b409e78ce0e28c546b3747ff86b08b4c07a",
+        "task": "ee175e403a4bcb5b0f30ab228b6cbd31d6588715fd24e199bfdc5edbaaae8356"
+      },
+      "order": 10,
+      "reason": "区分竞赛能力与科研成果，不将未完成研究包装成论文。",
+      "retained_from_20": true,
+      "rubric_path": "data/dev/TRY-F-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-F-02",
+      "task_path": "data/dev/TRY-F-02/task.json",
+      "task_version": "1.0.1",
+      "title": "竞赛强、科研未产出的申请定位",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N02",
+      "category": "规划与决策",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "af5038ea02d9686435bd192eaa40feaa3a7d9609e3b2c83db610e4a1c5257926",
+        "task": "3ae86e65cbc07e2430b7a7a80f2f29fe8b1cbd0e76694e2b50688829cbb0401f"
+      },
+      "order": 11,
+      "reason": "检验先补充必要背景，不虚构学校、排名或个人经历。",
+      "retained_from_20": true,
+      "rubric_path": "data/dev/N02-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N02-01",
+      "task_path": "data/dev/N02-01/task.json",
+      "task_version": "1.0.1",
+      "title": "信息不足时的保研咨询",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N03",
+      "category": "规划与决策",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "6b25bc9b8a3098dc8b3b5ffc0d8dfefb65f04e1d6a5d5a7bab4e5ae848268289",
+        "task": "e51a2d3b8b597e6bf84b7c34dec8da2d3d969dc21e7eb90f851db6e1648a8890"
+      },
+      "order": 12,
+      "reason": "结合两类已有项目比较研究方向和后续准备。",
+      "retained_from_20": true,
+      "rubric_path": "data/dev/N03-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "N03-02",
+      "task_path": "data/dev/N03-02/task.json",
+      "task_version": "1.0.1",
+      "title": "电气、控制与机器人视觉选方向",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N07",
+      "category": "规划与决策",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "1b055fe0a63a5f7e923ced9d94d8fe8d81ca3449c2427faee0c9c6ec66b620cb",
+        "task": "2b9e6134635d4dca702375dddcdd9f80e02fd4e4fa5d52dfca00b181fceca3a7"
+      },
+      "order": 13,
+      "reason": "覆盖跨专业申请与英语短板的准备策略。",
+      "retained_from_20": true,
+      "rubric_path": "data/dev/N07-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N07-01",
+      "task_path": "data/dev/N07-01/task.json",
+      "task_version": "1.0.1",
+      "title": "航空服务艺术跨教育学准备",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N10",
+      "category": "规划与决策",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "2256aaf90f22d59c058bd3445482802eee81065c254d2caed47bf533cc5a4fc7",
+        "task": "3105900ad4b507a9efd0741b3e8d8d3a8b80dd7d27075f3708ffe935ff576d43"
+      },
+      "order": 14,
+      "reason": "识别推免资格风险并合理安排工程经历与申请准备。",
+      "retained_from_20": true,
+      "rubric_path": "data/dev/N10-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N10-01",
+      "task_path": "data/dev/N10-01/task.json",
+      "task_version": "1.0.1",
+      "title": "排名不占优时的准备顺序",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N13",
+      "category": "规划与决策",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "e68dfe5ff5e02ebc95f7dfe3a2419d10404cde6ab017f7cc1a1f40503dddaf36",
+        "task": "c05309b7730a9092161d2380dbab989d5e13751b5a8e08196f08565dc3b168d6"
+      },
+      "order": 15,
+      "reason": "在科研、英语、竞赛与申请之间给出可执行的投入顺序。",
+      "retained_from_20": true,
+      "rubric_path": "data/dev/N13-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "N13-02",
+      "task_path": "data/dev/N13-02/task.json",
+      "task_version": "1.0.1",
+      "title": "有限时间下的准备优先级",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N15",
+      "category": "规划与决策",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "9bd0c64eb7f08b76d230818fc25c891606226ac931f1d116e36b42771baba241",
+        "task": "b738d5330da9ecab7fb5e97501c7c0602d3087ce510788c1637da5cd2ac76d69"
+      },
+      "order": 16,
+      "reason": "补充法学场景，区分项目参与、主持经历与正式发表。",
+      "retained_from_20": true,
+      "rubric_path": "data/dev/N15-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "N15-01",
+      "task_path": "data/dev/N15-01/task.json",
+      "task_version": "1.0.1",
+      "title": "法学申请与未发表科研呈现",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-D",
+      "category": "两阶段任务",
+      "difficulty": null,
+      "fingerprints": {
+        "rubric": "6e04ed68ef6165257420e5b4c3281786e250a507aebad56808970beaf60a74e1",
+        "task": "fa2f9f580e058c0dacf7c30fd92ea361e1b24759befb46f82c89d073436b4ff9"
+      },
+      "order": 17,
+      "reason": "跨真实阶段保留有效计划并修订过时安排，避免未来信息倒灌。",
+      "retained_from_20": true,
+      "rubric_path": "data/staged-dev/O04-04/rubric.json",
+      "stage_count": 2,
+      "task_id": "O04-04",
+      "task_path": "data/staged-dev/O04-04/task.json",
+      "task_version": "1.0.1",
+      "title": "大一规划到大三申请的时间变化",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-N01",
+      "category": "两阶段任务",
+      "difficulty": null,
+      "fingerprints": {
+        "rubric": "31c0f6c2a09988eebb75ab1e93bd612fc4cc7e7af6335256c8985a33721e02b3",
+        "task": "791519e60a7e8977ce79bfb07716590b95fd70b28adf52a52f4a00f9ccb46ea2"
+      },
+      "order": 18,
+      "reason": "识别第三作者与实际实验角色，重新评估视觉和机器人路线。",
+      "retained_from_20": true,
+      "rubric_path": "data/staged-dev/N01-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "N01-02",
+      "task_path": "data/staged-dev/N01-02/task.json",
+      "task_version": "1.0.1",
+      "title": "补充科研贡献后调整方向建议",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-N08",
+      "category": "两阶段任务",
+      "difficulty": null,
+      "fingerprints": {
+        "rubric": "bc9ef94ee2495fe661bb5d7e826965189b4701238f40548e45410c6193183aff",
+        "task": "339149d736333ffaeed0f5403cfe8fe6a1b0d411b9fb1225ce2359a4530f188c"
+      },
+      "order": 19,
+      "reason": "根据新增数理课程、论文和实习证据调整跨学科建议。",
+      "retained_from_20": true,
+      "rubric_path": "data/staged-dev/N08-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "N08-02",
+      "task_path": "data/staged-dev/N08-02/task.json",
+      "task_version": "1.0.1",
+      "title": "补充课程与实习后评估跨商科",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-N16",
+      "category": "两阶段任务",
+      "difficulty": null,
+      "fingerprints": {
+        "rubric": "d23f1fa825b0230f91229a95b9ce0a6db610fd82bd1f07c0ae2d9b918085d6d6",
+        "task": "35ac220c33b619b92c2e6bc22f53fdd30774fc42883fa384e641e7dc64751dd7"
+      },
+      "order": 20,
+      "reason": "补充项目经历后仍保留学籍未正式分流的资格约束。",
+      "retained_from_20": true,
+      "rubric_path": "data/staged-dev/N16-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "N16-02",
+      "task_path": "data/staged-dev/N16-02/task.json",
+      "task_version": "1.0.1",
+      "title": "工科未分流情况下的专业认定",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-A",
+      "category": "规划与决策",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "d6fa48dc1a1004d15a684c226f05791fe14a50d15089a7c99de0789e1e8cd7ae",
+        "task": "d2fdc2ce2203a4056e1893f0a75b419a4da70de8102b58facb4ba8e831692368"
+      },
+      "order": 21,
+      "reason": "覆盖早期规划、课程优先和本校资格核验。",
+      "retained_from_20": false,
+      "rubric_path": "data/dev/BY-A-PLAN/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-A-PLAN",
+      "task_path": "data/dev/BY-A-PLAN/task.json",
+      "task_version": "1.0.1",
+      "title": "大二开始的两年推免准备",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-A",
+      "category": "择校推荐",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "5b13022a1cfeb2dd8e0c82095eefd276b58c37acdc5a4059e930bfe2f7849785",
+        "task": "df6403023f38e09b249c7fc93211bb0102331957240d9c1f28e401b81fbcca89"
+      },
+      "order": 22,
+      "reason": "区分成绩排名与递补资格顺位，检验科研未产出时的项目匹配。",
+      "retained_from_20": false,
+      "rubric_path": "data/dev/BY-A-APPLY/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-A-APPLY",
+      "task_path": "data/dev/BY-A-APPLY/task.json",
+      "task_version": "1.0.1",
+      "title": "递补取得资格后的材料方向择校",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-B",
+      "category": "规划与决策",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "56b5f460fd9660ec795aed0f6052d62e8571139b92eb3c18b86860f55cc0ccff",
+        "task": "3c6680767cd36a11f82facd208e324bb7e99f12a2bf9d8d1feff33a6f883b080"
+      },
+      "order": 23,
+      "reason": "区分同校不同招生和培养主体，避免只按校名判断。",
+      "retained_from_20": false,
+      "rubric_path": "data/dev/TRY-B-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-B-03",
+      "task_path": "data/dev/TRY-B-03/task.json",
+      "task_version": "1.0.1",
+      "title": "浙大电气学院与工程师学院比较",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-C",
+      "category": "择校推荐",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "cab42f3b1eb6ed71085249b4cf43a846151e93867bfe61b3463c63d63cb04f7a",
+        "task": "ccecf04257d6d475dcb687a687485837f7607dd64fbcec9db437261de9ccb85a"
+      },
+      "order": 24,
+      "reason": "同时处理直博意向、南方地域偏好和论文仍在推进的约束。",
+      "retained_from_20": false,
+      "rubric_path": "data/dev/BY-C-APPLY/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-C-APPLY",
+      "task_path": "data/dev/BY-C-APPLY/task.json",
+      "task_version": "1.0.1",
+      "title": "化工背景的直博项目择校",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-D",
+      "category": "规划与决策",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "7a9999c70e2fbc8e5a7f503e9e82c4c98808919e5e3d7ec0277cc82d4181f1f1",
+        "task": "dd994efba7ef578f25e2682510d30d47f8b11cf809733136b2e41f8e599fdf72"
+      },
+      "order": 25,
+      "reason": "比较校区、实验室、联合培养与就业目标之间的具体差异。",
+      "retained_from_20": false,
+      "rubric_path": "data/dev/TRY-D-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-D-02",
+      "task_path": "data/dev/TRY-D-02/task.json",
+      "task_version": "1.0.1",
+      "title": "本部、异地校区与联合项目比较",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-E",
+      "category": "规划与决策",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "cd2851d85ab0901e1cd69d73687053481b8dc1ac2f8deea32f368c2091d40cea",
+        "task": "6a8ea6c3d7bc3bc5f384f95eb48732e1e8b1f43f558d312049307af8b8e24179"
+      },
+      "order": 26,
+      "reason": "覆盖资格不确定性，要求核验当届规则。",
+      "retained_from_20": false,
+      "rubric_path": "data/dev/TRY-E-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-E-02",
+      "task_path": "data/dev/TRY-E-02/task.json",
+      "task_version": "1.0.1",
+      "title": "不能用上届名额推断本届资格",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-E",
+      "category": "规划与决策",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "45d6b94c7b1d2446380305325be18d7a4692e2249bbfca016255d17ced9a7931",
+        "task": "c7a3f64aaa48e911d9187495ab64e4fa3201ce6d488ec193ce83f617afb0ffe2"
+      },
+      "order": 27,
+      "reason": "保留数学、机器学习、算法上机和研究材料的具体行动考察。",
+      "retained_from_20": false,
+      "rubric_path": "data/dev/BY-E-PREP/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-E-PREP",
+      "task_path": "data/dev/BY-E-PREP/task.json",
+      "task_version": "1.0.1",
+      "title": "AI 学硕申请的专业与科研准备",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-F",
+      "category": "择校推荐",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "5ed859a209eb37a8b361a62810cd023a242367a9f30104cd45f11f9b950d304b",
+        "task": "9e6c30f0262872eaf4451dbd32a0c7f3b51c6b20c425ac3f59773723377b3aa6"
+      },
+      "order": 28,
+      "reason": "检验强竞赛、弱论文背景向具体计算机项目的匹配。",
+      "retained_from_20": false,
+      "rubric_path": "data/dev/BY-F-APPLY/rubric.json",
+      "stage_count": 1,
+      "task_id": "BY-F-APPLY",
+      "task_path": "data/dev/BY-F-APPLY/task.json",
+      "task_version": "1.0.1",
+      "title": "软件工程与算法竞赛背景择校",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-G",
+      "category": "规划与决策",
+      "difficulty": "easy",
+      "fingerprints": {
+        "rubric": "d25c044765d0e618903519722876939fd53a35cdb4569620d94daeb21091aa0c",
+        "task": "125e4950c3e956f4845685e42cd365dd2805c5420280a89c1dfb977d4f20214d"
+      },
+      "order": 29,
+      "reason": "分别评估英语硬门槛、竞争力与论文状态。",
+      "retained_from_20": false,
+      "rubric_path": "data/dev/TRY-G-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-G-02",
+      "task_path": "data/dev/TRY-G-02/task.json",
+      "task_version": "1.0.1",
+      "title": "低六级与在投论文的申请影响",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-G",
+      "category": "规划与决策",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "6e84451c0931be1f7c945db63f0cc266409820712dd64b6a0300458c33ad7625",
+        "task": "611efe905d77c9d768dde30948826cc90f852558e05d2bb8e5d61c0485ba8e68"
+      },
+      "order": 30,
+      "reason": "覆盖干湿实验边界、导师匹配与直博和硕士选择；避开本案例择校题的待核参考项。",
+      "retained_from_20": false,
+      "rubric_path": "data/dev/TRY-G-01/rubric.json",
+      "stage_count": 1,
+      "task_id": "TRY-G-01",
+      "task_path": "data/dev/TRY-G-01/task.json",
+      "task_version": "1.0.1",
+      "title": "生信干实验的导师与项目筛选",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N02",
+      "category": "规划与决策",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "7d4bb07431664b15b727c833c64ff69f4be4cc0bae1636a629fe65b374c540c8",
+        "task": "9511c36aaaee72a3af6c86e73dfbee2336205ce90a5b9a7c7b2aa35195e6e971"
+      },
+      "order": 31,
+      "reason": "覆盖临床培养、住培衔接与科研路线，不能套用工科模板。",
+      "retained_from_20": false,
+      "rubric_path": "data/dev/N02-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N02-03",
+      "task_path": "data/dev/N02-03/task.json",
+      "task_version": "1.0.1",
+      "title": "临床医学学硕、专硕与职业路线",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N05",
+      "category": "两阶段任务",
+      "difficulty": null,
+      "fingerprints": {
+        "rubric": "516032be30b20373af4685a27f02d345bc414794e1fbdf2f955f966580b70c7e",
+        "task": "af3f070ffef35561245ada50c6470765a48f88b55871174286f3a37356b4a566"
+      },
+      "order": 32,
+      "reason": "区分录用、重投、写作与专利受理，按新证据调整路线。",
+      "retained_from_20": false,
+      "rubric_path": "data/staged-dev/N05-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "N05-02",
+      "task_path": "data/staged-dev/N05-02/task.json",
+      "task_version": "1.0.1",
+      "title": "补充论文专利状态后比较交通与材料",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-N06",
+      "category": "规划与决策",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "4c385e3997270cb3c894c9e0f7ac5df6ca4fb65cfe73ae79e8bedfebab93a67d",
+        "task": "78496785bc9d334dcaa6c46bdc1fba401fdd9bbcde827dc5635f3a2e5f9e8a75"
+      },
+      "order": 33,
+      "reason": "比较研究训练、实践目标与跨方向申请条件。",
+      "retained_from_20": false,
+      "rubric_path": "data/dev/N06-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "N06-02",
+      "task_path": "data/dev/N06-02/task.json",
+      "task_version": "1.0.1",
+      "title": "语言学与国际中文教育的培养选择",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N07",
+      "category": "择校推荐",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "8c50ca43d22939954cb09a4dd64e5c67f35e1ea38cd10b10f21a85da312d3511",
+        "task": "8d21b397b050354692f6baf35e104506ce08d2fb86721f0b4203eb77045206c0"
+      },
+      "order": 34,
+      "reason": "检验较大专业跨度、较低英语成绩下的具体项目适配。",
+      "retained_from_20": false,
+      "rubric_path": "data/dev/N07-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N07-03",
+      "task_path": "data/dev/N07-03/task.json",
+      "task_version": "1.0.1",
+      "title": "艺术管理背景跨教育项目择校",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N08",
+      "category": "择校推荐",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "38affb6fb8ad551ccee1a91aac21dfce7f86bf1d8036f654c62dfd6287840e69",
+        "task": "ef92b8dd7f7caaa3a56f688a011b8da8df5803da969af801445f27d4bc4cd7b6"
+      },
+      "order": 35,
+      "reason": "覆盖辅修、数理基础和实习经历对跨商科匹配的作用。",
+      "retained_from_20": false,
+      "rubric_path": "data/dev/N08-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N08-03",
+      "task_path": "data/dev/N08-03/task.json",
+      "task_version": "1.0.1",
+      "title": "商务英语跨经管与数字经济择校",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N09",
+      "category": "两阶段任务",
+      "difficulty": null,
+      "fingerprints": {
+        "rubric": "44c0d4346a2c1dc5ce669a9ad5abf517a722196363d8af28f604ac08e9ba5ea2",
+        "task": "08783887801b17634ecc88bddf78fd45969af2589e41ff7a252d41384bf0dc11"
+      },
+      "order": 36,
+      "reason": "新增项目进展后区分负责部分、参与部分与尚未开展工作。",
+      "retained_from_20": false,
+      "rubric_path": "data/staged-dev/N09-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "N09-02",
+      "task_path": "data/staged-dev/N09-02/task.json",
+      "task_version": "1.0.1",
+      "title": "机器人项目贡献和未开展计划的边界",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-N11",
+      "category": "两阶段任务",
+      "difficulty": null,
+      "fingerprints": {
+        "rubric": "c5827528e0b775e734f21cc7eed4ca88103dd721e5bed22b29e747c92ce9287f",
+        "task": "05e2413cfc44976e6b942ade4ee9e7b6539ee68c3de8e606bc7f75c5f8ea5c3c"
+      },
+      "order": 37,
+      "reason": "处理大创延期、级别未定与综述尚未投稿，修正路线判断。",
+      "retained_from_20": false,
+      "rubric_path": "data/staged-dev/N11-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "N11-02",
+      "task_path": "data/staged-dev/N11-02/task.json",
+      "task_version": "1.0.1",
+      "title": "医学影像背景补充项目状态后的选方向",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-N12",
+      "category": "两阶段任务",
+      "difficulty": null,
+      "fingerprints": {
+        "rubric": "57f7963348523fdb3ef2d8b9af8260044bd92e1992350951b452c3aba76d868a",
+        "task": "b7aa463151b15eb54e5114b323455e8c67d72e66128e1748c12e4a8ec2de68ee"
+      },
+      "order": 38,
+      "reason": "区分学硕与其他法律培养路径，不把未投稿稿件当发表成果。",
+      "retained_from_20": false,
+      "rubric_path": "data/staged-dev/N12-02/rubric.json",
+      "stage_count": 2,
+      "task_id": "N12-02",
+      "task_path": "data/staged-dev/N12-02/task.json",
+      "task_version": "1.0.1",
+      "title": "补充法学研究后比较培养项目",
+      "track": "staged-dev"
+    },
+    {
+      "case_group_id": "student-N13",
+      "category": "择校推荐",
+      "difficulty": "hard",
+      "fingerprints": {
+        "rubric": "8836d2cbdb523749fbe6291deaf20341520f729bd1cd9fb35d57e83b668539c0",
+        "task": "1ec5a0068ca3b1cdfd8a478a368f27783768d63fa8c6fb25e557293b52370acc"
+      },
+      "order": 39,
+      "reason": "覆盖非重点本科平台中的高排名优势与具体机械项目适配。",
+      "retained_from_20": false,
+      "rubric_path": "data/dev/N13-03/rubric.json",
+      "stage_count": 1,
+      "task_id": "N13-03",
+      "task_path": "data/dev/N13-03/task.json",
+      "task_version": "1.0.1",
+      "title": "机械第一名与英语短板下择校",
+      "track": "dev"
+    },
+    {
+      "case_group_id": "student-N14",
+      "category": "规划与决策",
+      "difficulty": "medium",
+      "fingerprints": {
+        "rubric": "fd266c4219f9545f5adef4b68a51686fcab0cc6e604cde14cbcbc86cef26c6ed",
+        "task": "beb874beef76e95b656ca20d7d92be65839fdcbabb25709cd52232c325683b48"
+      },
+      "order": 40,
+      "reason": "区分课程要求、研究训练及职业发展，不只比较学校名气。",
+      "retained_from_20": false,
+      "rubric_path": "data/dev/N14-02/rubric.json",
+      "stage_count": 1,
+      "task_id": "N14-02",
+      "task_path": "data/dev/N14-02/task.json",
+      "task_version": "1.0.1",
+      "title": "会计、金融、管理与交叉项目比较",
+      "track": "dev"
+    }
+  ]
+}

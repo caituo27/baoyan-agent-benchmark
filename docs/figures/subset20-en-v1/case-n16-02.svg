@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+<title id="title">N16-02: new experience, unchanged degree constraints</title>
+<desc id="desc">New engineering projects add evidence of fit, but do not establish a formally declared major. Task rubric weights total 100.</desc>
+<rect x="0" y="0" width="1600" height="1100" rx="0" fill="#FFFFFF" stroke="none"/>
+<rect x="64" y="44" width="8" height="22" rx="0" fill="#405DC6" stroke="none"/>
+<text x="88" y="61.2" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="600" text-anchor="start" fill="#202B40">Baoyan Agent Benchmark</text>
+<text x="1536" y="60.62" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="400" text-anchor="end" fill="#647087">04 / CASE STUDY  /  SUBSET 20</text>
+<text x="64" y="145.84" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="44" font-weight="600" text-anchor="start" fill="#202B40">Do more projects remove a degree constraint?</text>
+<text x="64" y="197.06" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#647087">N16-02  /  Translated excerpts from a two-stage task: new evidence and an unchanged constraint.</text>
+<rect x="64" y="273" width="413" height="421" rx="8" fill="white" stroke="#DEE4ED"/>
+<line x1="86" y1="324" x2="455" y2="324" stroke="#DEE4ED" stroke-width="1"/>
+<rect x="86" y="295" width="7" height="7" rx="0" fill="#405DC6" stroke="none"/>
+<text x="104" y="302.62" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" text-anchor="start" fill="#405DC6">S0  /  INITIAL BACKGROUND</text>
+<text x="92" y="380.66" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="31" font-weight="600" text-anchor="start" fill="#202B40">General engineering</text>
+<text x="92" y="430.64" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="600" text-anchor="start" fill="#B96532">No declared major yet</text>
+<line x1="92" y1="462" x2="448" y2="462" stroke="#DEE4ED" stroke-width="1"/>
+<text x="92" y="509.06" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#647087">Rank</text>
+<text x="218" y="511.64" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="600" text-anchor="start" fill="#202B40">19/123</text>
+<text x="92" y="559.06" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#647087">CET-6</text>
+<text x="218" y="561.64" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="600" text-anchor="start" fill="#202B40">458</text>
+<text x="92" y="609.06" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="400" text-anchor="start" fill="#647087">Target</text>
+<text x="92" y="644.2" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="600" text-anchor="start" fill="#202B40">Mechanical / smart manufacturing</text>
+<text x="585" y="300.06" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="600" text-anchor="start" fill="#B96532">S1  /  ADDITIONAL FACTS</text>
+<rect x="581" y="330" width="955" height="109" rx="8" fill="#FCF2E9" stroke="none"/>
+<circle cx="616" cy="366" r="17" fill="#B96532" stroke="none" stroke-width="2"/>
+<text x="616" y="371.34" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="600" text-anchor="middle" fill="white">+</text>
+<text x="650" y="372.5" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="600" text-anchor="start" fill="#202B40">Mechanical innovation, student research, smart lock project</text>
+<text x="650" y="411.34" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="400" text-anchor="start" fill="#647087">The prompt reiterates: general engineering, with no formally declared major.</text>
+<line x1="493" y1="385" x2="561" y2="385" stroke="#405DC6" stroke-width="2"/>
+<line x1="561" y1="385" x2="550.4690092573155" y2="390.75310646325045" stroke="#405DC6" stroke-width="2"/>
+<line x1="561" y1="385" x2="550.4690092573155" y2="379.24689353674955" stroke="#405DC6" stroke-width="2"/>
+<line x1="1048" y1="439" x2="1048" y2="481" stroke="#19776B" stroke-width="2"/>
+<line x1="1048" y1="481" x2="820" y2="481" stroke="#19776B" stroke-width="2"/>
+<line x1="820" y1="481" x2="820" y2="510" stroke="#19776B" stroke-width="2"/>
+<line x1="820" y1="481" x2="820" y2="510" stroke="#19776B" stroke-width="2"/>
+<line x1="820" y1="510" x2="814.2468935367496" y2="499.4690092573155" stroke="#19776B" stroke-width="2"/>
+<line x1="820" y1="510" x2="825.7531064632504" y2="499.4690092573155" stroke="#19776B" stroke-width="2"/>
+<line x1="1048" y1="481" x2="1318" y2="481" stroke="#B96532" stroke-width="2"/>
+<line x1="1318" y1="481" x2="1318" y2="510" stroke="#B96532" stroke-width="2"/>
+<line x1="1318" y1="481" x2="1318" y2="510" stroke="#B96532" stroke-width="2"/>
+<line x1="1318" y1="510" x2="1312.2468935367497" y2="499.4690092573155" stroke="#B96532" stroke-width="2"/>
+<line x1="1318" y1="510" x2="1323.7531064632503" y2="499.4690092573155" stroke="#B96532" stroke-width="2"/>
+<text x="583" y="572.08" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="600" text-anchor="start" fill="#19776B">What changed</text>
+<rect x="583" y="592" width="6" height="96" rx="0" fill="#19776B" stroke="none"/>
+<text x="610" y="610.64" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="600" text-anchor="start" fill="#202B40">Evidence of skills and research fit</text>
+<text x="610" y="656.2" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" text-anchor="start" fill="#647087">Verify personal role and project outcomes</text>
+<text x="1109" y="572.08" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="600" text-anchor="start" fill="#B96532">What did not</text>
+<rect x="1109" y="592" width="6" height="96" rx="0" fill="#B96532" stroke="none"/>
+<text x="1136" y="610.64" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="600" text-anchor="start" fill="#202B40">Formal major designation</text>
+<text x="1136" y="656.2" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" text-anchor="start" fill="#647087">Check target program eligibility</text>
+<line x1="64" y1="741" x2="1536" y2="741" stroke="#DEE4ED" stroke-width="1"/>
+<text x="64" y="793.2" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" text-anchor="start" fill="#647087">REVIEW FOCUS</text>
+<text x="267" y="791.66" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="31" font-weight="600" text-anchor="start" fill="#202B40">Reassess fit without dropping eligibility constraints.</text>
+<text x="267" y="838.92" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" text-anchor="start" fill="#647087">Advice may change or stay the same. Either way, give reasons and next steps.</text>
+<text x="64" y="920.24" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="600" text-anchor="start" fill="#202B40">100 pts</text>
+<text x="64" y="955.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#647087">Rubric weights</text>
+<text x="282" y="911.36" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#405DC6">24</text>
+<rect x="282" y="929" width="132" height="5" rx="0" fill="#ECF0F7" stroke="none"/>
+<rect x="282" y="929" width="132.0" height="5" rx="0" fill="#405DC6" stroke="none"/>
+<text x="282" y="964.76" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#647087">Major risk</text>
+<text x="439" y="911.36" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#405DC6">14</text>
+<rect x="439" y="929" width="132" height="5" rx="0" fill="#ECF0F7" stroke="none"/>
+<rect x="439" y="929" width="77.0" height="5" rx="0" fill="#405DC6" stroke="none"/>
+<text x="439" y="964.76" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#647087">Rank / English</text>
+<text x="596" y="911.36" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#405DC6">12</text>
+<rect x="596" y="929" width="132" height="5" rx="0" fill="#ECF0F7" stroke="none"/>
+<rect x="596" y="929" width="66.0" height="5" rx="0" fill="#405DC6" stroke="none"/>
+<text x="596" y="964.76" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#647087">Contributions</text>
+<text x="753" y="911.36" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#405DC6">12</text>
+<rect x="753" y="929" width="132" height="5" rx="0" fill="#ECF0F7" stroke="none"/>
+<rect x="753" y="929" width="66.0" height="5" rx="0" fill="#405DC6" stroke="none"/>
+<text x="753" y="964.76" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#647087">Degree fit</text>
+<text x="910" y="911.36" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#405DC6">8</text>
+<rect x="910" y="929" width="132" height="5" rx="0" fill="#ECF0F7" stroke="none"/>
+<rect x="910" y="929" width="44.0" height="5" rx="0" fill="#405DC6" stroke="none"/>
+<text x="910" y="964.76" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#647087">Timing / backup</text>
+<text x="1067" y="911.36" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#405DC6">10</text>
+<rect x="1067" y="929" width="132" height="5" rx="0" fill="#ECF0F7" stroke="none"/>
+<rect x="1067" y="929" width="55.0" height="5" rx="0" fill="#405DC6" stroke="none"/>
+<text x="1067" y="964.76" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#647087">Evidence limits</text>
+<text x="1224" y="911.36" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#405DC6">10</text>
+<rect x="1224" y="929" width="132" height="5" rx="0" fill="#ECF0F7" stroke="none"/>
+<rect x="1224" y="929" width="55.0" height="5" rx="0" fill="#405DC6" stroke="none"/>
+<text x="1224" y="964.76" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#647087">Route tradeoffs</text>
+<text x="1381" y="911.36" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#405DC6">10</text>
+<rect x="1381" y="929" width="132" height="5" rx="0" fill="#ECF0F7" stroke="none"/>
+<rect x="1381" y="929" width="55.0" height="5" rx="0" fill="#405DC6" stroke="none"/>
+<text x="1381" y="964.76" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#647087">Advice revision</text>
+<line x1="64" y1="1038" x2="1536" y2="1038" stroke="#DEE4ED" stroke-width="1"/>
+<text x="64" y="1073.76" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" text-anchor="start" fill="#647087">Judge each answer using facts available then. Score both stages as one task; do not double-penalize errors.</text>
+<text x="1536" y="1073.76" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" text-anchor="end" fill="#647087">1.0.1  ·  public-dev-20-v1</text>
+</svg>

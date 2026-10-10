@@ -1,0 +1,143 @@
+{
+  "kind": "add_completed_configurations_with_existing_errata",
+  "base_report": "experiments/subset20-results-evidence-corrected-20261010",
+  "base_results_sha256": "b53dda7b3f4cfcb5d5f1c1245f4d1c18f23581b69f6e87e489693f34fdb4c73a",
+  "original_reviews_replayed": 180,
+  "inherited_adjudications_replayed": 17,
+  "new_department_adjudications": {
+    "scope": "Apply existing owner-approved SYSU/XMU/BIT reference identities consistently to Claude and GLM; other judgments preserved. No candidate reruns or new independent model reviews.",
+    "decision_sha256": {
+      "release/errata/department-identities-20261010/decision.json": "d5b701adc4e2ef463e0797be4977c453dd524645076f326f2231d1b77665a70c",
+      "release/errata/N06-10-sysu-20261010/decision.json": "b97553f1263afdffc36528b4b490f143aa7df61f809e1060dd8603cbc0f5a8ed"
+    },
+    "changes": [
+      {
+        "agent": "ark-glm-5-3-flash-260828",
+        "task_id": "N06-03",
+        "packet": "26ce60dc426db19a49eb9bfa0e3d6768",
+        "review_source": "subset20-glm-recovery3-review-20261010-0012",
+        "affected_nodes": [
+          "N06-10",
+          "N06-14"
+        ],
+        "original_judgment_sha256": "7b89aaaa0b5f1373419dbcfe7afb982911184e8b1069c0dc4f59e596c5c6f271",
+        "original_score_sha256": "88b7ef8044e67b3de7f4c535f4075fa87ed389f7ad36efc6bc4af640c46e6a3b",
+        "before": {
+          "score": null,
+          "score_interval": [
+            51.94,
+            56.31
+          ],
+          "pending_nodes": [
+            "N06-10"
+          ]
+        },
+        "after": {
+          "score": 56.31,
+          "score_interval": [
+            56.31,
+            56.31
+          ],
+          "pending_nodes": []
+        },
+        "adjudication_path": "reviews/subset20-nine-integration-20261010-0104/department-adjudications/N06-03/26ce60dc426db19a49eb9bfa0e3d6768"
+      },
+      {
+        "agent": "ark-glm-5-3-flash-260828",
+        "task_id": "N14-03",
+        "packet": "7078f370b346a61ecb54b975065a710a",
+        "review_source": "subset20-glm-recovery3-review-20261010-0012",
+        "affected_nodes": [
+          "N14-L1-06"
+        ],
+        "original_judgment_sha256": "d72456ce1331d70711c8e8cdadb8cfd87d605f552802a6f01090e6a687af4a64",
+        "original_score_sha256": "2c27649f03e948ba5276ba7e68bff6061970a9219731c174c33f502a9e82b745",
+        "before": {
+          "score": 34.44,
+          "score_interval": [
+            34.44,
+            34.44
+          ],
+          "pending_nodes": []
+        },
+        "after": {
+          "score": 34.44,
+          "score_interval": [
+            34.44,
+            34.44
+          ],
+          "pending_nodes": []
+        },
+        "adjudication_path": "reviews/subset20-nine-integration-20261010-0104/department-adjudications/N14-03/7078f370b346a61ecb54b975065a710a"
+      },
+      {
+        "agent": "claude-opus-5-5",
+        "task_id": "N06-03",
+        "packet": "8257ce34fffe1a3becd3fe17a522266d",
+        "review_source": "subset20-claude-review-20261010-0033",
+        "affected_nodes": [
+          "N06-10",
+          "N06-14"
+        ],
+        "original_judgment_sha256": "e2c1de64bed0545f1339359466d4b7b5291193e61bfe56ac661da0a902da2c35",
+        "original_score_sha256": "a3e88710be9e10cfa9fb21b1aa61ed1f240a7ff60f4ae86cd26d49ea1fdac1ee",
+        "before": {
+          "score": null,
+          "score_interval": [
+            36.31,
+            40.69
+          ],
+          "pending_nodes": [
+            "N06-10"
+          ]
+        },
+        "after": {
+          "score": 40.69,
+          "score_interval": [
+            40.69,
+            40.69
+          ],
+          "pending_nodes": []
+        },
+        "adjudication_path": "reviews/subset20-nine-integration-20261010-0104/department-adjudications/N06-03/8257ce34fffe1a3becd3fe17a522266d"
+      },
+      {
+        "agent": "claude-opus-5-5",
+        "task_id": "N14-03",
+        "packet": "dfc31a21d13a1791a8087748c9fe1e4e",
+        "review_source": "subset20-claude-review-20261010-0033",
+        "affected_nodes": [
+          "N14-L1-06"
+        ],
+        "original_judgment_sha256": "f8287c15acebba0439cc522a78bc8eaa5feaceeabd21208c4aa16cb1e85cc73d",
+        "original_score_sha256": "745fdfd916dcc7e8e0f9cdf50dc4c19010fe92b7a266e304ab76a9dfb866b29a",
+        "before": {
+          "score": 29.44,
+          "score_interval": [
+            29.44,
+            29.44
+          ],
+          "pending_nodes": []
+        },
+        "after": {
+          "score": 29.44,
+          "score_interval": [
+            29.44,
+            29.44
+          ],
+          "pending_nodes": []
+        },
+        "adjudication_path": "reviews/subset20-nine-integration-20261010-0104/department-adjudications/N14-03/dfc31a21d13a1791a8087748c9fe1e4e"
+      }
+    ]
+  },
+  "service_recovery": {
+    "count": 7,
+    "cause": "HTTP 503 Service Unavailable; failed original sessions and partial files retained; identical model, prompt, input and scoring code on new sessions; no score selection"
+  },
+  "candidate_execution": {
+    "Claude": "20/20; original seven plus authorized subscription recovery; native Haiku helper usage retained",
+    "GLM": "20/20; original four plus authorized recovery; N15 source-to-outputs copy extraction correction without new candidate call"
+  },
+  "builder_sha256": "aa4fe19ddcc0521692e077fb0c6f4acdd1d59844ffa1c7a432323582a9883578"
+}

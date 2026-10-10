@@ -1,0 +1,16 @@
+{
+  "answer_files": [],
+  "batch": "/Users/REDACTED/Desktop/benchmark-open-source/runs/subset20-deepseek-resume-20261009-180941/attempts/9/a1/capture",
+  "category": "failed",
+  "completed": 0,
+  "executed": true,
+  "exit_code": 1,
+  "finished_at": "2026-10-09T10:27:48.839922+00:00",
+  "official": false,
+  "planned": 1,
+  "status": "invalid_output",
+  "statuses": {
+    "invalid_output": 1
+  },
+  "stopped": "deepseek-v4-1-flash/TRY-F-02/r1"
+}

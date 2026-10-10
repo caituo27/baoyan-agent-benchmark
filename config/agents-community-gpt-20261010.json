@@ -1,0 +1,27 @@
+{
+  "agents": [
+    {
+      "auth": "subscription",
+      "binary": "codex",
+      "cli": "codex",
+      "cli_version": "codex-cli 0.162.0",
+      "id": "gpt-6-astra",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high",
+      "web_search": "live"
+    },
+    {
+      "auth": "subscription",
+      "binary": "codex",
+      "cli": "codex",
+      "cli_version": "codex-cli 0.162.0",
+      "id": "gpt-6-1-sol",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "web_search": "live"
+    }
+  ],
+  "repeats": 1,
+  "schema": "native-cli-batch.1",
+  "timeout_seconds": 1200
+}

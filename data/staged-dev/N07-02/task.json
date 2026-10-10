@@ -1,0 +1,33 @@
+{
+  "as_of": "2026年推免申请季",
+  "case_group_id": "student-N07",
+  "case_id": "N07",
+  "constraints": [
+    "仅依据当前阶段提供的信息作答；不查询学生身份或其真实最终去向。"
+  ],
+  "deliverables": [],
+  "persona": {},
+  "review": {
+    "content_status": "approved",
+    "difficulty_status": "pending"
+  },
+  "stages": [
+    {
+      "instruction": "我在曲阜师范大学读航空服务艺术与管理，排名2/201，六级407。想跨申请教育相关研究生，但又担心英语和本科专业不占优势。这条路该怎么评估，眼下要先补什么？",
+      "stage_id": "S0",
+      "visible_at": "2026年推免申请季"
+    },
+    {
+      "instruction": "我之前写过航空货运数字化转型和跨文化沟通方向的文章，也参加过教育教学能力相关竞赛。这些经历能怎样体现我申请教育学的兴趣和基础？",
+      "stage_id": "S1",
+      "visible_at": "2026年推免申请季"
+    }
+  ],
+  "task_id": "N07-02",
+  "task_version": "1.0.1",
+  "time_context": {
+    "application_year": "2026",
+    "assessment_period": "2026年推免申请季",
+    "time_precision": "year_only_scenario"
+  }
+}

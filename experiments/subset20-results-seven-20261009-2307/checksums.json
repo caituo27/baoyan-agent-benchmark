@@ -1,0 +1,16 @@
+{
+  "exporter_sha256": "489881de469ea911c681393be2fbace6233b0332891ebca79153580aac3eb121",
+  "files": {
+    "README.md": "317867f8f3123d820b23638646ac4f7ceabe920d4d50c30c73e6588416a1e955",
+    "README.zh-CN.md": "fae9533d830c7cf2198e4a22baf1dee41135ebb09ebd2e820f939fb152810b3d",
+    "execution-progress.json": "4e8b7c029b9ddd281b883c2e50750576c96d5f6718b180d3e546f35528bab0e2",
+    "pending-review.md": "519d4092101ed444ca1261d834a2701e5b14c8ade84708a0a276394b7ffd7d57",
+    "results.json": "6aa6bc3487f0b9529ac7dadc31329f8a4c4b3140657b0a136326eccecd0f0366",
+    "score-bounds.png": "6d2f70c7e78054f0cdc476d5d36b02ecc77d2dbb1804b3f046ac50c1a91ccbc2",
+    "score-bounds.svg": "f8473c6987aaf99c1711f7837cadc1ead1e67e7593cd7f57280bd89ac0e7bcf6",
+    "scores.csv": "cddffe440370e3b6a29e53e9340ae338ef55124eac005bcbc73754e3b5611564",
+    "task-scores.png": "2fdec23b26f7c2d1b672c7741f50d28f77b4c5f4f4d3e9714634a3c7806fcb37",
+    "task-scores.svg": "3b27e98c1e403ffc0e44ddc33e4d9e65dc046bc395fb8bf6d8303a3c6787fdef",
+    "verification.json": "7c30876e9cb96505adf3e344fa88b0830d0e13691c124e737fe02ffbba3c6532"
+  }
+}

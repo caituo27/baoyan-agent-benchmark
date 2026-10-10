@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1197" viewBox="0 0 1600 1197" role="img" aria-labelledby="title desc">
+<title id="title">Dev20 results: score bounds</title>
+<desc id="desc">Bars share a zero-to-100 axis. Purple shows lower score bounds; gold extends to upper bounds. Pending evidence ranges are not final means or confidence intervals. Unreviewed configurations have no bar.</desc>
+<rect x="0" y="0" width="1600" height="1197" rx="0" fill="#FFFFFF" stroke="none"/>
+<rect x="0" y="12" width="1600" height="1173" rx="36" fill="#FAF7F1" stroke="none"/>
+<text x="68" y="66.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="start" fill="#7854A6">BAOYAN AGENT BENCHMARK</text>
+<text x="1532" y="66.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="400" text-anchor="end" fill="#746C7E">02 / DEV20 RESULTS</text>
+<text x="68" y="139.56" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="46" font-weight="600" text-anchor="start" fill="#30283F">How do the agents compare?</text>
+<text x="68" y="185.64" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="400" text-anchor="start" fill="#746C7E">9 configurations · Same 20 tasks · 100-point scale</text>
+<rect x="68" y="216" width="20" height="20" rx="4" fill="#7854A6" stroke="none"/>
+<text x="100" y="233.2" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" text-anchor="start" fill="#30283F">Lower bound</text>
+<rect x="295" y="216" width="20" height="20" rx="4" fill="#E9B949" stroke="none"/>
+<text x="327" y="233.2" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" text-anchor="start" fill="#30283F">Pending contribution</text>
+<text x="1532" y="233.2" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" text-anchor="end" fill="#746C7E">Ranges reflect unresolved evidence</text>
+<text x="68" y="283.76" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" text-anchor="start" fill="#746C7E">AGENT CONFIGURATION</text>
+<text x="462" y="283.76" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" text-anchor="start" fill="#746C7E">SCORE / 100</text>
+<text x="1350" y="283.76" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" text-anchor="end" fill="#746C7E">MEAN BOUNDS</text>
+<text x="1532" y="283.76" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" text-anchor="end" fill="#746C7E">PENDING TASKS</text>
+<line x1="68" y1="303" x2="1532" y2="303" stroke="#E4D9CD" stroke-width="1"/>
+<line x1="462.0" y1="317" x2="462.0" y2="1052" stroke="#E4D9CD" stroke-width="1"/>
+<text x="462.0" y="1079.62" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="400" text-anchor="middle" fill="#746C7E">0</text>
+<line x1="620.5" y1="317" x2="620.5" y2="1052" stroke="#E4D9CD" stroke-width="1"/>
+<text x="620.5" y="1079.62" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="400" text-anchor="middle" fill="#746C7E">25</text>
+<line x1="779.0" y1="317" x2="779.0" y2="1052" stroke="#E4D9CD" stroke-width="1"/>
+<text x="779.0" y="1079.62" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="400" text-anchor="middle" fill="#746C7E">50</text>
+<line x1="937.5" y1="317" x2="937.5" y2="1052" stroke="#E4D9CD" stroke-width="1"/>
+<text x="937.5" y="1079.62" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="400" text-anchor="middle" fill="#746C7E">75</text>
+<line x1="1096.0" y1="317" x2="1096.0" y2="1052" stroke="#E4D9CD" stroke-width="1"/>
+<text x="1096.0" y="1079.62" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="400" text-anchor="middle" fill="#746C7E">100</text>
+<text x="68" y="353.36" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#30283F">GPT-6 Astra</text>
+<rect x="462" y="329" width="634" height="32" rx="5" fill="#EDE5EF" stroke="none"/>
+<rect x="462" y="329" width="512.60168" height="32" rx="5" fill="#7854A6" stroke="none"/>
+<text x="1350" y="354.08" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="600" text-anchor="end" fill="#30283F">80.85</text>
+<text x="1508" y="353.78" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="400" text-anchor="end" fill="#746C7E">0 / 20</text>
+<text x="68" y="436.36" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#30283F">GPT-6.1 Sol</text>
+<rect x="462" y="412" width="634" height="32" rx="5" fill="#EDE5EF" stroke="none"/>
+<rect x="462" y="412" width="509.87548" height="32" rx="5" fill="#7854A6" stroke="none"/>
+<text x="1350" y="437.08" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="600" text-anchor="end" fill="#30283F">80.42</text>
+<text x="1508" y="436.78" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="400" text-anchor="end" fill="#746C7E">0 / 20</text>
+<text x="68" y="519.36" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#30283F">DeepSeek V4.1 Flash</text>
+<rect x="462" y="495" width="634" height="32" rx="5" fill="#EDE5EF" stroke="none"/>
+<rect x="462" y="495" width="438.94039000000004" height="32" rx="5" fill="#7854A6" stroke="none"/>
+<text x="1350" y="520.08" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="600" text-anchor="end" fill="#30283F">69.23</text>
+<text x="1508" y="519.78" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="400" text-anchor="end" fill="#746C7E">0 / 20</text>
+<text x="68" y="602.36" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#30283F">Gemini 3.1 Pro</text>
+<rect x="462" y="578" width="634" height="32" rx="5" fill="#EDE5EF" stroke="none"/>
+<rect x="462" y="578" width="356.62183" height="32" rx="5" fill="#7854A6" stroke="none"/>
+<text x="1350" y="603.08" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="600" text-anchor="end" fill="#30283F">56.25</text>
+<text x="1508" y="602.78" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="400" text-anchor="end" fill="#746C7E">0 / 20</text>
+<text x="68" y="685.36" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#30283F">Gemini 3.8 Flash</text>
+<rect x="462" y="661" width="634" height="32" rx="5" fill="#EDE5EF" stroke="none"/>
+<rect x="462" y="661" width="383.9504" height="32" rx="5" fill="#7854A6" stroke="none"/>
+<text x="1350" y="686.08" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="600" text-anchor="end" fill="#30283F">60.56</text>
+<text x="1508" y="685.78" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="400" text-anchor="end" fill="#746C7E">0 / 20</text>
+<text x="68" y="768.36" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#30283F">Qwen 3.8 Max</text>
+<rect x="462" y="744" width="634" height="32" rx="5" fill="#EDE5EF" stroke="none"/>
+<rect x="462" y="744" width="418.26565" height="32" rx="5" fill="#7854A6" stroke="none"/>
+<text x="1350" y="769.08" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="600" text-anchor="end" fill="#30283F">65.97</text>
+<text x="1508" y="768.78" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="400" text-anchor="end" fill="#746C7E">0 / 20</text>
+<text x="68" y="851.36" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#30283F">Kimi K3</text>
+<rect x="462" y="827" width="634" height="32" rx="5" fill="#EDE5EF" stroke="none"/>
+<rect x="462" y="827" width="393.76789" height="32" rx="5" fill="#7854A6" stroke="none"/>
+<text x="1350" y="852.08" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="600" text-anchor="end" fill="#30283F">62.11</text>
+<text x="1508" y="851.78" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="400" text-anchor="end" fill="#746C7E">0 / 20</text>
+<text x="68" y="934.36" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#30283F">GLM 5.3 Flash (Ark)</text>
+<rect x="462" y="910" width="634" height="32" rx="5" fill="#EDE5EF" stroke="none"/>
+<rect x="462" y="910" width="436.90842000000004" height="32" rx="5" fill="#7854A6" stroke="none"/>
+<text x="1350" y="935.08" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="600" text-anchor="end" fill="#30283F">68.91</text>
+<text x="1508" y="934.78" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="400" text-anchor="end" fill="#746C7E">0 / 20</text>
+<text x="68" y="1017.36" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="600" text-anchor="start" fill="#30283F">Claude Opus 5.5</text>
+<rect x="462" y="993" width="634" height="32" rx="5" fill="#EDE5EF" stroke="none"/>
+<rect x="462" y="993" width="463.72979000000004" height="32" rx="5" fill="#7854A6" stroke="none"/>
+<text x="1350" y="1018.08" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="600" text-anchor="end" fill="#30283F">73.14</text>
+<text x="1508" y="1017.78" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="400" text-anchor="end" fill="#746C7E">0 / 20</text>
+<line x1="462" y1="1052" x2="1096" y2="1052" stroke="#E4D9CD" stroke-width="1"/>
+<rect x="68" y="1125" width="1464" height="42" rx="12" fill="#30283F" stroke="none"/>
+<text x="800" y="1151.48" font-family="Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#FFFFFF">Fixed denominator: 20 tasks  ·  Pending evidence bounds, not confidence intervals or finalized means</text>
+</svg>

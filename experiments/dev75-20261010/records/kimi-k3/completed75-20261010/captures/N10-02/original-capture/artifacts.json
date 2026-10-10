@@ -1,0 +1,66 @@
+[
+  {
+    "bytes": 0,
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "cli.stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformed": false
+  },
+  {
+    "bytes": 2188,
+    "export_sha256": "d0670631b4fce4564bed22349cceabaf4e4c68276bf500abf49f21946feb1774",
+    "path": "execution.json",
+    "source_pattern_counts": {},
+    "source_sha256": "d0670631b4fce4564bed22349cceabaf4e4c68276bf500abf49f21946feb1774",
+    "transformed": false
+  },
+  {
+    "bytes": 1948,
+    "export_sha256": "0f7e5ca2e4defeea97a497e8b56eed75dbe59348ccb6bd79537a10f235956e85",
+    "path": "run.json",
+    "source_pattern_counts": {},
+    "source_sha256": "3cd794e6f6a63aacbd0eff5eda1cdf283d6ffd343a298ea80e16f709b0a3e90b",
+    "transformed": true
+  },
+  {
+    "bytes": 42633,
+    "export_sha256": "1d78e55f4420263a4a9821b3e906fe42406e109a64d76aab65660ea567abeaf9",
+    "path": "trace.jsonl",
+    "source_pattern_counts": {},
+    "source_sha256": "3016569896254bb1b101ffa928f23919a13334d8ed6aa5aab9ca4731f1902427",
+    "transformed": true
+  },
+  {
+    "bytes": 12203,
+    "export_sha256": "11e29b71ca4d58b6899e534252e7af9c61d112faeb9a4c9c7113545bdaef6c71",
+    "path": "workspace/answer.md",
+    "source_pattern_counts": {},
+    "source_sha256": "11e29b71ca4d58b6899e534252e7af9c61d112faeb9a4c9c7113545bdaef6c71",
+    "transformed": false
+  },
+  {
+    "bytes": 1539,
+    "export_sha256": "1322d8c0a2a325d97913ef2b900b3fcdedb8cf3396ec5ee1a49053e8b9c317d8",
+    "path": "workspace/final-response.md",
+    "source_pattern_counts": {},
+    "source_sha256": "1322d8c0a2a325d97913ef2b900b3fcdedb8cf3396ec5ee1a49053e8b9c317d8",
+    "transformed": false
+  },
+  {
+    "bytes": 41890,
+    "export_sha256": "bc0b90234c4bc39ceebd4415cb5b18188253d5a10f4f8294b4a2bd538453efab",
+    "path": "workspace/trajectory.jsonl",
+    "source_pattern_counts": {},
+    "source_sha256": "13f81a1b79446961acf85e04a02d12136f4ab1eb5681c5cbca78f176647cb6ed",
+    "transformed": true
+  },
+  {
+    "bytes": 72,
+    "export_sha256": "dbe2cf615315c4831999c1438f9fb2a01048dca1abba40d345ce8da18037c28e",
+    "path": "workspace/usage.json",
+    "source_pattern_counts": {},
+    "source_sha256": "dbe2cf615315c4831999c1438f9fb2a01048dca1abba40d345ce8da18037c28e",
+    "transformed": false
+  }
+]

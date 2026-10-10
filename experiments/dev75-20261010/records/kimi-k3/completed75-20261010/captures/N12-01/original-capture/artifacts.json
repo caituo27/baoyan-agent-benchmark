@@ -1,0 +1,70 @@
+[
+  {
+    "bytes": 0,
+    "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "cli.stderr.log",
+    "source_pattern_counts": {},
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "transformed": false
+  },
+  {
+    "bytes": 2188,
+    "export_sha256": "a34b70fe0fd45a3d187a3d2bb5deb4cb0f2eff83e67743da5d89e0551c181b6f",
+    "path": "execution.json",
+    "source_pattern_counts": {},
+    "source_sha256": "a34b70fe0fd45a3d187a3d2bb5deb4cb0f2eff83e67743da5d89e0551c181b6f",
+    "transformed": false
+  },
+  {
+    "bytes": 1948,
+    "export_sha256": "936ecaba05b79cb1e48b94c9e99741a4e927657e3ed65f7aeca58ce77575d909",
+    "path": "run.json",
+    "source_pattern_counts": {},
+    "source_sha256": "b9203f807fa6581a60466fc96be6527fb4af903afbe457ae80ba1f490675d287",
+    "transformed": true
+  },
+  {
+    "bytes": 48852,
+    "export_sha256": "1e5ae138068a0b2101527de88af7c3a28cc21d68bc0515ebf9a7dc1cb6968c09",
+    "path": "trace.jsonl",
+    "source_pattern_counts": {
+      "mobile_phone": 1
+    },
+    "source_sha256": "a6213603446fd6b8e495c713fafa8395949ee814dc8fd87b71fbed9ddb014ca0",
+    "transformed": true
+  },
+  {
+    "bytes": 10587,
+    "export_sha256": "bfdfcebf46ce35f6a9b862517d7acaf737d4d851a38207f94c3cbd1eec0c555c",
+    "path": "workspace/answer.md",
+    "source_pattern_counts": {},
+    "source_sha256": "bfdfcebf46ce35f6a9b862517d7acaf737d4d851a38207f94c3cbd1eec0c555c",
+    "transformed": false
+  },
+  {
+    "bytes": 1960,
+    "export_sha256": "eda36fa1433de2e9ea8a5b121fac36bee13c2d4fa6c00bbdd4db93255636411f",
+    "path": "workspace/final-response.md",
+    "source_pattern_counts": {},
+    "source_sha256": "eda36fa1433de2e9ea8a5b121fac36bee13c2d4fa6c00bbdd4db93255636411f",
+    "transformed": false
+  },
+  {
+    "bytes": 48055,
+    "export_sha256": "2e8783a39ed20318d25e52c409a885ed6ed4f324b56f785b55c597c581c03858",
+    "path": "workspace/trajectory.jsonl",
+    "source_pattern_counts": {
+      "mobile_phone": 1
+    },
+    "source_sha256": "10d7087d61ca2c1a07205dad9afa70402344f5c3e4fc1fbc5f51e20cdaedf62b",
+    "transformed": true
+  },
+  {
+    "bytes": 72,
+    "export_sha256": "dbe2cf615315c4831999c1438f9fb2a01048dca1abba40d345ce8da18037c28e",
+    "path": "workspace/usage.json",
+    "source_pattern_counts": {},
+    "source_sha256": "dbe2cf615315c4831999c1438f9fb2a01048dca1abba40d345ce8da18037c28e",
+    "transformed": false
+  }
+]

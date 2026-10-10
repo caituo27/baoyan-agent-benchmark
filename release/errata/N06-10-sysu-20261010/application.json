@@ -1,0 +1,16 @@
+{
+  "status": "applied_locally",
+  "applied_at": "2026-10-10T00:19:38+08:00",
+  "report": "experiments/subset20-results-sysu-corrected-20261010",
+  "report_results_sha256": "ca59ab6ff357b8a3d396aeced8d2d40e6f1665ad81e476bc7792428fdf441331",
+  "local_review_directory": "reviews/subset20-sysu-adjudication-20261010",
+  "configurations_rechecked": 7,
+  "original_scores_replayed": 140,
+  "numeric_answers": 132,
+  "pending_answers": 8,
+  "pending_nodes": 11,
+  "resolved_pending_nodes": 5,
+  "candidate_reruns": 0,
+  "new_independent_model_reviews": 0,
+  "publication_status": "local_only_not_pushed_or_uploaded"
+}

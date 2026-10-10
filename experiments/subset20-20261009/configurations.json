@@ -1,0 +1,250 @@
+[
+  {
+    "account_recovery": {},
+    "agent": "antigravity-gemini-3-1-pro-high",
+    "batch_sha256": "6a1ecf86c99c67ddf243f498108c1535575492d91ad05a2d42ea6c4fea787f04",
+    "campaign": "subset20-gemini31-pro-20261009-182435",
+    "configuration": {
+      "auth": "subscription",
+      "binary": "agy",
+      "cli": "antigravity",
+      "cli_version": "1.3.2",
+      "id": "antigravity-gemini-3-1-pro-high",
+      "model": "gemini-3.1-pro-high",
+      "reasoning_effort": "high"
+    },
+    "engine": "sources/subset20-gemini31-pro-20261009-182435",
+    "official": false,
+    "policy": {
+      "episode_retry": "new_session_from_first_stage",
+      "max_total_attempts": 2,
+      "prior_answers": "fresh_attempts_no_prior_answer_reuse",
+      "publication": "public_subset_only_requires_separate_review",
+      "retry_delay_seconds": 30,
+      "selection": "first_completed_capture_never_best_score"
+    },
+    "prior_campaign": null,
+    "repeats": 1,
+    "state_sha256": "a32320ec009afd14bab05ce8551bb11502f92d768a7d0f2c2d1ad8eba2aeeb73",
+    "status_counts": {
+      "completed": 20
+    }
+  },
+  {
+    "account_recovery": {},
+    "agent": "antigravity-gemini-3-8-flash-high",
+    "batch_sha256": "9ac2af50d4ff5f1908eb6219174f6e7b18a17a743f88486f5a719c7718129f7b",
+    "campaign": "subset20-gemini-20261009-174955",
+    "configuration": {
+      "auth": "subscription",
+      "binary": "agy",
+      "cli": "antigravity",
+      "cli_version": "1.3.2",
+      "id": "antigravity-gemini-3-8-flash-high",
+      "model": "gemini-3.8-flash-high",
+      "reasoning_effort": "high"
+    },
+    "engine": "sources/subset20-gemini-20261009-174955",
+    "official": false,
+    "policy": {
+      "episode_retry": "new_session_from_first_stage",
+      "max_total_attempts": 2,
+      "prior_answers": "explicit_verified_file_captures_with_original_provenance",
+      "publication": "public_subset_only_requires_separate_review",
+      "retry_delay_seconds": 30,
+      "selection": "first_completed_capture_never_best_score"
+    },
+    "prior_campaign": null,
+    "repeats": 1,
+    "state_sha256": "eca928f47eac98e144e861c53a1a43b0e05ee8da170b66f74fd9f55d48a76343",
+    "status_counts": {
+      "completed": 20
+    }
+  },
+  {
+    "account_recovery": {
+      "4": {
+        "files": {
+          ".capture.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "capture/batch.json": "a07d5a6e8397fc78114fca03c69a6d39eb0ec1cba45cb13d05160290c3c7cba2",
+          "capture/deepseek-v4-1-flash/N11-03/r1/cli.stderr.log": "2f58cf4aed0f4de07285d80e86d9ef49e79c0fa6698b7b87969fb05bb0961673",
+          "capture/deepseek-v4-1-flash/N11-03/r1/execution.json": "4524675fa0ccfab14bce6197b650bfc036e1588325f0552de40c47cd5efd4dee",
+          "capture/deepseek-v4-1-flash/N11-03/r1/protocol.json": "94858a4f4686b5d20ef5e7306d9c42971fc1496c5c0af35cd5f7c91cbb6a7a89",
+          "capture/deepseek-v4-1-flash/N11-03/r1/rubric.json": "af3c0c15cd219cfbc21d8c3b205b4ed7be0e3452e680cb4918bb667dff8f5694",
+          "capture/deepseek-v4-1-flash/N11-03/r1/run.json": "91de60ce7a1260919d13fe0f3ed00bf0be8ee91dd2e67c57894d311b8e86a0a0",
+          "capture/deepseek-v4-1-flash/N11-03/r1/scoring.md": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+          "capture/deepseek-v4-1-flash/N11-03/r1/task.json": "6cdc180458d48b16ab71cfe039fc2cf088c27960b72a6f69105a208f43c518c6",
+          "capture/deepseek-v4-1-flash/N11-03/r1/trace.jsonl": "b377998a713d6d3290c3c37136e6992f394c153c77a12da6da7cccf193a8118c",
+          "capture/deepseek-v4-1-flash/N11-03/r1/workspace/answer.md": "b228d8a8909927eac567f68a3a9fed8c3aa656b83141fae4acc8713dd50c8284",
+          "capture/deepseek-v4-1-flash/N11-03/r1/workspace/query.md": "8b0ce1d6ef81fc08714b1820940f27a81d1ad9be0e423d802c0e6c9cf6cab353",
+          "capture/deepseek-v4-1-flash/N11-03/r1/workspace/task.json": "0f09282406c372f74315c4df8a34cde1f3b9239c71f5348074f9f8bc2a3573ca",
+          "capture/deepseek-v4-1-flash/N11-03/r1/workspace/trajectory.jsonl": "fe80f326b65a25c6281fbffe38b0a4b19684113ed5060b5ee992c310b6c86978",
+          "capture/readiness.json": "43eaadf103f1a631d07bd06ccd7764b750206f2170291f87f3bfcc86bc432e88",
+          "capture/reproduction.json": "6d7d88a1c0d54232c4a1a2bcc3861bedd13257fe60e32a695f2d1aa9ee47b6e0",
+          "capture/resolved-registry.json": "afe07f54024dd516a8834917f014c11e76cfa362d8d629ebba00f56238169de0",
+          "result.json": "e9f37528b024bcc9e05ce86854baf3de9979b06e32ada47f763d550753ec7231",
+          "worker.stderr.log": "48bc1b675830e93c440730dc8a77bdda506e8bc1aa91c4fd59dc840fa87a5996",
+          "worker.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "path": "/Users/REDACTED/Desktop/benchmark-open-source/runs/subset20-reuse-four-models-20261009-174520/attempts/4/a1"
+      },
+      "5": {
+        "files": {
+          ".capture.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "capture/batch.json": "8b039f4d21e7e6cf421c0da895c4cdd39f33555c95052e0e2d0d8c07046ed901",
+          "capture/deepseek-v4-1-flash/N14-03/r1/cli.stderr.log": "c1cb547d66d11db8d5d22d532d6d9128f8b4a6b854df221aacb92a41ab5a1dad",
+          "capture/deepseek-v4-1-flash/N14-03/r1/execution.json": "56e6c79937316fdaa1fe2e88b0a8df739fcb29f697b738990e064f69bcd4e3fa",
+          "capture/deepseek-v4-1-flash/N14-03/r1/protocol.json": "94858a4f4686b5d20ef5e7306d9c42971fc1496c5c0af35cd5f7c91cbb6a7a89",
+          "capture/deepseek-v4-1-flash/N14-03/r1/rubric.json": "b04f6038c84cbc754f453aeb7d1a8b89cdbaaedb7534a3ed0c0ca9ae5cbe3f9f",
+          "capture/deepseek-v4-1-flash/N14-03/r1/run.json": "63bf045a7f74c1022fccf0b0f7515a2aa4342ef49af8fcfefc9682c87545474f",
+          "capture/deepseek-v4-1-flash/N14-03/r1/scoring.md": "19ff84328530f463991b15a418a026baada0fee17decd54ce1c0ea067018f374",
+          "capture/deepseek-v4-1-flash/N14-03/r1/task.json": "cefba07ace443aa213a789fbd0b68eff92a25ad0363b571188b0b046e2d1ad8a",
+          "capture/deepseek-v4-1-flash/N14-03/r1/trace.jsonl": "3ff4a60e38087435ba4770788b6db927cc667cae09ba8567d62c82e856774868",
+          "capture/deepseek-v4-1-flash/N14-03/r1/workspace/query.md": "db2b75fdcd48f7061ce6e4dd3f2e9b6acda78d0672a331ae30f27bc50964125c",
+          "capture/deepseek-v4-1-flash/N14-03/r1/workspace/task.json": "688605e9ce80f8a250637bbaa7f215e868f38efb041a6afe97eb9240b5d91852",
+          "capture/deepseek-v4-1-flash/N14-03/r1/workspace/trajectory.jsonl": "3abfeefc784d9bccb7173b9741696efddd36d1322cdea1be0f10edf933b46584",
+          "capture/readiness.json": "bba57f41b6d08e9a7c8f8ad69e1d773c046dcc534e13be3dbf1ab0f4aaf3a9c3",
+          "capture/reproduction.json": "20e525e18597523665ee4e7e73f7d43fb38b8324466c3bfed5a461571911d4a6",
+          "capture/resolved-registry.json": "afe07f54024dd516a8834917f014c11e76cfa362d8d629ebba00f56238169de0",
+          "result.json": "bcab7869666f1a67e7942afbfc4fa4ca12df659dc484c6550d2f7d1b800a8be6",
+          "worker.stderr.log": "c1ac733735bc967d47e651486a12c44a8470924122558550a68b50364dd4166d",
+          "worker.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "path": "/Users/REDACTED/Desktop/benchmark-open-source/runs/subset20-reuse-four-models-20261009-174520/attempts/5/a1"
+      }
+    },
+    "agent": "deepseek-v4-1-flash",
+    "batch_sha256": "cc19e74a41ba2faeb6c87348d55d89e487519825f50a67a2d4df18ba5b001813",
+    "campaign": "subset20-deepseek-resume-20261009-180941",
+    "configuration": {
+      "api_key_env": "DEEPSEEK_API_KEY",
+      "auth": "api",
+      "base_url": "https://api.deepseek.com/anthropic",
+      "binary": "/Users/REDACTED/Desktop/benchmark/runs/tools/deepseek-cli-0.2.0-rc.2/node_modules/.bin/dsh",
+      "cli": "dsh",
+      "cli_version": "0.2.0-rc.2",
+      "id": "deepseek-v4-1-flash",
+      "model": "deepseek-flash",
+      "reasoning_effort": "high"
+    },
+    "engine": "sources/subset20-deepseek-resume-20261009-180941",
+    "official": false,
+    "policy": {
+      "account_recovery": "explicit_resume_original_account_failure_consumes_one_attempt",
+      "episode_retry": "new_session_from_first_stage",
+      "max_total_attempts": 2,
+      "prior_answers": "explicit_verified_file_captures_with_original_provenance",
+      "publication": "public_subset_only_requires_separate_review",
+      "retry_delay_seconds": 30,
+      "selection": "first_completed_capture_never_best_score"
+    },
+    "prior_campaign": null,
+    "repeats": 1,
+    "state_sha256": "d879c1795edd9eacbee7c5909a8d525181212c9321320575a36442fde1275683",
+    "status_counts": {
+      "completed": 20
+    }
+  },
+  {
+    "account_recovery": {},
+    "agent": "gpt-6-1-sol",
+    "batch_sha256": "ca5afe3afbfbf67330113d55120632b1dd0b652a942e327d3042ba4de4c329d0",
+    "campaign": "subset20-reuse-four-models-20261009-174520",
+    "configuration": {
+      "auth": "subscription",
+      "binary": "codex",
+      "cli": "codex",
+      "cli_version": "codex-cli 0.162.0",
+      "id": "gpt-6-1-sol",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "web_search": "live"
+    },
+    "engine": "sources/subset20-reuse-four-models-20261009-174520",
+    "official": false,
+    "policy": {
+      "episode_retry": "new_session_from_first_stage",
+      "max_total_attempts": 2,
+      "prior_answers": "explicit_verified_file_captures_with_original_provenance",
+      "publication": "public_subset_only_requires_separate_review",
+      "rescope": "all_previous_attempts_preserved_interrupted_attempts_consume_retry_budget",
+      "retry_delay_seconds": 30,
+      "selection": "first_completed_capture_never_best_score"
+    },
+    "prior_campaign": "/Users/REDACTED/Desktop/benchmark-open-source/runs/subset20-four-models-20261009-173556",
+    "repeats": 1,
+    "state_sha256": "f17ea6084bc1cdb1d1eb2b81be3bc9bba9fc2c5b2589710b4cbb172bfad37442",
+    "status_counts": {
+      "completed": 20
+    }
+  },
+  {
+    "account_recovery": {},
+    "agent": "gpt-6-astra",
+    "batch_sha256": "ca5afe3afbfbf67330113d55120632b1dd0b652a942e327d3042ba4de4c329d0",
+    "campaign": "subset20-reuse-four-models-20261009-174520",
+    "configuration": {
+      "auth": "subscription",
+      "binary": "codex",
+      "cli": "codex",
+      "cli_version": "codex-cli 0.162.0",
+      "id": "gpt-6-astra",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high",
+      "web_search": "live"
+    },
+    "engine": "sources/subset20-reuse-four-models-20261009-174520",
+    "official": false,
+    "policy": {
+      "episode_retry": "new_session_from_first_stage",
+      "max_total_attempts": 2,
+      "prior_answers": "explicit_verified_file_captures_with_original_provenance",
+      "publication": "public_subset_only_requires_separate_review",
+      "rescope": "all_previous_attempts_preserved_interrupted_attempts_consume_retry_budget",
+      "retry_delay_seconds": 30,
+      "selection": "first_completed_capture_never_best_score"
+    },
+    "prior_campaign": "/Users/REDACTED/Desktop/benchmark-open-source/runs/subset20-four-models-20261009-173556",
+    "repeats": 1,
+    "state_sha256": "f17ea6084bc1cdb1d1eb2b81be3bc9bba9fc2c5b2589710b4cbb172bfad37442",
+    "status_counts": {
+      "completed": 20
+    }
+  },
+  {
+    "account_recovery": {},
+    "agent": "kimi-k3",
+    "batch_sha256": "55cf1c699701e11bc8303db37474ca071d15581452627e9a0255552dc0eda74d",
+    "campaign": "subset20-kimi-resume-20261009-193820",
+    "configuration": {
+      "auth": "subscription",
+      "binary": "kimi",
+      "cli": "kimi",
+      "cli_version": "2.1.1",
+      "id": "kimi-k3",
+      "model": "k3",
+      "reasoning_effort": "native_default"
+    },
+    "engine": "sources/subset20-kimi-resume-20261009-193820",
+    "official": false,
+    "policy": {
+      "episode_retry": "new_session_from_first_stage",
+      "historical_attempts": "copied_byte_for_byte_with_original_audit_and_retry_budget",
+      "legacy_completed": "explicit_capture_audit_before_reuse_or_recapture",
+      "max_total_attempts": 2,
+      "old_interruption_counts_as_attempt": true,
+      "publication": "recovery_results_require_separate_review_and_protocol_disclosure",
+      "resume_authorization": "user_requested_kimi_resume_after_account_recovery",
+      "retry_delay_seconds": 30,
+      "scheduler_repair": "one_carried_infrastructure_attempt_excluded_all_records_and_costs_retained",
+      "scope": "selected_public_20_only",
+      "selection": "first_completed_capture_never_best_score"
+    },
+    "prior_campaign": null,
+    "repeats": 1,
+    "state_sha256": "3f0b8441ad0a690c4715f86e7e394ba51f4a551f36cc220d582d0b08b4710d6a",
+    "status_counts": {
+      "completed": 20
+    }
+  }
+]

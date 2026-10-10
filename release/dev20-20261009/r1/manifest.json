@@ -1,0 +1,75 @@
+{
+  "archive_reference_files_sha256": {
+    "experiments/subset20-20261009/configurations.json": "f2f80b6ba9f384fc5d4b85c8658c99067820a1f3f36e9cd2e9db85eac226c7f9",
+    "experiments/subset20-20261009/manifest.json": "94a5492838293eccb8a0001b1ca729c15e5518ae63b24c286f7b13c2d7861118",
+    "experiments/subset20-20261009/results.jsonl": "38a02c150b0856f0df9968bfd90c521c9333931870b7c388f35fdb669a2534b8",
+    "experiments/subset20-20261009/review-linkage.json": "fdc8fbc26fdb83d2290b2db4be3d1d914373f9a205b58faada64e28ec829b1c0",
+    "experiments/subset20-20261009/selection.json": "d0bf7cc1d7648b68e79c02986162de76e41272166d79e0ca0d11d84069a13d40",
+    "experiments/subset20-results-six-20261009/results.json": "d7b76327e6de3c170c4b1ecfde52be3e6e5d6d5e36a004678151034342bd0e7f"
+  },
+  "assets": [
+    {
+      "bytes": 23844585,
+      "file": "dev20-20261009-r1-six-results-and-records.zip",
+      "files": 4386,
+      "sha256": "234fe8dbd1b399ea91b2a2ea03c89dc43acda734fb1c25ff831f14e8e90d926c",
+      "stage_count": 24,
+      "system_artifacts_removed": true,
+      "task_count": 20
+    }
+  ],
+  "code_version": "1.0.1",
+  "configurations": [
+    "antigravity-gemini-3-1-pro-high",
+    "antigravity-gemini-3-8-flash-high",
+    "deepseek-v4-1-flash",
+    "gpt-6-1-sol",
+    "gpt-6-astra",
+    "kimi-k3"
+  ],
+  "dataset_version": "1.0.1",
+  "excluded_agents": [
+    "qwen3-8-max-0902"
+  ],
+  "execution_source_note": "Each configuration retains its own frozen execution-source bindings inside the archive; the declared version is not proof of identical execution code.",
+  "experiment_id": "dev20-20261009",
+  "experiment_records": "experiments/subset20-20261009",
+  "local_artifact_directory": "dist/releases/dev20-20261009/r1",
+  "official": false,
+  "packaging_revision": "dev20-r1.1",
+  "publication_note": "This revision binds only the six-configuration, 20-task snapshot. Later seven/eight-configuration reports are not included. Shared dataset audits are not this experiment release. No GitHub tag or Release has been created.",
+  "reference_files_sha256": {
+    "experiments/subset20-20261009/configurations.json": "f2f80b6ba9f384fc5d4b85c8658c99067820a1f3f36e9cd2e9db85eac226c7f9",
+    "experiments/subset20-20261009/manifest.json": "ed31a8270c97b2d21b18847d1dab59e07e6325e282e1cd1adc92e597419932f8",
+    "experiments/subset20-20261009/results.jsonl": "38a02c150b0856f0df9968bfd90c521c9333931870b7c388f35fdb669a2534b8",
+    "experiments/subset20-20261009/review-linkage.json": "fdc8fbc26fdb83d2290b2db4be3d1d914373f9a205b58faada64e28ec829b1c0",
+    "experiments/subset20-20261009/selection.json": "d0bf7cc1d7648b68e79c02986162de76e41272166d79e0ca0d11d84069a13d40",
+    "experiments/subset20-results-six-20261009/results.json": "d7b76327e6de3c170c4b1ecfde52be3e6e5d6d5e36a004678151034342bd0e7f"
+  },
+  "reference_note": "Repository reference hashes retain the original experiment snapshot; archive reference hashes bind its packaged copy. The packaged experiment manifest adds task-scope/packaging fields; answers and scores are unchanged.",
+  "release_id": "dev20-20261009-r1",
+  "repository_reference_base": "repository_root",
+  "result_snapshot": "experiments/subset20-results-six-20261009",
+  "revision": "r1",
+  "schema": "experiment-release.1",
+  "scope": {
+    "completed_task_records": 120,
+    "configuration_count": 6,
+    "expected_task_records": 120,
+    "pending_task_records": 11,
+    "reviewed_task_records": 120,
+    "scored_task_records": 109,
+    "selection_id": "public-dev-20-v1",
+    "stage_count": 24,
+    "task_count": 20
+  },
+  "shared_dataset_audits_in_archive": false,
+  "status": "local_draft_pending_artifact_review",
+  "supersedes_local_package": {
+    "change": "Added experiment revision metadata and removed shared dataset audit documents; execution sources, selected tasks, answers, trajectories and results unchanged.",
+    "file": "baoyan-first-dev20-six-results-and-records-20261009-20only-clean.zip",
+    "sha256": "1663902a2b48f4390f1f40fe0921929d94d0809780178f7b8095f29f9b2c76a2"
+  },
+  "title": "首批20题实验：六配置结果与运行记录",
+  "uploaded": false
+}

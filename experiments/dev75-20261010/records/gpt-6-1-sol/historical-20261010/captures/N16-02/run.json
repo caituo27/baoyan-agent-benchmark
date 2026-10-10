@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-10-09T11:38:33.036220+00:00",
+  "execution_backend": "native_cli",
+  "execution_contract_sha256": "8d7b80fbec6bf4fe6b148949b4634de567513b817ceda0accbc9093f23fb7571",
+  "isolation_verified": false,
+  "model": "gpt-6.1-sol",
+  "official": false,
+  "product": "gpt-6-1-sol",
+  "schema_version": "longitudinal-pilot.1",
+  "snapshot_sha256": "f49b208d234ce0db384a44f7958a894ec01a148615589a702846e54b893fce9b"
+}
