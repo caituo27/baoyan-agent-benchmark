@@ -1,0 +1,332 @@
+{
+  "agent": "gpt-6-astra",
+  "artifact_count": 228,
+  "configuration": {
+    "agents": [
+      {
+        "auth": "subscription",
+        "binary": "codex",
+        "cli": "codex",
+        "cli_version": "codex-cli 0.162.0",
+        "id": "gpt-6-astra",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "high",
+        "web_search": "live"
+      }
+    ],
+    "repeats": 1,
+    "schema": "native-cli-batch.1",
+    "timeout_seconds": 1200
+  },
+  "execution": {
+    "agent": "gpt-6-astra",
+    "completed": 32,
+    "exit_code": 0,
+    "expected": 32,
+    "official": false,
+    "packet_id": "f71f77e58435804cdeca10c49533edf4adf076328a76421b3c6326bbce3caa77",
+    "records": [
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/BY-D-APPLY/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "BY-D-APPLY"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/BY-E-APPLY/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "BY-E-APPLY"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/TRY-E-03/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "TRY-E-03"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/TRY-H-02/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "TRY-H-02"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/BY-G-APPLY/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "BY-G-APPLY"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/N01-01/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "N01-01"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/N01-03/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "N01-03"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/N02-02/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "N02-02"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/N03-01/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "N03-01"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/N03-03/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "N03-03"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/N04-01/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "N04-01"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/N05-01/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "N05-01"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/N05-03/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "N05-03"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/N06-01/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "N06-01"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/N08-01/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "N08-01"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/N09-01/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "N09-01"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/N09-03/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "N09-03"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/N10-02/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "N10-02"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/N10-03/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "N10-03"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/N12-01/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "N12-01"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/N12-03/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "N12-03"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/N14-01/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "N14-01"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/N15-03/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "N15-03"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/N16-01/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "N16-01"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/N16-03/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "N16-03"
+      },
+      {
+        "completed_stages": 1,
+        "kind": "single",
+        "path": "runs/single/O08-02/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 1,
+        "unit_id": "O08-02"
+      },
+      {
+        "completed_stages": 2,
+        "kind": "staged",
+        "path": "runs/staged/N04-02/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 2,
+        "unit_id": "N04-02"
+      },
+      {
+        "completed_stages": 2,
+        "kind": "staged",
+        "path": "runs/staged/N07-02/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 2,
+        "unit_id": "N07-02"
+      },
+      {
+        "completed_stages": 2,
+        "kind": "staged",
+        "path": "runs/staged/N15-02/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 2,
+        "unit_id": "N15-02"
+      },
+      {
+        "completed_stages": 2,
+        "kind": "staged",
+        "path": "runs/staged/O01-04/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 2,
+        "unit_id": "O01-04"
+      },
+      {
+        "completed_stages": 2,
+        "kind": "staged",
+        "path": "runs/staged/O03-04/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 2,
+        "unit_id": "O03-04"
+      },
+      {
+        "completed_stages": 2,
+        "kind": "staged",
+        "path": "runs/staged/O06-02/r1",
+        "repeat": 1,
+        "status": "completed",
+        "total_stages": 2,
+        "unit_id": "O06-02"
+      }
+    ],
+    "schema": "native-full-packet.1",
+    "scored": false,
+    "status": "completed"
+  },
+  "import_verified": true,
+  "isolation_verified": false,
+  "official": false,
+  "packet_id": "f71f77e58435804cdeca10c49533edf4adf076328a76421b3c6326bbce3caa77",
+  "provenance": "Submitter-provided evidence; public files are redacted copies, raw ZIP retained separately.",
+  "raw_zip_sha256": "e666a0b6677ecb6d82b59b9954022f2de5669ef16315a0cfb0d2962ce09027c1",
+  "return_manifest_sha256": "8219598a450f325ac760e4c2cc8cb0652fd78fc7032cea49e1c4434062240ade",
+  "review_status": "submitted_unreviewed",
+  "schema": "community-execution-record.1",
+  "scored": false
+}

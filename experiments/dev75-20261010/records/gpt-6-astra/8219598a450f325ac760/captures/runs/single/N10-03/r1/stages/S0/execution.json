@@ -1,0 +1,65 @@
+{
+  "answer_capture": {
+    "answer_sha256": "cfae9eeaaa05db85967b31e6ab22928d51877da95b140fe425aa67aa4eab2888",
+    "final_response_sha256": "ce5ffcfbbcc69a270907100cec6cd9e78b4bc66f3f7b395b6e67e1c4d136e411",
+    "source": "workspace_file"
+  },
+  "auth_mode": "subscription",
+  "auth_provenance": "selected_local_credential_not_account_or_entitlement_verification",
+  "cli": "codex",
+  "cli_version": "codex-cli 0.162.0",
+  "continuation_input": null,
+  "credentials_included": false,
+  "extra_mcp_servers": [],
+  "extra_skills": [],
+  "isolation": {
+    "allowed_hosts": [
+      "api.openai.com",
+      "auth.openai.com",
+      "chatgpt.com"
+    ],
+    "backend": "macos-seatbelt-provider-proxy-v1",
+    "boundary_probe": {
+      "exit_code": 0,
+      "proxy_denial_observed": true
+    },
+    "checks": [
+      "candidate_read",
+      "candidate_write",
+      "outside_read_denied",
+      "outside_write_denied",
+      "input_write_denied",
+      "symlink_escape_denied",
+      "descendant_read_denied",
+      "local_service_denied",
+      "unlisted_proxy_host_denied"
+    ],
+    "cleanup": "complete",
+    "credential_state": "per_attempt",
+    "fake_ip_policy": "exact_provider_names_via_configured_proxy_only",
+    "file_watch": false,
+    "loopback_listener": false,
+    "network": "public_https_no_private_addresses",
+    "profile_sha256": "c3e6c5749a9edaae0a38b31a4b8f23b596f89a231524ebcf9e040c3ebe51a68a",
+    "pty": "disabled",
+    "public_web_dns_resolver": "https://1.1.1.1/dns-query",
+    "public_web_fake_ip_policy": "cloudflare_doh_public_ip_pinning",
+    "scope": "local_boundary_probes",
+    "status": "passed",
+    "system_trust": false,
+    "system_user_lookup": true,
+    "tls_ca_sha256": "9dae8d76e55cb08991f2b672d58999ea15560d910759c16b544f843bdffbb994",
+    "upstream_proxy": null
+  },
+  "known_tool_limitations": [],
+  "native_event_count": 96,
+  "official": false,
+  "personal_state": "fresh_per_attempt",
+  "phase": "output_validation",
+  "requested_model": "gpt-6-astra",
+  "schema": "native-execution.1",
+  "source_rules_enforced": false,
+  "status": "completed",
+  "tools": "native_tools_inside_outer_sandbox",
+  "web_mode": "historical_source_rules_in_prompt"
+}

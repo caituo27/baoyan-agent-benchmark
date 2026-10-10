@@ -1,0 +1,10 @@
+{
+  "counts": {},
+  "findings": [],
+  "human_review_complete": false,
+  "limitations": [
+    "Pattern scan cannot prove anonymity, copyright clearance, or absence of every secret."
+  ],
+  "scope": "record",
+  "status": "no_pattern_findings"
+}
